@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.MainPage">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Menu" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center" Spacing="20">
+		
+		<Image Source="logo.png" Margin="0,0,0,40" HorizontalOptions="Center" WidthRequest="360" HeightRequest="63"/>
+		
+		<Button x:Name="TimerButton" Text="Minutnik" Clicked="TimerButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+		<Button x:Name="StopwatchButton" Text="Stoper" Clicked="StopwatchButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+		<Button x:Name="ElapsingTimeButton" Text="Odległość od zdarzenia w przeszłości" Clicked="ElapsingTimeButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+		<Button x:Name="CountdownButton" Text="Odległość do zdarzenia w przyszłości" Clicked="CountdownButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+		
+		<Button x:Name="CalculationsButton" Text="Kalkulatory" Clicked="CalculationsButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+		<Button x:Name="ConvertersButton" Text="Konwertery" Clicked="ConvertersButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+		<Button x:Name="LocationInfoButton" Text="Informacje o danej lokacji" Clicked="LocationInfoButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+		<Button x:Name="CalendarButton" Text="Kalendarz" Clicked="CalendarButton_Clicked" WidthRequest="400" FontSize="20" FontAttributes="Bold"/>
+
+	</VerticalStackLayout>
+
+</ContentPage>

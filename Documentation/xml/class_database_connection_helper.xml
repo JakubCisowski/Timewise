@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_database_connection_helper" kind="class" language="C#" prot="public">
+    <compoundname>DatabaseConnectionHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_database_connection_helper_1a87f18022f5572af6819ffae9f80ef315" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DatabaseConnectionHelper.TestDatabaseConnection</definition>
+        <argsstring>()</argsstring>
+        <name>TestDatabaseConnection</name>
+        <qualifiedname>DatabaseConnectionHelper.TestDatabaseConnection</qualifiedname>
+        <briefdescription>
+<para>Metoda otwierająca i zamykająca połączenie z bazą danych w celu sprawdzenia, czy udało się je nawiązać. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Helpers/DatabaseConnectionHelper.cs" line="13" column="20" bodyfile="Timewise.Code/Database/Helpers/DatabaseConnectionHelper.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza, służąca do sprawdzenia połączenia z bazą danych. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/Helpers/DatabaseConnectionHelper.cs" line="8" column="15" bodyfile="Timewise.Code/Database/Helpers/DatabaseConnectionHelper.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_database_connection_helper_1a87f18022f5572af6819ffae9f80ef315" prot="public" virt="non-virtual"><scope>DatabaseConnectionHelper</scope><name>TestDatabaseConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_zone_converter" kind="class" language="C#" prot="public">
+    <compoundname>TimeZoneConverter</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_time_zone_converter_1aedeb90bcd423f795cc37d67ff1d50c83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>static DateTime TimeZoneConverter.ConvertDateTimeToTimeZone</definition>
+        <argsstring>(DateTime dateTime, TimeZoneInfo from, TimeZoneInfo to)</argsstring>
+        <name>ConvertDateTimeToTimeZone</name>
+        <qualifiedname>TimeZoneConverter.ConvertDateTimeToTimeZone</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <param>
+          <type>TimeZoneInfo</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>TimeZoneInfo</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>Metoda konwertująca czas z jednej strefy czasowej do drugiej. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas przekazany w strefie czasowej <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/TimeZoneConverter.cs" line="16" column="24" bodyfile="Timewise.Code/Helpers/TimeZoneConverter.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza dokonująca konwersji między strefami czasowymi. Jest to klasa statyczna, a więc nie można jej instancjonować. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/TimeZoneConverter.cs" line="7" column="15" bodyfile="Timewise.Code/Helpers/TimeZoneConverter.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_time_zone_converter_1aedeb90bcd423f795cc37d67ff1d50c83" prot="public" virt="non-virtual"><scope>TimeZoneConverter</scope><name>ConvertDateTimeToTimeZone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

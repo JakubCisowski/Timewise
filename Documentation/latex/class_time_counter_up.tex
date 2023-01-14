@@ -1,0 +1,132 @@
+\doxysection{Dokumentacja klasy Time\+Counter\+Up}
+\label{class_time_counter_up}\index{TimeCounterUp@{TimeCounterUp}}
+
+
+Klasa reprezentująca zegar odmierzający czas w górę. Używana na dwa sposoby\+:  
+
+
+Diagram dziedziczenia dla Time\+Counter\+Up\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_time_counter_up}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Time\+Counter\+Up} (\textbf{ Time} start\+Time)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący obiekt z przekazanym czasem początkowym zdarzenia. \end{DoxyCompactList}\item 
+\textbf{ Time\+Counter\+Up} (\textbf{ Duration} duration, \textbf{ Time} start\+Time)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący obiekt z przekazanym czasem początkowym zdarzenia oraz już częściowo odmierzonym czasem. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_aecbf1a7f10e63f0bff347baf5eba64a0}} 
+void {\bfseries Start} ()
+\begin{DoxyCompactList}\small\item\em Metoda rozpoczynająca działanie zegara. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_a6c9a733a4ad294dd0100f989263c759c}} 
+void {\bfseries Stop} ()
+\begin{DoxyCompactList}\small\item\em Metoda pauzująca działanie zegara. \end{DoxyCompactList}\item 
+\textbf{ Duration} \textbf{ Create\+Timestamp} ()
+\begin{DoxyCompactList}\small\item\em Metoda tworząca stempel czasowy. Oblicza czas, jaki upłynął od stworzenia ostatniego stempla czasowego, dodaje go do listy stempli czasowych, i zwraca go. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_a7a5360d83af69c03a1e9db3d35c6f385}} 
+override string {\bfseries To\+String} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_time_counter_up_a59fd93fb2575a96b130e567e1f4de4bd}} 
+\textbf{ Duration} {\bfseries Time\+Since}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Czas naliczany od sprecyzowanego momentu startowego. Wartość ta jest modyfikowana poprzez Timer. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_ab9e28c44a3a9ce730c0438ffeabacdec}} 
+\textbf{ Time} {\bfseries Start\+Time}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Niezmienny czas, punkt w przeszłości, sygnalizujący początek odmierzania czasu. Reprezentuje moment zdarzenia ustawionego przez użytkownika. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_a19dbecaa28e9d921cb63e795b890c3d0}} 
+List$<$ \textbf{ Duration} $>$ {\bfseries Timestamps}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Lista stempli czasowych, które są zapisywane na życzenie użytkownika podczas działania stopera. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_ab167be0de9b4daf657b8945756da60e3}} 
+bool {\bfseries Is\+Running}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Czy stoper jest włączony. \end{DoxyCompactList}\item 
+bool \textbf{ Is\+Valid}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Czy obiekt jest poprawny -\/ czy reprezentuje możliwy do zapisania czas. Implementacja z interfejsu \doxyref{IValidatable}{str.}{interface_i_validatable}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca zegar odmierzający czas w górę. Używana na dwa sposoby\+: 
+
+
+\begin{DoxyItemize}
+\item Jako czas od pewnego zdarzenia w przeszłości
+\item Jako stoper, odmierzający czas w górę z dużą precyzją 
+\end{DoxyItemize}
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_time_counter_up_a608f0235e9375e6562e990701d38b239}} 
+\index{TimeCounterUp@{TimeCounterUp}!TimeCounterUp@{TimeCounterUp}}
+\index{TimeCounterUp@{TimeCounterUp}!TimeCounterUp@{TimeCounterUp}}
+\doxysubsubsection{TimeCounterUp()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Time\+Counter\+Up.\+Time\+Counter\+Up (\begin{DoxyParamCaption}\item[{\textbf{ Time}}]{start\+Time }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący obiekt z przekazanym czasem początkowym zdarzenia. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em start\+Time} & Czas początkowy, od którego naliczamy.\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_time_counter_up_a86b1aab896b14f274cd48b81c482fff5}} 
+\index{TimeCounterUp@{TimeCounterUp}!TimeCounterUp@{TimeCounterUp}}
+\index{TimeCounterUp@{TimeCounterUp}!TimeCounterUp@{TimeCounterUp}}
+\doxysubsubsection{TimeCounterUp()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Time\+Counter\+Up.\+Time\+Counter\+Up (\begin{DoxyParamCaption}\item[{\textbf{ Duration}}]{duration,  }\item[{\textbf{ Time}}]{start\+Time }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący obiekt z przekazanym czasem początkowym zdarzenia oraz już częściowo odmierzonym czasem. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em duration} & Częściowo odmierzony czas od zdarzenia.\\
+\hline
+{\em start\+Time} & Czas początkowy, od którego naliczamy.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_time_counter_up_af56d39b87830539ca93b706b0092a6c1}} 
+\index{TimeCounterUp@{TimeCounterUp}!CreateTimestamp@{CreateTimestamp}}
+\index{CreateTimestamp@{CreateTimestamp}!TimeCounterUp@{TimeCounterUp}}
+\doxysubsubsection{CreateTimestamp()}
+{\footnotesize\ttfamily \textbf{ Duration} Time\+Counter\+Up.\+Create\+Timestamp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda tworząca stempel czasowy. Oblicza czas, jaki upłynął od stworzenia ostatniego stempla czasowego, dodaje go do listy stempli czasowych, i zwraca go. 
+
+\begin{DoxyReturn}{Zwraca}
+Czas, jaki upłynął od stworzenia ostatniego stempla czasowego.
+\end{DoxyReturn}
+
+
+Jeżeli metoda jest wywoływana po raz pierwszy, wówczas jest to czas, jaki upłynął od począku timera.
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_time_counter_up_a2f3e86cb7c7c2b99da1e2b354bb2b8b3}} 
+\index{TimeCounterUp@{TimeCounterUp}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!TimeCounterUp@{TimeCounterUp}}
+\doxysubsubsection{IsValid}
+{\footnotesize\ttfamily bool Time\+Counter\+Up.\+Is\+Valid\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Czy obiekt jest poprawny -\/ czy reprezentuje możliwy do zapisania czas. Implementacja z interfejsu \doxyref{IValidatable}{str.}{interface_i_validatable}. 
+
+
+
+Implementuje \textbf{ IValidatable} \doxyref{}{str.}{interface_i_validatable_adb3c4f2941ae187dacfa78b8681eea28}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Models/Time\+Counter\+Up.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:models="clr-namespace:Timewise.Code.Models;assembly=Timewise.Code"
+             x:Class="Timewise.App.Pages.TimeCounterDownPage"
+             Title="Odległość od zdarzenia w przyszłości">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Odległość od zdarzenia w przyszłości" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout>
+
+		<ScrollView Margin="20" VerticalScrollBarVisibility="Always" VerticalOptions="FillAndExpand" HeightRequest="130">
+			<VerticalStackLayout x:Name="CountdownGridsPanel">
+			</VerticalStackLayout>
+		</ScrollView>
+		
+		<VerticalStackLayout>
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Label Text="Nazwa zdarzenia" HorizontalOptions="Center"/>
+                <Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2" WidthRequest="200">
+	                <Entry x:Name="EventNameEntry" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout HorizontalOptions="Center" Margin="0,10,0,0">
+                <Label Text="Data zdarzenia" HorizontalOptions="Center"/>
+                <Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+	                <DatePicker x:Name="EventDatePicker" Format="d"/>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout HorizontalOptions="Center">
+	            <HorizontalStackLayout>
+		            <CheckBox x:Name="EventTimeCheckBox" Color="{StaticResource Primary}" CheckedChanged="EventTimeCheckBox_CheckedChanged"/>
+		            <Label Text="Czas zdarzenia (opcjonalnie)" VerticalOptions="Center"/>
+	            </HorizontalStackLayout>
+	            <Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+		            <TimePicker x:Name="EventTimePicker" Format="t" IsEnabled="False"/>
+	            </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout HorizontalOptions="Center">
+	            <HorizontalStackLayout>
+		            <CheckBox x:Name="EventTimeZoneCheckBox" Color="{StaticResource Primary}" CheckedChanged="EventTimeZoneCheckBox_OnCheckedChanged"/>
+		            <Label Text="Strefa czasowa zdarzenia (opcjonalnie)" VerticalOptions="Center"/>
+	            </HorizontalStackLayout>
+	            <Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+		            <Picker x:Name="EventTimeZonePicker" IsEnabled="False" WidthRequest="400"/>
+	            </Border>
+            </VerticalStackLayout>
+
+            <Button x:Name="CreateEventButton" Text="Start" Clicked="CreateEventButton_Clicked"  Margin="25, 20, 25, 20"
+				FontSize="24" FontAttributes="Bold" HeightRequest="60" />
+        </VerticalStackLayout>
+
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="50, 60, 50, 20"
+		        FontSize="24" FontAttributes="Bold" />
+    </VerticalStackLayout>
+</ContentPage>

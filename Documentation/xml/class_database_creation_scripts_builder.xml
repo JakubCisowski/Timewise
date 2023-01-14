@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_database_creation_scripts_builder" kind="class" language="C#" prot="public">
+    <compoundname>DatabaseCreationScriptsBuilder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_database_creation_scripts_builder_1a50bb1e22706a625ac80296800c1a580e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DatabaseCreationScriptsBuilder.BuildUserTableScripts</definition>
+        <argsstring>()</argsstring>
+        <name>BuildUserTableScripts</name>
+        <qualifiedname>DatabaseCreationScriptsBuilder.BuildUserTableScripts</qualifiedname>
+        <briefdescription>
+<para>Metoda zwracająca skrypt tworzący tabelę <ref refid="class_user" kindref="compound">User</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="11" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="11" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_creation_scripts_builder_1ad3daa8fe5791dfaa1fa4e903d3c48e06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DatabaseCreationScriptsBuilder.BuildTimeCounterUpEventTableScripts</definition>
+        <argsstring>()</argsstring>
+        <name>BuildTimeCounterUpEventTableScripts</name>
+        <qualifiedname>DatabaseCreationScriptsBuilder.BuildTimeCounterUpEventTableScripts</qualifiedname>
+        <briefdescription>
+<para>Metoda zwracająca skrypt tworzący tabelę <ref refid="class_time_counter_up_event" kindref="compound">TimeCounterUpEvent</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="23" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_creation_scripts_builder_1a2e50a4b0c8bdd00a0b6532e900abf417" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DatabaseCreationScriptsBuilder.BuildTimeCounterDownEventTableScripts</definition>
+        <argsstring>()</argsstring>
+        <name>BuildTimeCounterDownEventTableScripts</name>
+        <qualifiedname>DatabaseCreationScriptsBuilder.BuildTimeCounterDownEventTableScripts</qualifiedname>
+        <briefdescription>
+<para>Metoda zwracająca skrypt tworzący tabelę <ref refid="class_time_counter_down_event" kindref="compound">TimeCounterDownEvent</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="37" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="37" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_creation_scripts_builder_1ae9b7b82279e8c42c1795ecc3414b8064" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DatabaseCreationScriptsBuilder.BuildReminderTableScripts</definition>
+        <argsstring>()</argsstring>
+        <name>BuildReminderTableScripts</name>
+        <qualifiedname>DatabaseCreationScriptsBuilder.BuildReminderTableScripts</qualifiedname>
+        <briefdescription>
+<para>Metoda zwracająca skrypt tworzący tabelę <ref refid="class_reminder" kindref="compound">Reminder</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="51" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="51" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Pomocnicza klasa zawierająca skrypty do budowania tabeli w bazie danych. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="6" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="7" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_database_creation_scripts_builder_1ae9b7b82279e8c42c1795ecc3414b8064" prot="public" virt="non-virtual"><scope>DatabaseCreationScriptsBuilder</scope><name>BuildReminderTableScripts</name></member>
+      <member refid="class_database_creation_scripts_builder_1a2e50a4b0c8bdd00a0b6532e900abf417" prot="public" virt="non-virtual"><scope>DatabaseCreationScriptsBuilder</scope><name>BuildTimeCounterDownEventTableScripts</name></member>
+      <member refid="class_database_creation_scripts_builder_1ad3daa8fe5791dfaa1fa4e903d3c48e06" prot="public" virt="non-virtual"><scope>DatabaseCreationScriptsBuilder</scope><name>BuildTimeCounterUpEventTableScripts</name></member>
+      <member refid="class_database_creation_scripts_builder_1a50bb1e22706a625ac80296800c1a580e" prot="public" virt="non-virtual"><scope>DatabaseCreationScriptsBuilder</scope><name>BuildUserTableScripts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

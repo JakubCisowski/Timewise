@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="namespace_timewise_1_1_code_1_1_database_1_1_entities" kind="namespace" language="C#">
+    <compoundname>Timewise::Code::Database::Entities</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="3" column="38"/>
+  </compounddef>
+</doxygen>

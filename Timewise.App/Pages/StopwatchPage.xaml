@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Timewise.Code.Models;assembly=Timewise.Code"
+             x:Class="Timewise.App.Pages.StopwatchPage"
+             Title="Stoper">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Stoper" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center">
+		
+		<Grid HeightRequest="80" Margin="60,20,60,20">
+			<Border x:Name="StopwatchBorder" StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10">
+				<Label x:Name="StopwatchLabel" HorizontalOptions="CenterAndExpand" FontSize="36" FontAttributes="Bold" TextColor="{StaticResource Primary}" VerticalOptions="Center">
+					<Label.Text>
+						<MultiBinding StringFormat="{}{0:00}:{1:00}:{2:00}:{3:000}" x:DataType="models:TimeCounterUp">
+							<Binding Path="TimeSince.Hours"/>
+							<Binding Path="TimeSince.Minutes"/>
+							<Binding Path="TimeSince.Seconds"/>
+							<Binding Path="TimeSince.Milliseconds"/>
+						</MultiBinding>
+					</Label.Text>
+				</Label>
+			</Border>
+		</Grid>
+		
+		<Label x:Name="LapsInfoLabel" Text="Laps" FontSize="24" IsVisible="False" HorizontalOptions="Center"/>
+		
+		<Border x:Name="LapsBorder" StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10" HeightRequest="150" Margin="60,10,60,20">
+			<ScrollView VerticalScrollBarVisibility="Always" VerticalOptions="FillAndExpand">
+				<StackLayout x:Name="LapsStackLayout">
+					<Label x:Name="LapsLabel" HorizontalOptions="CenterAndExpand" FontSize="32" TextColor="{StaticResource Tertiary}" VerticalOptions="Center"/>
+				</StackLayout>
+			</ScrollView>
+		</Border>
+		
+		<Grid Margin="0,20,0,0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+		    <Button x:Name="StartStopwatchButton" Grid.Column="0" Text="Start" Clicked="StartStopwatchButton_Clicked" Margin="25, 20, 25, 20" HeightRequest="60" 
+		            FontSize="24" FontAttributes="Bold"/>
+			<Button x:Name="ResetStopwatchButton" Grid.Column="1" Text="Reset" Clicked="ResetStopwatchButton_Clicked"  Margin="25, 20, 25, 20" HeightRequest="60" 
+					FontSize="24" FontAttributes="Bold"/>
+			<Button x:Name="StopwatchLapButton" Grid.Column="2" Text="Lap" Clicked="StopwatchLapButton_Clicked" Margin="25, 20, 25, 20" HeightRequest="60" 
+					FontSize="24" FontAttributes="Bold"/>
+		</Grid>
+
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="50, 60, 50, 20"
+		        FontSize="24" FontAttributes="Bold"/>
+	</VerticalStackLayout>
+</ContentPage>

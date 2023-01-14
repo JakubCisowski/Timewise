@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="namespace_x_calendar_1_1_core_1_1_enums" kind="namespace" language="C#">
+    <compoundname>XCalendar::Core::Enums</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Models/Calendar.cs" line="8" column="27"/>
+  </compounddef>
+</doxygen>

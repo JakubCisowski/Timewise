@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_file_helper" kind="class" language="C#" prot="public">
+    <compoundname>FileHelper</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_file_helper_1a4b88fff02e816e2d918195c56d8d89eb" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string FileHelper.NameDayFilePath</definition>
+        <argsstring></argsstring>
+        <name>NameDayFilePath</name>
+        <qualifiedname>FileHelper.NameDayFilePath</qualifiedname>
+        <initializer>= &quot;/Data/Imieniny.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/FileHelper.cs" line="11" column="23" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_helper_1a024cf0d88fe09493a7cf2026ee185c8a" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string FileHelper.HolidayFilePath</definition>
+        <argsstring></argsstring>
+        <name>HolidayFilePath</name>
+        <qualifiedname>FileHelper.HolidayFilePath</qualifiedname>
+        <initializer>= &quot;/Data/Swieta.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/FileHelper.cs" line="12" column="23" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_file_helper_1af4957bc2d40aaf931dcc94c2e72723e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FileHelper.GetNameDayNames</definition>
+        <argsstring>()</argsstring>
+        <name>GetNameDayNames</name>
+        <qualifiedname>FileHelper.GetNameDayNames</qualifiedname>
+        <briefdescription>
+<para>Metoda wczytująca z pliku Imieniny.csv imieniny i zwracająca dzisiejsze imieniny. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Napis zawierający imiona, które obchodzą dzisiaj imieniny, oddzielone przecinkami.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/FileHelper.cs" line="18" column="22" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="18" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_helper_1abc0a8396c3873e1dfe1e27c6ebfda2df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FileHelper.GetHolidays</definition>
+        <argsstring>()</argsstring>
+        <name>GetHolidays</name>
+        <qualifiedname>FileHelper.GetHolidays</qualifiedname>
+        <briefdescription>
+<para>Metoda wczytująca z pliku Swieta.csv święta i zwracająca dzisiejsze święta. W przypadku, gdy w danym dniu nie ma żadnych świąt, zwracany jest pusty napis. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Święta obchodzone dzisiaj, lub pusty napis, gdy nie ma dziś żadnych świąt.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/FileHelper.cs" line="33" column="22" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="33" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza, wykonująca operacje na plikach. Jest to klasa statyczna, a więc nie można jej instancjonować. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/FileHelper.cs" line="9" column="15" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="10" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_file_helper_1abc0a8396c3873e1dfe1e27c6ebfda2df" prot="public" virt="non-virtual"><scope>FileHelper</scope><name>GetHolidays</name></member>
+      <member refid="class_file_helper_1af4957bc2d40aaf931dcc94c2e72723e5" prot="public" virt="non-virtual"><scope>FileHelper</scope><name>GetNameDayNames</name></member>
+      <member refid="class_file_helper_1a024cf0d88fe09493a7cf2026ee185c8a" prot="private" virt="non-virtual"><scope>FileHelper</scope><name>HolidayFilePath</name></member>
+      <member refid="class_file_helper_1a4b88fff02e816e2d918195c56d8d89eb" prot="private" virt="non-virtual"><scope>FileHelper</scope><name>NameDayFilePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

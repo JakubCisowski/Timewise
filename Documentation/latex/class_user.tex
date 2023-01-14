@@ -1,0 +1,77 @@
+\doxysection{Dokumentacja klasy User}
+\label{class_user}\index{User@{User}}
+
+
+Encja reprezentująca użytkownika w bazie danych. Użytkownik posiada unikalny identyfikator, nazwę użytkownika oraz hasło, jak również jest powiązany z pozostałymi encjami.  
+
+
+Diagram dziedziczenia dla User\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_user}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ User} (string username, string password)
+\begin{DoxyCompactList}\small\item\em Konstruktor tworzący nowego użytkownika z daną nazwą użytkownika oraz hasłem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_user_a966341689141ee29ce4bf6da2d380a57}} 
+static \textbf{ User} {\bfseries Current\+User}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Aktualnie zalogowany w aplikacji użytkownik, do którego przypisywane są nowoutworzone powiadomienia i zegary. \end{DoxyCompactList}\item 
+int \textbf{ Id}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Identyfikator użytkownika, generowany z poziomu bazy danych. \end{DoxyCompactList}\item 
+\mbox{\label{class_user_a135b1e675142b0dbe820ed10bd0bfc25}} 
+string {\bfseries Username}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Nazwa użytkownika. \end{DoxyCompactList}\item 
+\mbox{\label{class_user_ac8c2f1cd6fbc79af39bd0fa68d085bbb}} 
+string {\bfseries Password}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Hasło użytkownika w zaszyfrowanej formie. Hasło nigdy nie jest przechowywane w formie tekstowej. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Encja reprezentująca użytkownika w bazie danych. Użytkownik posiada unikalny identyfikator, nazwę użytkownika oraz hasło, jak również jest powiązany z pozostałymi encjami. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_user_a219c47f66324625bf366fdf2451dcc6e}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{User()}
+{\footnotesize\ttfamily User.\+User (\begin{DoxyParamCaption}\item[{string}]{username,  }\item[{string}]{password }\end{DoxyParamCaption})}
+
+
+
+Konstruktor tworzący nowego użytkownika z daną nazwą użytkownika oraz hasłem. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em username} & Nazwa użytkownika.\\
+\hline
+{\em password} & Zaszyfrowane hasło.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_user_a12fe165dbd627b74b91752d3ffdd6750}} 
+\index{User@{User}!Id@{Id}}
+\index{Id@{Id}!User@{User}}
+\doxysubsubsection{Id}
+{\footnotesize\ttfamily int User.\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Identyfikator użytkownika, generowany z poziomu bazy danych. 
+
+
+
+Implementuje \textbf{ IEntity} \doxyref{}{str.}{interface_i_entity_aa9799e734c50fc313ab96cffc993433f}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Database/\+Entities/User.\+cs\end{DoxyCompactItemize}

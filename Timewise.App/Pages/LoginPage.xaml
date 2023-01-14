@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.LoginPage"
+             Title="Logowanie">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Logowanie" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center">
+		
+		<Image Source="logo.png" Margin="0,0,0,60" HorizontalOptions="Center" WidthRequest="360" HeightRequest="63"/>
+		
+		<VerticalStackLayout Margin="20,20,20,10">
+			<Label Text="Login" Margin="10,0,0,0"/>
+			<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+				<Entry x:Name="UsernameEntry"/>
+			</Border>
+		</VerticalStackLayout>
+	    
+	    <VerticalStackLayout Margin="20,10,20,20">
+		    <Label Text="Hasło" Margin="10,0,0,0"/>
+		    <Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+			    <Entry x:Name="PasswordEntry" IsPassword="True"/>
+		    </Border>
+	    </VerticalStackLayout>
+		
+	    <Button x:Name="LoginButton" Text="Logowanie" Clicked="LoginButton_Clicked" Margin="20,20,20,0"/>
+		
+		<Button x:Name="RegisterButton" Text="Rejestracja" Clicked="RegisterButton_Clicked" Margin="20,20,20,0"/>
+
+		<Button x:Name="EnterWithoutLoggingInButton" Text="Wejdź bez logowania" Clicked="EnterWithoutLoggingInButton_Clicked" Margin="20,20,20,0"/>
+
+	</VerticalStackLayout>
+</ContentPage>

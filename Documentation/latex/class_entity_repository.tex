@@ -1,0 +1,191 @@
+\doxysection{Dokumentacja klasy Entity\+Repository}
+\label{class_entity_repository}\index{EntityRepository@{EntityRepository}}
+
+
+Generyczna klasa implementująca interfejs \doxyref{IGeneric\+Repository}{str.}{interface_i_generic_repository}, będąca jego konkretną implementacją. Klasa implementuje również interfejs IDisposable, który pozwala na automatyczne zwolnienie zasobów po zakończeniu działania, oraz na tworzenie obiektu repozytorium wewnątrz bloku using.  
+
+
+Diagram dziedziczenia dla Entity\+Repository\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_entity_repository}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_entity_repository_a4ead4fc92ebe796590d66c67a81378b9}} 
+{\bfseries Entity\+Repository} ()
+\begin{DoxyCompactList}\small\item\em Domyślny konstruktor, inicjalizujący i otwierający połączenie z bazą danych. \end{DoxyCompactList}\item 
+async Task$<$ T $>$ \textbf{ Get$<$ T $>$} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca obiekt encji o podanym Id. \end{DoxyCompactList}\item 
+async Task$<$ IEnumerable$<$ T $>$ $>$ \textbf{ Get\+All$<$ T $>$} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wszystkie obiekty z bazy danych danego typu. \end{DoxyCompactList}\item 
+async Task \textbf{ Add$<$ T $>$} (T entity)
+\begin{DoxyCompactList}\small\item\em Metoda dodająca nowy obiekt do bazy danych. \end{DoxyCompactList}\item 
+async Task \textbf{ Update$<$ T $>$} (T entity)
+\begin{DoxyCompactList}\small\item\em Metoda aktualizująca obiekt w bazie danych. \end{DoxyCompactList}\item 
+async Task \textbf{ Delete$<$ T $>$} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda usuwająca z bazy danych obiekt o podanym Id. \end{DoxyCompactList}\item 
+async Task \textbf{ Clear$<$ T $>$} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda usuwająca z bazy danych wszystkie obiekty powiązane z danym Id użytkownika. \end{DoxyCompactList}\item 
+\mbox{\label{class_entity_repository_a843f89c7a319df5ea10c6cb27656e903}} 
+void {\bfseries Dispose} ()
+\begin{DoxyCompactList}\small\item\em Implementacja metody Dispose z interfejsu IDisposable, która pozwala na automatyczne zwolnienie zasobów i zamknięcie połączenia z bazą danych. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Generyczna klasa implementująca interfejs \doxyref{IGeneric\+Repository}{str.}{interface_i_generic_repository}, będąca jego konkretną implementacją. Klasa implementuje również interfejs IDisposable, który pozwala na automatyczne zwolnienie zasobów po zakończeniu działania, oraz na tworzenie obiektu repozytorium wewnątrz bloku using. 
+
+
+\begin{DoxyTemplParams}{Parametry Szablonu}
+{\em T} & Typ encji, implementujący interfejs \doxyref{IEntity}{str.}{interface_i_entity}.\\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_entity_repository_ac7e05b3098cc83475c0c971e17dfba72}} 
+\index{EntityRepository@{EntityRepository}!Add$<$ T $>$@{Add$<$ T $>$}}
+\index{Add$<$ T $>$@{Add$<$ T $>$}!EntityRepository@{EntityRepository}}
+\doxysubsubsection{Add$<$ T $>$()}
+{\footnotesize\ttfamily async Task Entity\+Repository.\+Add$<$ T $>$ (\begin{DoxyParamCaption}\item[{T}]{entity }\end{DoxyParamCaption})}
+
+
+
+Metoda dodająca nowy obiekt do bazy danych. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em entity} & Obiekt do dodania.\\
+\hline
+\end{DoxyParams}
+
+
+Implementuje \textbf{ IGeneric\+Repository} \doxyref{}{str.}{interface_i_generic_repository_a3b974fbe3bc86a4b5cdd692e8bc95548}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{class_entity_repository_ae5c99a10810e68d5acf4d18590426385}} 
+\index{EntityRepository@{EntityRepository}!Clear$<$ T $>$@{Clear$<$ T $>$}}
+\index{Clear$<$ T $>$@{Clear$<$ T $>$}!EntityRepository@{EntityRepository}}
+\doxysubsubsection{Clear$<$ T $>$()}
+{\footnotesize\ttfamily async Task Entity\+Repository.\+Clear$<$ T $>$ (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Metoda usuwająca z bazy danych wszystkie obiekty powiązane z danym Id użytkownika. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em id} & Id użytkownika, dla którego chcemy usunąć obiekty z bazy danych.\\
+\hline
+\end{DoxyParams}
+
+
+Implementuje \textbf{ IGeneric\+Repository} \doxyref{}{str.}{interface_i_generic_repository_a6624ce3d83d255ccc9feca13696252bf}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{class_entity_repository_a17411ed72a8310896a78edc0614439cd}} 
+\index{EntityRepository@{EntityRepository}!Delete$<$ T $>$@{Delete$<$ T $>$}}
+\index{Delete$<$ T $>$@{Delete$<$ T $>$}!EntityRepository@{EntityRepository}}
+\doxysubsubsection{Delete$<$ T $>$()}
+{\footnotesize\ttfamily async Task Entity\+Repository.\+Delete$<$ T $>$ (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Metoda usuwająca z bazy danych obiekt o podanym Id. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em id} & Id obiektu do usunięcia.\\
+\hline
+\end{DoxyParams}
+
+
+Implementuje \textbf{ IGeneric\+Repository} \doxyref{}{str.}{interface_i_generic_repository_a44b723cf6c36c5f071906c3ebd93c519}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{class_entity_repository_aadcfee4d82f1b10c76fd8442dbeb8b2b}} 
+\index{EntityRepository@{EntityRepository}!Get$<$ T $>$@{Get$<$ T $>$}}
+\index{Get$<$ T $>$@{Get$<$ T $>$}!EntityRepository@{EntityRepository}}
+\doxysubsubsection{Get$<$ T $>$()}
+{\footnotesize\ttfamily async Task$<$ T $>$ Entity\+Repository.\+Get$<$ T $>$ (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Metoda zwracająca obiekt encji o podanym Id. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em id} & Id obiektu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Obiekt danego typu o danym Id, jeżeli istnieje; w przeciwnym wypadku null.
+\end{DoxyReturn}
+
+
+Implementuje \textbf{ IGeneric\+Repository} \doxyref{}{str.}{interface_i_generic_repository_ac6465f33ac67c5613cf7a5ea4ed9dabd}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{class_entity_repository_a70b43717508e2e268215d9eea8f88b42}} 
+\index{EntityRepository@{EntityRepository}!GetAll$<$ T $>$@{GetAll$<$ T $>$}}
+\index{GetAll$<$ T $>$@{GetAll$<$ T $>$}!EntityRepository@{EntityRepository}}
+\doxysubsubsection{GetAll$<$ T $>$()}
+{\footnotesize\ttfamily async Task$<$ IEnumerable$<$ T $>$ $>$ Entity\+Repository.\+Get\+All$<$ T $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda zwracająca wszystkie obiekty z bazy danych danego typu. 
+
+\begin{DoxyReturn}{Zwraca}
+Kolekcja wszystkich obiektów danego typu z bazy danych.
+\end{DoxyReturn}
+
+
+Implementuje \textbf{ IGeneric\+Repository} \doxyref{}{str.}{interface_i_generic_repository_a6608516b0942274bad8c6e50221eff39}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{class_entity_repository_a913fd31031b012e39f4e5b197a0ddce9}} 
+\index{EntityRepository@{EntityRepository}!Update$<$ T $>$@{Update$<$ T $>$}}
+\index{Update$<$ T $>$@{Update$<$ T $>$}!EntityRepository@{EntityRepository}}
+\doxysubsubsection{Update$<$ T $>$()}
+{\footnotesize\ttfamily async Task Entity\+Repository.\+Update$<$ T $>$ (\begin{DoxyParamCaption}\item[{T}]{entity }\end{DoxyParamCaption})}
+
+
+
+Metoda aktualizująca obiekt w bazie danych. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em entity} & Obiekt do zaktualizowania.\\
+\hline
+\end{DoxyParams}
+
+
+Implementuje \textbf{ IGeneric\+Repository} \doxyref{}{str.}{interface_i_generic_repository_a5828ad1e60bb58dcadc841d2f6f1e4ea}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Database/\+Repositories/Entity\+Repository.\+cs\end{DoxyCompactItemize}

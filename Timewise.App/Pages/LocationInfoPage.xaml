@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.LocationInfoPage"
+             Title="Informacje o lokacji">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Informacje o lokacji" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout>
+		
+		<HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+			<VerticalStackLayout VerticalOptions="Center">
+				<Label Text="Nazwa miejsca" HorizontalOptions="Center"/>
+				<Border x:Name="LeapYearBorder" StrokeThickness="2" Stroke="{StaticResource PrimaryBrush}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Entry x:Name="LocationEntry" WidthRequest="200" HorizontalTextAlignment="Center"/>
+				</Border>
+			</VerticalStackLayout>
+
+			<Button x:Name="CheckButton" Text="Sprawdź" Clicked="CheckButton_Clicked" Margin="25, 20, 25, 20" 
+			        FontSize="24" FontAttributes="Bold" HeightRequest="60" WidthRequest="200"/>
+		</HorizontalStackLayout>
+
+		<Grid x:Name="InfoGrid" HeightRequest="200" Margin="10">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			
+			<VerticalStackLayout x:Name="LocalDateTimeLayout" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" IsVisible="False" Margin="5">
+				<Label Text="Czas pomiaru" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="LocalDateTimeEntry" WidthRequest="200" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="TemperatureLayout" Grid.Row="0" Grid.Column="2" IsVisible="False" Margin="5">
+				<Label Text="Temperatura" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="TemperatureEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="FeelsLikeLayout" Grid.Row="0" Grid.Column="3" IsVisible="False" Margin="5">
+				<Label Text="Odczuwalna" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="FeelsLikeEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="HumidityLayout" Grid.Row="1" Grid.Column="0" IsVisible="False" Margin="5">
+				<Label Text="Wilgotność" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="HumidityEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="PrecipitationLayout" Grid.Row="1" Grid.Column="1" IsVisible="False" Margin="5">
+				<Label Text="Opady" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="PrecipitationEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="SnowLayout" Grid.Row="1" Grid.Column="2" IsVisible="False" Margin="5">
+				<Label Text="Śnieg" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="SnowEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="WindSpeedLayout" Grid.Row="1" Grid.Column="3" IsVisible="False" Margin="5">
+				<Label Text="Prędkość wiatru" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="WindSpeedEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="PressureLayout" Grid.Row="2" Grid.Column="0" IsVisible="False" Margin="5">
+				<Label Text="Ciśnienie" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="PressureEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="SunriseLayout" Grid.Row="2" Grid.Column="1" IsVisible="False" Margin="5">
+				<Label Text="Wschód Słońca" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="SunriseEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="SunsetLayout" Grid.Row="2" Grid.Column="2" IsVisible="False" Margin="5">
+				<Label Text="Zachód Słońca" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="SunsetEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+			<VerticalStackLayout x:Name="MoonphaseLayout" Grid.Row="2" Grid.Column="3" IsVisible="False" Margin="5">
+				<Label Text="Faza Księżyca" HorizontalOptions="Center"/>
+				<Border StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="MoonphaseEntry" WidthRequest="100" HorizontalTextAlignment="Center" TextColor="{StaticResource Tertiary}"/>
+				</Border>
+			</VerticalStackLayout>
+			
+		</Grid>
+		
+		<Border x:Name="DescriptionBorder" StrokeThickness="2" Stroke="{StaticResource PrimaryBrush}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10" Margin="10">
+			<Label x:Name="DescriptionLabel" HorizontalOptions="CenterAndExpand" FontSize="16" TextColor="{StaticResource Tertiary}" VerticalOptions="Center" HeightRequest="50"/>
+		</Border>
+		
+		<Border x:Name="NameDayBorder" StrokeThickness="2" Stroke="{StaticResource PrimaryBrush}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10" Margin="10">
+			<Label x:Name="NameDayLabel" HorizontalOptions="CenterAndExpand" FontSize="16" TextColor="{StaticResource Tertiary}" VerticalOptions="Center" HeightRequest="75"/>
+	    </Border>
+		
+		<Border x:Name="HolidaysBorder" StrokeThickness="2" Stroke="{StaticResource PrimaryBrush}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10" Margin="10">
+			<Label x:Name="HolidaysLabel" HorizontalOptions="CenterAndExpand" FontSize="16" TextColor="{StaticResource Tertiary}" VerticalOptions="Center" HeightRequest="50"/>
+		</Border>
+		
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="25, 20, 25, 20" 
+		        FontSize="24" FontAttributes="Bold" HeightRequest="60"/>
+	</VerticalStackLayout>
+</ContentPage>

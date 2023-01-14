@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.DayOfWeekPage"
+             Title="Który dzień tygodnia">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Który dzień tygodnia" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout>
+	    
+		<Grid HeightRequest="80" Margin="60,20,60,60">
+			<Border x:Name="DayOfWeekBorder" StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10">
+				<Label x:Name="DayOfWeekResult" HorizontalOptions="CenterAndExpand" FontSize="32"
+				       TextColor="{StaticResource Primary}" VerticalOptions="Center" />
+			</Border>
+		</Grid>
+		
+		<VerticalStackLayout HorizontalOptions="Center">
+			<Label Text="Data" HorizontalOptions="Center"/>
+			<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+				<DatePicker x:Name="EventDatePicker" Format="d"/>
+			</Border>
+		</VerticalStackLayout>
+
+		<Button x:Name="CheckDayOfWeekButton" Text="Sprawdź" Clicked="CheckDayOfWeekButton_Clicked" Margin="25, 20, 25, 20" 
+			FontSize="18" FontAttributes="Bold" HeightRequest="60" WidthRequest="200"/>
+	    
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="50, 60, 50, 20"
+		        FontSize="24" FontAttributes="Bold" />
+	</VerticalStackLayout>
+</ContentPage>

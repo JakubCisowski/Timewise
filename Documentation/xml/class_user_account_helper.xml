@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_user_account_helper" kind="class" language="C#" prot="public">
+    <compoundname>UserAccountHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_user_account_helper_1ad6520a0b3f3a32bd41af6380ef78fc2d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt;(bool Exists, <ref refid="class_user" kindref="compound">User</ref> OutUser)&gt;</type>
+        <definition>static async Task&lt;(bool Exists, User OutUser)&gt; UserAccountHelper.IsUserValidAsync</definition>
+        <argsstring>(string username, string encryptedPassword)</argsstring>
+        <name>IsUserValidAsync</name>
+        <qualifiedname>UserAccountHelper.IsUserValidAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>encryptedPassword</declname>
+        </param>
+        <briefdescription>
+<para>Metoda sprawdzająca, czy użytkownik o podanych danych istnieje w bazie danych. Metoda wyszukuje użytkownika po nazwie, a następnie sprawdza, czy podane hasło jest poprawne. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa użytkownika podana w aplikacji.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>encryptedPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hasło podane w aplikacji po zaszyfrowaniu.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Krotka dwuelementowa, zawierająca informację, czy użytkownik został odnaleziony, oraz - jeżeli tak - zwracająca obiekt użytkownika pobrany z bazy danych.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="18" column="26" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="18" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_account_helper_1a9f2aea053efbff2981fbb2229575af29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>static async Task&lt; bool &gt; UserAccountHelper.IsUsernameTaken</definition>
+        <argsstring>(string username)</argsstring>
+        <name>IsUsernameTaken</name>
+        <qualifiedname>UserAccountHelper.IsUsernameTaken</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>Metoda sprawdzająca, czy dana nazwa użytkownika istnieje już w bazie danych (&quot;jest zajęta&quot;). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa użytkownika do sprawdzenia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, jeżeli nazwa została odnaleziona w bazie danych; w przeciwnym wypadku false.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="38" column="26" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_account_helper_1af3cd6c13d3d3f873ec96d4fff7d8846e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_user" kindref="compound">User</ref> &gt;</type>
+        <definition>static async Task&lt; User &gt; UserAccountHelper.CreateUserAccount</definition>
+        <argsstring>(string username, string encryptedPassword)</argsstring>
+        <name>CreateUserAccount</name>
+        <qualifiedname>UserAccountHelper.CreateUserAccount</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>encryptedPassword</declname>
+        </param>
+        <briefdescription>
+<para>Metoda tworząca nowe konto użytkownika. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa użytkownika podana przy rejestracji.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>encryptedPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hasło podane przy rejestracji, po zaszyfrowaniu.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Nowy obiekt użytkownika po dodaniu go do bazy danych.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="56" column="26" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="56" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza służąca do obsługi kont użytkownika. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="9" column="15" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="10" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_user_account_helper_1af3cd6c13d3d3f873ec96d4fff7d8846e" prot="public" virt="non-virtual"><scope>UserAccountHelper</scope><name>CreateUserAccount</name></member>
+      <member refid="class_user_account_helper_1a9f2aea053efbff2981fbb2229575af29" prot="public" virt="non-virtual"><scope>UserAccountHelper</scope><name>IsUsernameTaken</name></member>
+      <member refid="class_user_account_helper_1ad6520a0b3f3a32bd41af6380ef78fc2d" prot="public" virt="non-virtual"><scope>UserAccountHelper</scope><name>IsUserValidAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

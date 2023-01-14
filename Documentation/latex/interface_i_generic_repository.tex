@@ -1,0 +1,187 @@
+\doxysection{Dokumentacja interfejsu IGeneric\+Repository}
+\label{interface_i_generic_repository}\index{IGenericRepository@{IGenericRepository}}
+
+
+Generyczny interfejs repozytorium, zawierająca podstawowe metody do obsługi bazy danych. W przypadku dostępu do bazy danych gdziekolwiek w aplikacji, dostęp ten odbywa się poprzez konkretne implementacje tego interfejsu.  
+
+
+Diagram dziedziczenia dla IGeneric\+Repository\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_i_generic_repository}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ T $>$ \textbf{ Get$<$ T $>$} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca zapytanie SELECT do bazy danych. \end{DoxyCompactList}\item 
+Task$<$ IEnumerable$<$ T $>$ $>$ \textbf{ Get\+All$<$ T $>$} ()
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca zapytanie SELECT ALL do bazy danych. \end{DoxyCompactList}\item 
+Task \textbf{ Add$<$ T $>$} (T entity)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca zapytanie INSERT do bazy danych. \end{DoxyCompactList}\item 
+Task \textbf{ Update$<$ T $>$} (T entity)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca zapytanie UPDATE do bazy danych. \end{DoxyCompactList}\item 
+Task \textbf{ Delete$<$ T $>$} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca zapytanie DELETE do bazy danych. \end{DoxyCompactList}\item 
+Task \textbf{ Clear$<$ T $>$} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca zapytanie DELETE ALL do bazy danych. Usuwa wszystkie obiekty powiązane z użytkownikiem o danym Id. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Generyczny interfejs repozytorium, zawierająca podstawowe metody do obsługi bazy danych. W przypadku dostępu do bazy danych gdziekolwiek w aplikacji, dostęp ten odbywa się poprzez konkretne implementacje tego interfejsu. 
+
+
+\begin{DoxyTemplParams}{Parametry Szablonu}
+{\em T} & Typ encji, implementujący interfejs \doxyref{IEntity}{str.}{interface_i_entity}.\\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{interface_i_generic_repository_a3b974fbe3bc86a4b5cdd692e8bc95548}} 
+\index{IGenericRepository@{IGenericRepository}!Add$<$ T $>$@{Add$<$ T $>$}}
+\index{Add$<$ T $>$@{Add$<$ T $>$}!IGenericRepository@{IGenericRepository}}
+\doxysubsubsection{Add$<$ T $>$()}
+{\footnotesize\ttfamily Task IGeneric\+Repository.\+Add$<$ T $>$ (\begin{DoxyParamCaption}\item[{T}]{entity }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca zapytanie INSERT do bazy danych. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em entity} & Obiekt do dodania.\\
+\hline
+\end{DoxyParams}
+
+
+Implementowany w \textbf{ Entity\+Repository} \doxyref{}{str.}{class_entity_repository_ac7e05b3098cc83475c0c971e17dfba72}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{interface_i_generic_repository_a6624ce3d83d255ccc9feca13696252bf}} 
+\index{IGenericRepository@{IGenericRepository}!Clear$<$ T $>$@{Clear$<$ T $>$}}
+\index{Clear$<$ T $>$@{Clear$<$ T $>$}!IGenericRepository@{IGenericRepository}}
+\doxysubsubsection{Clear$<$ T $>$()}
+{\footnotesize\ttfamily Task IGeneric\+Repository.\+Clear$<$ T $>$ (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca zapytanie DELETE ALL do bazy danych. Usuwa wszystkie obiekty powiązane z użytkownikiem o danym Id. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em id} & Identyfikator użytkownika do usunięcia.\\
+\hline
+\end{DoxyParams}
+
+
+Implementowany w \textbf{ Entity\+Repository} \doxyref{}{str.}{class_entity_repository_ae5c99a10810e68d5acf4d18590426385}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{interface_i_generic_repository_a44b723cf6c36c5f071906c3ebd93c519}} 
+\index{IGenericRepository@{IGenericRepository}!Delete$<$ T $>$@{Delete$<$ T $>$}}
+\index{Delete$<$ T $>$@{Delete$<$ T $>$}!IGenericRepository@{IGenericRepository}}
+\doxysubsubsection{Delete$<$ T $>$()}
+{\footnotesize\ttfamily Task IGeneric\+Repository.\+Delete$<$ T $>$ (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca zapytanie DELETE do bazy danych. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em id} & Identyfikator obiektu do usunięcia.\\
+\hline
+\end{DoxyParams}
+
+
+Implementowany w \textbf{ Entity\+Repository} \doxyref{}{str.}{class_entity_repository_a17411ed72a8310896a78edc0614439cd}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{interface_i_generic_repository_ac6465f33ac67c5613cf7a5ea4ed9dabd}} 
+\index{IGenericRepository@{IGenericRepository}!Get$<$ T $>$@{Get$<$ T $>$}}
+\index{Get$<$ T $>$@{Get$<$ T $>$}!IGenericRepository@{IGenericRepository}}
+\doxysubsubsection{Get$<$ T $>$()}
+{\footnotesize\ttfamily Task$<$ T $>$ IGeneric\+Repository.\+Get$<$ T $>$ (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca zapytanie SELECT do bazy danych. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em id} & Identyfikator obiektu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Obiekt z bazy danych.
+\end{DoxyReturn}
+
+
+Implementowany w \textbf{ Entity\+Repository} \doxyref{}{str.}{class_entity_repository_aadcfee4d82f1b10c76fd8442dbeb8b2b}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{interface_i_generic_repository_a6608516b0942274bad8c6e50221eff39}} 
+\index{IGenericRepository@{IGenericRepository}!GetAll$<$ T $>$@{GetAll$<$ T $>$}}
+\index{GetAll$<$ T $>$@{GetAll$<$ T $>$}!IGenericRepository@{IGenericRepository}}
+\doxysubsubsection{GetAll$<$ T $>$()}
+{\footnotesize\ttfamily Task$<$ IEnumerable$<$ T $>$ $>$ IGeneric\+Repository.\+Get\+All$<$ T $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca zapytanie SELECT ALL do bazy danych. 
+
+\begin{DoxyReturn}{Zwraca}
+Kolekcja obiektów danego typu z bazy danych.
+\end{DoxyReturn}
+
+
+Implementowany w \textbf{ Entity\+Repository} \doxyref{}{str.}{class_entity_repository_a70b43717508e2e268215d9eea8f88b42}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+\mbox{\label{interface_i_generic_repository_a5828ad1e60bb58dcadc841d2f6f1e4ea}} 
+\index{IGenericRepository@{IGenericRepository}!Update$<$ T $>$@{Update$<$ T $>$}}
+\index{Update$<$ T $>$@{Update$<$ T $>$}!IGenericRepository@{IGenericRepository}}
+\doxysubsubsection{Update$<$ T $>$()}
+{\footnotesize\ttfamily Task IGeneric\+Repository.\+Update$<$ T $>$ (\begin{DoxyParamCaption}\item[{T}]{entity }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca zapytanie UPDATE do bazy danych. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em entity} & Obiekt do zaktualizowania.\\
+\hline
+\end{DoxyParams}
+
+
+W przypadku aktualizacji obiektu, istotne jest jego Id.
+
+Implementowany w \textbf{ Entity\+Repository} \doxyref{}{str.}{class_entity_repository_a913fd31031b012e39f4e5b197a0ddce9}.
+
+\begin{Desc}
+\item[Więzy typów]\begin{description}
+\item[{\em T} : {\em \textbf{ IEntity}}]\end{description}
+\end{Desc}
+
+
+Dokumentacja dla tego interfejsu została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Database/\+Interfaces/IGeneric\+Repository.\+cs\end{DoxyCompactItemize}

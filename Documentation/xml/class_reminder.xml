@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_reminder" kind="class" language="C#" prot="public">
+    <compoundname>Reminder</compoundname>
+    <basecompoundref refid="interface_i_entity" prot="public" virt="non-virtual">IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_reminder_1a48f768b524bf7ec5f8cd93d6a7b582ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Reminder.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Reminder.Id</qualifiedname>
+        <reimplements refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f">Id</reimplements>
+        <briefdescription>
+<para>Identyfikator przypomnienia, generowany z poziomu bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="13" column="12" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_reminder_1a169f830b662cbc3fa69889b40cabecd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Reminder.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>Reminder.Description</qualifiedname>
+        <briefdescription>
+<para>Etykieta przypomnienia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="18" column="15" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_reminder_1a9ddc52f9e1997c035d77cc8eab104aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Reminder.DateTime</definition>
+        <argsstring></argsstring>
+        <name>DateTime</name>
+        <qualifiedname>Reminder.DateTime</qualifiedname>
+        <briefdescription>
+<para>Ustawiony przez użytkownika czas wywołania przypomnienia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="23" column="17" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_reminder_1adc21f8480e65a91cbe1401d669b551b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Reminder.UserId</definition>
+        <argsstring></argsstring>
+        <name>UserId</name>
+        <qualifiedname>Reminder.UserId</qualifiedname>
+        <briefdescription>
+<para>Id użytkownika, do którego przypisane jest przypomnienie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="28" column="12" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Encja reprezentująca przypomnienie ustawione przez użytkownika w kalendarzu. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="1">
+        <label>Reminder</label>
+        <link refid="class_reminder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="1">
+        <label>Reminder</label>
+        <link refid="class_reminder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Database/Entities/Reminder.cs" line="8" column="7" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_reminder_1a9ddc52f9e1997c035d77cc8eab104aa2" prot="public" virt="non-virtual"><scope>Reminder</scope><name>DateTime</name></member>
+      <member refid="class_reminder_1a169f830b662cbc3fa69889b40cabecd3" prot="public" virt="non-virtual"><scope>Reminder</scope><name>Description</name></member>
+      <member refid="class_reminder_1a48f768b524bf7ec5f8cd93d6a7b582ad" prot="public" virt="non-virtual"><scope>Reminder</scope><name>Id</name></member>
+      <member refid="class_reminder_1adc21f8480e65a91cbe1401d669b551b6" prot="public" virt="non-virtual"><scope>Reminder</scope><name>UserId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

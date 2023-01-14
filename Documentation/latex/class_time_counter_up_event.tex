@@ -1,0 +1,154 @@
+\doxysection{Dokumentacja klasy Time\+Counter\+Up\+Event}
+\label{class_time_counter_up_event}\index{TimeCounterUpEvent@{TimeCounterUpEvent}}
+
+
+Encja reprezentująca zdarzenie odmierzania czasu w górę w aplikacji.  
+
+
+Diagram dziedziczenia dla Time\+Counter\+Up\+Event\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_time_counter_up_event}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Time\+Counter\+Up\+Event} (string name, \textbf{ Time\+Counter\+Up} time\+Counter\+Up)
+\begin{DoxyCompactList}\small\item\em Domyślny konstruktor, generujący nowe Id, ustawiający nazwę oraz zegar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static implicit \textbf{ operator Models.\+Time\+Counter\+Up\+Event} (\textbf{ Time\+Counter\+Up\+Event} ev)
+\begin{DoxyCompactList}\small\item\em Operator konwersji niejawnej z typu encji na typ modelu. Wywoływany automatycznie w sytuacji, gdy oczekiwany jest obiekt typu \doxyref{Time\+Counter\+Up\+Event}{str.}{class_time_counter_up_event}. Generuje nowy obiekt modelu na podstawie obiektu encji. \end{DoxyCompactList}\item 
+static \textbf{ operator Time\+Counter\+Up\+Event} (Models.\+Time\+Counter\+Up\+Event time\+Counter\+Up\+Event)
+\begin{DoxyCompactList}\small\item\em Operator konwersji jawnej z typu modelu na typ encji. Generuje nowy obiekt encji na podstawie obiektu modelu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ Id}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Identyfikator zdarzenia, generowany z poziomu bazy danych. \end{DoxyCompactList}\item 
+string \textbf{ Name}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Opcjonalna nazwa zdarzenia. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_event_a080866cd511c02bc0d6569bf91b46301}} 
+Date\+Time {\bfseries Start\+Time}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Czas początkowy zdarzenia. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_event_affe0c1f43efff68002995b355cc06f39}} 
+int {\bfseries User\+Id}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Id użytkownika, do którego przypisane jest zdarzenie. \end{DoxyCompactList}\item 
+Guid \textbf{ Id}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Unikatowy identyfikator zdarzenia. Pozwala zidentyfikować go na interfejsie użytkownika. Kontrolki powiązane z tym zdarzeniem posiadają w nazwie ten identyfikator. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_up_event_a4ce88528b56ee579e4dd0be32c6fc035}} 
+\textbf{ Time\+Counter\+Up} {\bfseries Time\+Counter\+Up}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Zegar odmierzający czas w górę, powiązany ze zdarzeniem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Encja reprezentująca zdarzenie odmierzania czasu w górę w aplikacji. 
+
+Klasa reprezentująca zdarzenie, od którego jest odmierzany czas. Posiada swoje unikatowe Id, nazwę zdarzenia oraz powiązany z nim zegar (\doxyref{Time\+Counter\+Up}{str.}{class_time_counter_up}). 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_time_counter_up_event_a4e65eb54f1c0ac4035bffce6c9096a01}} 
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\doxysubsubsection{TimeCounterUpEvent()}
+{\footnotesize\ttfamily Time\+Counter\+Up\+Event.\+Time\+Counter\+Up\+Event (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\textbf{ Time\+Counter\+Up}}]{time\+Counter\+Up }\end{DoxyParamCaption})}
+
+
+
+Domyślny konstruktor, generujący nowe Id, ustawiający nazwę oraz zegar. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em name} & Nazwa zdarenia, może być pusta lub null.\\
+\hline
+{\em time\+Counter\+Up} & Stworzony wcześniej obiekt zegara.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_time_counter_up_event_af2e93c8665d3362fd0fac9213b6b252d}} 
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!operator Models.TimeCounterUpEvent@{operator Models.TimeCounterUpEvent}}
+\index{operator Models.TimeCounterUpEvent@{operator Models.TimeCounterUpEvent}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\doxysubsubsection{operator Models.TimeCounterUpEvent()}
+{\footnotesize\ttfamily static implicit Time\+Counter\+Up\+Event.\+operator Models.\+Time\+Counter\+Up\+Event (\begin{DoxyParamCaption}\item[{\textbf{ Time\+Counter\+Up\+Event}}]{ev }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Operator konwersji niejawnej z typu encji na typ modelu. Wywoływany automatycznie w sytuacji, gdy oczekiwany jest obiekt typu \doxyref{Time\+Counter\+Up\+Event}{str.}{class_time_counter_up_event}. Generuje nowy obiekt modelu na podstawie obiektu encji. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em ev} & Obiekt wczytany z bazy danych.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Obiekt modelu typu \doxyref{Time\+Counter\+Up\+Event}{str.}{class_time_counter_up_event}.
+\end{DoxyReturn}
+\mbox{\label{class_time_counter_up_event_ab5728e7c79db2cc9adf6dab8c83ea9b9}} 
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!operator TimeCounterUpEvent@{operator TimeCounterUpEvent}}
+\index{operator TimeCounterUpEvent@{operator TimeCounterUpEvent}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\doxysubsubsection{operator TimeCounterUpEvent()}
+{\footnotesize\ttfamily static Time\+Counter\+Up\+Event.\+operator \textbf{ Time\+Counter\+Up\+Event} (\begin{DoxyParamCaption}\item[{Models.\+Time\+Counter\+Up\+Event}]{time\+Counter\+Up\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}, {\ttfamily [static]}}
+
+
+
+Operator konwersji jawnej z typu modelu na typ encji. Generuje nowy obiekt encji na podstawie obiektu modelu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em time\+Counter\+Up\+Event} & Obiekt modelu, np. wygenerowany przy pomocy interfejsu użytkownika.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Obiekt encji, gotowy do zapisania do bazy danych.
+\end{DoxyReturn}
+
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_time_counter_up_event_ae7638d66118a1af26ea4d6917cedb81f}} 
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!Id@{Id}}
+\index{Id@{Id}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\doxysubsubsection{Id\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int Time\+Counter\+Up\+Event.\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Identyfikator zdarzenia, generowany z poziomu bazy danych. 
+
+
+
+Implementuje \textbf{ IEntity} \doxyref{}{str.}{interface_i_entity_aa9799e734c50fc313ab96cffc993433f}.
+
+\mbox{\label{class_time_counter_up_event_aa036d5a9f3813640f21bd17e320ee5a4}} 
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!Id@{Id}}
+\index{Id@{Id}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\doxysubsubsection{Id\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Guid Time\+Counter\+Up\+Event.\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Unikatowy identyfikator zdarzenia. Pozwala zidentyfikować go na interfejsie użytkownika. Kontrolki powiązane z tym zdarzeniem posiadają w nazwie ten identyfikator. 
+
+
+
+Implementuje \textbf{ IEntity} \doxyref{}{str.}{interface_i_entity_aa9799e734c50fc313ab96cffc993433f}.
+
+\mbox{\label{class_time_counter_up_event_a0308c16fb4ae4be96d1d914e469796b8}} 
+\index{TimeCounterUpEvent@{TimeCounterUpEvent}!Name@{Name}}
+\index{Name@{Name}!TimeCounterUpEvent@{TimeCounterUpEvent}}
+\doxysubsubsection{Name}
+{\footnotesize\ttfamily string Time\+Counter\+Up\+Event.\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Opcjonalna nazwa zdarzenia. 
+
+Nazwa zdarzenia, wybrana przez użytkownika. Może być pusta -\/ zdarzenie nie musi mieć nazwy. 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Database/\+Entities/Time\+Counter\+Up\+Event.\+cs\item 
+Timewise.\+Code/\+Models/Time\+Counter\+Up\+Event.\+cs\end{DoxyCompactItemize}

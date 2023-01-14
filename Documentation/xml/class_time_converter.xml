@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_converter" kind="class" language="C#" prot="public">
+    <compoundname>TimeConverter</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_time_converter_1a322dc3dc589dba29e9b74c9f72eb93fe" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int TimeConverter.Hour</definition>
+        <argsstring></argsstring>
+        <name>Hour</name>
+        <qualifiedname>TimeConverter.Hour</qualifiedname>
+        <briefdescription>
+<para>Metoda zamieniająca czas w ilości sekund na czas jako łączną ilość godzin, minut i sekund. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ilość sekund do zamiany.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Czas w formacie z łączną ilością godzin, minut [0-59] i sekund [0-59].</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/TimeConverter.cs" line="24" column="19" bodyfile="Timewise.Code/Helpers/TimeConverter.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_time_converter_1aa6fb939e868eeefa3f32dc3273248ae2" prot="public" static="yes" mutable="no">
+        <type>int int</type>
+        <definition>int int TimeConverter.Minute</definition>
+        <argsstring></argsstring>
+        <name>Minute</name>
+        <qualifiedname>TimeConverter.Minute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/TimeConverter.cs" line="24" column="28" bodyfile="Timewise.Code/Helpers/TimeConverter.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_time_converter_1a4689d9bf3c4f12838cedcda5f64d322c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long TimeConverter.ToUnixTime</definition>
+        <argsstring>(this DateTime dateTime)</argsstring>
+        <name>ToUnixTime</name>
+        <qualifiedname>TimeConverter.ToUnixTime</qualifiedname>
+        <param>
+          <type>this DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <briefdescription>
+<para>Metoda zwracająca czas jako ilość sekund, które upłynęły od 1 stycznia 1970 roku (tzw. czas UNIXowy). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przekazana data jako System.DateTime.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Czas UNIXowy, a więc ilość sekund, jakie upłynęły od 1 styczna 1970 roku.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/TimeConverter.cs" line="14" column="20" bodyfile="Timewise.Code/Helpers/TimeConverter.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_converter_1a9cf272f56f399e94a027a26a9619a116" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int int int Second</type>
+        <definition>static int int int Second TimeConverter.SecondsToTime</definition>
+        <argsstring>(int seconds)</argsstring>
+        <name>SecondsToTime</name>
+        <qualifiedname>TimeConverter.SecondsToTime</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/TimeConverter.cs" line="24" column="46" bodyfile="Timewise.Code/Helpers/TimeConverter.cs" bodystart="24" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza dokonująca konwersji czasu. Jest to klasa statyczna, a więc nie można jej instancjonować. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/TimeConverter.cs" line="7" column="15" bodyfile="Timewise.Code/Helpers/TimeConverter.cs" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_time_converter_1a322dc3dc589dba29e9b74c9f72eb93fe" prot="public" virt="non-virtual"><scope>TimeConverter</scope><name>Hour</name></member>
+      <member refid="class_time_converter_1aa6fb939e868eeefa3f32dc3273248ae2" prot="public" virt="non-virtual"><scope>TimeConverter</scope><name>Minute</name></member>
+      <member refid="class_time_converter_1a9cf272f56f399e94a027a26a9619a116" prot="public" virt="non-virtual"><scope>TimeConverter</scope><name>SecondsToTime</name></member>
+      <member refid="class_time_converter_1a4689d9bf3c4f12838cedcda5f64d322c" prot="public" virt="non-virtual"><scope>TimeConverter</scope><name>ToUnixTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

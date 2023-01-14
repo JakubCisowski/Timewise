@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_e113cc943cab68d4c1a6141dbd7197b1" kind="dir">
+    <compoundname>Timewise.Code</compoundname>
+    <innerdir refid="dir_436e706ded819154ee6540b43cdce954">Timewise.Code/Data</innerdir>
+    <innerdir refid="dir_a3646d20ad8add3dd1919725a7cf7c3f">Timewise.Code/Database</innerdir>
+    <innerdir refid="dir_31eba3f61c8f4c3407e3fdd041c90611">Timewise.Code/DataTypes</innerdir>
+    <innerdir refid="dir_77feb21aeb44896846ad4538a12c85b7">Timewise.Code/Exceptions</innerdir>
+    <innerdir refid="dir_6c698676195180df0a103c5cfa33d926">Timewise.Code/Helpers</innerdir>
+    <innerdir refid="dir_b43d60f2eaa7cc83a900f2aa30999186">Timewise.Code/Interfaces</innerdir>
+    <innerdir refid="dir_63aa0fe10bf23d518138798e6f34c93e">Timewise.Code/Models</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/"/>
+  </compounddef>
+</doxygen>

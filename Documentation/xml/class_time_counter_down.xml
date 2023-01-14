@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_counter_down" kind="class" language="C#" prot="public">
+    <compoundname>TimeCounterDown</compoundname>
+    <basecompoundref refid="interface_i_validatable" prot="public" virt="non-virtual">IValidatable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_time_counter_down_1a32c91ee6415d2da075adc1ad0fbb7f4e" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer TimeCounterDown._timer</definition>
+        <argsstring></argsstring>
+        <name>_timer</name>
+        <qualifiedname>TimeCounterDown._timer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="14" column="15" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
+        <definition>Duration TimeCounterDown.TimeLeft</definition>
+        <argsstring></argsstring>
+        <name>TimeLeft</name>
+        <qualifiedname>TimeCounterDown.TimeLeft</qualifiedname>
+        <briefdescription>
+<para>Czas pozostały do sprecyzowanego momentu końcowego. Wartość ta jest modyfikowana poprzez Timer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="20" column="17" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_down_1a48b7e25cb90ee60c733c61b0c0ecab06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_time" kindref="compound">Time</ref></type>
+        <definition>Time TimeCounterDown.EndTime</definition>
+        <argsstring></argsstring>
+        <name>EndTime</name>
+        <qualifiedname>TimeCounterDown.EndTime</qualifiedname>
+        <briefdescription>
+<para>Niezmienny czas, punkt w przyszłości, sygnalizujący koniec odmierzania czasu. Reprezentuje moment zdarzenia ustawionego przez użytkownika. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="26" column="13" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_down_1a7a182ab4e82e49eda829349a1007af6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool TimeCounterDown.IsRunning</definition>
+        <argsstring></argsstring>
+        <name>IsRunning</name>
+        <qualifiedname>TimeCounterDown.IsRunning</qualifiedname>
+        <briefdescription>
+<para>Czy timer jest włączony. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="31" column="13" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_down_1a699c7dcd735ec1fd024ee1ccb811fba4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool TimeCounterDown.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>TimeCounterDown.IsValid</qualifiedname>
+        <reimplements refid="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28">IsValid</reimplements>
+        <briefdescription>
+<para>Czy obiekt jest poprawny - czy reprezentuje możliwy do zapisania czas. Implementacja z interfejsu <ref refid="interface_i_validatable" kindref="compound">IValidatable</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="37" column="13" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_counter_down_1af0563060c6844465a0b9796f3a3897af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimeCounterDown.TimeCounterDown</definition>
+        <argsstring>(Duration duration, Time endTime)</argsstring>
+        <name>TimeCounterDown</name>
+        <qualifiedname>TimeCounterDown.TimeCounterDown</qualifiedname>
+        <param>
+          <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>endTime</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor inicjalizujący obiekt z przekazanym czasem końcowym zdarzenia oraz już częściowo odmierzonym czasem. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Częściowo odmierzony czas do zdarzenia.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas końcowy, do którego odliczamy.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="54" column="8" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_1ab41989acfde94e3b1cd7f439fa067d11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDown.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>TimeCounterDown.Start</qualifiedname>
+        <briefdescription>
+<para>Metoda rozpoczynająca działanie zegara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="81" column="13" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_1a9f120726295cdd4c97ce57a09ba999f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDown.Stop</definition>
+        <argsstring>()</argsstring>
+        <name>Stop</name>
+        <qualifiedname>TimeCounterDown.Stop</qualifiedname>
+        <briefdescription>
+<para>Metoda pauzująca działanie zegara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="89" column="13" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_1acc3f1f7834d46e42305d2813ae90a626" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string TimeCounterDown.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>TimeCounterDown.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="126" column="24" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="126" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_time_counter_down_1ac49a0cf83cd9f2dffa798053c819390a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDown.Initialize</definition>
+        <argsstring>(Time endTime)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>TimeCounterDown.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>endTime</declname>
+        </param>
+        <briefdescription>
+<para>Metoda inicjalizująca timer oraz pozostałe zmienne. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas końcowy, do którego odliczamy czas, przekazany z konstruktora.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="66" column="14" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="66" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_1aebe150773d760c21962993bac40ed82a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDown._timer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>_timer_Elapsed</name>
+        <qualifiedname>TimeCounterDown._timer_Elapsed</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Zdarzenie wywoływane co 1s przez Timer. Powoduje aktualizację odmierzanego czasu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt wywołujący zdarzenie, w tym przypadku timer.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parametr zdarzenia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterDown.cs" line="99" column="14" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="99" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa reprezentująca zegar odmierzający czas w dół. Używana na dwa sposoby: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Jako czas do pewnego zdarzenia w przyszłości</para>
+</listitem><listitem><para>Jako timer, ustawiany na pewien czas (np. 20 minut) i odmierzający go w dół </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+      <node id="1">
+        <label>TimeCounterDown</label>
+        <link refid="class_time_counter_down"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+      <node id="1">
+        <label>TimeCounterDown</label>
+        <link refid="class_time_counter_down"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Models/TimeCounterDown.cs" line="12" column="7" bodyfile="Timewise.Code/Models/TimeCounterDown.cs" bodystart="13" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_time_counter_down_1a32c91ee6415d2da075adc1ad0fbb7f4e" prot="private" virt="non-virtual"><scope>TimeCounterDown</scope><name>_timer</name></member>
+      <member refid="class_time_counter_down_1aebe150773d760c21962993bac40ed82a" prot="private" virt="non-virtual"><scope>TimeCounterDown</scope><name>_timer_Elapsed</name></member>
+      <member refid="class_time_counter_down_1a48b7e25cb90ee60c733c61b0c0ecab06" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>EndTime</name></member>
+      <member refid="class_time_counter_down_1ac49a0cf83cd9f2dffa798053c819390a" prot="private" virt="non-virtual"><scope>TimeCounterDown</scope><name>Initialize</name></member>
+      <member refid="class_time_counter_down_1a7a182ab4e82e49eda829349a1007af6f" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>IsRunning</name></member>
+      <member refid="class_time_counter_down_1a699c7dcd735ec1fd024ee1ccb811fba4" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>IsValid</name></member>
+      <member refid="class_time_counter_down_1ab41989acfde94e3b1cd7f439fa067d11" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>Start</name></member>
+      <member refid="class_time_counter_down_1a9f120726295cdd4c97ce57a09ba999f0" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>Stop</name></member>
+      <member refid="class_time_counter_down_1af0563060c6844465a0b9796f3a3897af" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>TimeCounterDown</name></member>
+      <member refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>TimeLeft</name></member>
+      <member refid="class_time_counter_down_1acc3f1f7834d46e42305d2813ae90a626" prot="public" virt="non-virtual"><scope>TimeCounterDown</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

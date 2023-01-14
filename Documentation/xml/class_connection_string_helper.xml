@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_connection_string_helper" kind="class" language="C#" prot="public">
+    <compoundname>ConnectionStringHelper</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_connection_string_helper_1a77829ad7a9afe1e799ceac0ce2916c64" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ConnectionStringHelper.DbConnectionString</definition>
+        <argsstring></argsstring>
+        <name>DbConnectionString</name>
+        <qualifiedname>ConnectionStringHelper.DbConnectionString</qualifiedname>
+        <initializer>= @&quot;Server=tcp:timewiseserver.database.windows.net,1433;Initial Catalog=TIMEWISE;Persist Security Info=False;<ref refid="class_user" kindref="compound">User</ref> ID=timewiseuser;Password=TimewiseAppPassword00;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;&quot;</initializer>
+        <briefdescription>
+<para>Connection String, konieczny do połączenia z bazą danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Helpers/ConnectionStringHelper.cs" line="11" column="22" bodyfile="Timewise.Code/Database/Helpers/ConnectionStringHelper.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza, zawierająca Connection String konieczny do połączenia z bazą danych. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/Helpers/ConnectionStringHelper.cs" line="6" column="15" bodyfile="Timewise.Code/Database/Helpers/ConnectionStringHelper.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_connection_string_helper_1a77829ad7a9afe1e799ceac0ce2916c64" prot="public" virt="non-virtual"><scope>ConnectionStringHelper</scope><name>DbConnectionString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

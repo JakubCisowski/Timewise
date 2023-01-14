@@ -1,0 +1,144 @@
+﻿nazwa;rodzaj;data;rok;mies;dzien;dzien_tyg
+Nowy Rok;stałe;01.01.2022;2022;1;1;sobota
+Trzech Króli;stałe;06.01.2022;2022;1;6;czwartek
+Wielkanoc;ruchome;17.04.2022;2022;4;17;niedziela
+Poniedziałek Wielkanocny;ruchome;18.04.2022;2022;4;18;poniedziałek
+Święto Pracy;stałe;01.05.2022;2022;5;1;niedziela
+Święto Konstytucji 3 Maja;stałe;03.05.2022;2022;5;3;wtorek
+Zielone Świątki;ruchome;05.06.2022;2022;6;5;niedziela
+Boże Ciało;ruchome;16.06.2022;2022;6;16;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2022;2022;8;15;poniedziałek
+Wszystkich Świętych;stałe;01.11.2022;2022;11;1;wtorek
+Narodowe Święto Niepodległości;stałe;11.11.2022;2022;11;11;piątek
+Boże Narodzenie;stałe;25.12.2022;2022;12;25;niedziela
+Drugi dzień Bożego Narodzenia;stałe;26.12.2022;2022;12;26;poniedziałek
+Nowy Rok;stałe;01.01.2023;2023;1;1;niedziela
+Trzech Króli;stałe;06.01.2023;2023;1;6;piątek
+Wielkanoc;ruchome;09.04.2023;2023;4;9;niedziela
+Poniedziałek Wielkanocny;ruchome;10.04.2023;2023;4;10;poniedziałek
+Święto Pracy;stałe;01.05.2023;2023;5;1;poniedziałek
+Święto Konstytucji 3 Maja;stałe;03.05.2023;2023;5;3;środa
+Zielone Świątki;ruchome;28.05.2023;2023;5;28;niedziela
+Boże Ciało;ruchome;08.06.2023;2023;6;8;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2023;2023;8;15;wtorek
+Wszystkich Świętych;stałe;01.11.2023;2023;11;1;środa
+Narodowe Święto Niepodległości;stałe;11.11.2023;2023;11;11;sobota
+Boże Narodzenie;stałe;25.12.2023;2023;12;25;poniedziałek
+Drugi dzień Bożego Narodzenia;stałe;26.12.2023;2023;12;26;wtorek
+Nowy Rok;stałe;01.01.2024;2024;1;1;poniedziałek
+Trzech Króli;stałe;06.01.2024;2024;1;6;sobota
+Wielkanoc;ruchome;31.03.2024;2024;3;31;niedziela
+Poniedziałek Wielkanocny;ruchome;01.04.2024;2024;4;1;poniedziałek
+Święto Pracy;stałe;01.05.2024;2024;5;1;środa
+Święto Konstytucji 3 Maja;stałe;03.05.2024;2024;5;3;piątek
+Zielone Świątki;ruchome;19.05.2024;2024;5;19;niedziela
+Boże Ciało;ruchome;30.05.2024;2024;5;30;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2024;2024;8;15;czwartek
+Wszystkich Świętych;stałe;01.11.2024;2024;11;1;piątek
+Narodowe Święto Niepodległości;stałe;11.11.2024;2024;11;11;poniedziałek
+Boże Narodzenie;stałe;25.12.2024;2024;12;25;środa
+Drugi dzień Bożego Narodzenia;stałe;26.12.2024;2024;12;26;czwartek
+Nowy Rok;stałe;01.01.2025;2025;1;1;środa
+Trzech Króli;stałe;06.01.2025;2025;1;6;poniedziałek
+Wielkanoc;ruchome;20.04.2025;2025;4;20;niedziela
+Poniedziałek Wielkanocny;ruchome;21.04.2025;2025;4;21;poniedziałek
+Święto Pracy;stałe;01.05.2025;2025;5;1;czwartek
+Święto Konstytucji 3 Maja;stałe;03.05.2025;2025;5;3;sobota
+Zielone Świątki;ruchome;08.06.2025;2025;6;8;niedziela
+Boże Ciało;ruchome;19.06.2025;2025;6;19;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2025;2025;8;15;piątek
+Wszystkich Świętych;stałe;01.11.2025;2025;11;1;sobota
+Narodowe Święto Niepodległości;stałe;11.11.2025;2025;11;11;wtorek
+Boże Narodzenie;stałe;25.12.2025;2025;12;25;czwartek
+Drugi dzień Bożego Narodzenia;stałe;26.12.2025;2025;12;26;piątek
+Nowy Rok;stałe;01.01.2026;2026;1;1;czwartek
+Trzech Króli;stałe;06.01.2026;2026;1;6;wtorek
+Wielkanoc;ruchome;05.04.2026;2026;4;5;niedziela
+Poniedziałek Wielkanocny;ruchome;06.04.2026;2026;4;6;poniedziałek
+Święto Pracy;stałe;01.05.2026;2026;5;1;piątek
+Święto Konstytucji 3 Maja;stałe;03.05.2026;2026;5;3;niedziela
+Zielone Świątki;ruchome;24.05.2026;2026;5;24;niedziela
+Boże Ciało;ruchome;04.06.2026;2026;6;4;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2026;2026;8;15;sobota
+Wszystkich Świętych;stałe;01.11.2026;2026;11;1;niedziela
+Narodowe Święto Niepodległości;stałe;11.11.2026;2026;11;11;środa
+Boże Narodzenie;stałe;25.12.2026;2026;12;25;piątek
+Drugi dzień Bożego Narodzenia;stałe;26.12.2026;2026;12;26;sobota
+Nowy Rok;stałe;01.01.2027;2027;1;1;piątek
+Trzech Króli;stałe;06.01.2027;2027;1;6;środa
+Wielkanoc;ruchome;28.03.2027;2027;3;28;niedziela
+Poniedziałek Wielkanocny;ruchome;29.03.2027;2027;3;29;poniedziałek
+Święto Pracy;stałe;01.05.2027;2027;5;1;sobota
+Święto Konstytucji 3 Maja;stałe;03.05.2027;2027;5;3;poniedziałek
+Zielone Świątki;ruchome;16.05.2027;2027;5;16;niedziela
+Boże Ciało;ruchome;27.05.2027;2027;5;27;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2027;2027;8;15;niedziela
+Wszystkich Świętych;stałe;01.11.2027;2027;11;1;poniedziałek
+Narodowe Święto Niepodległości;stałe;11.11.2027;2027;11;11;czwartek
+Boże Narodzenie;stałe;25.12.2027;2027;12;25;sobota
+Drugi dzień Bożego Narodzenia;stałe;26.12.2027;2027;12;26;niedziela
+Nowy Rok;stałe;01.01.2028;2028;1;1;sobota
+Trzech Króli;stałe;06.01.2028;2028;1;6;czwartek
+Wielkanoc;ruchome;16.04.2028;2028;4;16;niedziela
+Poniedziałek Wielkanocny;ruchome;17.04.2028;2028;4;17;poniedziałek
+Święto Pracy;stałe;01.05.2028;2028;5;1;poniedziałek
+Święto Konstytucji 3 Maja;stałe;03.05.2028;2028;5;3;środa
+Zielone Świątki;ruchome;04.06.2028;2028;6;4;niedziela
+Boże Ciało;ruchome;15.06.2028;2028;6;15;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2028;2028;8;15;wtorek
+Wszystkich Świętych;stałe;01.11.2028;2028;11;1;środa
+Narodowe Święto Niepodległości;stałe;11.11.2028;2028;11;11;sobota
+Boże Narodzenie;stałe;25.12.2028;2028;12;25;poniedziałek
+Drugi dzień Bożego Narodzenia;stałe;26.12.2028;2028;12;26;wtorek
+Nowy Rok;stałe;01.01.2029;2029;1;1;poniedziałek
+Trzech Króli;stałe;06.01.2029;2029;1;6;sobota
+Wielkanoc;ruchome;01.04.2029;2029;4;1;niedziela
+Poniedziałek Wielkanocny;ruchome;02.04.2029;2029;4;2;poniedziałek
+Święto Pracy;stałe;01.05.2029;2029;5;1;wtorek
+Święto Konstytucji 3 Maja;stałe;03.05.2029;2029;5;3;czwartek
+Zielone Świątki;ruchome;20.05.2029;2029;5;20;niedziela
+Boże Ciało;ruchome;31.05.2029;2029;5;31;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2029;2029;8;15;środa
+Wszystkich Świętych;stałe;01.11.2029;2029;11;1;czwartek
+Narodowe Święto Niepodległości;stałe;11.11.2029;2029;11;11;niedziela
+Boże Narodzenie;stałe;25.12.2029;2029;12;25;wtorek
+Drugi dzień Bożego Narodzenia;stałe;26.12.2029;2029;12;26;środa
+Nowy Rok;stałe;01.01.2030;2030;1;1;wtorek
+Trzech Króli;stałe;06.01.2030;2030;1;6;niedziela
+Wielkanoc;ruchome;21.04.2030;2030;4;21;niedziela
+Poniedziałek Wielkanocny;ruchome;22.04.2030;2030;4;22;poniedziałek
+Święto Pracy;stałe;01.05.2030;2030;5;1;środa
+Święto Konstytucji 3 Maja;stałe;03.05.2030;2030;5;3;piątek
+Zielone Świątki;ruchome;09.06.2030;2030;6;9;niedziela
+Boże Ciało;ruchome;20.06.2030;2030;6;20;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2030;2030;8;15;czwartek
+Wszystkich Świętych;stałe;01.11.2030;2030;11;1;piątek
+Narodowe Święto Niepodległości;stałe;11.11.2030;2030;11;11;poniedziałek
+Boże Narodzenie;stałe;25.12.2030;2030;12;25;środa
+Drugi dzień Bożego Narodzenia;stałe;26.12.2030;2030;12;26;czwartek
+Nowy Rok;stałe;01.01.2031;2031;1;1;środa
+Trzech Króli;stałe;06.01.2031;2031;1;6;poniedziałek
+Wielkanoc;ruchome;13.04.2031;2031;4;13;niedziela
+Poniedziałek Wielkanocny;ruchome;14.04.2031;2031;4;14;poniedziałek
+Święto Pracy;stałe;01.05.2031;2031;5;1;czwartek
+Święto Konstytucji 3 Maja;stałe;03.05.2031;2031;5;3;sobota
+Zielone Świątki;ruchome;01.06.2031;2031;6;1;niedziela
+Boże Ciało;ruchome;12.06.2031;2031;6;12;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2031;2031;8;15;piątek
+Wszystkich Świętych;stałe;01.11.2031;2031;11;1;sobota
+Narodowe Święto Niepodległości;stałe;11.11.2031;2031;11;11;wtorek
+Boże Narodzenie;stałe;25.12.2031;2031;12;25;czwartek
+Drugi dzień Bożego Narodzenia;stałe;26.12.2031;2031;12;26;piątek
+Nowy Rok;stałe;01.01.2032;2032;1;1;czwartek
+Trzech Króli;stałe;06.01.2032;2032;1;6;wtorek
+Wielkanoc;ruchome;28.03.2032;2032;3;28;niedziela
+Poniedziałek Wielkanocny;ruchome;29.03.2032;2032;3;29;poniedziałek
+Święto Pracy;stałe;01.05.2032;2032;5;1;sobota
+Święto Konstytucji 3 Maja;stałe;03.05.2032;2032;5;3;poniedziałek
+Zielone Świątki;ruchome;16.05.2032;2032;5;16;niedziela
+Boże Ciało;ruchome;27.05.2032;2032;5;27;czwartek
+Wniebowzięcie Najświętszej Maryi Panny;stałe;15.08.2032;2032;8;15;niedziela
+Wszystkich Świętych;stałe;01.11.2032;2032;11;1;poniedziałek
+Narodowe Święto Niepodległości;stałe;11.11.2032;2032;11;11;czwartek
+Boże Narodzenie;stałe;25.12.2032;2032;12;25;sobota
+Drugi dzień Bożego Narodzenia;stałe;26.12.2032;2032;12;26;niedziela

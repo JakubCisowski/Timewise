@@ -1,0 +1,111 @@
+\doxysection{Dokumentacja klasy Date}
+\label{class_date}\index{Date@{Date}}
+
+
+Klasa reprezentująca datę, powiązana z klasą \doxyref{Time}{str.}{class_time}.  
+
+
+Diagram dziedziczenia dla Date\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_date}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_date_a229df1102afc49f2092072160b36d101}} 
+{\bfseries Date} ()
+\begin{DoxyCompactList}\small\item\em Domyślny konstruktor, inicjalizujący datę na najniższą możliwą, poprawną wartość (1/01/1). \end{DoxyCompactList}\item 
+\textbf{ Date} (int day, int month, int year)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący datę na przekazaną wartość. \end{DoxyCompactList}\item 
+\textbf{ Date} (System.\+Time\+Span time\+Span)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący datę na przekazaną wartość, reprezentowaną jako systemowy Time\+Span. \end{DoxyCompactList}\item 
+\mbox{\label{class_date_a7302196b3a47b2b3e9b5b8833aaaae93}} 
+override string {\bfseries To\+String} ()
+\item 
+\mbox{\label{class_date_a07844d62a1650d587d225bfe9ac55b00}} 
+override bool {\bfseries Equals} (object obj)
+\item 
+\mbox{\label{class_date_a814e17daf9030bd3fb5bfe1c56fe63ce}} 
+override int {\bfseries Get\+Hash\+Code} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_date_ad39dbbe591c34adb2db60011c0ba2351}} 
+int {\bfseries Day}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Dzień w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_date_ab375a72bf2ac0c8de16e0585f0a03c67}} 
+int {\bfseries Month}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Miesiąc w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_date_a98161d0c75aab170a8ef573fdfeda934}} 
+int {\bfseries Year}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Rok w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_date_a18e0883ab2d7e2bfb25bbc2e028f2dac}} 
+static \textbf{ Date} {\bfseries Empty}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Właściwość zwracająca pustą datę. \end{DoxyCompactList}\item 
+bool \textbf{ Is\+Valid}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Implementacja metody udostępnianej przez interfejs \doxyref{IValidatable}{str.}{interface_i_validatable}. Zwraca true, jeżeli czas jest poprawny, w przeciwnym wypadku false. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca datę, powiązana z klasą \doxyref{Time}{str.}{class_time}. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_date_ad0f811bcb192425fa74952997ca37079}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{Date()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Date.\+Date (\begin{DoxyParamCaption}\item[{int}]{day,  }\item[{int}]{month,  }\item[{int}]{year }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący datę na przekazaną wartość. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em day} & Dzień daty.\\
+\hline
+{\em month} & Miesiąc daty.\\
+\hline
+{\em year} & Rok daty.\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_date_a7bf2523a350d92a93d3703f8e3a3c6ce}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{Date()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Date.\+Date (\begin{DoxyParamCaption}\item[{System.\+Time\+Span}]{time\+Span }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący datę na przekazaną wartość, reprezentowaną jako systemowy Time\+Span. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em time\+Span} & Systemowy Time\+Span, na podstawie którego ustawiamy datę.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_date_a6d7f9769da3632218ea06a0d907833f2}} 
+\index{Date@{Date}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!Date@{Date}}
+\doxysubsubsection{IsValid}
+{\footnotesize\ttfamily bool Date.\+Is\+Valid\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Implementacja metody udostępnianej przez interfejs \doxyref{IValidatable}{str.}{interface_i_validatable}. Zwraca true, jeżeli czas jest poprawny, w przeciwnym wypadku false. 
+
+
+
+Implementuje \textbf{ IValidatable} \doxyref{}{str.}{interface_i_validatable_adb3c4f2941ae187dacfa78b8681eea28}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Models/Date.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Timewise.App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Timewise.App"
+	xmlns:pages="clr-namespace:Timewise.App.Pages"
+    Shell.FlyoutBehavior="Disabled">
+
+	<!-- Do pracy inżynierskiej jakie to jest durne że pierwszy tutaj to pierwszy page w appce disOk -->
+	<ShellContent Title="Login" ContentTemplate="{DataTemplate pages:LoginPage}"
+				  Route="login"/>
+
+	<ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+	<ShellContent Title="Timer" ContentTemplate="{DataTemplate pages:TimerPage}"
+				  Route="timer"/>
+
+	<ShellContent Title="Stopwatch" ContentTemplate="{DataTemplate pages:StopwatchPage}"
+				  Route="stopwatch"/>
+
+	<ShellContent Title="TimeCounterUpPage" ContentTemplate="{DataTemplate pages:TimeCounterUpPage}"
+				  Route="timeCounterUp"/>
+
+	<ShellContent Title="TimeCounterDownPage" ContentTemplate="{DataTemplate pages:TimeCounterDownPage}"
+				  Route="timeCounterDown"/>
+
+	<ShellContent Title="CalculationsPage" ContentTemplate="{DataTemplate pages:CalculationsPage}"
+				  Route="calculations"/>
+
+	<ShellContent Title="ConvertersPage" ContentTemplate="{DataTemplate pages:ConvertersPage}"
+				  Route="converters"/>
+
+	<ShellContent Title="LocationInfoPage" ContentTemplate="{DataTemplate pages:LocationInfoPage}"
+				  Route="locationInfo"/>
+
+    <ShellContent Title="CalendarPage" ContentTemplate="{DataTemplate pages:CalendarPage}"
+				  Route="calendar"/>
+
+	<ShellContent Title="DateSubtractionPage" ContentTemplate="{DataTemplate pages:DateSubtractionPage}"
+				  Route="dateSubtraction"/>
+
+	<ShellContent Title="DayOfWeekPage" ContentTemplate="{DataTemplate pages:DayOfWeekPage}"
+				  Route="dayOfWeek"/>
+
+	<ShellContent Title="LeapYearPage" ContentTemplate="{DataTemplate pages:LeapYearPage}"
+				  Route="leapYear"/>
+
+    <ShellContent Title="WeekNumberPage" ContentTemplate="{DataTemplate pages:WeekNumberPage}"
+				  Route="weekNumber"/>
+
+    <ShellContent Title="UnixTimePage" ContentTemplate="{DataTemplate pages:UnixTimePage}"
+				  Route="unixTime"/>
+
+	<ShellContent Title="UnixTimePage" ContentTemplate="{DataTemplate pages:TimeZoneConverterPage}"
+				  Route="timeZoneConverter"/>
+
+</Shell>

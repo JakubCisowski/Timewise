@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.TimeZoneConverterPage"
+             Title="Konwerter czasu w strefach czasowych">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Konwerter czasu w strefach czasowych" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center">
+
+		<Grid HeightRequest="80" Margin="60,20,60,60">
+			<Border x:Name="SecondTimeZoneBorder" StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10">
+				<Label x:Name="SecondTimeZoneTimeLabel" HorizontalOptions="CenterAndExpand" FontSize="32" TextColor="{StaticResource Primary}" VerticalOptions="Center" />
+			</Border>
+		</Grid>
+		
+		<HorizontalStackLayout Margin="20" VerticalOptions="Center">
+			<VerticalStackLayout>
+				<Label Text="Czas w pierwszej strefie czasowej" HorizontalOptions="Center"/>
+				<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+					<TimePicker x:Name="EventTimePicker" Format="t"/>
+				</Border>
+			</VerticalStackLayout>
+
+			<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2" HeightRequest="35" WidthRequest="300" VerticalOptions="End">
+				<Picker x:Name="FirstTimeZonePicker" />
+			</Border>
+		</HorizontalStackLayout>
+
+		<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2" HeightRequest="35" WidthRequest="300">
+			<Picker x:Name="SecondTimeZonePicker" />
+		</Border>
+
+		<Button x:Name="CheckTimeInOtherTimeZoneButton" Text="Sprawdź czas" Clicked="CheckTimeInOtherTimeZoneButton_Clicked"  Margin="25, 20, 25, 20" 
+			FontSize="24" FontAttributes="Bold" HeightRequest="60" WidthRequest="200"/>
+	    
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="50, 60, 50, 20"
+		        FontSize="24" FontAttributes="Bold" />
+	</VerticalStackLayout>
+</ContentPage>

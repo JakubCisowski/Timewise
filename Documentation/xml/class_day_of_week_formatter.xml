@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_day_of_week_formatter" kind="class" language="C#" prot="public">
+    <compoundname>DayOfWeekFormatter</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_day_of_week_formatter_1a1ac8ba96758068e17fe43e2988b01b40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DayOfWeekFormatter.DayOfWeekToString</definition>
+        <argsstring>(DayOfWeek dayOfWeek)</argsstring>
+        <name>DayOfWeekToString</name>
+        <qualifiedname>DayOfWeekFormatter.DayOfWeekToString</qualifiedname>
+        <param>
+          <type>DayOfWeek</type>
+          <declname>dayOfWeek</declname>
+        </param>
+        <briefdescription>
+<para>Metoda zwracająca nazwę dnia tygodnia w formie napisu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Napis zawierający nazwę dnia tygodnia</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/DayOfWeekFormatter.cs" line="15" column="22" bodyfile="Timewise.Code/Helpers/DayOfWeekFormatter.cs" bodystart="15" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza, pomagająca przy formatowaniu nazw dni tygodnia. Jest to klasa statyczna, a więc nie można jej instancjonować. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/DayOfWeekFormatter.cs" line="9" column="15" bodyfile="Timewise.Code/Helpers/DayOfWeekFormatter.cs" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_day_of_week_formatter_1a1ac8ba96758068e17fe43e2988b01b40" prot="public" virt="non-virtual"><scope>DayOfWeekFormatter</scope><name>DayOfWeekToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

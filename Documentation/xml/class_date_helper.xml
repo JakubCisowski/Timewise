@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_date_helper" kind="class" language="C#" prot="public">
+    <compoundname>DateHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_date_helper_1a8bb4acaa6d66951924610546a3c170b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DateHelper.IsLeapYear</definition>
+        <argsstring>(int year)</argsstring>
+        <name>IsLeapYear</name>
+        <qualifiedname>DateHelper.IsLeapYear</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Metoda sprawadzająca, czy dany rok jest przestępny. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rok do sprawdzenia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, jeżeli rok jest przestępny. W przeciwnym wypadku false.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/DateHelper.cs" line="18" column="20" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_helper_1af0dda50f6662608dc1945f82a6a37e01" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DateHelper.GetAmountOfDaysInMonth</definition>
+        <argsstring>(int month, int year)</argsstring>
+        <name>GetAmountOfDaysInMonth</name>
+        <qualifiedname>DateHelper.GetAmountOfDaysInMonth</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Metoda zwracająca ilość dni w danym miesiącu danego roku. Uwzględnia, czy przekazany rok jest przestępny. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Miesiąc do sprawdzenia.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rok do sprawdzenia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ilość dni w danym miesiącu danego roku.</para>
+</simplesect>
+</para>
+<para>Jeżeli przekazany zostanie niepoprawny miesiąc, metoda zwróci wyjątek.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/DateHelper.cs" line="31" column="19" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="31" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_helper_1a1d11eab340e5049c3f90ea961576d2df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DayOfWeek</type>
+        <definition>static DayOfWeek DateHelper.GetDayOfWeek</definition>
+        <argsstring>(Date date)</argsstring>
+        <name>GetDayOfWeek</name>
+        <qualifiedname>DateHelper.GetDayOfWeek</qualifiedname>
+        <param>
+          <type><ref refid="class_date" kindref="compound">Date</ref></type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Metoda zwracająca dzień tygodnia dla danej daty. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data, dla której sprawdzamy dzień tygodnia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dzień tygodnia jako typ wyliczeniowy, zaczynający się od poniedziałku.</para>
+</simplesect>
+</para>
+<para>Jeżeli data jest niepoprawna, metoda zwróci wyjątek.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/DateHelper.cs" line="57" column="25" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="57" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_helper_1a5ece8b3cc03c82ce11cb89732534b42a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
+        <definition>static Duration DateHelper.TimeSince</definition>
+        <argsstring>(Time pastTime)</argsstring>
+        <name>TimeSince</name>
+        <qualifiedname>DateHelper.TimeSince</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>pastTime</declname>
+        </param>
+        <briefdescription>
+<para>Metoda wykonująca operację odejmowania przekazanej daty od daty aktualnej. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pastTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przekazana data w przeszłości.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Wynik odejmowania - odstęp czasowy między czasem aktualnym, a przekazaną datą.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/DateHelper.cs" line="89" column="24" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_helper_1a4a72ee17a0ddd900eaced0d7cec3376b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>static DateTime DateHelper.Construct</definition>
+        <argsstring>(DateTime date, TimeSpan time)</argsstring>
+        <name>Construct</name>
+        <qualifiedname>DateHelper.Construct</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Metoda konstruująca obiekt System.DateTime na podstawie daty, przekazanej jako DateTime, oraz czasu, przekazanego jako TimeSpan. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przekazana data jako DateTime.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przekazany czas jako TimeSpan.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Obiekt System.DateTime o dacie jak parametr <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>, oraz czasie jak parametr <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/DateHelper.cs" line="100" column="24" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza, wykonująca pewne obliczenia i operacje na dacie. Jest to klasa statyczna, a więc nie można jej instancjonować. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/DateHelper.cs" line="11" column="15" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="12" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_date_helper_1a4a72ee17a0ddd900eaced0d7cec3376b" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>Construct</name></member>
+      <member refid="class_date_helper_1af0dda50f6662608dc1945f82a6a37e01" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>GetAmountOfDaysInMonth</name></member>
+      <member refid="class_date_helper_1a1d11eab340e5049c3f90ea961576d2df" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>GetDayOfWeek</name></member>
+      <member refid="class_date_helper_1a8bb4acaa6d66951924610546a3c170b0" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>IsLeapYear</name></member>
+      <member refid="class_date_helper_1a5ece8b3cc03c82ce11cb89732534b42a" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>TimeSince</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_counter_up_event" kind="class" language="C#" prot="public">
+    <compoundname>TimeCounterUpEvent</compoundname>
+    <basecompoundref refid="interface_i_entity" prot="public" virt="non-virtual">IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_time_counter_up_event_1ae7638d66118a1af26ea4d6917cedb81f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int TimeCounterUpEvent.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>TimeCounterUpEvent.Id</qualifiedname>
+        <reimplements refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f">Id</reimplements>
+        <briefdescription>
+<para>Identyfikator zdarzenia, generowany z poziomu bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="14" column="12" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_up_event_1a0308c16fb4ae4be96d1d914e469796b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TimeCounterUpEvent::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>TimeCounterUpEvent.Name</qualifiedname>
+        <briefdescription>
+<para>Opcjonalna nazwa zdarzenia. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Nazwa zdarzenia, wybrana przez użytkownika. Może być pusta - zdarzenie nie musi mieć nazwy. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="19" column="15" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_up_event_1a080866cd511c02bc0d6569bf91b46301" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime TimeCounterUpEvent.StartTime</definition>
+        <argsstring></argsstring>
+        <name>StartTime</name>
+        <qualifiedname>TimeCounterUpEvent.StartTime</qualifiedname>
+        <briefdescription>
+<para>Czas początkowy zdarzenia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="24" column="17" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_up_event_1affe0c1f43efff68002995b355cc06f39" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int TimeCounterUpEvent.UserId</definition>
+        <argsstring></argsstring>
+        <name>UserId</name>
+        <qualifiedname>TimeCounterUpEvent.UserId</qualifiedname>
+        <briefdescription>
+<para>Id użytkownika, do którego przypisane jest zdarzenie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="29" column="12" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_up_event_1aa036d5a9f3813640f21bd17e320ee5a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Guid</type>
+        <definition>Guid TimeCounterUpEvent.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>TimeCounterUpEvent.Id</qualifiedname>
+        <reimplements refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f">Id</reimplements>
+        <briefdescription>
+<para>Unikatowy identyfikator zdarzenia. Pozwala zidentyfikować go na interfejsie użytkownika. Kontrolki powiązane z tym zdarzeniem posiadają w nazwie ten identyfikator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterUpEvent.cs" line="13" column="13" bodyfile="Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_up_event_1a4ce88528b56ee579e4dd0be32c6fc035" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_time_counter_up" kindref="compound">TimeCounterUp</ref></type>
+        <definition>TimeCounterUp TimeCounterUpEvent.TimeCounterUp</definition>
+        <argsstring></argsstring>
+        <name>TimeCounterUp</name>
+        <qualifiedname>TimeCounterUpEvent.TimeCounterUp</qualifiedname>
+        <briefdescription>
+<para>Zegar odmierzający czas w górę, powiązany ze zdarzeniem. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterUpEvent.cs" line="23" column="22" bodyfile="Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_time_counter_up_event_1af2e93c8665d3362fd0fac9213b6b252d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit TimeCounterUpEvent.operator Models.TimeCounterUpEvent</definition>
+        <argsstring>(TimeCounterUpEvent ev)</argsstring>
+        <name>operator Models.TimeCounterUpEvent</name>
+        <qualifiedname>TimeCounterUpEvent.operator Models.TimeCounterUpEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_time_counter_up_event" kindref="compound">TimeCounterUpEvent</ref></type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+<para>Operator konwersji niejawnej z typu encji na typ modelu. Wywoływany automatycznie w sytuacji, gdy oczekiwany jest obiekt typu <ref refid="class_time_counter_up_event" kindref="compound">TimeCounterUpEvent</ref>. Generuje nowy obiekt modelu na podstawie obiektu encji. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt wczytany z bazy danych.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Obiekt modelu typu <ref refid="class_time_counter_up_event" kindref="compound">TimeCounterUpEvent</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="38" column="24" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_event_1ab5728e7c79db2cc9adf6dab8c83ea9b9" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static TimeCounterUpEvent.operator TimeCounterUpEvent</definition>
+        <argsstring>(Models.TimeCounterUpEvent timeCounterUpEvent)</argsstring>
+        <name>operator TimeCounterUpEvent</name>
+        <qualifiedname>TimeCounterUpEvent.operator TimeCounterUpEvent</qualifiedname>
+        <param>
+          <type>Models.TimeCounterUpEvent</type>
+          <declname>timeCounterUpEvent</declname>
+        </param>
+        <briefdescription>
+<para>Operator konwersji jawnej z typu modelu na typ encji. Generuje nowy obiekt encji na podstawie obiektu modelu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeCounterUpEvent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt modelu, np. wygenerowany przy pomocy interfejsu użytkownika.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Obiekt encji, gotowy do zapisania do bazy danych.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="49" column="24" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="49" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_counter_up_event_1a4e65eb54f1c0ac4035bffce6c9096a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimeCounterUpEvent.TimeCounterUpEvent</definition>
+        <argsstring>(string name, TimeCounterUp timeCounterUp)</argsstring>
+        <name>TimeCounterUpEvent</name>
+        <qualifiedname>TimeCounterUpEvent.TimeCounterUpEvent</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_time_counter_up" kindref="compound">TimeCounterUp</ref></type>
+          <declname>timeCounterUp</declname>
+        </param>
+        <briefdescription>
+<para>Domyślny konstruktor, generujący nowe Id, ustawiający nazwę oraz zegar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa zdarenia, może być pusta lub null.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeCounterUp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Stworzony wcześniej obiekt zegara.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/TimeCounterUpEvent.cs" line="30" column="8" bodyfile="Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Encja reprezentująca zdarzenie odmierzania czasu w górę w aplikacji. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa reprezentująca zdarzenie, od którego jest odmierzany czas. Posiada swoje unikatowe Id, nazwę zdarzenia oraz powiązany z nim zegar (<ref refid="class_time_counter_up" kindref="compound">TimeCounterUp</ref>). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="1">
+        <label>TimeCounterUpEvent</label>
+        <link refid="class_time_counter_up_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="1">
+        <label>TimeCounterUpEvent</label>
+        <link refid="class_time_counter_up_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="9" column="7" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="10" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_time_counter_up_event_1ae7638d66118a1af26ea4d6917cedb81f" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>Id</name></member>
+      <member refid="class_time_counter_up_event_1aa036d5a9f3813640f21bd17e320ee5a4" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>Id</name></member>
+      <member refid="class_time_counter_up_event_1a0308c16fb4ae4be96d1d914e469796b8" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>Name</name></member>
+      <member refid="class_time_counter_up_event_1af2e93c8665d3362fd0fac9213b6b252d" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>operator Models.TimeCounterUpEvent</name></member>
+      <member refid="class_time_counter_up_event_1ab5728e7c79db2cc9adf6dab8c83ea9b9" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>operator TimeCounterUpEvent</name></member>
+      <member refid="class_time_counter_up_event_1a080866cd511c02bc0d6569bf91b46301" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>StartTime</name></member>
+      <member refid="class_time_counter_up_event_1a4ce88528b56ee579e4dd0be32c6fc035" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>TimeCounterUp</name></member>
+      <member refid="class_time_counter_up_event_1a4e65eb54f1c0ac4035bffce6c9096a01" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>TimeCounterUpEvent</name></member>
+      <member refid="class_time_counter_up_event_1affe0c1f43efff68002995b355cc06f39" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>UserId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

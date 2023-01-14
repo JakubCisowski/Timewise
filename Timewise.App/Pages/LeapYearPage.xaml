@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.LeapYearPage"
+             Title="Czy rok jest przestępny">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Czy rok jest przestępny" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center">
+		
+		<VerticalStackLayout HeightRequest="120" Margin="60,60,60,20">
+			<Grid HorizontalOptions="Center">
+				<Border x:Name="LeapYearBorder" StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10">
+					<Label x:Name="LeapYearLabel" FontSize="32" FontAttributes="Bold" TextColor="{StaticResource Primary}"/>
+				</Border>
+			</Grid>
+		</VerticalStackLayout>
+
+		<VerticalStackLayout Margin="25,20,25,20" >
+				<Label Text="Podaj rok" HorizontalOptions="Center" FontSize="24"/>
+				<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2" WidthRequest="200">
+					<Entry x:Name="YearEntry" MaxLength="4" Margin="0,10,0,0" FontSize="22" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+				</Border>
+			</VerticalStackLayout>
+
+			<Button x:Name="CalculateLeapYearButton" Text="Sprawdź" Clicked="CalculateLeapYearButton_Clicked" Margin="25, 20, 25, 20" 
+					FontSize="24" FontAttributes="Bold" HeightRequest="60" WidthRequest="200"/>
+			
+			<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="50, 60, 50, 20" 
+			        FontSize="24" FontAttributes="Bold"/>
+	</VerticalStackLayout>
+</ContentPage>

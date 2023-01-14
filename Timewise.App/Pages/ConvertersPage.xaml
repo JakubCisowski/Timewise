@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.ConvertersPage"
+             Title="Konwertery">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Konwertery" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center" Spacing="20">
+		
+		<Button x:Name="UnixTimeButton" Text="Czas UNIXowy" Clicked="UnixTimeButton_Clicked" FontSize="18" FontAttributes="Bold" WidthRequest="400"/>
+
+		<Button x:Name="TimeZoneConverterButton" Text="Konwerter czasu w strefach czasowych" Clicked="TimeZoneConverterButton_Clicked" FontSize="18" FontAttributes="Bold" WidthRequest="400"/>
+
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked" Margin="0,40,0,0" 
+					FontSize="24" FontAttributes="Bold" WidthRequest="400"/>
+	</VerticalStackLayout>
+</ContentPage>

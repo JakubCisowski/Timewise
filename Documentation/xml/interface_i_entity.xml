@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="interface_i_entity" kind="interface" language="C#" prot="public">
+    <compoundname>IEntity</compoundname>
+    <derivedcompoundref refid="class_reminder" prot="public" virt="non-virtual">Reminder</derivedcompoundref>
+    <derivedcompoundref refid="class_time_counter_down_event" prot="public" virt="non-virtual">TimeCounterDownEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_time_counter_up_event" prot="public" virt="non-virtual">TimeCounterUpEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_user" prot="public" virt="non-virtual">User</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int IEntity.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>IEntity.Id</qualifiedname>
+        <reimplementedby refid="class_reminder_1a48f768b524bf7ec5f8cd93d6a7b582ad">Id</reimplementedby>
+        <reimplementedby refid="class_time_counter_down_event_1acd3532d74d0f83595566c5ffdc0890bf">Id</reimplementedby>
+        <reimplementedby refid="class_time_counter_up_event_1ae7638d66118a1af26ea4d6917cedb81f">Id</reimplementedby>
+        <reimplementedby refid="class_user_1a12fe165dbd627b74b91752d3ffdd6750">Id</reimplementedby>
+        <reimplementedby refid="class_time_counter_down_event_1ad21e8417e2853410481b17042fb99efa">Id</reimplementedby>
+        <reimplementedby refid="class_time_counter_up_event_1aa036d5a9f3813640f21bd17e320ee5a4">Id</reimplementedby>
+        <briefdescription>
+<para>Identyfikator encji, będący kluczem głównym w bazie danych. Jest to liczba całkowita generowana po stronie bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IEntity.cs" line="12" column="12" bodyfile="Timewise.Code/Database/Interfaces/IEntity.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interfejs wspólny dla wszystkich obiektów bazodanowych. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="2">
+        <label>Reminder</label>
+        <link refid="class_reminder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>TimeCounterDownEvent</label>
+        <link refid="class_time_counter_down_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>TimeCounterUpEvent</label>
+        <link refid="class_time_counter_up_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>User</label>
+        <link refid="class_user"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Timewise.Code/Database/Interfaces/IEntity.cs" line="6" column="18" bodyfile="Timewise.Code/Database/Interfaces/IEntity.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f" prot="public" virt="non-virtual"><scope>IEntity</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

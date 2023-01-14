@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time" kind="class" language="C#" prot="public">
+    <compoundname>Time</compoundname>
+    <basecompoundref refid="interface_i_validatable" prot="public" virt="non-virtual">IValidatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_time_1a089c12baa9e95079d5ed74bc4fe6568e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Time._hour</definition>
+        <argsstring></argsstring>
+        <name>_hour</name>
+        <qualifiedname>Time._hour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="13" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_time_1aa0977494f2f28017d49ac8dbdcd82ce1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Time._minute</definition>
+        <argsstring></argsstring>
+        <name>_minute</name>
+        <qualifiedname>Time._minute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="14" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_time_1a3fcf1838a4f0eacdf82649ed8fb504b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Time._second</definition>
+        <argsstring></argsstring>
+        <name>_second</name>
+        <qualifiedname>Time._second</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="15" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_time_1abbf17ea211c73e86468484fbe952c4d6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Time._millisecond</definition>
+        <argsstring></argsstring>
+        <name>_millisecond</name>
+        <qualifiedname>Time._millisecond</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="16" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_time_1a9a04eab4475a93a81217c09893237f30" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler Time.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <qualifiedname>Time.PropertyChanged</qualifiedname>
+        <briefdescription>
+<para>Zdarzenie niezbędne do poprawnego, automatycznego aktualizowania interfejsu użytkownika. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="21" column="42" bodyfile="Timewise.Code/Models/Time.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_time_1a1476ddb922b59b7a836abfe25aded1bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Time.Hour</definition>
+        <argsstring></argsstring>
+        <name>Hour</name>
+        <qualifiedname>Time.Hour</qualifiedname>
+        <briefdescription>
+<para>Godzina w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="26" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a1478a22cbd576d2068adc46fe4610391" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Time.Minute</definition>
+        <argsstring></argsstring>
+        <name>Minute</name>
+        <qualifiedname>Time.Minute</qualifiedname>
+        <briefdescription>
+<para>Minuta w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="37" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a24c5ccab64ce97fe1c1e137fab31d82d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Time.Second</definition>
+        <argsstring></argsstring>
+        <name>Second</name>
+        <qualifiedname>Time.Second</qualifiedname>
+        <briefdescription>
+<para>Sekunda w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="49" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a9697d9bcf23d5410924f8b5b680b47ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Time.Millisecond</definition>
+        <argsstring></argsstring>
+        <name>Millisecond</name>
+        <qualifiedname>Time.Millisecond</qualifiedname>
+        <briefdescription>
+<para>Milisekunda w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="61" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a3aea56c698eb288dede3f72b7913b7c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_date" kindref="compound">Date</ref></type>
+        <definition>Date Time.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>Time.Date</qualifiedname>
+        <briefdescription>
+<para>Data powiązana z obiektem czasu. Każdy obiekt czasu ma jakąś konkretną datę. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="74" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a9069b7d8b74e4808c8dc4099b48fb7f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TimeZoneInfo</type>
+        <definition>TimeZoneInfo Time.TimeZone</definition>
+        <argsstring></argsstring>
+        <name>TimeZone</name>
+        <qualifiedname>Time.TimeZone</qualifiedname>
+        <briefdescription>
+<para>Strefa czasowa powiązana z obiektem czasu. Reprezentuje, w jakiej strefie czasowej jest dana godzina i data. </para>
+<para>1/01/2023 12:00:00.000 UTC+1</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="81" column="21" bodyfile="Timewise.Code/Models/Time.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a7d3381c3e7274c0d7b59484ef42eb4e9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_time" kindref="compound">Time</ref></type>
+        <definition>Time Time.Now</definition>
+        <argsstring></argsstring>
+        <name>Now</name>
+        <qualifiedname>Time.Now</qualifiedname>
+        <briefdescription>
+<para>Właściwość zwracająca czas w tym momencie. Uwzględnia lokalną strefę czasową. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="87" column="20" bodyfile="Timewise.Code/Models/Time.cs" bodystart="88" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_1a77d2cc80b99c97b39aea473f370da072" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Time.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>Time.IsValid</qualifiedname>
+        <reimplements refid="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28">IsValid</reimplements>
+        <briefdescription>
+<para>Implementacja metody udostępnianej przez interfejs <ref refid="interface_i_validatable" kindref="compound">IValidatable</ref>. Zwraca true, jeżeli czas jest poprawny, w przeciwnym wypadku false. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="105" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="106" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_1a79632d088cfd5f1654da6efe15d2fbb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Time.Time</definition>
+        <argsstring>()</argsstring>
+        <name>Time</name>
+        <qualifiedname>Time.Time</qualifiedname>
+        <briefdescription>
+<para>Domyślny konstruktor, inicjalizujący czas na obecny moment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="123" column="8" bodyfile="Timewise.Code/Models/Time.cs" bodystart="123" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a6a7a29fccbbf46b421fe6f3f466ea3c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Time.Time</definition>
+        <argsstring>(int hour, int minute, int second, int millisecond, Date date)</argsstring>
+        <name>Time</name>
+        <qualifiedname>Time.Time</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>hour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minute</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>second</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>millisecond</declname>
+        </param>
+        <param>
+          <type><ref refid="class_date" kindref="compound">Date</ref></type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor inicjalizujący na wybrany moment (czas i datę). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wybrana godzina.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wybrana minuta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>second</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wybrana sekunda.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>millisecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wybrana milisekunda.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt reprezentujący datę.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="144" column="8" bodyfile="Timewise.Code/Models/Time.cs" bodystart="144" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1ae0cc6d44fc474dfecd25dda54bd25cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Time.Time</definition>
+        <argsstring>(DateTime date, TimeSpan time)</argsstring>
+        <name>Time</name>
+        <qualifiedname>Time.Time</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor inicjalizujący na wybrany moment za pomocą obiektów systemowych DateTime i TimeSpan. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data jako System.DateTime.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas jako System.TimeSpan.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="158" column="8" bodyfile="Timewise.Code/Models/Time.cs" bodystart="158" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a72667b9ca5314240d349efbe4f6e0438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_time" kindref="compound">Time</ref></type>
+        <definition>Time Time.Add</definition>
+        <argsstring>(System.TimeSpan timeSpan)</argsstring>
+        <name>Add</name>
+        <qualifiedname>Time.Add</qualifiedname>
+        <param>
+          <type>System.TimeSpan</type>
+          <declname>timeSpan</declname>
+        </param>
+        <briefdescription>
+<para>Obsolete? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeSpan</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="173" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="173" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a306b6d1d67210bbc9572f6bffda898dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Time.CheckCarryAddition</definition>
+        <argsstring>()</argsstring>
+        <name>CheckCarryAddition</name>
+        <qualifiedname>Time.CheckCarryAddition</qualifiedname>
+        <briefdescription>
+<para>Funkcja sprawdzająca przeniesienie przy dodawaniu czasów. </para>
+<para>Jeżeli po dodaniu dwóch czasów, ilość godzin wynosi 25, to należy zwiększyć ilość dni o 1.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="187" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="187" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a92fda5a05c7c586118d4342340957217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Time.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Time.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="378" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="378" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a084f8f99f23008bff21b72e0cf82abc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Time.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Time.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="383" column="22" bodyfile="Timewise.Code/Models/Time.cs" bodystart="383" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a07ce1c3add236ccad624ffd0e8f5d884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Time.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>Time.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="393" column="21" bodyfile="Timewise.Code/Models/Time.cs" bodystart="393" bodyend="396"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_time_1abcf14a9656a0c75a24007a20710f288d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
+        <definition>static Duration Time.operator-</definition>
+        <argsstring>(Time left, Time right)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>Time.operator-</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+<para>Przeciążony operator odejmowania, służący do odejmowania dwóch obiektów typu <ref refid="class_time" kindref="compound">Time</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Odjemna w operacji odejmowania.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Odjemnik w operacji odejmowania.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Wynik odejmowania jako odstęp czasowy (<ref refid="class_duration" kindref="compound">Duration</ref>).</para>
+</simplesect>
+</para>
+<para>Jeżeli odjemna jest w czasie przed odjemnikiem, zwrócony zostanie wyjątek.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="233" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="233" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a0bd6e036d1f407f7f235e40d426a0beb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Time.operator&lt;</definition>
+        <argsstring>(Time left, Time right)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>Time.operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+<para>Przeciążony operator mniejszości, sprawdzający, który z dwóch czasów był wcześniej. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pierwszy ze sprawdzanych czasów.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Drugi ze sprawdzanych czasów.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, jeżeli pierwszy z czasów był przed drugim. False w preciwnym wypadku.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="261" column="15" bodyfile="Timewise.Code/Models/Time.cs" bodystart="261" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1add175eee2aa426884dd4aa0b356a4067" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Time.operator&gt;</definition>
+        <argsstring>(Time left, Time right)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>Time.operator&gt;</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+<para>Przeciążony operator większości, sprawdzający, który z dwóch czasów był później. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pierwszy ze sprawdzanych czasów.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Drugi ze sprawdzanych czasów.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, jeżeli pierwszy z czasów jest po drugim. False w preciwnym wypadku.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="307" column="20" bodyfile="Timewise.Code/Models/Time.cs" bodystart="307" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1afd9e5b19f1d893fa0987a79216a3098d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Time.operator DateTime</definition>
+        <argsstring>(Time time)</argsstring>
+        <name>operator DateTime</name>
+        <qualifiedname>Time.operator DateTime</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Operator konwersji niejawnej z typu <ref refid="class_time" kindref="compound">Time</ref> na typ System.DateTime. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas jako typ <ref refid="class_time" kindref="compound">Time</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Czas reprezentowany jako systemowy DateTime.</para>
+</simplesect>
+</para>
+<para>Konwersja w tę stronę jest niejawna, więc w odpowiednim kontekście zostanie dokonana automatycznie.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="353" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="353" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_1a47e84c0ec7957c30a38ad6f1bf0b0c51" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Time.operator Time</definition>
+        <argsstring>(DateTime dateTime)</argsstring>
+        <name>operator Time</name>
+        <qualifiedname>Time.operator Time</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <briefdescription>
+<para>Operator konwersji jawnej z typu System.DateTime na typ <ref refid="class_time" kindref="compound">Time</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas jako typ System.DateTime.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Czas reprezentowany jako <ref refid="class_time" kindref="compound">Time</ref>.</para>
+</simplesect>
+</para>
+<para>Konwersja w tę stronę jest jawna, więc wymagane jest jej sprecyzowanie.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="364" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="364" bodyend="367"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_time_1a5e96c910166bb63689b8cc42b41a2628" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Time.OnPropertyChanged</definition>
+        <argsstring>([CallerMemberName] string propertyName=&quot;&quot;)</argsstring>
+        <name>OnPropertyChanged</name>
+        <qualifiedname>Time.OnPropertyChanged</qualifiedname>
+        <param>
+          <attributes>[CallerMemberName]</attributes>
+          <type>string</type>
+          <declname>propertyName</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Implementacja obsługi zdarzenia OnPropertyChanged, wymagana do poprawnej aktualizacji danych na interfejsie użytkownika. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa właściwości, która wywołała zdarzenie - domyślnie ustawia sie automatycznie.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Time.cs" line="373" column="14" bodyfile="Timewise.Code/Models/Time.cs" bodystart="373" bodyend="376"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa reprezentująca punkt w czasie. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+      <node id="1">
+        <label>Time</label>
+        <link refid="class_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+      <node id="1">
+        <label>Time</label>
+        <link refid="class_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Models/Time.cs" line="11" column="7" bodyfile="Timewise.Code/Models/Time.cs" bodystart="12" bodyend="397"/>
+    <listofallmembers>
+      <member refid="class_time_1a089c12baa9e95079d5ed74bc4fe6568e" prot="private" virt="non-virtual"><scope>Time</scope><name>_hour</name></member>
+      <member refid="class_time_1abbf17ea211c73e86468484fbe952c4d6" prot="private" virt="non-virtual"><scope>Time</scope><name>_millisecond</name></member>
+      <member refid="class_time_1aa0977494f2f28017d49ac8dbdcd82ce1" prot="private" virt="non-virtual"><scope>Time</scope><name>_minute</name></member>
+      <member refid="class_time_1a3fcf1838a4f0eacdf82649ed8fb504b4" prot="private" virt="non-virtual"><scope>Time</scope><name>_second</name></member>
+      <member refid="class_time_1a72667b9ca5314240d349efbe4f6e0438" prot="public" virt="non-virtual"><scope>Time</scope><name>Add</name></member>
+      <member refid="class_time_1a306b6d1d67210bbc9572f6bffda898dc" prot="public" virt="non-virtual"><scope>Time</scope><name>CheckCarryAddition</name></member>
+      <member refid="class_time_1a3aea56c698eb288dede3f72b7913b7c7" prot="public" virt="non-virtual"><scope>Time</scope><name>Date</name></member>
+      <member refid="class_time_1a084f8f99f23008bff21b72e0cf82abc5" prot="public" virt="non-virtual"><scope>Time</scope><name>Equals</name></member>
+      <member refid="class_time_1a07ce1c3add236ccad624ffd0e8f5d884" prot="public" virt="non-virtual"><scope>Time</scope><name>GetHashCode</name></member>
+      <member refid="class_time_1a1476ddb922b59b7a836abfe25aded1bf" prot="public" virt="non-virtual"><scope>Time</scope><name>Hour</name></member>
+      <member refid="class_time_1a77d2cc80b99c97b39aea473f370da072" prot="public" virt="non-virtual"><scope>Time</scope><name>IsValid</name></member>
+      <member refid="class_time_1a9697d9bcf23d5410924f8b5b680b47ff" prot="public" virt="non-virtual"><scope>Time</scope><name>Millisecond</name></member>
+      <member refid="class_time_1a1478a22cbd576d2068adc46fe4610391" prot="public" virt="non-virtual"><scope>Time</scope><name>Minute</name></member>
+      <member refid="class_time_1a7d3381c3e7274c0d7b59484ef42eb4e9" prot="public" virt="non-virtual"><scope>Time</scope><name>Now</name></member>
+      <member refid="class_time_1a5e96c910166bb63689b8cc42b41a2628" prot="private" virt="non-virtual"><scope>Time</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_time_1afd9e5b19f1d893fa0987a79216a3098d" prot="public" virt="non-virtual"><scope>Time</scope><name>operator DateTime</name></member>
+      <member refid="class_time_1a47e84c0ec7957c30a38ad6f1bf0b0c51" prot="public" virt="non-virtual"><scope>Time</scope><name>operator Time</name></member>
+      <member refid="class_time_1abcf14a9656a0c75a24007a20710f288d" prot="public" virt="non-virtual"><scope>Time</scope><name>operator-</name></member>
+      <member refid="class_time_1a0bd6e036d1f407f7f235e40d426a0beb" prot="public" virt="non-virtual"><scope>Time</scope><name>operator&lt;</name></member>
+      <member refid="class_time_1add175eee2aa426884dd4aa0b356a4067" prot="public" virt="non-virtual"><scope>Time</scope><name>operator&gt;</name></member>
+      <member refid="class_time_1a9a04eab4475a93a81217c09893237f30" prot="public" virt="non-virtual"><scope>Time</scope><name>PropertyChanged</name></member>
+      <member refid="class_time_1a24c5ccab64ce97fe1c1e137fab31d82d" prot="public" virt="non-virtual"><scope>Time</scope><name>Second</name></member>
+      <member refid="class_time_1a79632d088cfd5f1654da6efe15d2fbb7" prot="public" virt="non-virtual"><scope>Time</scope><name>Time</name></member>
+      <member refid="class_time_1a6a7a29fccbbf46b421fe6f3f466ea3c1" prot="public" virt="non-virtual"><scope>Time</scope><name>Time</name></member>
+      <member refid="class_time_1ae0cc6d44fc474dfecd25dda54bd25cfd" prot="public" virt="non-virtual"><scope>Time</scope><name>Time</name></member>
+      <member refid="class_time_1a9069b7d8b74e4808c8dc4099b48fb7f0" prot="public" virt="non-virtual"><scope>Time</scope><name>TimeZone</name></member>
+      <member refid="class_time_1a92fda5a05c7c586118d4342340957217" prot="public" virt="non-virtual"><scope>Time</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

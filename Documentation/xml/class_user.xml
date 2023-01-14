@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_user" kind="class" language="C#" prot="public">
+    <compoundname>User</compoundname>
+    <basecompoundref refid="interface_i_entity" prot="public" virt="non-virtual">IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_user_1a966341689141ee29ce4bf6da2d380a57" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_user" kindref="compound">User</ref></type>
+        <definition>User User.CurrentUser</definition>
+        <argsstring></argsstring>
+        <name>CurrentUser</name>
+        <qualifiedname>User.CurrentUser</qualifiedname>
+        <briefdescription>
+<para>Aktualnie zalogowany w aplikacji użytkownik, do którego przypisywane są nowoutworzone powiadomienia i zegary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/User.cs" line="15" column="20" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_1a12fe165dbd627b74b91752d3ffdd6750" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int User.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>User.Id</qualifiedname>
+        <reimplements refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f">Id</reimplements>
+        <briefdescription>
+<para>Identyfikator użytkownika, generowany z poziomu bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/User.cs" line="20" column="12" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_1a135b1e675142b0dbe820ed10bd0bfc25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string User.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>User.Username</qualifiedname>
+        <briefdescription>
+<para>Nazwa użytkownika. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/User.cs" line="27" column="15" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_1ac8c2f1cd6fbc79af39bd0fa68d085bbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string User.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>User.Password</qualifiedname>
+        <briefdescription>
+<para>Hasło użytkownika w zaszyfrowanej formie. Hasło nigdy nie jest przechowywane w formie tekstowej. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/User.cs" line="34" column="15" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_user_1a174842d25957b4d81ffb187f6447679f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>User.User</definition>
+        <argsstring>()</argsstring>
+        <name>User</name>
+        <qualifiedname>User.User</qualifiedname>
+        <briefdescription>
+<para>Domyślny, prywatny konstruktor, uniemożliwiający tworzenie pustych obiektów poza klasą. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/User.cs" line="39" column="9" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_user_1a219c47f66324625bf366fdf2451dcc6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>User.User</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>User</name>
+        <qualifiedname>User.User</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor tworzący nowego użytkownika z daną nazwą użytkownika oraz hasłem. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa użytkownika.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zaszyfrowane hasło.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Entities/User.cs" line="46" column="8" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Encja reprezentująca użytkownika w bazie danych. Użytkownik posiada unikalny identyfikator, nazwę użytkownika oraz hasło, jak również jest powiązany z pozostałymi encjami. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="1">
+        <label>User</label>
+        <link refid="class_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEntity</label>
+        <link refid="interface_i_entity"/>
+      </node>
+      <node id="1">
+        <label>User</label>
+        <link refid="class_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Database/Entities/User.cs" line="10" column="7" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="11" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_user_1a966341689141ee29ce4bf6da2d380a57" prot="public" virt="non-virtual"><scope>User</scope><name>CurrentUser</name></member>
+      <member refid="class_user_1a12fe165dbd627b74b91752d3ffdd6750" prot="public" virt="non-virtual"><scope>User</scope><name>Id</name></member>
+      <member refid="class_user_1ac8c2f1cd6fbc79af39bd0fa68d085bbb" prot="public" virt="non-virtual"><scope>User</scope><name>Password</name></member>
+      <member refid="class_user_1a174842d25957b4d81ffb187f6447679f" prot="private" virt="non-virtual"><scope>User</scope><name>User</name></member>
+      <member refid="class_user_1a219c47f66324625bf366fdf2451dcc6e" prot="public" virt="non-virtual"><scope>User</scope><name>User</name></member>
+      <member refid="class_user_1a135b1e675142b0dbe820ed10bd0bfc25" prot="public" virt="non-virtual"><scope>User</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

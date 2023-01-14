@@ -1,0 +1,277 @@
+\doxysection{Dokumentacja klasy Time}
+\label{class_time}\index{Time@{Time}}
+
+
+Klasa reprezentująca punkt w czasie.  
+
+
+Diagram dziedziczenia dla Time\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_time}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_time_a79632d088cfd5f1654da6efe15d2fbb7}} 
+{\bfseries Time} ()
+\begin{DoxyCompactList}\small\item\em Domyślny konstruktor, inicjalizujący czas na obecny moment. \end{DoxyCompactList}\item 
+\textbf{ Time} (int hour, int minute, int second, int millisecond, \textbf{ Date} date)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący na wybrany moment (czas i datę). \end{DoxyCompactList}\item 
+\textbf{ Time} (Date\+Time date, Time\+Span time)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący na wybrany moment za pomocą obiektów systemowych Date\+Time i Time\+Span. \end{DoxyCompactList}\item 
+\textbf{ Time} \textbf{ Add} (System.\+Time\+Span time\+Span)
+\begin{DoxyCompactList}\small\item\em Obsolete? \end{DoxyCompactList}\item 
+\mbox{\label{class_time_a306b6d1d67210bbc9572f6bffda898dc}} 
+void {\bfseries Check\+Carry\+Addition} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca przeniesienie przy dodawaniu czasów. 
+
+Jeżeli po dodaniu dwóch czasów, ilość godzin wynosi 25, to należy zwiększyć ilość dni o 1.\end{DoxyCompactList}\item 
+\mbox{\label{class_time_a92fda5a05c7c586118d4342340957217}} 
+override string {\bfseries To\+String} ()
+\item 
+\mbox{\label{class_time_a084f8f99f23008bff21b72e0cf82abc5}} 
+override bool {\bfseries Equals} (object obj)
+\item 
+\mbox{\label{class_time_a07ce1c3add236ccad624ffd0e8f5d884}} 
+override int {\bfseries Get\+Hash\+Code} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Duration} \textbf{ operator-\/} (\textbf{ Time} left, \textbf{ Time} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator odejmowania, służący do odejmowania dwóch obiektów typu \doxyref{Time}{str.}{class_time}. \end{DoxyCompactList}\item 
+static bool \textbf{ operator$<$} (\textbf{ Time} left, \textbf{ Time} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator mniejszości, sprawdzający, który z dwóch czasów był wcześniej. \end{DoxyCompactList}\item 
+static bool \textbf{ operator$>$} (\textbf{ Time} left, \textbf{ Time} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator większości, sprawdzający, który z dwóch czasów był później. \end{DoxyCompactList}\item 
+static implicit \textbf{ operator Date\+Time} (\textbf{ Time} time)
+\begin{DoxyCompactList}\small\item\em Operator konwersji niejawnej z typu \doxyref{Time}{str.}{class_time} na typ System.\+Date\+Time. \end{DoxyCompactList}\item 
+static \textbf{ operator Time} (Date\+Time date\+Time)
+\begin{DoxyCompactList}\small\item\em Operator konwersji jawnej z typu System.\+Date\+Time na typ \doxyref{Time}{str.}{class_time}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_time_a1476ddb922b59b7a836abfe25aded1bf}} 
+int {\bfseries Hour}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Godzina w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_a1478a22cbd576d2068adc46fe4610391}} 
+int {\bfseries Minute}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Minuta w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_a24c5ccab64ce97fe1c1e137fab31d82d}} 
+int {\bfseries Second}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Sekunda w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_a9697d9bcf23d5410924f8b5b680b47ff}} 
+int {\bfseries Millisecond}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Milisekunda w czasie. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_a3aea56c698eb288dede3f72b7913b7c7}} 
+\textbf{ Date} {\bfseries Date}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Data powiązana z obiektem czasu. Każdy obiekt czasu ma jakąś konkretną datę. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_a9069b7d8b74e4808c8dc4099b48fb7f0}} 
+Time\+Zone\+Info {\bfseries Time\+Zone}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Strefa czasowa powiązana z obiektem czasu. Reprezentuje, w jakiej strefie czasowej jest dana godzina i data. 
+
+1/01/2023 12\+:00\+:00.\+000 UTC+1\end{DoxyCompactList}\item 
+\mbox{\label{class_time_a7d3381c3e7274c0d7b59484ef42eb4e9}} 
+static \textbf{ Time} {\bfseries Now}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Właściwość zwracająca czas w tym momencie. Uwzględnia lokalną strefę czasową. \end{DoxyCompactList}\item 
+bool \textbf{ Is\+Valid}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Implementacja metody udostępnianej przez interfejs \doxyref{IValidatable}{str.}{interface_i_validatable}. Zwraca true, jeżeli czas jest poprawny, w przeciwnym wypadku false. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Zdarzenia}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_time_a9a04eab4475a93a81217c09893237f30}} 
+Property\+Changed\+Event\+Handler {\bfseries Property\+Changed}
+\begin{DoxyCompactList}\small\item\em Zdarzenie niezbędne do poprawnego, automatycznego aktualizowania interfejsu użytkownika. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca punkt w czasie. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_time_a6a7a29fccbbf46b421fe6f3f466ea3c1}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{Time()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Time.\+Time (\begin{DoxyParamCaption}\item[{int}]{hour,  }\item[{int}]{minute,  }\item[{int}]{second,  }\item[{int}]{millisecond,  }\item[{\textbf{ Date}}]{date }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący na wybrany moment (czas i datę). 
+
+
+\begin{DoxyParams}{Parametry}
+{\em hour} & Wybrana godzina.\\
+\hline
+{\em minute} & Wybrana minuta.\\
+\hline
+{\em second} & Wybrana sekunda.\\
+\hline
+{\em millisecond} & Wybrana milisekunda.\\
+\hline
+{\em date} & Obiekt reprezentujący datę.\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_time_ae0cc6d44fc474dfecd25dda54bd25cfd}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{Time()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Time.\+Time (\begin{DoxyParamCaption}\item[{Date\+Time}]{date,  }\item[{Time\+Span}]{time }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący na wybrany moment za pomocą obiektów systemowych Date\+Time i Time\+Span. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em date} & Data jako System.\+Date\+Time.\\
+\hline
+{\em time} & Czas jako System.\+Time\+Span.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_time_a72667b9ca5314240d349efbe4f6e0438}} 
+\index{Time@{Time}!Add@{Add}}
+\index{Add@{Add}!Time@{Time}}
+\doxysubsubsection{Add()}
+{\footnotesize\ttfamily \textbf{ Time} Time.\+Add (\begin{DoxyParamCaption}\item[{System.\+Time\+Span}]{time\+Span }\end{DoxyParamCaption})}
+
+
+
+Obsolete? 
+
+
+\begin{DoxyParams}{Parametry}
+{\em time\+Span} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+
+\end{DoxyReturn}
+\mbox{\label{class_time_afd9e5b19f1d893fa0987a79216a3098d}} 
+\index{Time@{Time}!operator DateTime@{operator DateTime}}
+\index{operator DateTime@{operator DateTime}!Time@{Time}}
+\doxysubsubsection{operator DateTime()}
+{\footnotesize\ttfamily static implicit Time.\+operator Date\+Time (\begin{DoxyParamCaption}\item[{\textbf{ Time}}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Operator konwersji niejawnej z typu \doxyref{Time}{str.}{class_time} na typ System.\+Date\+Time. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em time} & Czas jako typ \doxyref{Time}{str.}{class_time}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Czas reprezentowany jako systemowy Date\+Time.
+\end{DoxyReturn}
+
+
+Konwersja w tę stronę jest niejawna, więc w odpowiednim kontekście zostanie dokonana automatycznie.\mbox{\label{class_time_a47e84c0ec7957c30a38ad6f1bf0b0c51}} 
+\index{Time@{Time}!operator Time@{operator Time}}
+\index{operator Time@{operator Time}!Time@{Time}}
+\doxysubsubsection{operator Time()}
+{\footnotesize\ttfamily static Time.\+operator \textbf{ Time} (\begin{DoxyParamCaption}\item[{Date\+Time}]{date\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}, {\ttfamily [static]}}
+
+
+
+Operator konwersji jawnej z typu System.\+Date\+Time na typ \doxyref{Time}{str.}{class_time}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em date\+Time} & Czas jako typ System.\+Date\+Time.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Czas reprezentowany jako \doxyref{Time}{str.}{class_time}.
+\end{DoxyReturn}
+
+
+Konwersja w tę stronę jest jawna, więc wymagane jest jej sprecyzowanie.\mbox{\label{class_time_abcf14a9656a0c75a24007a20710f288d}} 
+\index{Time@{Time}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Time@{Time}}
+\doxysubsubsection{operator-\/()}
+{\footnotesize\ttfamily static \textbf{ Duration} Time.\+operator-\/ (\begin{DoxyParamCaption}\item[{\textbf{ Time}}]{left,  }\item[{\textbf{ Time}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator odejmowania, służący do odejmowania dwóch obiektów typu \doxyref{Time}{str.}{class_time}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Odjemna w operacji odejmowania.\\
+\hline
+{\em right} & Odjemnik w operacji odejmowania.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wynik odejmowania jako odstęp czasowy (\doxyref{Duration}{str.}{class_duration}).
+\end{DoxyReturn}
+
+
+Jeżeli odjemna jest w czasie przed odjemnikiem, zwrócony zostanie wyjątek.\mbox{\label{class_time_a0bd6e036d1f407f7f235e40d426a0beb}} 
+\index{Time@{Time}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Time@{Time}}
+\doxysubsubsection{operator$<$()}
+{\footnotesize\ttfamily static bool Time.\+operator$<$ (\begin{DoxyParamCaption}\item[{\textbf{ Time}}]{left,  }\item[{\textbf{ Time}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator mniejszości, sprawdzający, który z dwóch czasów był wcześniej. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Pierwszy ze sprawdzanych czasów.\\
+\hline
+{\em right} & Drugi ze sprawdzanych czasów.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+True, jeżeli pierwszy z czasów był przed drugim. False w preciwnym wypadku.
+\end{DoxyReturn}
+\mbox{\label{class_time_add175eee2aa426884dd4aa0b356a4067}} 
+\index{Time@{Time}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Time@{Time}}
+\doxysubsubsection{operator$>$()}
+{\footnotesize\ttfamily static bool Time.\+operator$>$ (\begin{DoxyParamCaption}\item[{\textbf{ Time}}]{left,  }\item[{\textbf{ Time}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator większości, sprawdzający, który z dwóch czasów był później. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Pierwszy ze sprawdzanych czasów.\\
+\hline
+{\em right} & Drugi ze sprawdzanych czasów.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+True, jeżeli pierwszy z czasów jest po drugim. False w preciwnym wypadku.
+\end{DoxyReturn}
+
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_time_a77d2cc80b99c97b39aea473f370da072}} 
+\index{Time@{Time}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!Time@{Time}}
+\doxysubsubsection{IsValid}
+{\footnotesize\ttfamily bool Time.\+Is\+Valid\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Implementacja metody udostępnianej przez interfejs \doxyref{IValidatable}{str.}{interface_i_validatable}. Zwraca true, jeżeli czas jest poprawny, w przeciwnym wypadku false. 
+
+
+
+Implementuje \textbf{ IValidatable} \doxyref{}{str.}{interface_i_validatable_adb3c4f2941ae187dacfa78b8681eea28}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Models/Time.\+cs\end{DoxyCompactItemize}

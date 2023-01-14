@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_database_exception" kind="class" language="C#" prot="public">
+    <compoundname>DatabaseException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_database_exception_1a5e6d37ff53951608687ef6bdb949029f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DatabaseException.DatabaseException</definition>
+        <argsstring>()</argsstring>
+        <name>DatabaseException</name>
+        <qualifiedname>DatabaseException.DatabaseException</qualifiedname>
+        <briefdescription>
+<para>Domyślny konstruktor, wywołujący konstruktor klasy bazowej Exception. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Exceptions/DatabaseException.cs" line="11" column="8" bodyfile="Timewise.Code/Exceptions/DatabaseException.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_exception_1ac504d61fb9a3b19ffee7104fb86df414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DatabaseException.DatabaseException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>DatabaseException</name>
+        <qualifiedname>DatabaseException.DatabaseException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor z wiadomością, wywołujący konstruktor klasy bazowej Exception. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wiadomość o wyjątku, np. treść błędu.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Exceptions/DatabaseException.cs" line="17" column="8" bodyfile="Timewise.Code/Exceptions/DatabaseException.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa wyjątku rzucanego w przypadku problemów z dostępem do bazy danych. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DatabaseException</label>
+        <link refid="class_database_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DatabaseException</label>
+        <link refid="class_database_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Exceptions/DatabaseException.cs" line="6" column="7" bodyfile="Timewise.Code/Exceptions/DatabaseException.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_database_exception_1a5e6d37ff53951608687ef6bdb949029f" prot="public" virt="non-virtual"><scope>DatabaseException</scope><name>DatabaseException</name></member>
+      <member refid="class_database_exception_1ac504d61fb9a3b19ffee7104fb86df414" prot="public" virt="non-virtual"><scope>DatabaseException</scope><name>DatabaseException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

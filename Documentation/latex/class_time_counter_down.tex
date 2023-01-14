@@ -1,0 +1,92 @@
+\doxysection{Dokumentacja klasy Time\+Counter\+Down}
+\label{class_time_counter_down}\index{TimeCounterDown@{TimeCounterDown}}
+
+
+Klasa reprezentująca zegar odmierzający czas w dół. Używana na dwa sposoby\+:  
+
+
+Diagram dziedziczenia dla Time\+Counter\+Down\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_time_counter_down}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Time\+Counter\+Down} (\textbf{ Duration} duration, \textbf{ Time} end\+Time)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący obiekt z przekazanym czasem końcowym zdarzenia oraz już częściowo odmierzonym czasem. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_down_ab41989acfde94e3b1cd7f439fa067d11}} 
+void {\bfseries Start} ()
+\begin{DoxyCompactList}\small\item\em Metoda rozpoczynająca działanie zegara. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_down_a9f120726295cdd4c97ce57a09ba999f0}} 
+void {\bfseries Stop} ()
+\begin{DoxyCompactList}\small\item\em Metoda pauzująca działanie zegara. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_down_acc3f1f7834d46e42305d2813ae90a626}} 
+override string {\bfseries To\+String} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_time_counter_down_a3fbadd0e6a68877f606a2791beead3a7}} 
+\textbf{ Duration} {\bfseries Time\+Left}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Czas pozostały do sprecyzowanego momentu końcowego. Wartość ta jest modyfikowana poprzez Timer. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_down_a48b7e25cb90ee60c733c61b0c0ecab06}} 
+\textbf{ Time} {\bfseries End\+Time}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Niezmienny czas, punkt w przyszłości, sygnalizujący koniec odmierzania czasu. Reprezentuje moment zdarzenia ustawionego przez użytkownika. \end{DoxyCompactList}\item 
+\mbox{\label{class_time_counter_down_a7a182ab4e82e49eda829349a1007af6f}} 
+bool {\bfseries Is\+Running}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Czy timer jest włączony. \end{DoxyCompactList}\item 
+bool \textbf{ Is\+Valid}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Czy obiekt jest poprawny -\/ czy reprezentuje możliwy do zapisania czas. Implementacja z interfejsu \doxyref{IValidatable}{str.}{interface_i_validatable}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca zegar odmierzający czas w dół. Używana na dwa sposoby\+: 
+
+
+\begin{DoxyItemize}
+\item Jako czas do pewnego zdarzenia w przyszłości
+\item Jako timer, ustawiany na pewien czas (np. 20 minut) i odmierzający go w dół 
+\end{DoxyItemize}
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_time_counter_down_af0563060c6844465a0b9796f3a3897af}} 
+\index{TimeCounterDown@{TimeCounterDown}!TimeCounterDown@{TimeCounterDown}}
+\index{TimeCounterDown@{TimeCounterDown}!TimeCounterDown@{TimeCounterDown}}
+\doxysubsubsection{TimeCounterDown()}
+{\footnotesize\ttfamily Time\+Counter\+Down.\+Time\+Counter\+Down (\begin{DoxyParamCaption}\item[{\textbf{ Duration}}]{duration,  }\item[{\textbf{ Time}}]{end\+Time }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący obiekt z przekazanym czasem końcowym zdarzenia oraz już częściowo odmierzonym czasem. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em duration} & Częściowo odmierzony czas do zdarzenia.\\
+\hline
+{\em end\+Time} & Czas końcowy, do którego odliczamy.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_time_counter_down_a699c7dcd735ec1fd024ee1ccb811fba4}} 
+\index{TimeCounterDown@{TimeCounterDown}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!TimeCounterDown@{TimeCounterDown}}
+\doxysubsubsection{IsValid}
+{\footnotesize\ttfamily bool Time\+Counter\+Down.\+Is\+Valid\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Czy obiekt jest poprawny -\/ czy reprezentuje możliwy do zapisania czas. Implementacja z interfejsu \doxyref{IValidatable}{str.}{interface_i_validatable}. 
+
+
+
+Implementuje \textbf{ IValidatable} \doxyref{}{str.}{interface_i_validatable_adb3c4f2941ae187dacfa78b8681eea28}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Models/Time\+Counter\+Down.\+cs\end{DoxyCompactItemize}

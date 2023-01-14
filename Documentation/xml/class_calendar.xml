@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_calendar" kind="class" language="C#" prot="public">
+    <compoundname>Calendar</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_calendar_1ae9ea55f7a01b00bf246d97b0b3b6678f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_calendar" kindref="compound">Calendar</ref>&lt; CalendarDay &gt;</type>
+        <definition>Calendar&lt;CalendarDay&gt; Calendar.MyCalendar</definition>
+        <argsstring></argsstring>
+        <name>MyCalendar</name>
+        <qualifiedname>Calendar.MyCalendar</qualifiedname>
+        <initializer>= new <ref refid="class_calendar" kindref="compound">Calendar</ref>&lt;CalendarDay&gt;()
+	{
+		
+		SelectionAction = SelectionAction.Replace, 
+		SelectionType = SelectionType.Single
+	}</initializer>
+        <briefdescription>
+<para>Instancja kalendarza zawierająca podstawową konfigurację. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="19" column="17" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_calendar_1a7da34c41f60318666433260ed7530d78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand Calendar.NavigateCalendarCommand</definition>
+        <argsstring></argsstring>
+        <name>NavigateCalendarCommand</name>
+        <qualifiedname>Calendar.NavigateCalendarCommand</qualifiedname>
+        <briefdescription>
+<para>Komenda wywoływana po kliknięciu w przycisk przełączenia miesiąca na kalendarzu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="29" column="17" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_calendar_1add30e3975ff548bead7d6ced4e97e669" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand Calendar.ChangeDateSelectionCommand</definition>
+        <argsstring></argsstring>
+        <name>ChangeDateSelectionCommand</name>
+        <qualifiedname>Calendar.ChangeDateSelectionCommand</qualifiedname>
+        <briefdescription>
+<para>Komenda wywoływana po kliknięciu w przycisk dnia (wybieranie dnia). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="34" column="17" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_calendar_1a3310f9c4f5f5136c26664ab2bcc27516" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_reminder" kindref="compound">Reminder</ref> &gt;</type>
+        <definition>List&lt;Reminder&gt; Calendar.Reminders</definition>
+        <argsstring></argsstring>
+        <name>Reminders</name>
+        <qualifiedname>Calendar.Reminders</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_reminder" kindref="compound">Reminder</ref>&gt;()</initializer>
+        <briefdescription>
+<para>Lista przypomnień. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="39" column="20" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_calendar_1aba90120de07bd72556a12f9c545d9547" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Calendar.SelectedDate</definition>
+        <argsstring></argsstring>
+        <name>SelectedDate</name>
+        <qualifiedname>Calendar.SelectedDate</qualifiedname>
+        <briefdescription>
+<para>Wybrana przez użytkownika data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="44" column="24" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_calendar_1ac79ddab9464a69eaa10671c219c9d180" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Label</type>
+        <definition>Label Calendar.SelectedDateLabel</definition>
+        <argsstring></argsstring>
+        <name>SelectedDateLabel</name>
+        <qualifiedname>Calendar.SelectedDateLabel</qualifiedname>
+        <briefdescription>
+<para>Etykieta na interfejsie wyświetlająca wybraną datę. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="49" column="14" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_calendar_1a95859a08cc7308f436b88a7cddde4eeb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VerticalStackLayout</type>
+        <definition>VerticalStackLayout Calendar.RemindersStackLayout</definition>
+        <argsstring></argsstring>
+        <name>RemindersStackLayout</name>
+        <qualifiedname>Calendar.RemindersStackLayout</qualifiedname>
+        <briefdescription>
+<para>Kontener interfejsu przechowujący listę powiadomień dla danego dnia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="54" column="28" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_calendar_1abcfed5a7c36a5b2209cd390fc26b5616" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Calendar.Calendar</definition>
+        <argsstring>(Label selectedDateLabel, VerticalStackLayout remindersStackLayout)</argsstring>
+        <name>Calendar</name>
+        <qualifiedname>Calendar.Calendar</qualifiedname>
+        <param>
+          <type>Label</type>
+          <declname>selectedDateLabel</declname>
+        </param>
+        <param>
+          <type>VerticalStackLayout</type>
+          <declname>remindersStackLayout</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor inicjalizujący kalendarz. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedDateLabel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Etykieta na interfejsie wyświetlająca wybraną datę.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>remindersStackLayout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kontener interfejsu przechowujący listę powiadomień dla danego dnia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="61" column="8" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="61" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1a2c0dc1064a6970d784a3f70f5753f1eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Calendar.NavigateCalendar</definition>
+        <argsstring>(int amount)</argsstring>
+        <name>NavigateCalendar</name>
+        <qualifiedname>Calendar.NavigateCalendar</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+<para>Metoda przełączająca miesiąc na kalendarzu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ilość miesięcy</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="74" column="13" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1ae0238593e28ae3068b59b539b7dd6d9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Calendar.AddReminder</definition>
+        <argsstring>(Reminder reminder)</argsstring>
+        <name>AddReminder</name>
+        <qualifiedname>Calendar.AddReminder</qualifiedname>
+        <param>
+          <type><ref refid="class_reminder" kindref="compound">Reminder</ref></type>
+          <declname>reminder</declname>
+        </param>
+        <briefdescription>
+<para>Metoda dodajaca przypomnienie. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reminder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodawane przypomnienie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="83" column="13" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1acdf245f24064c2d2540732a8e5f1ae37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Calendar.RemoveReminder</definition>
+        <argsstring>(Reminder reminder)</argsstring>
+        <name>RemoveReminder</name>
+        <qualifiedname>Calendar.RemoveReminder</qualifiedname>
+        <param>
+          <type><ref refid="class_reminder" kindref="compound">Reminder</ref></type>
+          <declname>reminder</declname>
+        </param>
+        <briefdescription>
+<para>Metoda usuwająca przypomnienie. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reminder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Usuwane przypomnienie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="106" column="13" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1aadce880a9fd9034eb23c280dd8411b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Calendar.ChangeDateSelection</definition>
+        <argsstring>(DateTime dateTime)</argsstring>
+        <name>ChangeDateSelection</name>
+        <qualifiedname>Calendar.ChangeDateSelection</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <briefdescription>
+<para>Metoda ustawiająca wybraną datę. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wybrana data.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="212" column="13" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="212" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1ad95e6656ec171e1bc12ea3a04655d601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void Calendar.CreateNotificationAndroid</definition>
+        <argsstring>(DateTime dateTime)</argsstring>
+        <name>CreateNotificationAndroid</name>
+        <qualifiedname>Calendar.CreateNotificationAndroid</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <briefdescription>
+<para>Metoda asynchroniczna tworząca lokalne powiadomienie na systemie Android. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czas powiadomienia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="230" column="19" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="230" bodyend="244"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_calendar_1aebc1b36e3628013da814b4503ccaa183" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Calendar.GenerateReminderUI</definition>
+        <argsstring>(Reminder reminder)</argsstring>
+        <name>GenerateReminderUI</name>
+        <qualifiedname>Calendar.GenerateReminderUI</qualifiedname>
+        <param>
+          <type><ref refid="class_reminder" kindref="compound">Reminder</ref></type>
+          <declname>reminder</declname>
+        </param>
+        <briefdescription>
+<para>Metoda generująca interfejs przypomnienia. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reminder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodawane przypomnienie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="95" column="14" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1a896b0500983394f6881f87ff0d393c33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Calendar.GenerateAllRemindersUI</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateAllRemindersUI</name>
+        <qualifiedname>Calendar.GenerateAllRemindersUI</qualifiedname>
+        <briefdescription>
+<para>Metoda generująca interfejs wszystkich przypomnień. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="116" column="14" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="116" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1ae28ffe7767d6dbd6f7cc36c0e4e21bb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Border</type>
+        <definition>Border Calendar.GenerateReminderBorder</definition>
+        <argsstring>(Reminder reminder)</argsstring>
+        <name>GenerateReminderBorder</name>
+        <qualifiedname>Calendar.GenerateReminderBorder</qualifiedname>
+        <param>
+          <type><ref refid="class_reminder" kindref="compound">Reminder</ref></type>
+          <declname>reminder</declname>
+        </param>
+        <briefdescription>
+<para>Metoda generująca interfejs przypomnienia. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reminder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przypomnienie do wygenerowania na interfejsie.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Interfejs przypomnienia.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="133" column="16" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="133" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_1a6c1771e8a2541ea310e7a1ebbbe3acbb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void Calendar.ButtonOnClicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ButtonOnClicked</name>
+        <qualifiedname>Calendar.ButtonOnClicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda usuwająca przypomnienie. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sender zdarzenia (przycisk przy konkretntym przypomnieniu).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Argumenty zdarzenia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Calendar.cs" line="190" column="20" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="190" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa reprezentująca kalendarz. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Models/Calendar.cs" line="14" column="7" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="15" bodyend="245"/>
+    <listofallmembers>
+      <member refid="class_calendar_1ae0238593e28ae3068b59b539b7dd6d9d" prot="public" virt="non-virtual"><scope>Calendar</scope><name>AddReminder</name></member>
+      <member refid="class_calendar_1a6c1771e8a2541ea310e7a1ebbbe3acbb" prot="private" virt="non-virtual"><scope>Calendar</scope><name>ButtonOnClicked</name></member>
+      <member refid="class_calendar_1abcfed5a7c36a5b2209cd390fc26b5616" prot="public" virt="non-virtual"><scope>Calendar</scope><name>Calendar</name></member>
+      <member refid="class_calendar_1aadce880a9fd9034eb23c280dd8411b64" prot="public" virt="non-virtual"><scope>Calendar</scope><name>ChangeDateSelection</name></member>
+      <member refid="class_calendar_1add30e3975ff548bead7d6ced4e97e669" prot="public" virt="non-virtual"><scope>Calendar</scope><name>ChangeDateSelectionCommand</name></member>
+      <member refid="class_calendar_1ad95e6656ec171e1bc12ea3a04655d601" prot="public" virt="non-virtual"><scope>Calendar</scope><name>CreateNotificationAndroid</name></member>
+      <member refid="class_calendar_1a896b0500983394f6881f87ff0d393c33" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateAllRemindersUI</name></member>
+      <member refid="class_calendar_1ae28ffe7767d6dbd6f7cc36c0e4e21bb6" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateReminderBorder</name></member>
+      <member refid="class_calendar_1aebc1b36e3628013da814b4503ccaa183" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateReminderUI</name></member>
+      <member refid="class_calendar_1ae9ea55f7a01b00bf246d97b0b3b6678f" prot="public" virt="non-virtual"><scope>Calendar</scope><name>MyCalendar</name></member>
+      <member refid="class_calendar_1a2c0dc1064a6970d784a3f70f5753f1eb" prot="public" virt="non-virtual"><scope>Calendar</scope><name>NavigateCalendar</name></member>
+      <member refid="class_calendar_1a7da34c41f60318666433260ed7530d78" prot="public" virt="non-virtual"><scope>Calendar</scope><name>NavigateCalendarCommand</name></member>
+      <member refid="class_calendar_1a3310f9c4f5f5136c26664ab2bcc27516" prot="public" virt="non-virtual"><scope>Calendar</scope><name>Reminders</name></member>
+      <member refid="class_calendar_1a95859a08cc7308f436b88a7cddde4eeb" prot="public" virt="non-virtual"><scope>Calendar</scope><name>RemindersStackLayout</name></member>
+      <member refid="class_calendar_1acdf245f24064c2d2540732a8e5f1ae37" prot="public" virt="non-virtual"><scope>Calendar</scope><name>RemoveReminder</name></member>
+      <member refid="class_calendar_1aba90120de07bd72556a12f9c545d9547" prot="public" virt="non-virtual"><scope>Calendar</scope><name>SelectedDate</name></member>
+      <member refid="class_calendar_1ac79ddab9464a69eaa10671c219c9d180" prot="public" virt="non-virtual"><scope>Calendar</scope><name>SelectedDateLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

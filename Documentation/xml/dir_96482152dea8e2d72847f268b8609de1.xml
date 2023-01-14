@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_96482152dea8e2d72847f268b8609de1" kind="dir">
+    <compoundname>Timewise.Code/Database/Interfaces</compoundname>
+    <innerfile refid="_i_entity_8cs">IEntity.cs</innerfile>
+    <innerfile refid="_i_generic_repository_8cs">IGenericRepository.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/Interfaces/"/>
+  </compounddef>
+</doxygen>

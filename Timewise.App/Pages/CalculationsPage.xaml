@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.CalculationsPage"
+             Title="Kalkulatory">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Kalkulatory" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout VerticalOptions="Center" Spacing="20">
+
+		<Button x:Name="DateSubtractionPageButton" Text="Odejmowanie dat" Clicked="DateSubtractionPageButton_Clicked" FontSize="18" FontAttributes="Bold" WidthRequest="400"/>
+
+		<Button x:Name="DayOfWeekPageButton" Text="Który dzień tygodnia" Clicked="DayOfWeekPageButton_Clicked" FontSize="18" FontAttributes="Bold" WidthRequest="400"/>
+
+		<Button x:Name="LeapYearPageButton" Text="Czy rok jest przestępny" Clicked="LeapYearPageButton_Clicked" FontSize="18" FontAttributes="Bold" WidthRequest="400"/>
+
+		<Button x:Name="WeekNumberPageButton" Text="Który tydzień roku" Clicked="WeekNumberPageButton_Clicked" FontSize="18" FontAttributes="Bold" WidthRequest="400"/>
+
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked" Margin="0,40,0,0"
+					FontSize="24" FontAttributes="Bold" WidthRequest="400"/>
+	</VerticalStackLayout>
+</ContentPage>

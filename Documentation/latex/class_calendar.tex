@@ -1,0 +1,174 @@
+\doxysection{Dokumentacja klasy Calendar}
+\label{class_calendar}\index{Calendar@{Calendar}}
+
+
+Klasa reprezentująca kalendarz.  
+
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Calendar} (Label selected\+Date\+Label, Vertical\+Stack\+Layout reminders\+Stack\+Layout)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący kalendarz. \end{DoxyCompactList}\item 
+void \textbf{ Navigate\+Calendar} (int amount)
+\begin{DoxyCompactList}\small\item\em Metoda przełączająca miesiąc na kalendarzu. \end{DoxyCompactList}\item 
+void \textbf{ Add\+Reminder} (\textbf{ Reminder} reminder)
+\begin{DoxyCompactList}\small\item\em Metoda dodajaca przypomnienie. \end{DoxyCompactList}\item 
+void \textbf{ Remove\+Reminder} (\textbf{ Reminder} reminder)
+\begin{DoxyCompactList}\small\item\em Metoda usuwająca przypomnienie. \end{DoxyCompactList}\item 
+void \textbf{ Change\+Date\+Selection} (Date\+Time date\+Time)
+\begin{DoxyCompactList}\small\item\em Metoda ustawiająca wybraną datę. \end{DoxyCompactList}\item 
+async void \textbf{ Create\+Notification\+Android} (Date\+Time date\+Time)
+\begin{DoxyCompactList}\small\item\em Metoda asynchroniczna tworząca lokalne powiadomienie na systemie Android. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Calendar}$<$ Calendar\+Day $>$ \textbf{ My\+Calendar}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Instancja kalendarza zawierająca podstawową konfigurację. \end{DoxyCompactList}\item 
+\mbox{\label{class_calendar_a7da34c41f60318666433260ed7530d78}} 
+ICommand {\bfseries Navigate\+Calendar\+Command}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Komenda wywoływana po kliknięciu w przycisk przełączenia miesiąca na kalendarzu. \end{DoxyCompactList}\item 
+\mbox{\label{class_calendar_add30e3975ff548bead7d6ced4e97e669}} 
+ICommand {\bfseries Change\+Date\+Selection\+Command}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Komenda wywoływana po kliknięciu w przycisk dnia (wybieranie dnia). \end{DoxyCompactList}\item 
+\mbox{\label{class_calendar_a3310f9c4f5f5136c26664ab2bcc27516}} 
+static List$<$ \textbf{ Reminder} $>$ {\bfseries Reminders} = new List$<$\textbf{ Reminder}$>$()\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Lista przypomnień. \end{DoxyCompactList}\item 
+\mbox{\label{class_calendar_aba90120de07bd72556a12f9c545d9547}} 
+static Date\+Time {\bfseries Selected\+Date}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Wybrana przez użytkownika data. \end{DoxyCompactList}\item 
+\mbox{\label{class_calendar_ac79ddab9464a69eaa10671c219c9d180}} 
+Label {\bfseries Selected\+Date\+Label}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Etykieta na interfejsie wyświetlająca wybraną datę. \end{DoxyCompactList}\item 
+\mbox{\label{class_calendar_a95859a08cc7308f436b88a7cddde4eeb}} 
+Vertical\+Stack\+Layout {\bfseries Reminders\+Stack\+Layout}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Kontener interfejsu przechowujący listę powiadomień dla danego dnia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca kalendarz. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_calendar_abcfed5a7c36a5b2209cd390fc26b5616}} 
+\index{Calendar@{Calendar}!Calendar@{Calendar}}
+\index{Calendar@{Calendar}!Calendar@{Calendar}}
+\doxysubsubsection{Calendar()}
+{\footnotesize\ttfamily Calendar.\+Calendar (\begin{DoxyParamCaption}\item[{Label}]{selected\+Date\+Label,  }\item[{Vertical\+Stack\+Layout}]{reminders\+Stack\+Layout }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący kalendarz. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em selected\+Date\+Label} & Etykieta na interfejsie wyświetlająca wybraną datę.\\
+\hline
+{\em reminders\+Stack\+Layout} & Kontener interfejsu przechowujący listę powiadomień dla danego dnia.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_calendar_ae0238593e28ae3068b59b539b7dd6d9d}} 
+\index{Calendar@{Calendar}!AddReminder@{AddReminder}}
+\index{AddReminder@{AddReminder}!Calendar@{Calendar}}
+\doxysubsubsection{AddReminder()}
+{\footnotesize\ttfamily void Calendar.\+Add\+Reminder (\begin{DoxyParamCaption}\item[{\textbf{ Reminder}}]{reminder }\end{DoxyParamCaption})}
+
+
+
+Metoda dodajaca przypomnienie. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em reminder} & Dodawane przypomnienie\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_calendar_aadce880a9fd9034eb23c280dd8411b64}} 
+\index{Calendar@{Calendar}!ChangeDateSelection@{ChangeDateSelection}}
+\index{ChangeDateSelection@{ChangeDateSelection}!Calendar@{Calendar}}
+\doxysubsubsection{ChangeDateSelection()}
+{\footnotesize\ttfamily void Calendar.\+Change\+Date\+Selection (\begin{DoxyParamCaption}\item[{Date\+Time}]{date\+Time }\end{DoxyParamCaption})}
+
+
+
+Metoda ustawiająca wybraną datę. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em date\+Time} & Wybrana data.\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_calendar_ad95e6656ec171e1bc12ea3a04655d601}} 
+\index{Calendar@{Calendar}!CreateNotificationAndroid@{CreateNotificationAndroid}}
+\index{CreateNotificationAndroid@{CreateNotificationAndroid}!Calendar@{Calendar}}
+\doxysubsubsection{CreateNotificationAndroid()}
+{\footnotesize\ttfamily async void Calendar.\+Create\+Notification\+Android (\begin{DoxyParamCaption}\item[{Date\+Time}]{date\+Time }\end{DoxyParamCaption})}
+
+
+
+Metoda asynchroniczna tworząca lokalne powiadomienie na systemie Android. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em date\+Time} & Czas powiadomienia.\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_calendar_a2c0dc1064a6970d784a3f70f5753f1eb}} 
+\index{Calendar@{Calendar}!NavigateCalendar@{NavigateCalendar}}
+\index{NavigateCalendar@{NavigateCalendar}!Calendar@{Calendar}}
+\doxysubsubsection{NavigateCalendar()}
+{\footnotesize\ttfamily void Calendar.\+Navigate\+Calendar (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Metoda przełączająca miesiąc na kalendarzu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em amount} & Ilość miesięcy\\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_calendar_acdf245f24064c2d2540732a8e5f1ae37}} 
+\index{Calendar@{Calendar}!RemoveReminder@{RemoveReminder}}
+\index{RemoveReminder@{RemoveReminder}!Calendar@{Calendar}}
+\doxysubsubsection{RemoveReminder()}
+{\footnotesize\ttfamily void Calendar.\+Remove\+Reminder (\begin{DoxyParamCaption}\item[{\textbf{ Reminder}}]{reminder }\end{DoxyParamCaption})}
+
+
+
+Metoda usuwająca przypomnienie. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em reminder} & Usuwane przypomnienie\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja właściwości}
+\mbox{\label{class_calendar_ae9ea55f7a01b00bf246d97b0b3b6678f}} 
+\index{Calendar@{Calendar}!MyCalendar@{MyCalendar}}
+\index{MyCalendar@{MyCalendar}!Calendar@{Calendar}}
+\doxysubsubsection{MyCalendar}
+{\footnotesize\ttfamily \textbf{ Calendar}$<$Calendar\+Day$>$ Calendar.\+My\+Calendar\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+{\bfseries Wartość początkowa\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} Calendar<CalendarDay>()}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        }
+\DoxyCodeLine{        SelectionAction = SelectionAction.Replace, }
+\DoxyCodeLine{        SelectionType = SelectionType.Single}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+
+
+Instancja kalendarza zawierająca podstawową konfigurację. 
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Models/Calendar.\+cs\end{DoxyCompactItemize}

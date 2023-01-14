@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timewise.App.Pages.DateSubtractionPage"
+             Title="Odejmowanie dat">
+	
+	<Shell.TitleView>
+		<Grid>
+			<Label Text="Odejmowanie dat" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="24" TextColor="White"/>
+		</Grid>
+	</Shell.TitleView>
+	
+	<VerticalStackLayout>
+
+		<Grid HeightRequest="120" Margin="60,20,60,60">
+		    <Border x:Name="DateSubtractionBorder" StrokeThickness="2" Stroke="{StaticResource Gray900}" Padding="5" IsVisible="False" StrokeShape="RoundRectangle 10,10,10,10">
+			    <Label x:Name="DateSubtractionResult" HorizontalOptions="CenterAndExpand" FontSize="32" TextColor="{StaticResource Primary}" VerticalOptions="Center" />
+		    </Border>
+		</Grid>
+	    
+		<VerticalStackLayout HorizontalOptions="Center">
+			<Label Text="Data pierwszego zdarzenia" HorizontalOptions="Center"/>
+			<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+				<DatePicker x:Name="FirstEventDatePicker" Format="d"/>
+			</Border>
+		</VerticalStackLayout>
+
+		<VerticalStackLayout HorizontalOptions="Center">
+			<Label Text="Data drugiego zdarzenia" HorizontalOptions="Center"/>
+			<Border StrokeThickness="1" Stroke="{StaticResource PrimaryBrush}" Margin="2,5,2,2">
+				<DatePicker x:Name="SecondEventDatePicker" Format="d"/>
+			</Border>
+		</VerticalStackLayout>
+
+		<Button x:Name="SubtractDateButton" Text="Oblicz" Clicked="SubtractDateButton_Clicked" Margin="25, 20, 25, 20" 
+			FontSize="24" FontAttributes="Bold" HeightRequest="60" WidthRequest="200"/>
+	    
+		<Button x:Name="BackButton" Text="Powrót" Clicked="BackButton_Clicked"  Margin="50, 60, 50, 20"
+		        FontSize="24" FontAttributes="Bold" />
+	</VerticalStackLayout>
+</ContentPage>

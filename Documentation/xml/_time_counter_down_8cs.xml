@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="_time_counter_down_8cs" kind="file" language="C#">
+    <compoundname>TimeCounterDown.cs</compoundname>
+    <innerclass refid="class_time_counter_down" prot="public">TimeCounterDown</innerclass>
+    <innernamespace refid="namespace_system_1_1_timers">System::Timers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Timewise.Code.Models;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Timers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Interfaces;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_time_counter_down" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_time_counter_down" kindref="compound">TimeCounterDown</ref><sp/>:<sp/><ref refid="interface_i_validatable" kindref="compound">IValidatable</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Timer<sp/>_timer;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_duration" kindref="compound">Duration</ref><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_time" kindref="compound">Time</ref><sp/><ref refid="class_time_counter_down_1a48b7e25cb90ee60c733c61b0c0ecab06" kindref="member">EndTime</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_time_counter_down_1a7a182ab4e82e49eda829349a1007af6f" kindref="member">IsRunning</ref><sp/>=&gt;<sp/>_timer<sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>_timer.Enabled;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_time_counter_down_1a699c7dcd735ec1fd024ee1ccb811fba4" kindref="member">IsValid</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSecondsValid<sp/>=<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref><sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref><sp/>&lt;<sp/>60;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isMinutesValid<sp/>=<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref><sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref><sp/>&lt;<sp/>60;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isHoursValid<sp/>=<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a7e64cbcb726df721d84a53c4a3483ee4" kindref="member">Hours</ref><sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a7e64cbcb726df721d84a53c4a3483ee4" kindref="member">Hours</ref><sp/>&lt;<sp/>24;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isSecondsValid<sp/>&amp;&amp;<sp/>isMinutesValid<sp/>&amp;&amp;<sp/>isHoursValid;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_time_counter_down_1af0563060c6844465a0b9796f3a3897af" kindref="member">TimeCounterDown</ref>(<ref refid="class_duration" kindref="compound">Duration</ref><sp/>duration,<sp/><ref refid="class_time" kindref="compound">Time</ref><sp/>endTime)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_duration" kindref="compound">Duration</ref>(duration.<ref refid="class_duration_1a648dfc6f0471791dd901ebcad783ede3" kindref="member">Days</ref>,<sp/>duration.<ref refid="class_duration_1a52eff90f0784126ecaef56e138b63de4" kindref="member">Months</ref>,<sp/>duration.<ref refid="class_duration_1ab42a1a60c90c7d4b894e50d453e9dfd0" kindref="member">Years</ref>,<sp/>duration.<ref refid="class_duration_1a7e64cbcb726df721d84a53c4a3483ee4" kindref="member">Hours</ref>,duration.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref>,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>duration.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref>,<sp/>duration.<ref refid="class_duration_1a1d3af140f421abc6a97f215dd3a1bfac" kindref="member">Milliseconds</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Initialize(endTime);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Initialize(<ref refid="class_time" kindref="compound">Time</ref><sp/>endTime)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_timer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Timer()</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Interval<sp/>=<sp/>1000,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AutoReset<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_timer.Elapsed<sp/>+=<sp/>_timer_Elapsed;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a48b7e25cb90ee60c733c61b0c0ecab06" kindref="member">EndTime</ref><sp/>=<sp/>endTime;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_time_counter_down_1ab41989acfde94e3b1cd7f439fa067d11" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_timer.Start();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_time_counter_down_1a9f120726295cdd4c97ce57a09ba999f0" kindref="member">Stop</ref>()</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_timer.Stop();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_timer_Elapsed(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>sender,<sp/>ElapsedEventArgs<sp/>e)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref><sp/>==<sp/>0<sp/>&amp;&amp;<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref><sp/>==<sp/>0<sp/>&amp;&amp;<sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a7e64cbcb726df721d84a53c4a3483ee4" kindref="member">Hours</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a9f120726295cdd4c97ce57a09ba999f0" kindref="member">Stop</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref><sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref>--;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref><sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref><sp/>=<sp/>59;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref>--;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a302c432e8eea199956af6e36bd9af385" kindref="member">Seconds</ref><sp/>=<sp/>59;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a4eac09d1cb41fbc4e72e2a0de25e3c0d" kindref="member">Minutes</ref><sp/>=<sp/>59;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_time_counter_down_1a3fbadd0e6a68877f606a2791beead3a7" kindref="member">TimeLeft</ref>.<ref refid="class_duration_1a7e64cbcb726df721d84a53c4a3483ee4" kindref="member">Hours</ref>--;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ToString()</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$</highlight><highlight class="stringliteral">&quot;{TimeLeft.Hours}h<sp/>{TimeLeft.Minutes}m<sp/>{TimeLeft.Seconds}s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Timewise.Code/Models/TimeCounterDown.cs"/>
+  </compounddef>
+</doxygen>

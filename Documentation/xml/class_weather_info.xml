@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_weather_info" kind="class" language="C#" prot="public">
+    <compoundname>WeatherInfo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_weather_info_1ae575d15808b75e324cb27d4991fb20a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WeatherInfo.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>WeatherInfo.Description</qualifiedname>
+        <briefdescription>
+<para>Opis pogody. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="14" column="15" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1ad90636216016cb707d934080d53733ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime WeatherInfo.LocalDateTime</definition>
+        <argsstring></argsstring>
+        <name>LocalDateTime</name>
+        <qualifiedname>WeatherInfo.LocalDateTime</qualifiedname>
+        <briefdescription>
+<para>Data i czas w lokalnej strefie czasowej. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="19" column="17" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1a297d67aa25e3db9d3d2003230ac1f930" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.Temperature</definition>
+        <argsstring></argsstring>
+        <name>Temperature</name>
+        <qualifiedname>WeatherInfo.Temperature</qualifiedname>
+        <briefdescription>
+<para>Temperatura powietrza. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="24" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1a9da2fff9bb571655da5817481b828aff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.FeelsLike</definition>
+        <argsstring></argsstring>
+        <name>FeelsLike</name>
+        <qualifiedname>WeatherInfo.FeelsLike</qualifiedname>
+        <briefdescription>
+<para>Temperatura odczuwalna. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="29" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1ab3b4a751a9ab18a04e277b0863d5723e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.Humidity</definition>
+        <argsstring></argsstring>
+        <name>Humidity</name>
+        <qualifiedname>WeatherInfo.Humidity</qualifiedname>
+        <briefdescription>
+<para>Wilgotność powietrza. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="34" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1ab45a13944085c5ff42080212069786db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.Precipitation</definition>
+        <argsstring></argsstring>
+        <name>Precipitation</name>
+        <qualifiedname>WeatherInfo.Precipitation</qualifiedname>
+        <briefdescription>
+<para>Ilość opadu atmosferycznego. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="39" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1a0b4324094b7524d80e84815f48ccd6e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.Snow</definition>
+        <argsstring></argsstring>
+        <name>Snow</name>
+        <qualifiedname>WeatherInfo.Snow</qualifiedname>
+        <briefdescription>
+<para>Ilość śniegu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="44" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1a6baec685ea57d5d80e0ff753156a0177" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.WindSpeed</definition>
+        <argsstring></argsstring>
+        <name>WindSpeed</name>
+        <qualifiedname>WeatherInfo.WindSpeed</qualifiedname>
+        <briefdescription>
+<para>Prędkość wiatru. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="49" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1a25df71aafbf4d62df8b26babe8c88e71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.Pressure</definition>
+        <argsstring></argsstring>
+        <name>Pressure</name>
+        <qualifiedname>WeatherInfo.Pressure</qualifiedname>
+        <briefdescription>
+<para>Ciśnienie atmosferyczne. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="54" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1ac3afacf5c0d5c8998eb958cef3b393f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime WeatherInfo.Sunrise</definition>
+        <argsstring></argsstring>
+        <name>Sunrise</name>
+        <qualifiedname>WeatherInfo.Sunrise</qualifiedname>
+        <briefdescription>
+<para>Czas wschodu Słońca. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="59" column="17" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1a5e7897aff7d3745502b37d2b5362a49f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime WeatherInfo.Sunset</definition>
+        <argsstring></argsstring>
+        <name>Sunset</name>
+        <qualifiedname>WeatherInfo.Sunset</qualifiedname>
+        <briefdescription>
+<para>Czas zachodu Słońca. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="64" column="17" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weather_info_1aeaec2456f18a694a0cd393424a3caa94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WeatherInfo.Moonphase</definition>
+        <argsstring></argsstring>
+        <name>Moonphase</name>
+        <qualifiedname>WeatherInfo.Moonphase</qualifiedname>
+        <briefdescription>
+<para>Faza Księżyca. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="69" column="14" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weather_info_1ad1869d185e0ba896e8f3dead3b795005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string WeatherInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>WeatherInfo.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="71" column="24" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="71" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa reprezentująca odpowiedź otrzymaną z API. Zawiera jedynie interesujące nas właściwości, a niektóre z otrzymanych w odpowiedzi ignoruje. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/DataTypes/WeatherInfo.cs" line="9" column="7" bodyfile="Timewise.Code/DataTypes/WeatherInfo.cs" bodystart="10" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_weather_info_1ae575d15808b75e324cb27d4991fb20a8" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Description</name></member>
+      <member refid="class_weather_info_1a9da2fff9bb571655da5817481b828aff" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>FeelsLike</name></member>
+      <member refid="class_weather_info_1ab3b4a751a9ab18a04e277b0863d5723e" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Humidity</name></member>
+      <member refid="class_weather_info_1ad90636216016cb707d934080d53733ac" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>LocalDateTime</name></member>
+      <member refid="class_weather_info_1aeaec2456f18a694a0cd393424a3caa94" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Moonphase</name></member>
+      <member refid="class_weather_info_1ab45a13944085c5ff42080212069786db" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Precipitation</name></member>
+      <member refid="class_weather_info_1a25df71aafbf4d62df8b26babe8c88e71" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Pressure</name></member>
+      <member refid="class_weather_info_1a0b4324094b7524d80e84815f48ccd6e7" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Snow</name></member>
+      <member refid="class_weather_info_1ac3afacf5c0d5c8998eb958cef3b393f5" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Sunrise</name></member>
+      <member refid="class_weather_info_1a5e7897aff7d3745502b37d2b5362a49f" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Sunset</name></member>
+      <member refid="class_weather_info_1a297d67aa25e3db9d3d2003230ac1f930" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>Temperature</name></member>
+      <member refid="class_weather_info_1ad1869d185e0ba896e8f3dead3b795005" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>ToString</name></member>
+      <member refid="class_weather_info_1a6baec685ea57d5d80e0ff753156a0177" prot="public" virt="non-virtual"><scope>WeatherInfo</scope><name>WindSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

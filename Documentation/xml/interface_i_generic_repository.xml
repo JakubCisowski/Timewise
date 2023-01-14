@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="interface_i_generic_repository" kind="interface" language="C#" prot="public">
+    <compoundname>IGenericRepository</compoundname>
+    <derivedcompoundref refid="class_entity_repository" prot="public" virt="non-virtual">EntityRepository</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_generic_repository_1ac6465f33ac67c5613cf7a5ea4ed9dabd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt; T &gt; IGenericRepository.Get&lt; T &gt;</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Get&lt; T &gt;</name>
+        <qualifiedname>IGenericRepository.Get&lt; T &gt;</qualifiedname>
+        <reimplementedby refid="class_entity_repository_1aadcfee4d82f1b10c76fd8442dbeb8b2b">Get&lt; T &gt;</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Metoda obsługująca zapytanie SELECT do bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identyfikator obiektu.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Obiekt z bazy danych.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_generic_repository_1a6608516b0942274bad8c6e50221eff39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; T &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; T &gt; &gt; IGenericRepository.GetAll&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetAll&lt; T &gt;</name>
+        <qualifiedname>IGenericRepository.GetAll&lt; T &gt;</qualifiedname>
+        <reimplementedby refid="class_entity_repository_1a70b43717508e2e268215d9eea8f88b42">GetAll&lt; T &gt;</reimplementedby>
+        <briefdescription>
+<para>Metoda obsługująca zapytanie SELECT ALL do bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Kolekcja obiektów danego typu z bazy danych.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_generic_repository_1a3b974fbe3bc86a4b5cdd692e8bc95548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IGenericRepository.Add&lt; T &gt;</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Add&lt; T &gt;</name>
+        <qualifiedname>IGenericRepository.Add&lt; T &gt;</qualifiedname>
+        <reimplementedby refid="class_entity_repository_1ac7e05b3098cc83475c0c971e17dfba72">Add&lt; T &gt;</reimplementedby>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+<para>Metoda obsługująca zapytanie INSERT do bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt do dodania.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="27" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_generic_repository_1a5828ad1e60bb58dcadc841d2f6f1e4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IGenericRepository.Update&lt; T &gt;</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Update&lt; T &gt;</name>
+        <qualifiedname>IGenericRepository.Update&lt; T &gt;</qualifiedname>
+        <reimplementedby refid="class_entity_repository_1a913fd31031b012e39f4e5b197a0ddce9">Update&lt; T &gt;</reimplementedby>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+<para>Metoda obsługująca zapytanie UPDATE do bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt do zaktualizowania.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>W przypadku aktualizacji obiektu, istotne jest jego Id.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="34" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_generic_repository_1a44b723cf6c36c5f071906c3ebd93c519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IGenericRepository.Delete&lt; T &gt;</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Delete&lt; T &gt;</name>
+        <qualifiedname>IGenericRepository.Delete&lt; T &gt;</qualifiedname>
+        <reimplementedby refid="class_entity_repository_1a17411ed72a8310896a78edc0614439cd">Delete&lt; T &gt;</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Metoda obsługująca zapytanie DELETE do bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identyfikator obiektu do usunięcia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="40" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_generic_repository_1a6624ce3d83d255ccc9feca13696252bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IGenericRepository.Clear&lt; T &gt;</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Clear&lt; T &gt;</name>
+        <qualifiedname>IGenericRepository.Clear&lt; T &gt;</qualifiedname>
+        <reimplementedby refid="class_entity_repository_1ae5c99a10810e68d5acf4d18590426385">Clear&lt; T &gt;</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Metoda obsługująca zapytanie DELETE ALL do bazy danych. Usuwa wszystkie obiekty powiązane z użytkownikiem o danym Id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identyfikator użytkownika do usunięcia.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="47" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generyczny interfejs repozytorium, zawierająca podstawowe metody do obsługi bazy danych. W przypadku dostępu do bazy danych gdziekolwiek w aplikacji, dostęp ten odbywa się poprzez konkretne implementacje tego interfejsu. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Typ encji, implementujący interfejs <ref refid="interface_i_entity" kindref="compound">IEntity</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EntityRepository</label>
+        <link refid="class_entity_repository"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IGenericRepository</label>
+        <link refid="interface_i_generic_repository"/>
+      </node>
+    </inheritancegraph>
+    <location file="Timewise.Code/Database/Interfaces/IGenericRepository.cs" line="8" column="18" bodyfile="Timewise.Code/Database/Interfaces/IGenericRepository.cs" bodystart="9" bodyend="48"/>
+    <listofallmembers>
+      <member refid="interface_i_generic_repository_1a3b974fbe3bc86a4b5cdd692e8bc95548" prot="public" virt="non-virtual"><scope>IGenericRepository</scope><name>Add&lt; T &gt;</name></member>
+      <member refid="interface_i_generic_repository_1a6624ce3d83d255ccc9feca13696252bf" prot="public" virt="non-virtual"><scope>IGenericRepository</scope><name>Clear&lt; T &gt;</name></member>
+      <member refid="interface_i_generic_repository_1a44b723cf6c36c5f071906c3ebd93c519" prot="public" virt="non-virtual"><scope>IGenericRepository</scope><name>Delete&lt; T &gt;</name></member>
+      <member refid="interface_i_generic_repository_1ac6465f33ac67c5613cf7a5ea4ed9dabd" prot="public" virt="non-virtual"><scope>IGenericRepository</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="interface_i_generic_repository_1a6608516b0942274bad8c6e50221eff39" prot="public" virt="non-virtual"><scope>IGenericRepository</scope><name>GetAll&lt; T &gt;</name></member>
+      <member refid="interface_i_generic_repository_1a5828ad1e60bb58dcadc841d2f6f1e4ea" prot="public" virt="non-virtual"><scope>IGenericRepository</scope><name>Update&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

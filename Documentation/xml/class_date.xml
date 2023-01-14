@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_date" kind="class" language="C#" prot="public">
+    <compoundname>Date</compoundname>
+    <basecompoundref refid="interface_i_validatable" prot="public" virt="non-virtual">IValidatable</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_date_1ad39dbbe591c34adb2db60011c0ba2351" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Date.Day</definition>
+        <argsstring></argsstring>
+        <name>Day</name>
+        <qualifiedname>Date.Day</qualifiedname>
+        <briefdescription>
+<para>Dzień w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="14" column="12" bodyfile="Timewise.Code/Models/Date.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_date_1ab375a72bf2ac0c8de16e0585f0a03c67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Date.Month</definition>
+        <argsstring></argsstring>
+        <name>Month</name>
+        <qualifiedname>Date.Month</qualifiedname>
+        <briefdescription>
+<para>Miesiąc w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="19" column="12" bodyfile="Timewise.Code/Models/Date.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_date_1a98161d0c75aab170a8ef573fdfeda934" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Date.Year</definition>
+        <argsstring></argsstring>
+        <name>Year</name>
+        <qualifiedname>Date.Year</qualifiedname>
+        <briefdescription>
+<para>Rok w czasie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="24" column="12" bodyfile="Timewise.Code/Models/Date.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_date_1a18e0883ab2d7e2bfb25bbc2e028f2dac" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_date" kindref="compound">Date</ref></type>
+        <definition>Date Date.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <qualifiedname>Date.Empty</qualifiedname>
+        <briefdescription>
+<para>Właściwość zwracająca pustą datę. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="29" column="20" bodyfile="Timewise.Code/Models/Date.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_date_1a6d7f9769da3632218ea06a0d907833f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Date.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>Date.IsValid</qualifiedname>
+        <reimplements refid="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28">IsValid</reimplements>
+        <briefdescription>
+<para>Implementacja metody udostępnianej przez interfejs <ref refid="interface_i_validatable" kindref="compound">IValidatable</ref>. Zwraca true, jeżeli czas jest poprawny, w przeciwnym wypadku false. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="35" column="13" bodyfile="Timewise.Code/Models/Date.cs" bodystart="36" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_date_1a229df1102afc49f2092072160b36d101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Date.Date</definition>
+        <argsstring>()</argsstring>
+        <name>Date</name>
+        <qualifiedname>Date.Date</qualifiedname>
+        <briefdescription>
+<para>Domyślny konstruktor, inicjalizujący datę na najniższą możliwą, poprawną wartość (1/01/1). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="56" column="8" bodyfile="Timewise.Code/Models/Date.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1ad0f811bcb192425fa74952997ca37079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Date.Date</definition>
+        <argsstring>(int day, int month, int year)</argsstring>
+        <name>Date</name>
+        <qualifiedname>Date.Date</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor inicjalizujący datę na przekazaną wartość. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dzień daty.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Miesiąc daty.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rok daty.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="69" column="8" bodyfile="Timewise.Code/Models/Date.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a7bf2523a350d92a93d3703f8e3a3c6ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Date.Date</definition>
+        <argsstring>(System.TimeSpan timeSpan)</argsstring>
+        <name>Date</name>
+        <qualifiedname>Date.Date</qualifiedname>
+        <param>
+          <type>System.TimeSpan</type>
+          <declname>timeSpan</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor inicjalizujący datę na przekazaną wartość, reprezentowaną jako systemowy TimeSpan. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeSpan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Systemowy TimeSpan, na podstawie którego ustawiamy datę.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="80" column="8" bodyfile="Timewise.Code/Models/Date.cs" bodystart="80" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a7302196b3a47b2b3e9b5b8833aaaae93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Date.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Date.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="93" column="24" bodyfile="Timewise.Code/Models/Date.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a07844d62a1650d587d225bfe9ac55b00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Date.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Date.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="98" column="22" bodyfile="Timewise.Code/Models/Date.cs" bodystart="98" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a814e17daf9030bd3fb5bfe1c56fe63ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Date.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>Date.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Models/Date.cs" line="108" column="21" bodyfile="Timewise.Code/Models/Date.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa reprezentująca datę, powiązana z klasą <ref refid="class_time" kindref="compound">Time</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Date</label>
+        <link refid="class_date"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Date</label>
+        <link refid="class_date"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.Code/Models/Date.cs" line="9" column="7" bodyfile="Timewise.Code/Models/Date.cs" bodystart="10" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_date_1a229df1102afc49f2092072160b36d101" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
+      <member refid="class_date_1ad0f811bcb192425fa74952997ca37079" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
+      <member refid="class_date_1a7bf2523a350d92a93d3703f8e3a3c6ce" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
+      <member refid="class_date_1ad39dbbe591c34adb2db60011c0ba2351" prot="public" virt="non-virtual"><scope>Date</scope><name>Day</name></member>
+      <member refid="class_date_1a18e0883ab2d7e2bfb25bbc2e028f2dac" prot="public" virt="non-virtual"><scope>Date</scope><name>Empty</name></member>
+      <member refid="class_date_1a07844d62a1650d587d225bfe9ac55b00" prot="public" virt="non-virtual"><scope>Date</scope><name>Equals</name></member>
+      <member refid="class_date_1a814e17daf9030bd3fb5bfe1c56fe63ce" prot="public" virt="non-virtual"><scope>Date</scope><name>GetHashCode</name></member>
+      <member refid="class_date_1a6d7f9769da3632218ea06a0d907833f2" prot="public" virt="non-virtual"><scope>Date</scope><name>IsValid</name></member>
+      <member refid="class_date_1ab375a72bf2ac0c8de16e0585f0a03c67" prot="public" virt="non-virtual"><scope>Date</scope><name>Month</name></member>
+      <member refid="class_date_1a7302196b3a47b2b3e9b5b8833aaaae93" prot="public" virt="non-virtual"><scope>Date</scope><name>ToString</name></member>
+      <member refid="class_date_1a98161d0c75aab170a8ef573fdfeda934" prot="public" virt="non-virtual"><scope>Date</scope><name>Year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

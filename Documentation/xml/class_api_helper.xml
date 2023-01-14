@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_api_helper" kind="class" language="C#" prot="public">
+    <compoundname>ApiHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_api_helper_1a058633726e662896ec47ac65837b236e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_weather_info" kindref="compound">WeatherInfo</ref> &gt;</type>
+        <definition>static async Task&lt; WeatherInfo &gt; ApiHelper.GetWeather</definition>
+        <argsstring>(string locationName=&quot;Warsaw&quot;)</argsstring>
+        <name>GetWeather</name>
+        <qualifiedname>ApiHelper.GetWeather</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>locationName</declname>
+          <defval>&quot;Warsaw&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Metoda wykonująca zapytanie do API o informacje danej lokacji, i zwracająca te informacje pod postacią obiektu klasy <ref refid="class_weather_info" kindref="compound">WeatherInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>locationName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Miejsce do sprawdzenia, domyślnie Warszawa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Informacje o danej lokacji, takie jak: czas, temperatura, faza księżyca, itp.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Helpers/ApiHelper.cs" line="18" column="26" bodyfile="Timewise.Code/Helpers/ApiHelper.cs" bodystart="18" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa pomocnicza, wykonująca zapytania do API i przetwarzająca otrzymane odpowiedzi. Jest to klasa statyczna, a więc nie można jej instancjonować. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/ApiHelper.cs" line="11" column="15" bodyfile="Timewise.Code/Helpers/ApiHelper.cs" bodystart="12" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_api_helper_1a058633726e662896ec47ac65837b236e" prot="public" virt="non-virtual"><scope>ApiHelper</scope><name>GetWeather</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

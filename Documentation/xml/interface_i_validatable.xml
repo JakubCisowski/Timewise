@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="interface_i_validatable" kind="interface" language="C#" prot="public">
+    <compoundname>IValidatable</compoundname>
+    <derivedcompoundref refid="class_date" prot="public" virt="non-virtual">Date</derivedcompoundref>
+    <derivedcompoundref refid="class_time" prot="public" virt="non-virtual">Time</derivedcompoundref>
+    <derivedcompoundref refid="class_time_counter_down" prot="public" virt="non-virtual">TimeCounterDown</derivedcompoundref>
+    <derivedcompoundref refid="class_time_counter_up" prot="public" virt="non-virtual">TimeCounterUp</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IValidatable.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>IValidatable.IsValid</qualifiedname>
+        <reimplementedby refid="class_date_1a6d7f9769da3632218ea06a0d907833f2">IsValid</reimplementedby>
+        <reimplementedby refid="class_time_1a77d2cc80b99c97b39aea473f370da072">IsValid</reimplementedby>
+        <reimplementedby refid="class_time_counter_down_1a699c7dcd735ec1fd024ee1ccb811fba4">IsValid</reimplementedby>
+        <reimplementedby refid="class_time_counter_up_1a2f3e86cb7c7c2b99da1e2b354bb2b8b3">IsValid</reimplementedby>
+        <briefdescription>
+<para>Czy dany czas, data lub odstęp czasowy jest poprawny, to znaczy, czy reprezentuje istniejącą datę lub nieujemny odstęp czasowy. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Interfaces/IValidatable.cs" line="12" column="13" bodyfile="Timewise.Code/Interfaces/IValidatable.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interfejs implementowany przez klasy powiązane z czasem. Służy do określenia, czy dany czas jest poprawny. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Date</label>
+        <link refid="class_date"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IValidatable</label>
+        <link refid="interface_i_validatable"/>
+      </node>
+      <node id="3">
+        <label>Time</label>
+        <link refid="class_time"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>TimeCounterDown</label>
+        <link refid="class_time_counter_down"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>TimeCounterUp</label>
+        <link refid="class_time_counter_up"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Timewise.Code/Interfaces/IValidatable.cs" line="7" column="18" bodyfile="Timewise.Code/Interfaces/IValidatable.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28" prot="public" virt="non-virtual"><scope>IValidatable</scope><name>IsValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

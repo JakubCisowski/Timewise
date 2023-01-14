@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_6c698676195180df0a103c5cfa33d926" kind="dir">
+    <compoundname>Timewise.Code/Helpers</compoundname>
+    <innerfile refid="_api_helper_8cs">ApiHelper.cs</innerfile>
+    <innerfile refid="_date_helper_8cs">DateHelper.cs</innerfile>
+    <innerfile refid="_day_of_week_formatter_8cs">DayOfWeekFormatter.cs</innerfile>
+    <innerfile refid="_file_helper_8cs">FileHelper.cs</innerfile>
+    <innerfile refid="_password_encryption_helper_8cs">PasswordEncryptionHelper.cs</innerfile>
+    <innerfile refid="_time_converter_8cs">TimeConverter.cs</innerfile>
+    <innerfile refid="_time_zone_converter_8cs">TimeZoneConverter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Helpers/"/>
+  </compounddef>
+</doxygen>

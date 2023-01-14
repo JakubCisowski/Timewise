@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_query_builder" kind="class" language="C#" prot="public">
+    <compoundname>QueryBuilder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_query_builder_1acb4be9b790ab6dce86177e943b4145c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string QueryBuilder.BuildSelectAllQuery&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>BuildSelectAllQuery&lt; T &gt;</name>
+        <qualifiedname>QueryBuilder.BuildSelectAllQuery&lt; T &gt;</qualifiedname>
+        <briefdescription>
+<para>Metoda tworząca zapytanie SELECT ALL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="15" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="15" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_query_builder_1a443bfb1966fd985dec60e118596251e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string QueryBuilder.BuildSelectQuery&lt; T &gt;</definition>
+        <argsstring>(int id)</argsstring>
+        <name>BuildSelectQuery&lt; T &gt;</name>
+        <qualifiedname>QueryBuilder.BuildSelectQuery&lt; T &gt;</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Metoda tworząca zapytanie SELECT. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="43" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="43" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_query_builder_1ac5f8eefd373d50b0283be88ea5247f94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string QueryBuilder.BuildInsertQuery&lt; T &gt;</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>BuildInsertQuery&lt; T &gt;</name>
+        <qualifiedname>QueryBuilder.BuildInsertQuery&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+<para>Metoda tworząca zapytanie INSERT. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="71" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="71" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_query_builder_1ad3c22a41e58344c83a62997b337e9e28" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string QueryBuilder.BuildUpdateQuery&lt; T &gt;</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>BuildUpdateQuery&lt; T &gt;</name>
+        <qualifiedname>QueryBuilder.BuildUpdateQuery&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+<para>Metoda tworząca zapytanie UPDATE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="122" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="122" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_query_builder_1ab0868543f500723de52eca0393fea77c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string QueryBuilder.BuildDeleteQuery&lt; T &gt;</definition>
+        <argsstring>(int id)</argsstring>
+        <name>BuildDeleteQuery&lt; T &gt;</name>
+        <qualifiedname>QueryBuilder.BuildDeleteQuery&lt; T &gt;</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Metoda tworząca zapytanie DELETE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="173" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="173" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_query_builder_1a461ff343e436b1723208a844d0454c97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string QueryBuilder.BuildClearQuery&lt; T &gt;</definition>
+        <argsstring>(int id)</argsstring>
+        <name>BuildClearQuery&lt; T &gt;</name>
+        <qualifiedname>QueryBuilder.BuildClearQuery&lt; T &gt;</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Metoda tworząca zapytanie DELETE ALL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="201" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="201" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Pomocnicza, generyczna klasa tworząca zapytania SQL dla każdej z tabeli. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" line="10" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/QueryBuilder.cs" bodystart="11" bodyend="225"/>
+    <listofallmembers>
+      <member refid="class_query_builder_1a461ff343e436b1723208a844d0454c97" prot="public" virt="non-virtual"><scope>QueryBuilder</scope><name>BuildClearQuery&lt; T &gt;</name></member>
+      <member refid="class_query_builder_1ab0868543f500723de52eca0393fea77c" prot="public" virt="non-virtual"><scope>QueryBuilder</scope><name>BuildDeleteQuery&lt; T &gt;</name></member>
+      <member refid="class_query_builder_1ac5f8eefd373d50b0283be88ea5247f94" prot="public" virt="non-virtual"><scope>QueryBuilder</scope><name>BuildInsertQuery&lt; T &gt;</name></member>
+      <member refid="class_query_builder_1acb4be9b790ab6dce86177e943b4145c1" prot="public" virt="non-virtual"><scope>QueryBuilder</scope><name>BuildSelectAllQuery&lt; T &gt;</name></member>
+      <member refid="class_query_builder_1a443bfb1966fd985dec60e118596251e3" prot="public" virt="non-virtual"><scope>QueryBuilder</scope><name>BuildSelectQuery&lt; T &gt;</name></member>
+      <member refid="class_query_builder_1ad3c22a41e58344c83a62997b337e9e28" prot="public" virt="non-virtual"><scope>QueryBuilder</scope><name>BuildUpdateQuery&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

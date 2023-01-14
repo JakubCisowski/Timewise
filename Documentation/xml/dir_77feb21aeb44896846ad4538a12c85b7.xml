@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_77feb21aeb44896846ad4538a12c85b7" kind="dir">
+    <compoundname>Timewise.Code/Exceptions</compoundname>
+    <innerfile refid="_api_exception_8cs">ApiException.cs</innerfile>
+    <innerfile refid="_database_exception_8cs">DatabaseException.cs</innerfile>
+    <innerfile refid="_time_exception_8cs">TimeException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Code/Exceptions/"/>
+  </compounddef>
+</doxygen>

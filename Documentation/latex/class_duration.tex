@@ -1,0 +1,206 @@
+\doxysection{Dokumentacja klasy Duration}
+\label{class_duration}\index{Duration@{Duration}}
+
+
+Klasa reprezentująca odstęp czasu. Nie jest to punkt w czasie, a ilość czasu pomiędzy dwoma punktami, na przykład dwoma zdarzeniami.  
+
+
+Diagram dziedziczenia dla Duration\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_duration}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_duration_ac0058cdb413c01a33e63323e2fb01f09}} 
+{\bfseries Duration} ()
+\begin{DoxyCompactList}\small\item\em Domyślny, pusty konstruktor, tworzący odstęp czasu o zerowej długości. \end{DoxyCompactList}\item 
+\textbf{ Duration} (int days, int months, int years, int hours, int minutes, int seconds, int milliseconds)
+\begin{DoxyCompactList}\small\item\em Konstruktor inicjalizujący odstęp czasu na podstawie podanych wartości. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a7a8c4712483f334d1ded5faa7fbb214a}} 
+void {\bfseries Check\+Carry\+Subtraction} (int odejmowany\+Month, int odejmowany\+Year)
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca przeniesienie przy odejmowaniu czasów. Wywoływana jest przy odejmowaniu dwóch obiektów typu \doxyref{Time}{str.}{class_time}, jako że operacja odejmowania zwraca \doxyref{Duration}{str.}{class_duration} (odstęp czasowy). 
+
+Jeżeli po odjęciu dwóch czasów, ilość dni w odstępie czasowym wynosi -\/2, należy zmniejszyć miesiąc.\end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a9823ecb7f03001c999796a49d1167c90}} 
+void {\bfseries Check\+Carry\+Addition} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca przeniesienie przy dodawaniu odstępów czasowych. 
+
+Jeżeli po dodaniu dwóch czasów, ilość godzin wynosi 25, to należy zwiększyć ilość dni o 1.\end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a92e574141f0f922f7f0e51b9d31b5c1c}} 
+override string {\bfseries To\+String} ()
+\item 
+\mbox{\label{class_duration_a430b39eab79c5fadd84e697b7908d644}} 
+override bool {\bfseries Equals} (object obj)
+\item 
+\mbox{\label{class_duration_ae4f9025830e861385320aac7575f67de}} 
+override int {\bfseries Get\+Hash\+Code} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Duration} \textbf{ operator+} (\textbf{ Duration} left, \textbf{ Duration} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator dodawania, służący do dodawania dwóch obiektów typu \doxyref{Duration}{str.}{class_duration}. \end{DoxyCompactList}\item 
+static \textbf{ Duration} \textbf{ operator-\/} (\textbf{ Duration} left, \textbf{ Duration} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator odejmowania, służący do odejmowania dwóch obiektów typu \doxyref{Duration}{str.}{class_duration}. \end{DoxyCompactList}\item 
+static bool \textbf{ operator$<$} (\textbf{ Duration} left, \textbf{ Duration} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator mniejszości, sprawdzający, który z dwóch odstępów czasowych jest krótszy. \end{DoxyCompactList}\item 
+static bool \textbf{ operator$>$} (\textbf{ Duration} left, \textbf{ Duration} right)
+\begin{DoxyCompactList}\small\item\em Przeciążony operator większości, sprawdzający, który z dwóch odstępów czasowych jest dłuższy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Właściwości}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_duration_a648dfc6f0471791dd901ebcad783ede3}} 
+int {\bfseries Days}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość dni. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a52eff90f0784126ecaef56e138b63de4}} 
+int {\bfseries Months}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość miesięcy. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_ab42a1a60c90c7d4b894e50d453e9dfd0}} 
+int {\bfseries Years}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość lat. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a7e64cbcb726df721d84a53c4a3483ee4}} 
+int {\bfseries Hours}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość godzin. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a4eac09d1cb41fbc4e72e2a0de25e3c0d}} 
+int {\bfseries Minutes}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość minut. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a302c432e8eea199956af6e36bd9af385}} 
+int {\bfseries Seconds}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość sekund. \end{DoxyCompactList}\item 
+\mbox{\label{class_duration_a1d3af140f421abc6a97f215dd3a1bfac}} 
+int {\bfseries Milliseconds}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Ilość milisekund. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Zdarzenia}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_duration_a16202595e880bb7012da1d1f71bd152d}} 
+Property\+Changed\+Event\+Handler {\bfseries Property\+Changed}
+\begin{DoxyCompactList}\small\item\em Zdarzenie niezbędne do poprawnego, automatycznego aktualizowania interfejsu użytkownika. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca odstęp czasu. Nie jest to punkt w czasie, a ilość czasu pomiędzy dwoma punktami, na przykład dwoma zdarzeniami. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\label{class_duration_ab7482a73f85b3b5beaa8e15a9b8ff219}} 
+\index{Duration@{Duration}!Duration@{Duration}}
+\index{Duration@{Duration}!Duration@{Duration}}
+\doxysubsubsection{Duration()}
+{\footnotesize\ttfamily Duration.\+Duration (\begin{DoxyParamCaption}\item[{int}]{days,  }\item[{int}]{months,  }\item[{int}]{years,  }\item[{int}]{hours,  }\item[{int}]{minutes,  }\item[{int}]{seconds,  }\item[{int}]{milliseconds }\end{DoxyParamCaption})}
+
+
+
+Konstruktor inicjalizujący odstęp czasu na podstawie podanych wartości. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em days} & Ilość dni.\\
+\hline
+{\em months} & Ilość miesięcy.\\
+\hline
+{\em years} & Ilość lat.\\
+\hline
+{\em hours} & Ilość godzin.\\
+\hline
+{\em minutes} & Ilość minut.\\
+\hline
+{\em seconds} & Ilość sekund.\\
+\hline
+{\em milliseconds} & Ilość milisekund.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\label{class_duration_ad297f806e32515180f5ea3809c055f63}} 
+\index{Duration@{Duration}!operator+@{operator+}}
+\index{operator+@{operator+}!Duration@{Duration}}
+\doxysubsubsection{operator+()}
+{\footnotesize\ttfamily static \textbf{ Duration} Duration.\+operator+ (\begin{DoxyParamCaption}\item[{\textbf{ Duration}}]{left,  }\item[{\textbf{ Duration}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator dodawania, służący do dodawania dwóch obiektów typu \doxyref{Duration}{str.}{class_duration}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Pierwszy składnik w operacji odejmowania.\\
+\hline
+{\em right} & Drugi składnik w operacji odejmowania.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wynik dodawania jako obiekt typu \doxyref{Duration}{str.}{class_duration}.
+\end{DoxyReturn}
+
+
+Dodawanie czasów jest przemienne.\mbox{\label{class_duration_a17d9f073a066b79b1d8ba76660a58b2f}} 
+\index{Duration@{Duration}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Duration@{Duration}}
+\doxysubsubsection{operator-\/()}
+{\footnotesize\ttfamily static \textbf{ Duration} Duration.\+operator-\/ (\begin{DoxyParamCaption}\item[{\textbf{ Duration}}]{left,  }\item[{\textbf{ Duration}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator odejmowania, służący do odejmowania dwóch obiektów typu \doxyref{Duration}{str.}{class_duration}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Odjemna w operacji odejmowania.\\
+\hline
+{\em right} & Odjemnik w operacji odejmowania.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wynik odejmowania jako obiekt typu \doxyref{Duration}{str.}{class_duration}.
+\end{DoxyReturn}
+
+
+Jeżeli odjemna jest w czasie przed odjemnikiem, zwrócony zostanie wyjątek.\mbox{\label{class_duration_a3055aa4d8755f3edbe014243ccc1ced6}} 
+\index{Duration@{Duration}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Duration@{Duration}}
+\doxysubsubsection{operator$<$()}
+{\footnotesize\ttfamily static bool Duration.\+operator$<$ (\begin{DoxyParamCaption}\item[{\textbf{ Duration}}]{left,  }\item[{\textbf{ Duration}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator mniejszości, sprawdzający, który z dwóch odstępów czasowych jest krótszy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Pierwszy ze sprawdzanych odstępów czasowych.\\
+\hline
+{\em right} & Drugi ze sprawdzanych odstępów czasowych.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+True, jeżeli pierwszy z czasów jest krótszy od drugiego. False w preciwnym wypadku.
+\end{DoxyReturn}
+\mbox{\label{class_duration_aa3da7454f1842e7e6a59720e1c3c1397}} 
+\index{Duration@{Duration}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Duration@{Duration}}
+\doxysubsubsection{operator$>$()}
+{\footnotesize\ttfamily static bool Duration.\+operator$>$ (\begin{DoxyParamCaption}\item[{\textbf{ Duration}}]{left,  }\item[{\textbf{ Duration}}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Przeciążony operator większości, sprawdzający, który z dwóch odstępów czasowych jest dłuższy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em left} & Pierwszy ze sprawdzanych odstępów czasowych.\\
+\hline
+{\em right} & Drugi ze sprawdzanych odstępów czasowych.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+True, jeżeli pierwszy z czasów jest dłuższy od drugiego. False w preciwnym wypadku.
+\end{DoxyReturn}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+Timewise.\+Code/\+Models/Duration.\+cs\end{DoxyCompactItemize}
