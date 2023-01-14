@@ -1,2 +1,2 @@
-# Timewise
-&lt;work in progress projekt inzynierski>
+![logo](https://i.imgur.com/BhuvFfi.png)
+
