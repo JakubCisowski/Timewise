@@ -138,9 +138,12 @@ public partial class TimeCounterDownPage : ContentPage
 		var grid = GenerateCountdownGrid(timeEvent);
 		CountdownGridsPanel.Add(grid);
 
-		using (var repo = new EntityRepository())
+		if (User.CurrentUser != null)
 		{
-			await repo.Add((Code.Database.Entities.TimeCounterDownEvent)timeEvent);
+			using (var repo = new EntityRepository())
+			{
+				await repo.Add((Code.Database.Entities.TimeCounterDownEvent) timeEvent);
+			}
 		}
 	}
 

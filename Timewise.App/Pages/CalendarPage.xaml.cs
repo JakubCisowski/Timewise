@@ -42,7 +42,7 @@ public partial class CalendarPage : ContentPage
 		{
 			Description = description,
 			DateTime = time,
-			UserId = User.CurrentUser.Id
+			UserId = User.CurrentUser != null ? User.CurrentUser.Id : 0
 		};
 
 		var timer = new Timer()
@@ -56,9 +56,12 @@ public partial class CalendarPage : ContentPage
 
 		_calendar.AddReminder(reminder);
 
-		using (var repo = new EntityRepository())
+		if (User.CurrentUser != null)
 		{
-			await repo.Add(reminder);
+			using (var repo = new EntityRepository())
+			{
+				await repo.Add(reminder);
+			}
 		}
 	}
 

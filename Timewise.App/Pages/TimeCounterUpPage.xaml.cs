@@ -5,11 +5,12 @@ using Code.Exceptions;
 using Code.Helpers;
 using Code.Models;
 using Microsoft.Maui.Controls.Shapes;
+using Timewise.Code.Database.Entities;
 
 public partial class TimeCounterUpPage : ContentPage
 {
 	private TimeCounterUp _timeCounter;
-	public static List<TimeCounterUpEvent> TimeCounterUpEvents;
+	public static List<Code.Models.TimeCounterUpEvent> TimeCounterUpEvents;
 
 	public TimeCounterUpPage()
 	{
@@ -29,7 +30,7 @@ public partial class TimeCounterUpPage : ContentPage
 		EventTimeZonePicker.ItemsSource = TimeZoneInfo.GetSystemTimeZones();
 	}
 
-	private Grid GenerateTimeCounterGrid(TimeCounterUpEvent ev)
+	private Grid GenerateTimeCounterGrid(Code.Models.TimeCounterUpEvent ev)
 	{
 		
 		var guid = Guid.NewGuid().ToString("N");
@@ -129,15 +130,18 @@ public partial class TimeCounterUpPage : ContentPage
 		_timeCounter = new TimeCounterUp(timeDifference, timeThen);
 		_timeCounter.Start();
 
-		var timeEvent = new TimeCounterUpEvent(eventName, _timeCounter);
+		var timeEvent = new Code.Models.TimeCounterUpEvent(eventName, _timeCounter);
 		TimeCounterUpEvents.Add(timeEvent);
 
 		var grid = GenerateTimeCounterGrid(timeEvent);
 		TimeCounterGridsPanel.Add(grid);
-		
-		using (var repo = new EntityRepository())
+
+		if (User.CurrentUser != null)
 		{
-			await repo.Add((Code.Database.Entities.TimeCounterUpEvent)timeEvent);
+			using (var repo = new EntityRepository())
+			{
+				await repo.Add((Code.Database.Entities.TimeCounterUpEvent) timeEvent);
+			}
 		}
 	}
 
@@ -157,7 +161,7 @@ public partial class TimeCounterUpPage : ContentPage
 		var parent = (button.Parent as Grid)!;
 		var parentParent = (parent.Parent as VerticalStackLayout)!;
 
-		var timeEvent = button.BindingContext as TimeCounterUpEvent;
+		var timeEvent = button.BindingContext as Code.Models.TimeCounterUpEvent;
 		timeEvent?.TimeCounterUp.Stop();
 		TimeCounterUpEvents.Remove(TimeCounterUpEvents.FirstOrDefault(x => x.Id == timeEvent?.Id));
 		
