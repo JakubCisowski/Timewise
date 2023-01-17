@@ -11,7 +11,7 @@ public class FileAccessTests
 	{
 		try
 		{
-			var databaseConnectionString = ConnectionStringHelper.DbConnectionString;
+			var databaseConnectionString = SecretKeysHelper.DbConnectionString;
 		
 			Assert.That(databaseConnectionString, Is.Not.Empty);
 			Assert.That(databaseConnectionString, Is.Not.Null);

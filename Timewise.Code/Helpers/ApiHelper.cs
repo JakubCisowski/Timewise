@@ -18,7 +18,7 @@ public static class ApiHelper
 	public static async Task<WeatherInfo> GetWeather(string locationName = "Warsaw")
 	{
 		using var client = new HttpClient();
-		var response = await client.GetAsync($"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{locationName}?aggregateHours=24&unitGroup=metric&key=W4Q5PKCJJEGMYWWMNMNF2W34Z");
+		var response = await client.GetAsync($"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{locationName}?aggregateHours=24&unitGroup=metric&key={SecretKeysHelper.ApiKey}");
 
 		if (!response.IsSuccessStatusCode)
 		{

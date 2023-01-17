@@ -4,6 +4,7 @@ using Helpers;
 using Interfaces;
 using Microsoft.Data.SqlClient;
 using Dapper;
+using Timewise.Code.Helpers;
 
 /// <summary>
 /// Generyczna klasa implementująca interfejs IGenericRepository, będąca jego konkretną implementacją.
@@ -22,7 +23,7 @@ public class EntityRepository : IDisposable, IGenericRepository
 	/// </summary>
 	public EntityRepository()
 	{
-		_connection = new SqlConnection(ConnectionStringHelper.DbConnectionString);
+		_connection = new SqlConnection(SecretKeysHelper.DbConnectionString);
 		_connection.Open();
 	}
 	

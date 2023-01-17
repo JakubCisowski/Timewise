@@ -1,6 +1,7 @@
 ﻿namespace Timewise.Code.Database.Helpers;
 
 using Microsoft.Data.SqlClient;
+using Timewise.Code.Helpers;
 
 /// <summary>
 /// Klasa pomocnicza, służąca do sprawdzenia połączenia z bazą danych.
@@ -12,7 +13,7 @@ public static class DatabaseConnectionHelper
 	/// </summary>
 	public static void TestDatabaseConnection()
 	{
-		using (var conn = new SqlConnection(ConnectionStringHelper.DbConnectionString))
+		using (var conn = new SqlConnection(SecretKeysHelper.DbConnectionString))
 		{
 			conn.Open();
 			conn.Close();
