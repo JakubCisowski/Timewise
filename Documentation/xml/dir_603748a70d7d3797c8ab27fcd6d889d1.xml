@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_603748a70d7d3797c8ab27fcd6d889d1" kind="dir">
-    <compoundname>Timewise.Tests</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.Tests</compoundname>
     <innerfile refid="_database_tests_8cs">DatabaseTests.cs</innerfile>
     <innerfile refid="_day_of_week_tests_8cs">DayOfWeekTests.cs</innerfile>
     <innerfile refid="_duration_tests_8cs">DurationTests.cs</innerfile>
@@ -15,6 +15,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Tests/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/"/>
   </compounddef>
 </doxygen>

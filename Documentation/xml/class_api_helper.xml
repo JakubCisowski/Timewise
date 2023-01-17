@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/ApiHelper.cs" line="18" column="26" bodyfile="Timewise.Code/Helpers/ApiHelper.cs" bodystart="18" bodyend="70"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/ApiHelper.cs" line="18" column="26" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/ApiHelper.cs" bodystart="18" bodyend="70"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -41,7 +41,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Helpers/ApiHelper.cs" line="11" column="15" bodyfile="Timewise.Code/Helpers/ApiHelper.cs" bodystart="12" bodyend="71"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/ApiHelper.cs" line="11" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/ApiHelper.cs" bodystart="12" bodyend="71"/>
     <listofallmembers>
       <member refid="class_api_helper_1a058633726e662896ec47ac65837b236e" prot="public" virt="non-virtual"><scope>ApiHelper</scope><name>GetWeather</name></member>
     </listofallmembers>

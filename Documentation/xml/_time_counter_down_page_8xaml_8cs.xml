@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="10" column="1" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="10" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="10" column="1" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -229,6 +229,6 @@
 <codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="204"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterDownPage.xaml.cs"/>
   </compounddef>
 </doxygen>

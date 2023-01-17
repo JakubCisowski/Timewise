@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_63aa0fe10bf23d518138798e6f34c93e" kind="dir">
-    <compoundname>Timewise.Code/Models</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.Code/Models</compoundname>
     <innerfile refid="_calendar_8cs">Calendar.cs</innerfile>
     <innerfile refid="_date_8cs">Date.cs</innerfile>
     <innerfile refid="_duration_8cs">Duration.cs</innerfile>
@@ -14,6 +14,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Models/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/"/>
   </compounddef>
 </doxygen>

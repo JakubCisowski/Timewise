@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_02fd2ccf3c5ef0e4e16f9c4be25a65b8" kind="dir">
-    <compoundname>Timewise.App/Platforms/Windows</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Windows</compoundname>
     <innerfile refid="_platforms_2_windows_2_app_8xaml_8cs">App.xaml.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.App/Platforms/Windows/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Windows/"/>
   </compounddef>
 </doxygen>

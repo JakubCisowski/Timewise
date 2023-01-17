@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="18" column="32" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="18" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="18" column="32" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="18" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="23" column="8" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="23" bodyend="27"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="23" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="23" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1aadcfee4d82f1b10c76fd8442dbeb8b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task&lt; T &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="34" column="8" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="34" bodyend="49"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="34" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="34" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1a70b43717508e2e268215d9eea8f88b42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task&lt; IEnumerable&lt; T &gt; &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="55" column="8" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="55" bodyend="70"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="55" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="55" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1ac7e05b3098cc83475c0c971e17dfba72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="76" column="14" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="76" bodyend="83"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="76" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="76" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1a913fd31031b012e39f4e5b197a0ddce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="89" column="14" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="89" bodyend="96"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="89" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="89" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1a17411ed72a8310896a78edc0614439cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="102" column="14" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="102" bodyend="109"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="102" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="102" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1ae5c99a10810e68d5acf4d18590426385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="115" column="14" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="115" bodyend="122"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="115" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="115" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="class_entity_repository_1a843f89c7a319df5ea10c6cb27656e903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="127" column="13" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="127" bodyend="133"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="127" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="127" bodyend="133"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -263,7 +263,7 @@
         <link refid="interface_i_generic_repository"/>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Database/Repositories/EntityRepository.cs" line="13" column="7" bodyfile="Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="14" bodyend="134"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" line="13" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories/EntityRepository.cs" bodystart="14" bodyend="134"/>
     <listofallmembers>
       <member refid="class_entity_repository_1a43ea57140748c8ca178001039c82c500" prot="private" virt="non-virtual"><scope>EntityRepository</scope><name>_connection</name></member>
       <member refid="class_entity_repository_1ac7e05b3098cc83475c0c971e17dfba72" prot="public" virt="non-virtual"><scope>EntityRepository</scope><name>Add&lt; T &gt;</name></member>

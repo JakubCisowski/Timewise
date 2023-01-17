@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="14" column="12" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="14" bodyend="14"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="14" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="14" bodyend="14"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_event_1a0308c16fb4ae4be96d1d914e469796b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="19" column="15" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="19" bodyend="19"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="19" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_event_1a080866cd511c02bc0d6569bf91b46301" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>DateTime</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="24" column="17" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="24" bodyend="24"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="24" column="17" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_event_1affe0c1f43efff68002995b355cc06f39" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="29" column="12" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="29" bodyend="29"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="29" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_event_1aa036d5a9f3813640f21bd17e320ee5a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>Guid</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUpEvent.cs" line="13" column="13" bodyfile="Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="13" bodyend="13"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUpEvent.cs" line="13" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_event_1a4ce88528b56ee579e4dd0be32c6fc035" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type><ref refid="class_time_counter_up" kindref="compound">TimeCounterUp</ref></type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUpEvent.cs" line="23" column="22" bodyfile="Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="23" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUpEvent.cs" line="23" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="23" bodyend="23"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="38" column="24" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="38" bodyend="41"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="38" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="38" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_event_1ab5728e7c79db2cc9adf6dab8c83ea9b9" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>static</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="49" column="24" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="49" bodyend="57"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="49" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="49" bodyend="57"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUpEvent.cs" line="30" column="8" bodyfile="Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="30" bodyend="35"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUpEvent.cs" line="30" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUpEvent.cs" bodystart="30" bodyend="35"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -235,7 +235,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="9" column="7" bodyfile="Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="10" bodyend="58"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" line="9" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterUpEvent.cs" bodystart="10" bodyend="58"/>
     <listofallmembers>
       <member refid="class_time_counter_up_event_1ae7638d66118a1af26ea4d6917cedb81f" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>Id</name></member>
       <member refid="class_time_counter_up_event_1aa036d5a9f3813640f21bd17e320ee5a4" prot="public" virt="non-virtual"><scope>TimeCounterUpEvent</scope><name>Id</name></member>

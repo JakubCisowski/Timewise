@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="8" column="8" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="8" bodyend="11"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="8" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="8" bodyend="11"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="13" column="20" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="13" bodyend="16"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="13" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="13" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="class_day_of_week_page_1af78ec575b1d2e0a7ff01436ce3cd17ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="18" column="14" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="18" bodyend="27"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="18" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="18" bodyend="27"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -91,7 +91,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="6" column="15" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="7" bodyend="28"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="6" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="7" bodyend="28"/>
     <listofallmembers>
       <member refid="class_day_of_week_page_1a660082c0e0ca1190ff174c9fb5acd773" prot="private" virt="non-virtual"><scope>DayOfWeekPage</scope><name>BackButton_Clicked</name></member>
       <member refid="class_day_of_week_page_1af78ec575b1d2e0a7ff01436ce3cd17ad" prot="private" virt="non-virtual"><scope>DayOfWeekPage</scope><name>CheckDayOfWeekButton_Clicked</name></member>

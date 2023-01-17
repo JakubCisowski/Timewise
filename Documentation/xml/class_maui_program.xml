@@ -15,14 +15,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MauiProgram.cs" line="10" column="23" bodyfile="Timewise.App/MauiProgram.cs" bodystart="10" bodyend="27"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MauiProgram.cs" line="10" column="23" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MauiProgram.cs" bodystart="10" bodyend="27"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.App/MauiProgram.cs" line="8" column="15" bodyfile="Timewise.App/MauiProgram.cs" bodystart="9" bodyend="28"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MauiProgram.cs" line="8" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MauiProgram.cs" bodystart="9" bodyend="28"/>
     <listofallmembers>
       <member refid="class_maui_program_1a6578005e34f05cbcd379b70e512aa707" prot="public" virt="non-virtual"><scope>MauiProgram</scope><name>CreateMauiApp</name></member>
     </listofallmembers>

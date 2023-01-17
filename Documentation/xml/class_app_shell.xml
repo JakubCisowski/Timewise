@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/AppShell.xaml.cs" line="5" column="8" bodyfile="Timewise.App/AppShell.xaml.cs" bodystart="5" bodyend="8"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/AppShell.xaml.cs" line="5" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/AppShell.xaml.cs" bodystart="5" bodyend="8"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -45,7 +45,7 @@
         <label>Shell</label>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/AppShell.xaml.cs" line="3" column="15" bodyfile="Timewise.App/AppShell.xaml.cs" bodystart="4" bodyend="9"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/AppShell.xaml.cs" line="3" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/AppShell.xaml.cs" bodystart="4" bodyend="9"/>
     <listofallmembers>
       <member refid="class_app_shell_1ae4f3a6843a50481b28bfcacfecdd09ce" prot="public" virt="non-virtual"><scope>AppShell</scope><name>AppShell</name></member>
     </listofallmembers>

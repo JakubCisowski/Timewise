@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="7" bodyend="10"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" line="7" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="7" bodyend="10"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="12" column="14" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="12" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" line="12" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="12" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_unix_time_page_1aca6029066dd29b84144ae158c244d680" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="25" column="20" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="25" bodyend="28"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" line="25" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="25" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_unix_time_page_1a1ecb2de0bd2f348a60492e926ef2971a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="30" column="14" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="30" bodyend="33"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" line="30" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="30" bodyend="33"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -113,7 +113,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="6" bodyend="34"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" line="5" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="6" bodyend="34"/>
     <listofallmembers>
       <member refid="class_unix_time_page_1aca6029066dd29b84144ae158c244d680" prot="private" virt="non-virtual"><scope>UnixTimePage</scope><name>BackButton_Clicked</name></member>
       <member refid="class_unix_time_page_1ab92ae44f10b9c076589e744d3d6fdf01" prot="private" virt="non-virtual"><scope>UnixTimePage</scope><name>CheckUnixTimeButton_Clicked</name></member>

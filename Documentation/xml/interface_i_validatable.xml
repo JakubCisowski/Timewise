@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Interfaces/IValidatable.cs" line="12" column="13" bodyfile="Timewise.Code/Interfaces/IValidatable.cs" bodystart="12" bodyend="12"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces/IValidatable.cs" line="12" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces/IValidatable.cs" bodystart="12" bodyend="12"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -62,7 +62,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="Timewise.Code/Interfaces/IValidatable.cs" line="7" column="18" bodyfile="Timewise.Code/Interfaces/IValidatable.cs" bodystart="8" bodyend="13"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces/IValidatable.cs" line="7" column="18" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces/IValidatable.cs" bodystart="8" bodyend="13"/>
     <listofallmembers>
       <member refid="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28" prot="public" virt="non-virtual"><scope>IValidatable</scope><name>IsValid</name></member>
     </listofallmembers>

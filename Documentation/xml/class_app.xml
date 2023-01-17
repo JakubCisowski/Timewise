@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/App.xaml.cs" line="10" column="8" bodyfile="Timewise.App/App.xaml.cs" bodystart="10" bodyend="31"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/App.xaml.cs" line="10" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/App.xaml.cs" bodystart="10" bodyend="31"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/App.xaml.cs" line="33" column="27" bodyfile="Timewise.App/App.xaml.cs" bodystart="33" bodyend="49"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/App.xaml.cs" line="33" column="27" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/App.xaml.cs" bodystart="33" bodyend="49"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -65,7 +65,7 @@
         <label>Application</label>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/App.xaml.cs" line="8" column="15" bodyfile="Timewise.App/App.xaml.cs" bodystart="9" bodyend="50"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/App.xaml.cs" line="8" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/App.xaml.cs" bodystart="9" bodyend="50"/>
     <listofallmembers>
       <member refid="class_app_1a9721308c089f47932ade01a2c713bea8" prot="public" virt="non-virtual"><scope>App</scope><name>App</name></member>
       <member refid="class_app_1abea5ac27b08187ca39f3ff5c279be457" prot="protected" virt="non-virtual"><scope>App</scope><name>CreateWindow</name></member>

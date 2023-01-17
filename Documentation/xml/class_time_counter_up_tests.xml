@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="7" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="7" bodyend="13"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" line="7" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" bodystart="7" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_tests_1ade517e089a01a36ed06a6cf5f1888fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="16" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="16" bodyend="24"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" line="16" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" bodystart="16" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_tests_1a7bd7ee14796fcca05407416ece1f62a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="27" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="27" bodyend="41"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" line="27" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" bodystart="27" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_tests_1a5fc757d802f48a43d02c25ab89e9221b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -57,14 +57,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="44" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="44" bodyend="56"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" line="44" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" bodystart="44" bodyend="56"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Tests/TimeCounterUpTests.cs" line="4" column="7" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="5" bodyend="57"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" line="4" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterUpTests.cs" bodystart="5" bodyend="57"/>
     <listofallmembers>
       <member refid="class_time_counter_up_tests_1ade517e089a01a36ed06a6cf5f1888fa5" prot="public" virt="non-virtual"><scope>TimeCounterUpTests</scope><name>TimeCounterUp_IsNotRunning_AfterStopping</name></member>
       <member refid="class_time_counter_up_tests_1a1732f0249551d187c94ff74b38d5b025" prot="public" virt="non-virtual"><scope>TimeCounterUpTests</scope><name>TimeCounterUp_IsRunning_AfterStarting</name></member>

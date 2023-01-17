@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_022d735b254830cdbf6b05556761280d" kind="dir">
-    <compoundname>Timewise.App/Platforms</compoundname>
-    <innerdir refid="dir_5b3f4233c541150ce330f0d96cecc94a">Timewise.App/Platforms/Android</innerdir>
-    <innerdir refid="dir_35e4ae80e0208c85ce2604c5797ea02e">Timewise.App/Platforms/iOS</innerdir>
-    <innerdir refid="dir_5a7d558b6cf64e04660811f7f1b4282a">Timewise.App/Platforms/MacCatalyst</innerdir>
-    <innerdir refid="dir_f5525d07146c3dcac7c4a2440b86e47f">Timewise.App/Platforms/Tizen</innerdir>
-    <innerdir refid="dir_02fd2ccf3c5ef0e4e16f9c4be25a65b8">Timewise.App/Platforms/Windows</innerdir>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms</compoundname>
+    <innerdir refid="dir_5b3f4233c541150ce330f0d96cecc94a">C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android</innerdir>
+    <innerdir refid="dir_35e4ae80e0208c85ce2604c5797ea02e">C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS</innerdir>
+    <innerdir refid="dir_5a7d558b6cf64e04660811f7f1b4282a">C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/MacCatalyst</innerdir>
+    <innerdir refid="dir_f5525d07146c3dcac7c4a2440b86e47f">C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Tizen</innerdir>
+    <innerdir refid="dir_02fd2ccf3c5ef0e4e16f9c4be25a65b8">C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Windows</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.App/Platforms/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/"/>
   </compounddef>
 </doxygen>

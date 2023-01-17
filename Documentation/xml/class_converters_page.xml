@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="5" column="8" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="5" bodyend="8"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" line="5" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="5" bodyend="8"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="10" column="20" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="10" bodyend="13"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" line="10" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="10" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class_converters_page_1a7898ed5cfaecdbf90ee556af677883d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="15" column="20" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="15" bodyend="18"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" line="15" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_converters_page_1a38d2f151147f8ca4a2216b2e2c8948f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="20" column="20" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="20" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" line="20" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="20" bodyend="23"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -113,7 +113,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="3" column="15" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="4" bodyend="24"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" line="3" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="4" bodyend="24"/>
     <listofallmembers>
       <member refid="class_converters_page_1a7898ed5cfaecdbf90ee556af677883d2" prot="private" virt="non-virtual"><scope>ConvertersPage</scope><name>BackButton_Clicked</name></member>
       <member refid="class_converters_page_1a1bdd74f0b085880dccf38c6ab89b38fb" prot="public" virt="non-virtual"><scope>ConvertersPage</scope><name>ConvertersPage</name></member>

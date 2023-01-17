@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="12" column="23" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="12" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="12" column="23" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="12" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="13" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="13" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="13" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="16" column="8" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="16" bodyend="32"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="16" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="16" bodyend="32"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="34" column="14" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="34" bodyend="102"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="34" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="34" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_page_1ad80c44a6c26abcb697ef91f702e336a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="104" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="104" bodyend="147"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="104" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="104" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_page_1af785836d8cfacd6e234193a0ccfc5f86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="149" column="14" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="149" bodyend="152"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="149" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="149" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_page_1a94cef001d2d28d451ffb17b3a6836fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="154" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="154" bodyend="157"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="154" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="154" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_page_1ae6d9c919ffec9911652f622239e5d130" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="159" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="159" bodyend="192"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="159" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="159" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_page_1a9edb22ab5e69606122c4cf3fd8eaf6ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="194" column="14" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="194" bodyend="202"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="194" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="194" bodyend="202"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -207,7 +207,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="10" column="15" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="11" bodyend="203"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="10" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="11" bodyend="203"/>
     <listofallmembers>
       <member refid="class_time_counter_up_page_1a6e6b3bf7a39bb284e786ab39876ba9a3" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>_timeCounter</name></member>
       <member refid="class_time_counter_up_page_1a94cef001d2d28d451ffb17b3a6836fff" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>BackButton_Clicked</name></member>

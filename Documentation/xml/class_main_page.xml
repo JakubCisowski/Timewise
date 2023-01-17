@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="13" column="8" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="13" bodyend="25"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="13" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="13" bodyend="25"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="27" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="27" bodyend="90"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="27" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="27" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1ab6c0d5cc7c97d8c7735679afdf1c701e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="92" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="92" bodyend="95"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="92" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="92" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1aeb55faac9f62d6b698768d8f6420cc15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="97" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="97" bodyend="100"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="97" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="97" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1a12e97c382e4c31c21bde0f756db50cfd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="102" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="102" bodyend="105"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="102" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1aaccafef1495e567fa48e8fe5b70a701f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="107" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="107" bodyend="110"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="107" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1a220fd0eadc087786f5b27cf04d18fb46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="112" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="112" bodyend="115"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="112" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="112" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1a0284c9b850e662da8577a2e8a7453d6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="117" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="117" bodyend="120"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="117" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="117" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1adef1880b3722aefcba1f6dd2b16cd244" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="122" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="122" bodyend="125"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="122" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="122" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="class_main_page_1a1d7a28871be71cb5c37be5b08722100a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/MainPage.xaml.cs" line="127" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="127" bodyend="130"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="127" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="127" bodyend="130"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -237,7 +237,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/MainPage.xaml.cs" line="11" column="15" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="12" bodyend="131"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" line="11" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/MainPage.xaml.cs" bodystart="12" bodyend="131"/>
     <listofallmembers>
       <member refid="class_main_page_1a220fd0eadc087786f5b27cf04d18fb46" prot="private" virt="non-virtual"><scope>MainPage</scope><name>CalculationsButton_Clicked</name></member>
       <member refid="class_main_page_1a1d7a28871be71cb5c37be5b08722100a" prot="private" virt="non-virtual"><scope>MainPage</scope><name>CalendarButton_Clicked</name></member>

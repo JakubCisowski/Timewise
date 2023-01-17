@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="10" column="18" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="10" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" line="10" column="18" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="12" column="8" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="12" bodyend="21"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" line="12" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="12" bodyend="21"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="23" column="20" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="23" bodyend="26"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" line="23" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="23" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="class_calendar_page_1a4a27af6c37c12da9910bb2bccf8a477e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="28" column="20" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="28" bodyend="66"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" line="28" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="28" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="class_calendar_page_1a6a09fb69bd2a2b79f13ab30d993cde4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="68" column="20" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="68" bodyend="75"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" line="68" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="68" bodyend="75"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -133,7 +133,7 @@
         <label>ContentPage</label>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="8" column="15" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="9" bodyend="76"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" line="8" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="9" bodyend="76"/>
     <listofallmembers>
       <member refid="class_calendar_page_1a2dfb4347b7ed35f3aff07692b2fa455d" prot="private" virt="non-virtual"><scope>CalendarPage</scope><name>_calendar</name></member>
       <member refid="class_calendar_page_1a4a27af6c37c12da9910bb2bccf8a477e" prot="private" virt="non-virtual"><scope>CalendarPage</scope><name>AddReminderButton_OnClicked</name></member>

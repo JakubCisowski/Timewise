@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="13" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="13" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="13" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_time_1aa0977494f2f28017d49ac8dbdcd82ce1" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="14" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="14" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="14" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_time_1a3fcf1838a4f0eacdf82649ed8fb504b4" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="15" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="15" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="15" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_time_1abbf17ea211c73e86468484fbe952c4d6" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="16" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="16" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="16" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="16" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="21" column="42" bodyfile="Timewise.Code/Models/Time.cs" bodystart="21" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="21" column="42" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="26" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="26" bodyend="32"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="26" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="26" bodyend="32"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a1478a22cbd576d2068adc46fe4610391" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="37" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="38" bodyend="44"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="37" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="38" bodyend="44"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a24c5ccab64ce97fe1c1e137fab31d82d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="49" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="50" bodyend="56"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="49" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="50" bodyend="56"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a9697d9bcf23d5410924f8b5b680b47ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="61" column="12" bodyfile="Timewise.Code/Models/Time.cs" bodystart="62" bodyend="68"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="61" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="62" bodyend="68"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a3aea56c698eb288dede3f72b7913b7c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="class_date" kindref="compound">Date</ref></type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="74" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="74" bodyend="74"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="74" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="74" bodyend="74"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a9069b7d8b74e4808c8dc4099b48fb7f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>TimeZoneInfo</type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="81" column="21" bodyfile="Timewise.Code/Models/Time.cs" bodystart="81" bodyend="81"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="81" column="21" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="81" bodyend="81"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a7d3381c3e7274c0d7b59484ef42eb4e9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type><ref refid="class_time" kindref="compound">Time</ref></type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="87" column="20" bodyfile="Timewise.Code/Models/Time.cs" bodystart="88" bodyend="99"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="87" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="88" bodyend="99"/>
       </memberdef>
       <memberdef kind="property" id="class_time_1a77d2cc80b99c97b39aea473f370da072" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="105" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="106" bodyend="118"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="105" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="106" bodyend="118"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="123" column="8" bodyfile="Timewise.Code/Models/Time.cs" bodystart="123" bodyend="134"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="123" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="123" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a6a7a29fccbbf46b421fe6f3f466ea3c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="144" column="8" bodyfile="Timewise.Code/Models/Time.cs" bodystart="144" bodyend="151"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="144" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="144" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1ae0cc6d44fc474dfecd25dda54bd25cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="158" column="8" bodyfile="Timewise.Code/Models/Time.cs" bodystart="158" bodyend="166"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="158" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="158" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a72667b9ca5314240d349efbe4f6e0438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_time" kindref="compound">Time</ref></type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="173" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="173" bodyend="181"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="173" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="173" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a306b6d1d67210bbc9572f6bffda898dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="187" column="13" bodyfile="Timewise.Code/Models/Time.cs" bodystart="187" bodyend="224"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="187" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="187" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a92fda5a05c7c586118d4342340957217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="378" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="378" bodyend="381"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="378" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="378" bodyend="381"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a084f8f99f23008bff21b72e0cf82abc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -413,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="383" column="22" bodyfile="Timewise.Code/Models/Time.cs" bodystart="383" bodyend="391"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="383" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="383" bodyend="391"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a07ce1c3add236ccad624ffd0e8f5d884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override int</type>
@@ -427,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="393" column="21" bodyfile="Timewise.Code/Models/Time.cs" bodystart="393" bodyend="396"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="393" column="21" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="393" bodyend="396"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -473,7 +473,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="233" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="233" bodyend="253"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="233" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="233" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a0bd6e036d1f407f7f235e40d426a0beb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -516,7 +516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="261" column="15" bodyfile="Timewise.Code/Models/Time.cs" bodystart="261" bodyend="299"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="261" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="261" bodyend="299"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1add175eee2aa426884dd4aa0b356a4067" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -559,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="307" column="20" bodyfile="Timewise.Code/Models/Time.cs" bodystart="307" bodyend="345"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="307" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="307" bodyend="345"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1afd9e5b19f1d893fa0987a79216a3098d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>implicit</type>
@@ -591,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="353" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="353" bodyend="356"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="353" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="353" bodyend="356"/>
       </memberdef>
       <memberdef kind="function" id="class_time_1a47e84c0ec7957c30a38ad6f1bf0b0c51" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>static</type>
@@ -623,7 +623,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="364" column="24" bodyfile="Timewise.Code/Models/Time.cs" bodystart="364" bodyend="367"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="364" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="364" bodyend="367"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -656,7 +656,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Time.cs" line="373" column="14" bodyfile="Timewise.Code/Models/Time.cs" bodystart="373" bodyend="376"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="373" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="373" bodyend="376"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -698,7 +698,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Models/Time.cs" line="11" column="7" bodyfile="Timewise.Code/Models/Time.cs" bodystart="12" bodyend="397"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" line="11" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Time.cs" bodystart="12" bodyend="397"/>
     <listofallmembers>
       <member refid="class_time_1a089c12baa9e95079d5ed74bc4fe6568e" prot="private" virt="non-virtual"><scope>Time</scope><name>_hour</name></member>
       <member refid="class_time_1abbf17ea211c73e86468484fbe952c4d6" prot="private" virt="non-virtual"><scope>Time</scope><name>_millisecond</name></member>

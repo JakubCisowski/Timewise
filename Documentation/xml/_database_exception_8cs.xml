@@ -17,6 +17,6 @@
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_database_exception_1a5e6d37ff53951608687ef6bdb949029f" kindref="member">DatabaseException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>message)<sp/>:<sp/>base(message)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="Timewise.Code/Exceptions/DatabaseException.cs"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs"/>
   </compounddef>
 </doxygen>

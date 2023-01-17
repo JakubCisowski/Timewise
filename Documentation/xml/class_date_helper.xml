@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/DateHelper.cs" line="18" column="20" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="18" bodyend="21"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" line="18" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" bodystart="18" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="class_date_helper_1af0dda50f6662608dc1945f82a6a37e01" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/DateHelper.cs" line="31" column="19" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="31" bodyend="49"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" line="31" column="19" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" bodystart="31" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="class_date_helper_1a1d11eab340e5049c3f90ea961576d2df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DayOfWeek</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/DateHelper.cs" line="57" column="25" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="57" bodyend="82"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" line="57" column="25" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" bodystart="57" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="class_date_helper_1a5ece8b3cc03c82ce11cb89732534b42a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/DateHelper.cs" line="89" column="24" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="89" bodyend="92"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" line="89" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" bodystart="89" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="class_date_helper_1a4a72ee17a0ddd900eaced0d7cec3376b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>DateTime</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/DateHelper.cs" line="100" column="24" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="100" bodyend="103"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" line="100" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" bodystart="100" bodyend="103"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -207,7 +207,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Helpers/DateHelper.cs" line="11" column="15" bodyfile="Timewise.Code/Helpers/DateHelper.cs" bodystart="12" bodyend="104"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" line="11" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/DateHelper.cs" bodystart="12" bodyend="104"/>
     <listofallmembers>
       <member refid="class_date_helper_1a4a72ee17a0ddd900eaced0d7cec3376b" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>Construct</name></member>
       <member refid="class_date_helper_1af0dda50f6662608dc1945f82a6a37e01" prot="public" virt="non-virtual"><scope>DateHelper</scope><name>GetAmountOfDaysInMonth</name></member>

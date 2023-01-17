@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/User.cs" line="15" column="20" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="15" bodyend="15"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="15" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="15" bodyend="15"/>
       </memberdef>
       <memberdef kind="property" id="class_user_1a12fe165dbd627b74b91752d3ffdd6750" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/User.cs" line="20" column="12" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="20" bodyend="20"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="20" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="20" bodyend="20"/>
       </memberdef>
       <memberdef kind="property" id="class_user_1a135b1e675142b0dbe820ed10bd0bfc25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/User.cs" line="27" column="15" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="27" bodyend="27"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="27" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="property" id="class_user_1ac8c2f1cd6fbc79af39bd0fa68d085bbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/User.cs" line="34" column="15" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="34" bodyend="34"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="34" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="34" bodyend="34"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/User.cs" line="39" column="9" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="39" bodyend="39"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="39" column="9" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="39" bodyend="39"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/User.cs" line="46" column="8" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="46" bodyend="50"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="46" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="46" bodyend="50"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -155,7 +155,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Database/Entities/User.cs" line="10" column="7" bodyfile="Timewise.Code/Database/Entities/User.cs" bodystart="11" bodyend="51"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" line="10" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/User.cs" bodystart="11" bodyend="51"/>
     <listofallmembers>
       <member refid="class_user_1a966341689141ee29ce4bf6da2d380a57" prot="public" virt="non-virtual"><scope>User</scope><name>CurrentUser</name></member>
       <member refid="class_user_1a12fe165dbd627b74b91752d3ffdd6750" prot="public" virt="non-virtual"><scope>User</scope><name>Id</name></member>

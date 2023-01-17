@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Interfaces/IEntity.cs" line="12" column="12" bodyfile="Timewise.Code/Database/Interfaces/IEntity.cs" bodystart="12" bodyend="12"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces/IEntity.cs" line="12" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces/IEntity.cs" bodystart="12" bodyend="12"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -64,7 +64,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="Timewise.Code/Database/Interfaces/IEntity.cs" line="6" column="18" bodyfile="Timewise.Code/Database/Interfaces/IEntity.cs" bodystart="7" bodyend="13"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces/IEntity.cs" line="6" column="18" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces/IEntity.cs" bodystart="7" bodyend="13"/>
     <listofallmembers>
       <member refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f" prot="public" virt="non-virtual"><scope>IEntity</scope><name>Id</name></member>
     </listofallmembers>

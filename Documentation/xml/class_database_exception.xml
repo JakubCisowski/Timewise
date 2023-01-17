@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Exceptions/DatabaseException.cs" line="11" column="8" bodyfile="Timewise.Code/Exceptions/DatabaseException.cs" bodystart="11" bodyend="11"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs" line="11" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs" bodystart="11" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="class_database_exception_1ac504d61fb9a3b19ffee7104fb86df414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Exceptions/DatabaseException.cs" line="17" column="8" bodyfile="Timewise.Code/Exceptions/DatabaseException.cs" bodystart="17" bodyend="17"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs" line="17" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs" bodystart="17" bodyend="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
         <label>Exception</label>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Exceptions/DatabaseException.cs" line="6" column="7" bodyfile="Timewise.Code/Exceptions/DatabaseException.cs" bodystart="7" bodyend="18"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs" line="6" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/DatabaseException.cs" bodystart="7" bodyend="18"/>
     <listofallmembers>
       <member refid="class_database_exception_1a5e6d37ff53951608687ef6bdb949029f" prot="public" virt="non-virtual"><scope>DatabaseException</scope><name>DatabaseException</name></member>
       <member refid="class_database_exception_1ac504d61fb9a3b19ffee7104fb86df414" prot="public" virt="non-virtual"><scope>DatabaseException</scope><name>DatabaseException</name></member>

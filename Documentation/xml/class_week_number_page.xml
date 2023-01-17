@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="7" bodyend="10"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" line="7" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="7" bodyend="10"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="12" column="20" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="12" bodyend="15"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" line="12" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="12" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="class_week_number_page_1a3cb87d5b33fef6e77a75b28fa0a9591a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="17" column="14" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="17" bodyend="27"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" line="17" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="17" bodyend="27"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -91,7 +91,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="6" bodyend="28"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" line="5" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="6" bodyend="28"/>
     <listofallmembers>
       <member refid="class_week_number_page_1afc105ddb18bcc1695280c1dc12009379" prot="private" virt="non-virtual"><scope>WeekNumberPage</scope><name>BackButton_Clicked</name></member>
       <member refid="class_week_number_page_1a3cb87d5b33fef6e77a75b28fa0a9591a" prot="private" virt="non-virtual"><scope>WeekNumberPage</scope><name>CheckWeekNumberButton_Clicked</name></member>

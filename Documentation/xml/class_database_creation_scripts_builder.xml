@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="11" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="11" bodyend="18"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="11" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="11" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_database_creation_scripts_builder_1ad3daa8fe5791dfaa1fa4e903d3c48e06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="23" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="23" bodyend="32"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="23" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="23" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="class_database_creation_scripts_builder_1a2e50a4b0c8bdd00a0b6532e900abf417" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="37" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="37" bodyend="46"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="37" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="37" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="class_database_creation_scripts_builder_1ae9b7b82279e8c42c1795ecc3414b8064" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="51" column="22" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="51" bodyend="60"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="51" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="51" bodyend="60"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -69,7 +69,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="6" column="15" bodyfile="Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="7" bodyend="61"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" line="6" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/DatabaseCreationScriptsBuilder.cs" bodystart="7" bodyend="61"/>
     <listofallmembers>
       <member refid="class_database_creation_scripts_builder_1ae9b7b82279e8c42c1795ecc3414b8064" prot="public" virt="non-virtual"><scope>DatabaseCreationScriptsBuilder</scope><name>BuildReminderTableScripts</name></member>
       <member refid="class_database_creation_scripts_builder_1a2e50a4b0c8bdd00a0b6532e900abf417" prot="public" virt="non-virtual"><scope>DatabaseCreationScriptsBuilder</scope><name>BuildTimeCounterDownEventTableScripts</name></member>

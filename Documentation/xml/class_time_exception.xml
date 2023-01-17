@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Exceptions/TimeException.cs" line="11" column="8" bodyfile="Timewise.Code/Exceptions/TimeException.cs" bodystart="11" bodyend="11"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/TimeException.cs" line="11" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/TimeException.cs" bodystart="11" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="class_time_exception_1a9fd96144d9fa8f9b2bf528d2e54709a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Exceptions/TimeException.cs" line="17" column="8" bodyfile="Timewise.Code/Exceptions/TimeException.cs" bodystart="17" bodyend="17"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/TimeException.cs" line="17" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/TimeException.cs" bodystart="17" bodyend="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Exceptions/TimeException.cs" line="6" column="7" bodyfile="Timewise.Code/Exceptions/TimeException.cs" bodystart="7" bodyend="18"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/TimeException.cs" line="6" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions/TimeException.cs" bodystart="7" bodyend="18"/>
     <listofallmembers>
       <member refid="class_time_exception_1a6410859e63a5b45a08cb0035e8870108" prot="public" virt="non-virtual"><scope>TimeException</scope><name>TimeException</name></member>
       <member refid="class_time_exception_1a9fd96144d9fa8f9b2bf528d2e54709a5" prot="public" virt="non-virtual"><scope>TimeException</scope><name>TimeException</name></member>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="14" column="12" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="14" bodyend="14"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="14" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="14" bodyend="14"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_down_event_1a530f12f0923ca5674c4307c32e42d5ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="19" column="15" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="19" bodyend="19"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="19" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_down_event_1a75e5d35f031016d364ad0a19a28f7462" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>DateTime</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="24" column="17" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="24" bodyend="24"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="24" column="17" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_down_event_1af64cc13a8458f7e3ab27bb429e2c80b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="29" column="12" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="29" bodyend="29"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="29" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_down_event_1ad21e8417e2853410481b17042fb99efa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>Guid</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterDownEvent.cs" line="13" column="13" bodyfile="Timewise.Code/Models/TimeCounterDownEvent.cs" bodystart="13" bodyend="13"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterDownEvent.cs" line="13" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterDownEvent.cs" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_down_event_1aec85a2d0af90eb1b338c1430401423ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type><ref refid="class_time_counter_down" kindref="compound">TimeCounterDown</ref></type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterDownEvent.cs" line="23" column="24" bodyfile="Timewise.Code/Models/TimeCounterDownEvent.cs" bodystart="23" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterDownEvent.cs" line="23" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterDownEvent.cs" bodystart="23" bodyend="23"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="38" column="24" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="38" bodyend="45"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="38" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="38" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_down_event_1a39d2326c2b620d328c1dc4dbedc45368" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>static</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="53" column="24" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="53" bodyend="61"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="53" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="53" bodyend="61"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterDownEvent.cs" line="30" column="8" bodyfile="Timewise.Code/Models/TimeCounterDownEvent.cs" bodystart="30" bodyend="35"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterDownEvent.cs" line="30" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterDownEvent.cs" bodystart="30" bodyend="35"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -235,7 +235,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="9" column="7" bodyfile="Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="10" bodyend="62"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" line="9" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/TimeCounterDownEvent.cs" bodystart="10" bodyend="62"/>
     <listofallmembers>
       <member refid="class_time_counter_down_event_1a75e5d35f031016d364ad0a19a28f7462" prot="public" virt="non-virtual"><scope>TimeCounterDownEvent</scope><name>EndTime</name></member>
       <member refid="class_time_counter_down_event_1acd3532d74d0f83595566c5ffdc0890bf" prot="public" virt="non-virtual"><scope>TimeCounterDownEvent</scope><name>Id</name></member>

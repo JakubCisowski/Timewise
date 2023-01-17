@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/FileHelper.cs" line="16" column="22" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="16" bodyend="37"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/FileHelper.cs" line="16" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/FileHelper.cs" bodystart="16" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="class_file_helper_1abc0a8396c3873e1dfe1e27c6ebfda2df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Helpers/FileHelper.cs" line="44" column="22" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="44" bodyend="73"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/FileHelper.cs" line="44" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/FileHelper.cs" bodystart="44" bodyend="73"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -45,7 +45,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Helpers/FileHelper.cs" line="10" column="15" bodyfile="Timewise.Code/Helpers/FileHelper.cs" bodystart="11" bodyend="74"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/FileHelper.cs" line="10" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers/FileHelper.cs" bodystart="11" bodyend="74"/>
     <listofallmembers>
       <member refid="class_file_helper_1abc0a8396c3873e1dfe1e27c6ebfda2df" prot="public" virt="non-virtual"><scope>FileHelper</scope><name>GetHolidays</name></member>
       <member refid="class_file_helper_1af4957bc2d40aaf931dcc94c2e72723e5" prot="public" virt="non-virtual"><scope>FileHelper</scope><name>GetNameDayNames</name></member>

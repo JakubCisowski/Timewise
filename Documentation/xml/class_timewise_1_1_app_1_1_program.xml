@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Platforms/iOS/Program.cs" line="9" column="13" bodyfile="Timewise.App/Platforms/iOS/Program.cs" bodystart="9" bodyend="14"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS/Program.cs" line="9" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS/Program.cs" bodystart="9" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="class_timewise_1_1_app_1_1_program_1a6e976e994289e85bce7b75c3ee840bb4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Platforms/MacCatalyst/Program.cs" line="9" column="13" bodyfile="Timewise.App/Platforms/MacCatalyst/Program.cs" bodystart="9" bodyend="14"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/MacCatalyst/Program.cs" line="9" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/MacCatalyst/Program.cs" bodystart="9" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="class_timewise_1_1_app_1_1_program_1a6e976e994289e85bce7b75c3ee840bb4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Platforms/Tizen/Main.cs" line="11" column="13" bodyfile="Timewise.App/Platforms/Tizen/Main.cs" bodystart="11" bodyend="15"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Tizen/Main.cs" line="11" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Tizen/Main.cs" bodystart="11" bodyend="15"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Platforms/Tizen/Main.cs" line="9" column="28"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Tizen/Main.cs" line="9" column="28"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -101,7 +101,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Platforms/iOS/Program.cs" line="6" column="7" bodyfile="Timewise.App/Platforms/iOS/Program.cs" bodystart="7" bodyend="15"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS/Program.cs" line="6" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS/Program.cs" bodystart="7" bodyend="15"/>
     <listofallmembers>
       <member refid="class_timewise_1_1_app_1_1_program_1aeeb0364e3e62c4f9b5ead4f85a83823e" prot="protected" virt="non-virtual"><scope>Timewise::App::Program</scope><name>CreateMauiApp</name></member>
       <member refid="class_timewise_1_1_app_1_1_program_1a6e976e994289e85bce7b75c3ee840bb4" prot="private" virt="non-virtual"><scope>Timewise::App::Program</scope><name>Main</name></member>

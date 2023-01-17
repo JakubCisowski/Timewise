@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_0586c63a05c50691ef438f5b257f7928" kind="dir">
-    <compoundname>Timewise.App/Pages</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.App/Pages</compoundname>
     <innerfile refid="_calculations_page_8xaml_8cs">CalculationsPage.xaml.cs</innerfile>
     <innerfile refid="_calendar_page_8xaml_8cs">CalendarPage.xaml.cs</innerfile>
     <innerfile refid="_converters_page_8xaml_8cs">ConvertersPage.xaml.cs</innerfile>
@@ -21,6 +21,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.App/Pages/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/"/>
   </compounddef>
 </doxygen>

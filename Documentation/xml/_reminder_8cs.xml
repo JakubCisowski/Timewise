@@ -24,6 +24,6 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_reminder_1adc21f8480e65a91cbe1401d669b551b6" kindref="member">UserId</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="Timewise.Code/Database/Entities/Reminder.cs"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs"/>
   </compounddef>
 </doxygen>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_b43d60f2eaa7cc83a900f2aa30999186" kind="dir">
-    <compoundname>Timewise.Code/Interfaces</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces</compoundname>
     <innerfile refid="_i_validatable_8cs">IValidatable.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Interfaces/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces/"/>
   </compounddef>
 </doxygen>

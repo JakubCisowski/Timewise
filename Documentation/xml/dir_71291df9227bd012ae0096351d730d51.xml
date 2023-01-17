@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_71291df9227bd012ae0096351d730d51" kind="dir">
-    <compoundname>Timewise.Code/Database/Entities</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities</compoundname>
     <innerfile refid="_reminder_8cs">Reminder.cs</innerfile>
     <innerfile refid="_database_2_entities_2_time_counter_down_event_8cs">TimeCounterDownEvent.cs</innerfile>
     <innerfile refid="_database_2_entities_2_time_counter_up_event_8cs">TimeCounterUpEvent.cs</innerfile>
@@ -10,6 +10,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Database/Entities/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/"/>
   </compounddef>
 </doxygen>

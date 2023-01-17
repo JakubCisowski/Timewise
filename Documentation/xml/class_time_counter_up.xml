@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="14" column="36" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="14" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="14" column="36" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_time_counter_up_1a1e003b7c96e5ae0ba620db3b9ab48385" prot="private" static="no" mutable="no">
         <type>Timer</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="15" column="15" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="15" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="15" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="15" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="21" column="17" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="21" bodyend="21"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="21" column="17" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="21" bodyend="21"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_1ab9e28c44a3a9ce730c0438ffeabacdec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="class_time" kindref="compound">Time</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="27" column="13" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="27" bodyend="27"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="27" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_1a19dbecaa28e9d921cb63e795b890c3d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>List&lt; <ref refid="class_duration" kindref="compound">Duration</ref> &gt;</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="32" column="13" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="32" bodyend="32"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="32" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_1ab167be0de9b4daf657b8945756da60e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="37" column="13" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="37" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="37" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_up_1a2f3e86cb7c7c2b99da1e2b354bb2b8b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="43" column="13" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="44" bodyend="53"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="43" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="44" bodyend="53"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="59" column="8" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="59" bodyend="64"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="59" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="59" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_1a86b1aab896b14f274cd48b81c482fff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="71" column="8" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="71" bodyend="77"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="71" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="71" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_1aecbf1a7f10e63f0bff347baf5eba64a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="119" column="13" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="119" bodyend="123"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="119" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="119" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_1a6c9a733a4ad294dd0100f989263c759c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="128" column="13" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="128" bodyend="132"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="128" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="128" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_1af56d39b87830539ca93b706b0092a6c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="140" column="17" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="140" bodyend="147"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="140" column="17" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="140" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_1a7a5360d83af69c03a1e9db3d35c6f385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="149" column="24" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="149" bodyend="152"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="149" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="149" bodyend="152"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="83" column="14" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="83" bodyend="96"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="83" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="83" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_up_1ac47cc3dd3d1c6b4aa57f8f443e38cc1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/TimeCounterUp.cs" line="103" column="14" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="103" bodyend="114"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="103" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="103" bodyend="114"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -352,7 +352,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Models/TimeCounterUp.cs" line="12" column="7" bodyfile="Timewise.Code/Models/TimeCounterUp.cs" bodystart="13" bodyend="153"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" line="12" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/TimeCounterUp.cs" bodystart="13" bodyend="153"/>
     <listofallmembers>
       <member refid="class_time_counter_up_1a3f5af55089b29bbef47a7a9022ef2b7c" prot="private" virt="non-virtual"><scope>TimeCounterUp</scope><name>_stopwatch</name></member>
       <member refid="class_time_counter_up_1a1e003b7c96e5ae0ba620db3b9ab48385" prot="private" virt="non-virtual"><scope>TimeCounterUp</scope><name>_timer</name></member>

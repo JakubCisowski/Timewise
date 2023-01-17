@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="9" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="9" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="9" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="9" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1af8e612dda55678d62087680a00bf742e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="26" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="26" bodyend="42"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="26" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="26" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1a19e05cb053cb7fd28baa27fe69864ba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="45" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="45" bodyend="54"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="45" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="45" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1a091ee3b9b0f98abb714c932353ed215a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="57" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="57" bodyend="73"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="57" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="57" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1aaa49529266c25224ff1b30414b864c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="76" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="76" bodyend="88"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="76" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="76" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1a40602426cce9f9530a295896001f0399" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="91" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="91" bodyend="115"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="91" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="91" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1a28aff4341dd969b8bcb547ffff9d9a5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="118" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="118" bodyend="126"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="118" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="118" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="class_duration_tests_1a1dbe60502ca0a7fe8c599f3df2b36768" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -113,14 +113,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/DurationTests.cs" line="129" column="13" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="129" bodyend="138"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="129" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="129" bodyend="138"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Tests/DurationTests.cs" line="6" column="7" bodyfile="Timewise.Tests/DurationTests.cs" bodystart="7" bodyend="139"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" line="6" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/DurationTests.cs" bodystart="7" bodyend="139"/>
     <listofallmembers>
       <member refid="class_duration_tests_1af8e612dda55678d62087680a00bf742e" prot="public" virt="non-virtual"><scope>DurationTests</scope><name>Duration_Addition_CorrectResult</name></member>
       <member refid="class_duration_tests_1a19e05cb053cb7fd28baa27fe69864ba9" prot="public" virt="non-virtual"><scope>DurationTests</scope><name>Duration_Addition_IsCommutative</name></member>

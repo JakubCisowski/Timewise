@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_35e4ae80e0208c85ce2604c5797ea02e" kind="dir">
-    <compoundname>Timewise.App/Platforms/iOS</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS</compoundname>
     <innerfile refid="i_o_s_2_app_delegate_8cs">AppDelegate.cs</innerfile>
     <innerfile refid="i_o_s_2_program_8cs">Program.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.App/Platforms/iOS/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS/"/>
   </compounddef>
 </doxygen>

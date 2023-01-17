@@ -15,6 +15,6 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_i_entity_1aa9799e734c50fc313ab96cffc993433f" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="Timewise.Code/Database/Interfaces/IEntity.cs"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces/IEntity.cs"/>
   </compounddef>
 </doxygen>

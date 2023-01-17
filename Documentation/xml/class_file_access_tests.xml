@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/FileAccessTests.cs" line="10" column="13" bodyfile="Timewise.Tests/FileAccessTests.cs" bodystart="10" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" line="10" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" bodystart="10" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_file_access_tests_1a1eee28f835ccd673779800b9bef1043f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/FileAccessTests.cs" line="26" column="13" bodyfile="Timewise.Tests/FileAccessTests.cs" bodystart="26" bodyend="39"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" line="26" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" bodystart="26" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="class_file_access_tests_1afe89888b59f2ad3b9fe7a0893c8a9044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -43,14 +43,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/FileAccessTests.cs" line="42" column="13" bodyfile="Timewise.Tests/FileAccessTests.cs" bodystart="42" bodyend="54"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" line="42" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" bodystart="42" bodyend="54"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Tests/FileAccessTests.cs" line="7" column="7" bodyfile="Timewise.Tests/FileAccessTests.cs" bodystart="8" bodyend="55"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" line="7" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/FileAccessTests.cs" bodystart="8" bodyend="55"/>
     <listofallmembers>
       <member refid="class_file_access_tests_1a0a839b7a2758790760b2dc68b8ead7fd" prot="public" virt="non-virtual"><scope>FileAccessTests</scope><name>DatabaseConnectionString_IsLoaded</name></member>
       <member refid="class_file_access_tests_1afe89888b59f2ad3b9fe7a0893c8a9044" prot="public" virt="non-virtual"><scope>FileAccessTests</scope><name>Holidays_IsLoaded</name></member>

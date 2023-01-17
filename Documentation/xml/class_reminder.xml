@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="13" column="12" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="13" bodyend="13"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" line="13" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="property" id="class_reminder_1a169f830b662cbc3fa69889b40cabecd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="18" column="15" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="18" bodyend="18"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" line="18" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" bodystart="18" bodyend="18"/>
       </memberdef>
       <memberdef kind="property" id="class_reminder_1a9ddc52f9e1997c035d77cc8eab104aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>DateTime</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="23" column="17" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="23" bodyend="23"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" line="23" column="17" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="property" id="class_reminder_1adc21f8480e65a91cbe1401d669b551b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Entities/Reminder.cs" line="28" column="12" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="28" bodyend="28"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" line="28" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" bodystart="28" bodyend="28"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -95,7 +95,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Database/Entities/Reminder.cs" line="8" column="7" bodyfile="Timewise.Code/Database/Entities/Reminder.cs" bodystart="9" bodyend="29"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" line="8" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities/Reminder.cs" bodystart="9" bodyend="29"/>
     <listofallmembers>
       <member refid="class_reminder_1a9ddc52f9e1997c035d77cc8eab104aa2" prot="public" virt="non-virtual"><scope>Reminder</scope><name>DateTime</name></member>
       <member refid="class_reminder_1a169f830b662cbc3fa69889b40cabecd3" prot="public" virt="non-virtual"><scope>Reminder</scope><name>Description</name></member>

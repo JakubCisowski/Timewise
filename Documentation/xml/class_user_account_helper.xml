@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="18" column="26" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="18" bodyend="31"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="18" column="26" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="18" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="class_user_account_helper_1a9f2aea053efbff2981fbb2229575af29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task&lt; bool &gt;</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="38" column="26" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="38" bodyend="48"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="38" column="26" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="38" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_user_account_helper_1af3cd6c13d3d3f873ec96d4fff7d8846e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async Task&lt; <ref refid="class_user" kindref="compound">User</ref> &gt;</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="56" column="26" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="56" bodyend="65"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="56" column="26" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="56" bodyend="65"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -126,7 +126,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="9" column="15" bodyfile="Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="10" bodyend="66"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="9" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers/UserAccountHelper.cs" bodystart="10" bodyend="66"/>
     <listofallmembers>
       <member refid="class_user_account_helper_1af3cd6c13d3d3f873ec96d4fff7d8846e" prot="public" virt="non-virtual"><scope>UserAccountHelper</scope><name>CreateUserAccount</name></member>
       <member refid="class_user_account_helper_1a9f2aea053efbff2981fbb2229575af29" prot="public" virt="non-virtual"><scope>UserAccountHelper</scope><name>IsUsernameTaken</name></member>

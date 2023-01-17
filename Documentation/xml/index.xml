@@ -732,52 +732,52 @@
   </compound>
   <compound refid="_usings_8cs" kind="file"><name>Usings.cs</name>
   </compound>
-  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  <compound refid="md__c___programowanie__timewise_production__r_e_a_d_m_e" kind="page"><name>md_C__Programowanie_TimewiseProduction_README</name>
   </compound>
-  <compound refid="md__timewise__code__data__r_e_a_d_m_e" kind="page"><name>md_Timewise_Code_Data_README</name>
+  <compound refid="md__c___programowanie__timewise_production__timewise__code__data__r_e_a_d_m_e" kind="page"><name>md_C__Programowanie_TimewiseProduction_Timewise_Code_Data_README</name>
   </compound>
-  <compound refid="dir_5b3f4233c541150ce330f0d96cecc94a" kind="dir"><name>Timewise.App/Platforms/Android</name>
+  <compound refid="dir_5b3f4233c541150ce330f0d96cecc94a" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android</name>
   </compound>
-  <compound refid="dir_436e706ded819154ee6540b43cdce954" kind="dir"><name>Timewise.Code/Data</name>
+  <compound refid="dir_436e706ded819154ee6540b43cdce954" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Data</name>
   </compound>
-  <compound refid="dir_a3646d20ad8add3dd1919725a7cf7c3f" kind="dir"><name>Timewise.Code/Database</name>
+  <compound refid="dir_a3646d20ad8add3dd1919725a7cf7c3f" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Database</name>
   </compound>
-  <compound refid="dir_31eba3f61c8f4c3407e3fdd041c90611" kind="dir"><name>Timewise.Code/DataTypes</name>
+  <compound refid="dir_31eba3f61c8f4c3407e3fdd041c90611" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/DataTypes</name>
   </compound>
-  <compound refid="dir_71291df9227bd012ae0096351d730d51" kind="dir"><name>Timewise.Code/Database/Entities</name>
+  <compound refid="dir_71291df9227bd012ae0096351d730d51" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities</name>
   </compound>
-  <compound refid="dir_77feb21aeb44896846ad4538a12c85b7" kind="dir"><name>Timewise.Code/Exceptions</name>
+  <compound refid="dir_77feb21aeb44896846ad4538a12c85b7" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Exceptions</name>
   </compound>
-  <compound refid="dir_2b82a4d14517ae6ecb67caaf518bd4bf" kind="dir"><name>Timewise.Code/Database/Helpers</name>
+  <compound refid="dir_2b82a4d14517ae6ecb67caaf518bd4bf" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers</name>
   </compound>
-  <compound refid="dir_6c698676195180df0a103c5cfa33d926" kind="dir"><name>Timewise.Code/Helpers</name>
+  <compound refid="dir_6c698676195180df0a103c5cfa33d926" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Helpers</name>
   </compound>
-  <compound refid="dir_96482152dea8e2d72847f268b8609de1" kind="dir"><name>Timewise.Code/Database/Interfaces</name>
+  <compound refid="dir_96482152dea8e2d72847f268b8609de1" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces</name>
   </compound>
-  <compound refid="dir_b43d60f2eaa7cc83a900f2aa30999186" kind="dir"><name>Timewise.Code/Interfaces</name>
+  <compound refid="dir_b43d60f2eaa7cc83a900f2aa30999186" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Interfaces</name>
   </compound>
-  <compound refid="dir_35e4ae80e0208c85ce2604c5797ea02e" kind="dir"><name>Timewise.App/Platforms/iOS</name>
+  <compound refid="dir_35e4ae80e0208c85ce2604c5797ea02e" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/iOS</name>
   </compound>
-  <compound refid="dir_5a7d558b6cf64e04660811f7f1b4282a" kind="dir"><name>Timewise.App/Platforms/MacCatalyst</name>
+  <compound refid="dir_5a7d558b6cf64e04660811f7f1b4282a" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/MacCatalyst</name>
   </compound>
-  <compound refid="dir_63aa0fe10bf23d518138798e6f34c93e" kind="dir"><name>Timewise.Code/Models</name>
+  <compound refid="dir_63aa0fe10bf23d518138798e6f34c93e" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Models</name>
   </compound>
-  <compound refid="dir_0586c63a05c50691ef438f5b257f7928" kind="dir"><name>Timewise.App/Pages</name>
+  <compound refid="dir_0586c63a05c50691ef438f5b257f7928" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Pages</name>
   </compound>
-  <compound refid="dir_022d735b254830cdbf6b05556761280d" kind="dir"><name>Timewise.App/Platforms</name>
+  <compound refid="dir_022d735b254830cdbf6b05556761280d" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms</name>
   </compound>
-  <compound refid="dir_63a29054c080825d2bb00b3dcea18f10" kind="dir"><name>Timewise.Code/Database/QueryBuilders</name>
+  <compound refid="dir_63a29054c080825d2bb00b3dcea18f10" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders</name>
   </compound>
-  <compound refid="dir_5b31cb1204466164ddebebb7fe09a6cf" kind="dir"><name>Timewise.Code/Database/Repositories</name>
+  <compound refid="dir_5b31cb1204466164ddebebb7fe09a6cf" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories</name>
   </compound>
-  <compound refid="dir_2b54d49b4b15e401393d139963b95657" kind="dir"><name>Timewise.App</name>
+  <compound refid="dir_2b54d49b4b15e401393d139963b95657" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App</name>
   </compound>
-  <compound refid="dir_e113cc943cab68d4c1a6141dbd7197b1" kind="dir"><name>Timewise.Code</name>
+  <compound refid="dir_e113cc943cab68d4c1a6141dbd7197b1" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Code</name>
   </compound>
-  <compound refid="dir_603748a70d7d3797c8ab27fcd6d889d1" kind="dir"><name>Timewise.Tests</name>
+  <compound refid="dir_603748a70d7d3797c8ab27fcd6d889d1" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.Tests</name>
   </compound>
-  <compound refid="dir_f5525d07146c3dcac7c4a2440b86e47f" kind="dir"><name>Timewise.App/Platforms/Tizen</name>
+  <compound refid="dir_f5525d07146c3dcac7c4a2440b86e47f" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Tizen</name>
   </compound>
-  <compound refid="dir_02fd2ccf3c5ef0e4e16f9c4be25a65b8" kind="dir"><name>Timewise.App/Platforms/Windows</name>
+  <compound refid="dir_02fd2ccf3c5ef0e4e16f9c4be25a65b8" kind="dir"><name>C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Windows</name>
   </compound>
 </doxygenindex>

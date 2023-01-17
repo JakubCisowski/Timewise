@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_a3646d20ad8add3dd1919725a7cf7c3f" kind="dir">
-    <compoundname>Timewise.Code/Database</compoundname>
-    <innerdir refid="dir_71291df9227bd012ae0096351d730d51">Timewise.Code/Database/Entities</innerdir>
-    <innerdir refid="dir_2b82a4d14517ae6ecb67caaf518bd4bf">Timewise.Code/Database/Helpers</innerdir>
-    <innerdir refid="dir_96482152dea8e2d72847f268b8609de1">Timewise.Code/Database/Interfaces</innerdir>
-    <innerdir refid="dir_63a29054c080825d2bb00b3dcea18f10">Timewise.Code/Database/QueryBuilders</innerdir>
-    <innerdir refid="dir_5b31cb1204466164ddebebb7fe09a6cf">Timewise.Code/Database/Repositories</innerdir>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.Code/Database</compoundname>
+    <innerdir refid="dir_71291df9227bd012ae0096351d730d51">C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Entities</innerdir>
+    <innerdir refid="dir_2b82a4d14517ae6ecb67caaf518bd4bf">C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Helpers</innerdir>
+    <innerdir refid="dir_96482152dea8e2d72847f268b8609de1">C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Interfaces</innerdir>
+    <innerdir refid="dir_63a29054c080825d2bb00b3dcea18f10">C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders</innerdir>
+    <innerdir refid="dir_5b31cb1204466164ddebebb7fe09a6cf">C:/Programowanie/TimewiseProduction/Timewise.Code/Database/Repositories</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Database/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/"/>
   </compounddef>
 </doxygen>

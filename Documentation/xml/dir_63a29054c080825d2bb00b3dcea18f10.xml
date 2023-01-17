@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
   <compounddef id="dir_63a29054c080825d2bb00b3dcea18f10" kind="dir">
-    <compoundname>Timewise.Code/Database/QueryBuilders</compoundname>
+    <compoundname>C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders</compoundname>
     <innerfile refid="_database_creation_scripts_builder_8cs">DatabaseCreationScriptsBuilder.cs</innerfile>
     <innerfile refid="_query_builder_8cs">QueryBuilder.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Database/QueryBuilders/"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Database/QueryBuilders/"/>
   </compounddef>
 </doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="12" column="8" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="12" bodyend="21"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" line="12" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" bodystart="12" bodyend="21"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="23" column="20" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="23" bodyend="62"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" line="23" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" bodystart="23" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="class_login_page_1acadacc27104c77e4c699cda089ac7a0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="64" column="20" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="64" bodyend="105"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" line="64" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" bodystart="64" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="class_login_page_1acbefa710a45ecfaf6eaaa470a7b67462" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="107" column="20" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="107" bodyend="115"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" line="107" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" bodystart="107" bodyend="115"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -113,7 +113,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="10" column="15" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="11" bodyend="116"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" line="10" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LoginPage.xaml.cs" bodystart="11" bodyend="116"/>
     <listofallmembers>
       <member refid="class_login_page_1acbefa710a45ecfaf6eaaa470a7b67462" prot="private" virt="non-virtual"><scope>LoginPage</scope><name>EnterWithoutLoggingInButton_Clicked</name></member>
       <member refid="class_login_page_1a5047b15c89946c534e1cca97922dcf74" prot="private" virt="non-virtual"><scope>LoginPage</scope><name>LoginButton_Clicked</name></member>

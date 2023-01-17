@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="9" column="8" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="9" bodyend="12"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" line="9" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="9" bodyend="12"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="14" column="20" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="14" bodyend="17"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" line="14" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="14" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="class_location_info_page_1a1573fe689145344aeaed64b3dba80d8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="19" column="20" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="19" bodyend="72"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" line="19" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="19" bodyend="72"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -91,7 +91,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="7" column="15" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="8" bodyend="73"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" line="7" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="8" bodyend="73"/>
     <listofallmembers>
       <member refid="class_location_info_page_1a853160643aee7e61eccd1e853d06c9d2" prot="private" virt="non-virtual"><scope>LocationInfoPage</scope><name>BackButton_Clicked</name></member>
       <member refid="class_location_info_page_1a1573fe689145344aeaed64b3dba80d8d" prot="private" virt="non-virtual"><scope>LocationInfoPage</scope><name>CheckButton_Clicked</name></member>

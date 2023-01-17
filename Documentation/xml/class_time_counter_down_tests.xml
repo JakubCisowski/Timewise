@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="6" column="27" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="7" bodyend="15"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="6" column="27" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="7" bodyend="15"/>
       </memberdef>
       <memberdef kind="property" id="class_time_counter_down_tests_1ad5ccbe0fc18ecdc2332199fade53e399" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>IEnumerable&lt; TestCaseData &gt;</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="17" column="27" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="18" bodyend="25"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="17" column="27" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="18" bodyend="25"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="28" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="28" bodyend="34"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="28" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="28" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_down_tests_1aad1e10ff816b58e1db52da312e1eba86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="38" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="38" bodyend="41"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="38" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="38" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_down_tests_1aa0a1fb2068b10f003ab540d5deda3d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="45" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="45" bodyend="48"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="45" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_time_counter_down_tests_1a83f99009dc16235227cdaaf9d5c3427c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -95,14 +95,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="51" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="51" bodyend="58"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="51" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="51" bodyend="58"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Tests/TimeCounterDownTests.cs" line="4" column="7" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="5" bodyend="59"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" line="4" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Tests/TimeCounterDownTests.cs" bodystart="5" bodyend="59"/>
     <listofallmembers>
       <member refid="class_time_counter_down_tests_1ac240481577f8ee8ba5010a3e237f015c" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>CountdownCorrectTestCaseGenerator</name></member>
       <member refid="class_time_counter_down_tests_1ad5ccbe0fc18ecdc2332199fade53e399" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>CountdownIncorrectTestCaseGenerator</name></member>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="7" column="25" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="7" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="7" column="25" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="7" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="9" column="8" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="9" bodyend="12"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="9" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="9" bodyend="12"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="14" column="20" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="14" bodyend="42"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="14" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="14" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="class_timer_page_1a655fbe37202d33339c6d070d1919b0e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="44" column="14" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="44" bodyend="62"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="44" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="44" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="class_timer_page_1a3b72e7631614776af5a064b1e3cc229a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="64" column="14" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="64" bodyend="78"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="64" column="14" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="64" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="class_timer_page_1a739180ce39cb0c1834c00520540d207b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="80" column="20" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="80" bodyend="83"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="80" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="80" bodyend="83"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -147,7 +147,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="6" bodyend="84"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" line="5" column="15" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Pages/TimerPage.xaml.cs" bodystart="6" bodyend="84"/>
     <listofallmembers>
       <member refid="class_timer_page_1a776a3653755df006cd78f27ad7a3ce4e" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>_time</name></member>
       <member refid="class_timer_page_1a739180ce39cb0c1834c00520540d207b" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>BackButton_Clicked</name></member>

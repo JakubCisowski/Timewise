@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Platforms/Android/MainApplication.cs" line="9" column="8" bodyfile="Timewise.App/Platforms/Android/MainApplication.cs" bodystart="9" bodyend="12"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android/MainApplication.cs" line="9" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android/MainApplication.cs" bodystart="9" bodyend="12"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.App/Platforms/Android/MainApplication.cs" line="14" column="28"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android/MainApplication.cs" line="14" column="28"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -69,7 +69,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Timewise.App/Platforms/Android/MainApplication.cs" line="7" column="7" bodyfile="Timewise.App/Platforms/Android/MainApplication.cs" bodystart="8" bodyend="15"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android/MainApplication.cs" line="7" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.App/Platforms/Android/MainApplication.cs" bodystart="8" bodyend="15"/>
     <listofallmembers>
       <member refid="class_timewise_1_1_app_1_1_main_application_1a987212d96d3b544897c1f00b81ffaaed" prot="protected" virt="non-virtual"><scope>Timewise::App::MainApplication</scope><name>CreateMauiApp</name></member>
       <member refid="class_timewise_1_1_app_1_1_main_application_1a24e02d9d1423ea8ccac5b6d315991634" prot="public" virt="non-virtual"><scope>Timewise::App::MainApplication</scope><name>MainApplication</name></member>

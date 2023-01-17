@@ -11,6 +11,6 @@
 <codeline lineno="1"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>NUnit.Framework;</highlight></codeline>
 <codeline lineno="2"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_timewise" kindref="compound">Timewise</ref>.Code.Models;</highlight></codeline>
     </programlisting>
-    <location file="Timewise.Tests/Usings.cs"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Tests/Usings.cs"/>
   </compounddef>
 </doxygen>

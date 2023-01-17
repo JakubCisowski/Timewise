@@ -25,11 +25,11 @@
 var NAVTREE =
 [
   [ "Timewise", "index.html", [
-    [ "README", "md__r_e_a_d_m_e.html", [
-      [ "O Aplikacji", "md__r_e_a_d_m_e.html#autotoc_md0", null ],
-      [ "Zrzuty ekranu aplikacji", "md__r_e_a_d_m_e.html#autotoc_md1", null ]
+    [ "README", "md__c___programowanie__timewise_production__r_e_a_d_m_e.html", [
+      [ "O Aplikacji", "md__c___programowanie__timewise_production__r_e_a_d_m_e.html#autotoc_md0", null ],
+      [ "Zrzuty ekranu aplikacji", "md__c___programowanie__timewise_production__r_e_a_d_m_e.html#autotoc_md1", null ]
     ] ],
-    [ "README", "md__timewise__code__data__r_e_a_d_m_e.html", null ],
+    [ "README", "md__c___programowanie__timewise_production__timewise__code__data__r_e_a_d_m_e.html", null ],
     [ "Pakiety", "namespaces.html", [
       [ "Pakiety", "namespaces.html", "namespaces_dup" ]
     ] ],

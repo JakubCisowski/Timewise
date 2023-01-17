@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="14" column="12" bodyfile="Timewise.Code/Models/Date.cs" bodystart="14" bodyend="14"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="14" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="14" bodyend="14"/>
       </memberdef>
       <memberdef kind="property" id="class_date_1ab375a72bf2ac0c8de16e0585f0a03c67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="19" column="12" bodyfile="Timewise.Code/Models/Date.cs" bodystart="19" bodyend="19"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="19" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="property" id="class_date_1a98161d0c75aab170a8ef573fdfeda934" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="24" column="12" bodyfile="Timewise.Code/Models/Date.cs" bodystart="24" bodyend="24"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="24" column="12" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="property" id="class_date_1a18e0883ab2d7e2bfb25bbc2e028f2dac" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type><ref refid="class_date" kindref="compound">Date</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="29" column="20" bodyfile="Timewise.Code/Models/Date.cs" bodystart="29" bodyend="-1"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="29" column="20" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_date_1a6d7f9769da3632218ea06a0d907833f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="35" column="13" bodyfile="Timewise.Code/Models/Date.cs" bodystart="36" bodyend="51"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="35" column="13" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="36" bodyend="51"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="56" column="8" bodyfile="Timewise.Code/Models/Date.cs" bodystart="56" bodyend="61"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="56" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="56" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="class_date_1ad0f811bcb192425fa74952997ca37079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="69" column="8" bodyfile="Timewise.Code/Models/Date.cs" bodystart="69" bodyend="74"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="69" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="69" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="class_date_1a7bf2523a350d92a93d3703f8e3a3c6ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="80" column="8" bodyfile="Timewise.Code/Models/Date.cs" bodystart="80" bodyend="91"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="80" column="8" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="80" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="class_date_1a7302196b3a47b2b3e9b5b8833aaaae93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="93" column="24" bodyfile="Timewise.Code/Models/Date.cs" bodystart="93" bodyend="96"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="93" column="24" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="93" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="class_date_1a07844d62a1650d587d225bfe9ac55b00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="98" column="22" bodyfile="Timewise.Code/Models/Date.cs" bodystart="98" bodyend="106"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="98" column="22" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="98" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="class_date_1a814e17daf9030bd3fb5bfe1c56fe63ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override int</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Date.cs" line="108" column="21" bodyfile="Timewise.Code/Models/Date.cs" bodystart="108" bodyend="111"/>
+        <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="108" column="21" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="108" bodyend="111"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -255,7 +255,7 @@
         <link refid="interface_i_validatable"/>
       </node>
     </collaborationgraph>
-    <location file="Timewise.Code/Models/Date.cs" line="9" column="7" bodyfile="Timewise.Code/Models/Date.cs" bodystart="10" bodyend="112"/>
+    <location file="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" line="9" column="7" bodyfile="C:/Programowanie/TimewiseProduction/Timewise.Code/Models/Date.cs" bodystart="10" bodyend="112"/>
     <listofallmembers>
       <member refid="class_date_1a229df1102afc49f2092072160b36d101" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
       <member refid="class_date_1ad0f811bcb192425fa74952997ca37079" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
