@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Calendar.cs" line="212" column="13" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="212" bodyend="224"/>
+        <location file="Timewise.Code/Models/Calendar.cs" line="214" column="13" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="214" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="class_calendar_1ad95e6656ec171e1bc12ea3a04655d601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Calendar.cs" line="230" column="19" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="230" bodyend="244"/>
+        <location file="Timewise.Code/Models/Calendar.cs" line="233" column="19" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="233" bodyend="247"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -334,12 +334,16 @@
         </inbodydescription>
         <location file="Timewise.Code/Models/Calendar.cs" line="95" column="14" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="95" bodyend="100"/>
       </memberdef>
-      <memberdef kind="function" id="class_calendar_1a896b0500983394f6881f87ff0d393c33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_calendar_1ae3595da16da632e4ee2a99935cd8f043" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void Calendar.GenerateAllRemindersUI</definition>
-        <argsstring>()</argsstring>
+        <argsstring>(DateTime todayDate)</argsstring>
         <name>GenerateAllRemindersUI</name>
         <qualifiedname>Calendar.GenerateAllRemindersUI</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>todayDate</declname>
+        </param>
         <briefdescription>
 <para>Metoda generująca interfejs wszystkich przypomnień. </para>
         </briefdescription>
@@ -347,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Calendar.cs" line="116" column="14" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="116" bodyend="126"/>
+        <location file="Timewise.Code/Models/Calendar.cs" line="116" column="14" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="116" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="class_calendar_1ae28ffe7767d6dbd6f7cc36c0e4e21bb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Border</type>
@@ -378,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Calendar.cs" line="133" column="16" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="133" bodyend="183"/>
+        <location file="Timewise.Code/Models/Calendar.cs" line="135" column="16" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="135" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="class_calendar_1a6c1771e8a2541ea310e7a1ebbbe3acbb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>async void</type>
@@ -419,7 +423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Timewise.Code/Models/Calendar.cs" line="190" column="20" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="190" bodyend="206"/>
+        <location file="Timewise.Code/Models/Calendar.cs" line="192" column="20" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="192" bodyend="208"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -427,7 +431,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Models/Calendar.cs" line="14" column="7" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="15" bodyend="245"/>
+    <location file="Timewise.Code/Models/Calendar.cs" line="14" column="7" bodyfile="Timewise.Code/Models/Calendar.cs" bodystart="15" bodyend="248"/>
     <listofallmembers>
       <member refid="class_calendar_1ae0238593e28ae3068b59b539b7dd6d9d" prot="public" virt="non-virtual"><scope>Calendar</scope><name>AddReminder</name></member>
       <member refid="class_calendar_1a6c1771e8a2541ea310e7a1ebbbe3acbb" prot="private" virt="non-virtual"><scope>Calendar</scope><name>ButtonOnClicked</name></member>
@@ -435,7 +439,7 @@
       <member refid="class_calendar_1aadce880a9fd9034eb23c280dd8411b64" prot="public" virt="non-virtual"><scope>Calendar</scope><name>ChangeDateSelection</name></member>
       <member refid="class_calendar_1add30e3975ff548bead7d6ced4e97e669" prot="public" virt="non-virtual"><scope>Calendar</scope><name>ChangeDateSelectionCommand</name></member>
       <member refid="class_calendar_1ad95e6656ec171e1bc12ea3a04655d601" prot="public" virt="non-virtual"><scope>Calendar</scope><name>CreateNotificationAndroid</name></member>
-      <member refid="class_calendar_1a896b0500983394f6881f87ff0d393c33" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateAllRemindersUI</name></member>
+      <member refid="class_calendar_1ae3595da16da632e4ee2a99935cd8f043" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateAllRemindersUI</name></member>
       <member refid="class_calendar_1ae28ffe7767d6dbd6f7cc36c0e4e21bb6" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateReminderBorder</name></member>
       <member refid="class_calendar_1aebc1b36e3628013da814b4503ccaa183" prot="private" virt="non-virtual"><scope>Calendar</scope><name>GenerateReminderUI</name></member>
       <member refid="class_calendar_1ae9ea55f7a01b00bf246d97b0b3b6678f" prot="public" virt="non-virtual"><scope>Calendar</scope><name>MyCalendar</name></member>

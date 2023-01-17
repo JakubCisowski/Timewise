@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_unix_time_page" kind="class" language="C#" prot="public">
+    <compoundname>UnixTimePage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unix_time_page_1ae3cd78d1729d1892a4d313db99bc28c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnixTimePage.UnixTimePage</definition>
+        <argsstring>()</argsstring>
+        <name>UnixTimePage</name>
+        <qualifiedname>UnixTimePage.UnixTimePage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unix_time_page_1ab92ae44f10b9c076589e744d3d6fdf01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnixTimePage.CheckUnixTimeButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CheckUnixTimeButton_Clicked</name>
+        <qualifiedname>UnixTimePage.CheckUnixTimeButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="12" column="14" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="12" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unix_time_page_1aca6029066dd29b84144ae158c244d680" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void UnixTimePage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>UnixTimePage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="25" column="20" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unix_time_page_1a1ecb2de0bd2f348a60492e926ef2971a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnixTimePage.EventTimeCheckBox_CheckedChanged</definition>
+        <argsstring>(object sender, CheckedChangedEventArgs e)</argsstring>
+        <name>EventTimeCheckBox_CheckedChanged</name>
+        <qualifiedname>UnixTimePage.EventTimeCheckBox_CheckedChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CheckedChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="30" column="14" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>UnixTimePage</label>
+        <link refid="class_unix_time_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>UnixTimePage</label>
+        <link refid="class_unix_time_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/UnixTimePage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/UnixTimePage.xaml.cs" bodystart="6" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_unix_time_page_1aca6029066dd29b84144ae158c244d680" prot="private" virt="non-virtual"><scope>UnixTimePage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_unix_time_page_1ab92ae44f10b9c076589e744d3d6fdf01" prot="private" virt="non-virtual"><scope>UnixTimePage</scope><name>CheckUnixTimeButton_Clicked</name></member>
+      <member refid="class_unix_time_page_1a1ecb2de0bd2f348a60492e926ef2971a" prot="private" virt="non-virtual"><scope>UnixTimePage</scope><name>EventTimeCheckBox_CheckedChanged</name></member>
+      <member refid="class_unix_time_page_1ae3cd78d1729d1892a4d313db99bc28c7" prot="public" virt="non-virtual"><scope>UnixTimePage</scope><name>UnixTimePage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

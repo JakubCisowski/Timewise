@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="namespace_community_toolkit_1_1_maui" kind="namespace" language="C#">
+    <compoundname>CommunityToolkit::Maui</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.App/MauiProgram.cs" line="3" column="28"/>
+  </compounddef>
+</doxygen>

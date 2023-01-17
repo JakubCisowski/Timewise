@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_counter_down_tests" kind="class" language="C#" prot="public">
+    <compoundname>TimeCounterDownTests</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_time_counter_down_tests_1ac240481577f8ee8ba5010a3e237f015c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; TestCaseData &gt;</type>
+        <definition>IEnumerable&lt;TestCaseData&gt; TimeCounterDownTests.CountdownCorrectTestCaseGenerator</definition>
+        <argsstring></argsstring>
+        <name>CountdownCorrectTestCaseGenerator</name>
+        <qualifiedname>TimeCounterDownTests.CountdownCorrectTestCaseGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="6" column="27" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="7" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_counter_down_tests_1ad5ccbe0fc18ecdc2332199fade53e399" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; TestCaseData &gt;</type>
+        <definition>IEnumerable&lt;TestCaseData&gt; TimeCounterDownTests.CountdownIncorrectTestCaseGenerator</definition>
+        <argsstring></argsstring>
+        <name>CountdownIncorrectTestCaseGenerator</name>
+        <qualifiedname>TimeCounterDownTests.CountdownIncorrectTestCaseGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="17" column="27" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_counter_down_tests_1af46fd4f61d757f991442617cf117e415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDownTests.TimeCounterDown_IsRunning_AfterStarting</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterDown_IsRunning_AfterStarting</name>
+        <qualifiedname>TimeCounterDownTests.TimeCounterDown_IsRunning_AfterStarting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="28" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_tests_1aad1e10ff816b58e1db52da312e1eba86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDownTests.TimeCounterDown_IsValid_ValuesInBounds</definition>
+        <argsstring>(TimeCounterDown time)</argsstring>
+        <name>TimeCounterDown_IsValid_ValuesInBounds</name>
+        <qualifiedname>TimeCounterDownTests.TimeCounterDown_IsValid_ValuesInBounds</qualifiedname>
+        <param>
+          <type><ref refid="class_time_counter_down" kindref="compound">TimeCounterDown</ref></type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="38" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_tests_1aa0a1fb2068b10f003ab540d5deda3d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDownTests.TimeCounterDown_IsInvalid_ValuesOutOfBounds</definition>
+        <argsstring>(TimeCounterDown time)</argsstring>
+        <name>TimeCounterDown_IsInvalid_ValuesOutOfBounds</name>
+        <qualifiedname>TimeCounterDownTests.TimeCounterDown_IsInvalid_ValuesOutOfBounds</qualifiedname>
+        <param>
+          <type><ref refid="class_time_counter_down" kindref="compound">TimeCounterDown</ref></type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="45" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_tests_1a83f99009dc16235227cdaaf9d5c3427c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDownTests.TimeCounterDown_ToString_CorrectFormat</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterDown_ToString_CorrectFormat</name>
+        <qualifiedname>TimeCounterDownTests.TimeCounterDown_ToString_CorrectFormat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterDownTests.cs" line="51" column="13" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Tests/TimeCounterDownTests.cs" line="4" column="7" bodyfile="Timewise.Tests/TimeCounterDownTests.cs" bodystart="5" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_time_counter_down_tests_1ac240481577f8ee8ba5010a3e237f015c" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>CountdownCorrectTestCaseGenerator</name></member>
+      <member refid="class_time_counter_down_tests_1ad5ccbe0fc18ecdc2332199fade53e399" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>CountdownIncorrectTestCaseGenerator</name></member>
+      <member refid="class_time_counter_down_tests_1aa0a1fb2068b10f003ab540d5deda3d9a" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>TimeCounterDown_IsInvalid_ValuesOutOfBounds</name></member>
+      <member refid="class_time_counter_down_tests_1af46fd4f61d757f991442617cf117e415" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>TimeCounterDown_IsRunning_AfterStarting</name></member>
+      <member refid="class_time_counter_down_tests_1aad1e10ff816b58e1db52da312e1eba86" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>TimeCounterDown_IsValid_ValuesInBounds</name></member>
+      <member refid="class_time_counter_down_tests_1a83f99009dc16235227cdaaf9d5c3427c" prot="public" virt="non-virtual"><scope>TimeCounterDownTests</scope><name>TimeCounterDown_ToString_CorrectFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

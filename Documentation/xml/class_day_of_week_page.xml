@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_day_of_week_page" kind="class" language="C#" prot="public">
+    <compoundname>DayOfWeekPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_day_of_week_page_1aa28f677e451e888eafe889c45c486507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DayOfWeekPage.DayOfWeekPage</definition>
+        <argsstring>()</argsstring>
+        <name>DayOfWeekPage</name>
+        <qualifiedname>DayOfWeekPage.DayOfWeekPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="8" column="8" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_day_of_week_page_1a660082c0e0ca1190ff174c9fb5acd773" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void DayOfWeekPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>DayOfWeekPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="13" column="20" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_day_of_week_page_1af78ec575b1d2e0a7ff01436ce3cd17ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DayOfWeekPage.CheckDayOfWeekButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CheckDayOfWeekButton_Clicked</name>
+        <qualifiedname>DayOfWeekPage.CheckDayOfWeekButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="18" column="14" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="18" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>DayOfWeekPage</label>
+        <link refid="class_day_of_week_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>DayOfWeekPage</label>
+        <link refid="class_day_of_week_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/DayOfWeekPage.xaml.cs" line="6" column="15" bodyfile="Timewise.App/Pages/DayOfWeekPage.xaml.cs" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_day_of_week_page_1a660082c0e0ca1190ff174c9fb5acd773" prot="private" virt="non-virtual"><scope>DayOfWeekPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_day_of_week_page_1af78ec575b1d2e0a7ff01436ce3cd17ad" prot="private" virt="non-virtual"><scope>DayOfWeekPage</scope><name>CheckDayOfWeekButton_Clicked</name></member>
+      <member refid="class_day_of_week_page_1aa28f677e451e888eafe889c45c486507" prot="public" virt="non-virtual"><scope>DayOfWeekPage</scope><name>DayOfWeekPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

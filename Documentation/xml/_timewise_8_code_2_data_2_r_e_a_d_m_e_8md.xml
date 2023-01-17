@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="_timewise_8_code_2_data_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">Pliki<sp/>zawierajπce<sp/>úwiÍta<sp/>oraz<sp/>imieniny,<sp/>pogrupowane<sp/>pod<sp/>dniu<sp/>roku.</highlight></codeline>
+<codeline><highlight class="normal">èrÛd≥o:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Imieniny:<sp/>https://www.elektroda.pl/rtvforum/viewtopic.php?p=18788833#18788833</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>åwiÍta:<sp/>https://www.hintmine.com/dni-wolne-pracy-swieta-ruchome-excel</highlight></codeline>
+    </programlisting>
+    <location file="Timewise.Code/Data/README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_0586c63a05c50691ef438f5b257f7928" kind="dir">
+    <compoundname>Timewise.App/Pages</compoundname>
+    <innerfile refid="_calculations_page_8xaml_8cs">CalculationsPage.xaml.cs</innerfile>
+    <innerfile refid="_calendar_page_8xaml_8cs">CalendarPage.xaml.cs</innerfile>
+    <innerfile refid="_converters_page_8xaml_8cs">ConvertersPage.xaml.cs</innerfile>
+    <innerfile refid="_date_subtraction_page_8xaml_8cs">DateSubtractionPage.xaml.cs</innerfile>
+    <innerfile refid="_day_of_week_page_8xaml_8cs">DayOfWeekPage.xaml.cs</innerfile>
+    <innerfile refid="_leap_year_page_8xaml_8cs">LeapYearPage.xaml.cs</innerfile>
+    <innerfile refid="_location_info_page_8xaml_8cs">LocationInfoPage.xaml.cs</innerfile>
+    <innerfile refid="_login_page_8xaml_8cs">LoginPage.xaml.cs</innerfile>
+    <innerfile refid="_stopwatch_page_8xaml_8cs">StopwatchPage.xaml.cs</innerfile>
+    <innerfile refid="_time_counter_down_page_8xaml_8cs">TimeCounterDownPage.xaml.cs</innerfile>
+    <innerfile refid="_time_counter_up_page_8xaml_8cs">TimeCounterUpPage.xaml.cs</innerfile>
+    <innerfile refid="_timer_page_8xaml_8cs">TimerPage.xaml.cs</innerfile>
+    <innerfile refid="_time_zone_converter_page_8xaml_8cs">TimeZoneConverterPage.xaml.cs</innerfile>
+    <innerfile refid="_unix_time_page_8xaml_8cs">UnixTimePage.xaml.cs</innerfile>
+    <innerfile refid="_week_number_page_8xaml_8cs">WeekNumberPage.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.App/Pages/"/>
+  </compounddef>
+</doxygen>

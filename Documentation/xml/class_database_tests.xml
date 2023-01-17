@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_database_tests" kind="class" language="C#" prot="public">
+    <compoundname>DatabaseTests</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_database_tests_1a62a462ee74e3593751a3cd3cfc2538b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatabaseTests.DatabaseTest_ConnectsWithNoException</definition>
+        <argsstring>()</argsstring>
+        <name>DatabaseTest_ConnectsWithNoException</name>
+        <qualifiedname>DatabaseTests.DatabaseTest_ConnectsWithNoException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/DatabaseTests.cs" line="9" column="13" bodyfile="Timewise.Tests/DatabaseTests.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Tests/DatabaseTests.cs" line="6" column="7" bodyfile="Timewise.Tests/DatabaseTests.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_database_tests_1a62a462ee74e3593751a3cd3cfc2538b2" prot="public" virt="non-virtual"><scope>DatabaseTests</scope><name>DatabaseTest_ConnectsWithNoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

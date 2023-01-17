@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_stopwatch_page" kind="class" language="C#" prot="public">
+    <compoundname>StopwatchPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stopwatch_page_1a829ac85ef043f44f63e2bdf47c5f031c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_time_counter_up" kindref="compound">TimeCounterUp</ref></type>
+        <definition>TimeCounterUp StopwatchPage._stopwatch</definition>
+        <argsstring></argsstring>
+        <name>_stopwatch</name>
+        <qualifiedname>StopwatchPage._stopwatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="8" column="23" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stopwatch_page_1a2d01b31e7b56878165d594659e667915" prot="private" static="no" mutable="no">
+        <type><ref refid="class_duration" kindref="compound">Duration</ref></type>
+        <definition>Duration StopwatchPage._lastLap</definition>
+        <argsstring></argsstring>
+        <name>_lastLap</name>
+        <qualifiedname>StopwatchPage._lastLap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="9" column="18" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stopwatch_page_1a44d3d69c1c30961cfb820f5431a45205" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StopwatchPage._counter</definition>
+        <argsstring></argsstring>
+        <name>_counter</name>
+        <qualifiedname>StopwatchPage._counter</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="10" column="13" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stopwatch_page_1a4a70394f6423ce79a8e55a3585307169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StopwatchPage.StopwatchPage</definition>
+        <argsstring>()</argsstring>
+        <name>StopwatchPage</name>
+        <qualifiedname>StopwatchPage.StopwatchPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="12" column="8" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_stopwatch_page_1a322bea3df99b606ebb52d169c5c3e497" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopwatchPage.StartStopwatchButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>StartStopwatchButton_Clicked</name>
+        <qualifiedname>StopwatchPage.StartStopwatchButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="17" column="14" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="17" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stopwatch_page_1a997a0bfd4e1e7d6dbe8dfbf2e27ff2a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopwatchPage.ResetStopwatchButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ResetStopwatchButton_Clicked</name>
+        <qualifiedname>StopwatchPage.ResetStopwatchButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="43" column="14" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="43" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stopwatch_page_1a0c58227c62c1d15e23ad0b7ed8f9bc4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopwatchPage.StopwatchLapButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>StopwatchLapButton_Clicked</name>
+        <qualifiedname>StopwatchPage.StopwatchLapButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="57" column="14" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="57" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stopwatch_page_1a7676cc7a8a49345b73d4e78410850335" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void StopwatchPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>StopwatchPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="90" column="20" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="90" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>StopwatchPage</label>
+        <link refid="class_stopwatch_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>StopwatchPage</label>
+        <link refid="class_stopwatch_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/StopwatchPage.xaml.cs" line="6" column="15" bodyfile="Timewise.App/Pages/StopwatchPage.xaml.cs" bodystart="7" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_stopwatch_page_1a44d3d69c1c30961cfb820f5431a45205" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>_counter</name></member>
+      <member refid="class_stopwatch_page_1a2d01b31e7b56878165d594659e667915" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>_lastLap</name></member>
+      <member refid="class_stopwatch_page_1a829ac85ef043f44f63e2bdf47c5f031c" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>_stopwatch</name></member>
+      <member refid="class_stopwatch_page_1a7676cc7a8a49345b73d4e78410850335" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_stopwatch_page_1a997a0bfd4e1e7d6dbe8dfbf2e27ff2a0" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>ResetStopwatchButton_Clicked</name></member>
+      <member refid="class_stopwatch_page_1a322bea3df99b606ebb52d169c5c3e497" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>StartStopwatchButton_Clicked</name></member>
+      <member refid="class_stopwatch_page_1a0c58227c62c1d15e23ad0b7ed8f9bc4d" prot="private" virt="non-virtual"><scope>StopwatchPage</scope><name>StopwatchLapButton_Clicked</name></member>
+      <member refid="class_stopwatch_page_1a4a70394f6423ce79a8e55a3585307169" prot="public" virt="non-virtual"><scope>StopwatchPage</scope><name>StopwatchPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

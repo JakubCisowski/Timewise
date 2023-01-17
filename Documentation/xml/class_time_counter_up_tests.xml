@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_counter_up_tests" kind="class" language="C#" prot="public">
+    <compoundname>TimeCounterUpTests</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_counter_up_tests_1a1732f0249551d187c94ff74b38d5b025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterUpTests.TimeCounterUp_IsRunning_AfterStarting</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterUp_IsRunning_AfterStarting</name>
+        <qualifiedname>TimeCounterUpTests.TimeCounterUp_IsRunning_AfterStarting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="7" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="7" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_tests_1ade517e089a01a36ed06a6cf5f1888fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterUpTests.TimeCounterUp_IsNotRunning_AfterStopping</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterUp_IsNotRunning_AfterStopping</name>
+        <qualifiedname>TimeCounterUpTests.TimeCounterUp_IsNotRunning_AfterStopping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="16" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_tests_1a7bd7ee14796fcca05407416ece1f62a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterUpTests.TimeCounterUp_Laps_AreAddedToList</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterUp_Laps_AreAddedToList</name>
+        <qualifiedname>TimeCounterUpTests.TimeCounterUp_Laps_AreAddedToList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="27" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="27" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_tests_1a5fc757d802f48a43d02c25ab89e9221b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterUpTests.TimeCounterUp_ToString_CorrectFormat</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterUp_ToString_CorrectFormat</name>
+        <qualifiedname>TimeCounterUpTests.TimeCounterUp_ToString_CorrectFormat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeCounterUpTests.cs" line="44" column="13" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="44" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Tests/TimeCounterUpTests.cs" line="4" column="7" bodyfile="Timewise.Tests/TimeCounterUpTests.cs" bodystart="5" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_time_counter_up_tests_1ade517e089a01a36ed06a6cf5f1888fa5" prot="public" virt="non-virtual"><scope>TimeCounterUpTests</scope><name>TimeCounterUp_IsNotRunning_AfterStopping</name></member>
+      <member refid="class_time_counter_up_tests_1a1732f0249551d187c94ff74b38d5b025" prot="public" virt="non-virtual"><scope>TimeCounterUpTests</scope><name>TimeCounterUp_IsRunning_AfterStarting</name></member>
+      <member refid="class_time_counter_up_tests_1a7bd7ee14796fcca05407416ece1f62a5" prot="public" virt="non-virtual"><scope>TimeCounterUpTests</scope><name>TimeCounterUp_Laps_AreAddedToList</name></member>
+      <member refid="class_time_counter_up_tests_1a5fc757d802f48a43d02c25ab89e9221b" prot="public" virt="non-virtual"><scope>TimeCounterUpTests</scope><name>TimeCounterUp_ToString_CorrectFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

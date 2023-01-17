@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_week_number_page" kind="class" language="C#" prot="public">
+    <compoundname>WeekNumberPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_week_number_page_1a101b75dfa544fa0812b5f834bb33523e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WeekNumberPage.WeekNumberPage</definition>
+        <argsstring>()</argsstring>
+        <name>WeekNumberPage</name>
+        <qualifiedname>WeekNumberPage.WeekNumberPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_week_number_page_1afc105ddb18bcc1695280c1dc12009379" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void WeekNumberPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>WeekNumberPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="12" column="20" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_week_number_page_1a3cb87d5b33fef6e77a75b28fa0a9591a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WeekNumberPage.CheckWeekNumberButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CheckWeekNumberButton_Clicked</name>
+        <qualifiedname>WeekNumberPage.CheckWeekNumberButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="17" column="14" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="17" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>WeekNumberPage</label>
+        <link refid="class_week_number_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>WeekNumberPage</label>
+        <link refid="class_week_number_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/WeekNumberPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/WeekNumberPage.xaml.cs" bodystart="6" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_week_number_page_1afc105ddb18bcc1695280c1dc12009379" prot="private" virt="non-virtual"><scope>WeekNumberPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_week_number_page_1a3cb87d5b33fef6e77a75b28fa0a9591a" prot="private" virt="non-virtual"><scope>WeekNumberPage</scope><name>CheckWeekNumberButton_Clicked</name></member>
+      <member refid="class_week_number_page_1a101b75dfa544fa0812b5f834bb33523e" prot="public" virt="non-virtual"><scope>WeekNumberPage</scope><name>WeekNumberPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

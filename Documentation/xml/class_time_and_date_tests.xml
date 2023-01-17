@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_and_date_tests" kind="class" language="C#" prot="public">
+    <compoundname>TimeAndDateTests</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_time_and_date_tests_1a1da59ff3c9da0cb1e48f888ad63f88ad" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; TestCaseData &gt;</type>
+        <definition>IEnumerable&lt;TestCaseData&gt; TimeAndDateTests.TimeCorrectTestCaseGenerator</definition>
+        <argsstring></argsstring>
+        <name>TimeCorrectTestCaseGenerator</name>
+        <qualifiedname>TimeAndDateTests.TimeCorrectTestCaseGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="8" column="27" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="9" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_time_and_date_tests_1ab14f2954d57864ac46a3522036914bcd" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; TestCaseData &gt;</type>
+        <definition>IEnumerable&lt;TestCaseData&gt; TimeAndDateTests.TimeIncorrectTestCaseGenerator</definition>
+        <argsstring></argsstring>
+        <name>TimeIncorrectTestCaseGenerator</name>
+        <qualifiedname>TimeAndDateTests.TimeIncorrectTestCaseGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="20" column="27" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="21" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_and_date_tests_1aac7cd518567eec600b5c70a95b0f78be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_IsValid_ValuesInBounds</definition>
+        <argsstring>(Time time)</argsstring>
+        <name>Time_IsValid_ValuesInBounds</name>
+        <qualifiedname>TimeAndDateTests.Time_IsValid_ValuesInBounds</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="34" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1a79a508d4a0c7b2c73e38937aedf666c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_IsInvalid_ValuesOutOfBounds</definition>
+        <argsstring>(Time time)</argsstring>
+        <name>Time_IsInvalid_ValuesOutOfBounds</name>
+        <qualifiedname>TimeAndDateTests.Time_IsInvalid_ValuesOutOfBounds</qualifiedname>
+        <param>
+          <type><ref refid="class_time" kindref="compound">Time</ref></type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="41" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1a243efd66335806f05d75019fe077b4ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_Now_HasValue</definition>
+        <argsstring>()</argsstring>
+        <name>Time_Now_HasValue</name>
+        <qualifiedname>TimeAndDateTests.Time_Now_HasValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="47" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1a21f9e65d09eb57163f5a465a667080cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Date_Empty_IsAllZeroes</definition>
+        <argsstring>()</argsstring>
+        <name>Date_Empty_IsAllZeroes</name>
+        <qualifiedname>TimeAndDateTests.Date_Empty_IsAllZeroes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="57" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="57" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1af668bce0ab4f41d3c90f0a35b5d1326a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Date_Equals_IsTrue</definition>
+        <argsstring>()</argsstring>
+        <name>Date_Equals_IsTrue</name>
+        <qualifiedname>TimeAndDateTests.Date_Equals_IsTrue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="72" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1afae34afb020456e2aa5482d51a07dc4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_Equals_IsTrue</definition>
+        <argsstring>()</argsstring>
+        <name>Time_Equals_IsTrue</name>
+        <qualifiedname>TimeAndDateTests.Time_Equals_IsTrue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="81" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="81" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1ae3348f299f84246d98e9663b57941aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_GreaterThanLessThanOperators_WorkCorrectly</definition>
+        <argsstring>()</argsstring>
+        <name>Time_GreaterThanLessThanOperators_WorkCorrectly</name>
+        <qualifiedname>TimeAndDateTests.Time_GreaterThanLessThanOperators_WorkCorrectly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="90" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="90" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1af43cfd5a9a985936826c36f188d5b9cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_Subtraction_WorksCorrectly</definition>
+        <argsstring>()</argsstring>
+        <name>Time_Subtraction_WorksCorrectly</name>
+        <qualifiedname>TimeAndDateTests.Time_Subtraction_WorksCorrectly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="119" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="119" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1aa59b273a768c94b946c287881bfd9be1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_Subtraction_ReturnsTimeSpan</definition>
+        <argsstring>()</argsstring>
+        <name>Time_Subtraction_ReturnsTimeSpan</name>
+        <qualifiedname>TimeAndDateTests.Time_Subtraction_ReturnsTimeSpan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="152" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="152" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1a0db0aa6f90e2d7ba323e6b7c0d9ede27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_CheckCarryAddition_WorksCorrectly</definition>
+        <argsstring>()</argsstring>
+        <name>Time_CheckCarryAddition_WorksCorrectly</name>
+        <qualifiedname>TimeAndDateTests.Time_CheckCarryAddition_WorksCorrectly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="164" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="164" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_and_date_tests_1a70eee4be5fe82f022836b00c3298d77a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeAndDateTests.Time_ToString_CorrectFormat</definition>
+        <argsstring>()</argsstring>
+        <name>Time_ToString_CorrectFormat</name>
+        <qualifiedname>TimeAndDateTests.Time_ToString_CorrectFormat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.Tests/TimeAndDateTests.cs" line="173" column="13" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="173" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Tests/TimeAndDateTests.cs" line="6" column="7" bodyfile="Timewise.Tests/TimeAndDateTests.cs" bodystart="7" bodyend="182"/>
+    <listofallmembers>
+      <member refid="class_time_and_date_tests_1a21f9e65d09eb57163f5a465a667080cd" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Date_Empty_IsAllZeroes</name></member>
+      <member refid="class_time_and_date_tests_1af668bce0ab4f41d3c90f0a35b5d1326a" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Date_Equals_IsTrue</name></member>
+      <member refid="class_time_and_date_tests_1a0db0aa6f90e2d7ba323e6b7c0d9ede27" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_CheckCarryAddition_WorksCorrectly</name></member>
+      <member refid="class_time_and_date_tests_1afae34afb020456e2aa5482d51a07dc4b" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_Equals_IsTrue</name></member>
+      <member refid="class_time_and_date_tests_1ae3348f299f84246d98e9663b57941aab" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_GreaterThanLessThanOperators_WorkCorrectly</name></member>
+      <member refid="class_time_and_date_tests_1a79a508d4a0c7b2c73e38937aedf666c3" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_IsInvalid_ValuesOutOfBounds</name></member>
+      <member refid="class_time_and_date_tests_1aac7cd518567eec600b5c70a95b0f78be" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_IsValid_ValuesInBounds</name></member>
+      <member refid="class_time_and_date_tests_1a243efd66335806f05d75019fe077b4ab" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_Now_HasValue</name></member>
+      <member refid="class_time_and_date_tests_1aa59b273a768c94b946c287881bfd9be1" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_Subtraction_ReturnsTimeSpan</name></member>
+      <member refid="class_time_and_date_tests_1af43cfd5a9a985936826c36f188d5b9cf" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_Subtraction_WorksCorrectly</name></member>
+      <member refid="class_time_and_date_tests_1a70eee4be5fe82f022836b00c3298d77a" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>Time_ToString_CorrectFormat</name></member>
+      <member refid="class_time_and_date_tests_1a1da59ff3c9da0cb1e48f888ad63f88ad" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>TimeCorrectTestCaseGenerator</name></member>
+      <member refid="class_time_and_date_tests_1ab14f2954d57864ac46a3522036914bcd" prot="public" virt="non-virtual"><scope>TimeAndDateTests</scope><name>TimeIncorrectTestCaseGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_counter_down_page" kind="class" language="C#" prot="public">
+    <compoundname>TimeCounterDownPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_time_counter_down_page_1aaf736274da882fa78ef2c98eb16f6b13" prot="private" static="no" mutable="no">
+        <type><ref refid="class_time_counter_down" kindref="compound">TimeCounterDown</ref></type>
+        <definition>TimeCounterDown TimeCounterDownPage._timeCounter</definition>
+        <argsstring></argsstring>
+        <name>_timeCounter</name>
+        <qualifiedname>TimeCounterDownPage._timeCounter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="14" column="25" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_time_counter_down_page_1ad0cb91665136fb6225465b9682852123" prot="public" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_time_counter_down_event" kindref="compound">TimeCounterDownEvent</ref> &gt;</type>
+        <definition>List&lt;TimeCounterDownEvent&gt; TimeCounterDownPage.TimeCounterDownEvents</definition>
+        <argsstring></argsstring>
+        <name>TimeCounterDownEvents</name>
+        <qualifiedname>TimeCounterDownPage.TimeCounterDownEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="15" column="20" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_counter_down_page_1aa6cd8cf638f2f890dd284f367dcaf6ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimeCounterDownPage.TimeCounterDownPage</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterDownPage</name>
+        <qualifiedname>TimeCounterDownPage.TimeCounterDownPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="17" column="8" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="17" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_time_counter_down_page_1ae8165bafa4e24945e7e1d9e04386b658" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Grid</type>
+        <definition>Grid TimeCounterDownPage.GenerateCountdownGrid</definition>
+        <argsstring>(TimeCounterDownEvent ev)</argsstring>
+        <name>GenerateCountdownGrid</name>
+        <qualifiedname>TimeCounterDownPage.GenerateCountdownGrid</qualifiedname>
+        <param>
+          <type><ref refid="class_time_counter_down_event" kindref="compound">TimeCounterDownEvent</ref></type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="35" column="14" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="35" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_page_1a0f6bd263696e21f00ee521ac23dfa0a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeCounterDownPage.CreateEventButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CreateEventButton_Clicked</name>
+        <qualifiedname>TimeCounterDownPage.CreateEventButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="106" column="20" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="106" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_page_1af79a88fb271984e3da5d01283aa3f774" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDownPage.EventTimeCheckBox_CheckedChanged</definition>
+        <argsstring>(object sender, CheckedChangedEventArgs e)</argsstring>
+        <name>EventTimeCheckBox_CheckedChanged</name>
+        <qualifiedname>TimeCounterDownPage.EventTimeCheckBox_CheckedChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CheckedChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="150" column="14" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_page_1a64bc6090eef939dc501233ec28596389" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeCounterDownPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>TimeCounterDownPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="155" column="20" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_page_1ac21feb991535cea1e4da632ab1a0bbe0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeCounterDownPage.DeleteTimeCounterButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>DeleteTimeCounterButton_Clicked</name>
+        <qualifiedname>TimeCounterDownPage.DeleteTimeCounterButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="160" column="20" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="160" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_down_page_1a0f03d721cce03d3f9321aa00457d9b6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterDownPage.EventTimeZoneCheckBox_OnCheckedChanged</definition>
+        <argsstring>(object sender, CheckedChangedEventArgs e)</argsstring>
+        <name>EventTimeZoneCheckBox_OnCheckedChanged</name>
+        <qualifiedname>TimeCounterDownPage.EventTimeZoneCheckBox_OnCheckedChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CheckedChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="195" column="14" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="195" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimeCounterDownPage</label>
+        <link refid="class_time_counter_down_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimeCounterDownPage</label>
+        <link refid="class_time_counter_down_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" line="12" column="15" bodyfile="Timewise.App/Pages/TimeCounterDownPage.xaml.cs" bodystart="13" bodyend="204"/>
+    <listofallmembers>
+      <member refid="class_time_counter_down_page_1aaf736274da882fa78ef2c98eb16f6b13" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>_timeCounter</name></member>
+      <member refid="class_time_counter_down_page_1a64bc6090eef939dc501233ec28596389" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_time_counter_down_page_1a0f6bd263696e21f00ee521ac23dfa0a3" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>CreateEventButton_Clicked</name></member>
+      <member refid="class_time_counter_down_page_1ac21feb991535cea1e4da632ab1a0bbe0" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>DeleteTimeCounterButton_Clicked</name></member>
+      <member refid="class_time_counter_down_page_1af79a88fb271984e3da5d01283aa3f774" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>EventTimeCheckBox_CheckedChanged</name></member>
+      <member refid="class_time_counter_down_page_1a0f03d721cce03d3f9321aa00457d9b6b" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>EventTimeZoneCheckBox_OnCheckedChanged</name></member>
+      <member refid="class_time_counter_down_page_1ae8165bafa4e24945e7e1d9e04386b658" prot="private" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>GenerateCountdownGrid</name></member>
+      <member refid="class_time_counter_down_page_1ad0cb91665136fb6225465b9682852123" prot="public" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>TimeCounterDownEvents</name></member>
+      <member refid="class_time_counter_down_page_1aa6cd8cf638f2f890dd284f367dcaf6ee" prot="public" virt="non-virtual"><scope>TimeCounterDownPage</scope><name>TimeCounterDownPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_timer_page" kind="class" language="C#" prot="public">
+    <compoundname>TimerPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_timer_page_1a776a3653755df006cd78f27ad7a3ce4e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_time_counter_down" kindref="compound">TimeCounterDown</ref></type>
+        <definition>TimeCounterDown TimerPage._time</definition>
+        <argsstring></argsstring>
+        <name>_time</name>
+        <qualifiedname>TimerPage._time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="7" column="25" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_timer_page_1aafbc3992eee3bcfd1b0b9a3c58f0e267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimerPage.TimerPage</definition>
+        <argsstring>()</argsstring>
+        <name>TimerPage</name>
+        <qualifiedname>TimerPage.TimerPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="9" column="8" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_timer_page_1a2c4e68de24b7e7bcff5d3babda9f8ad9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimerPage.StartTimerButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>StartTimerButton_Clicked</name>
+        <qualifiedname>TimerPage.StartTimerButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="14" column="20" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="14" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_timer_page_1a655fbe37202d33339c6d070d1919b0e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimerPage.ToggleTimeEntry</definition>
+        <argsstring>(bool currentTimerState)</argsstring>
+        <name>ToggleTimeEntry</name>
+        <qualifiedname>TimerPage.ToggleTimeEntry</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>currentTimerState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="44" column="14" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="44" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_timer_page_1a3b72e7631614776af5a064b1e3cc229a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimerPage.ResetTimerButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ResetTimerButton_Clicked</name>
+        <qualifiedname>TimerPage.ResetTimerButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="64" column="14" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="64" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_timer_page_1a739180ce39cb0c1834c00520540d207b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimerPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>TimerPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="80" column="20" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimerPage</label>
+        <link refid="class_timer_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimerPage</label>
+        <link refid="class_timer_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/TimerPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/TimerPage.xaml.cs" bodystart="6" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_timer_page_1a776a3653755df006cd78f27ad7a3ce4e" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>_time</name></member>
+      <member refid="class_timer_page_1a739180ce39cb0c1834c00520540d207b" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_timer_page_1a3b72e7631614776af5a064b1e3cc229a" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>ResetTimerButton_Clicked</name></member>
+      <member refid="class_timer_page_1a2c4e68de24b7e7bcff5d3babda9f8ad9" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>StartTimerButton_Clicked</name></member>
+      <member refid="class_timer_page_1aafbc3992eee3bcfd1b0b9a3c58f0e267" prot="public" virt="non-virtual"><scope>TimerPage</scope><name>TimerPage</name></member>
+      <member refid="class_timer_page_1a655fbe37202d33339c6d070d1919b0e1" prot="private" virt="non-virtual"><scope>TimerPage</scope><name>ToggleTimeEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

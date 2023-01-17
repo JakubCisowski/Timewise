@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_login_page" kind="class" language="C#" prot="public">
+    <compoundname>LoginPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_login_page_1a990aa278af62821f197c359c60593431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginPage.LoginPage</definition>
+        <argsstring>()</argsstring>
+        <name>LoginPage</name>
+        <qualifiedname>LoginPage.LoginPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="12" column="8" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_login_page_1a5047b15c89946c534e1cca97922dcf74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LoginPage.LoginButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>LoginButton_Clicked</name>
+        <qualifiedname>LoginPage.LoginButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="23" column="20" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="23" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_page_1acadacc27104c77e4c699cda089ac7a0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LoginPage.RegisterButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>RegisterButton_Clicked</name>
+        <qualifiedname>LoginPage.RegisterButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="64" column="20" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="64" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_page_1acbefa710a45ecfaf6eaaa470a7b67462" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LoginPage.EnterWithoutLoggingInButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>EnterWithoutLoggingInButton_Clicked</name>
+        <qualifiedname>LoginPage.EnterWithoutLoggingInButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="107" column="20" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="107" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>LoginPage</label>
+        <link refid="class_login_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>LoginPage</label>
+        <link refid="class_login_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="10" column="15" bodyfile="Timewise.App/Pages/LoginPage.xaml.cs" bodystart="11" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_login_page_1acbefa710a45ecfaf6eaaa470a7b67462" prot="private" virt="non-virtual"><scope>LoginPage</scope><name>EnterWithoutLoggingInButton_Clicked</name></member>
+      <member refid="class_login_page_1a5047b15c89946c534e1cca97922dcf74" prot="private" virt="non-virtual"><scope>LoginPage</scope><name>LoginButton_Clicked</name></member>
+      <member refid="class_login_page_1a990aa278af62821f197c359c60593431" prot="public" virt="non-virtual"><scope>LoginPage</scope><name>LoginPage</name></member>
+      <member refid="class_login_page_1acadacc27104c77e4c699cda089ac7a0e" prot="private" virt="non-virtual"><scope>LoginPage</scope><name>RegisterButton_Clicked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

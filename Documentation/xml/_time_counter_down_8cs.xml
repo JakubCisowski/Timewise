@@ -3,7 +3,6 @@
   <compounddef id="_time_counter_down_8cs" kind="file" language="C#">
     <compoundname>TimeCounterDown.cs</compoundname>
     <innerclass refid="class_time_counter_down" prot="public">TimeCounterDown</innerclass>
-    <innernamespace refid="namespace_system_1_1_timers">System::Timers</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

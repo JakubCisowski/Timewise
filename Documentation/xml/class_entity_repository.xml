@@ -228,16 +228,6 @@
 <para>Generyczna klasa implementująca interfejs <ref refid="interface_i_generic_repository" kindref="compound">IGenericRepository</ref>, będąca jego konkretną implementacją. Klasa implementuje również interfejs IDisposable, który pozwala na automatyczne zwolnienie zasobów po zakończeniu działania, oraz na tworzenie obiektu repozytorium wewnątrz bloku using. </para>
     </briefdescription>
     <detaileddescription>
-<para><parameterlist kind="templateparam"><parameteritem>
-<parameternamelist>
-<parametername>T</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Typ encji, implementujący interfejs <ref refid="interface_i_entity" kindref="compound">IEntity</ref>.</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">

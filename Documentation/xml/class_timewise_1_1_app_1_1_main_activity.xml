@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_timewise_1_1_app_1_1_main_activity" kind="class" language="C#" prot="public">
+    <compoundname>Timewise::App::MainActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MauiAppCompatActivity</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MauiAppCompatActivity</label>
+      </node>
+      <node id="1">
+        <label>Timewise.App.MainActivity</label>
+        <link refid="class_timewise_1_1_app_1_1_main_activity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MauiAppCompatActivity</label>
+      </node>
+      <node id="1">
+        <label>Timewise.App.MainActivity</label>
+        <link refid="class_timewise_1_1_app_1_1_main_activity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Platforms/Android/MainActivity.cs" line="8" column="7" bodyfile="Timewise.App/Platforms/Android/MainActivity.cs" bodystart="9" bodyend="10"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

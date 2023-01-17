@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_converters_page" kind="class" language="C#" prot="public">
+    <compoundname>ConvertersPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_converters_page_1a1bdd74f0b085880dccf38c6ab89b38fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ConvertersPage.ConvertersPage</definition>
+        <argsstring>()</argsstring>
+        <name>ConvertersPage</name>
+        <qualifiedname>ConvertersPage.ConvertersPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="5" column="8" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_converters_page_1a4b22ae40ed2eb15d4dfcb4ed2d7d9bbd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ConvertersPage.UnixTimeButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>UnixTimeButton_Clicked</name>
+        <qualifiedname>ConvertersPage.UnixTimeButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="10" column="20" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_converters_page_1a7898ed5cfaecdbf90ee556af677883d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ConvertersPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>ConvertersPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="15" column="20" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_converters_page_1a38d2f151147f8ca4a2216b2e2c8948f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ConvertersPage.TimeZoneConverterButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>TimeZoneConverterButton_Clicked</name>
+        <qualifiedname>ConvertersPage.TimeZoneConverterButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="20" column="20" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>ConvertersPage</label>
+        <link refid="class_converters_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>ConvertersPage</label>
+        <link refid="class_converters_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/ConvertersPage.xaml.cs" line="3" column="15" bodyfile="Timewise.App/Pages/ConvertersPage.xaml.cs" bodystart="4" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_converters_page_1a7898ed5cfaecdbf90ee556af677883d2" prot="private" virt="non-virtual"><scope>ConvertersPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_converters_page_1a1bdd74f0b085880dccf38c6ab89b38fb" prot="public" virt="non-virtual"><scope>ConvertersPage</scope><name>ConvertersPage</name></member>
+      <member refid="class_converters_page_1a38d2f151147f8ca4a2216b2e2c8948f6" prot="private" virt="non-virtual"><scope>ConvertersPage</scope><name>TimeZoneConverterButton_Clicked</name></member>
+      <member refid="class_converters_page_1a4b22ae40ed2eb15d4dfcb4ed2d7d9bbd" prot="private" virt="non-virtual"><scope>ConvertersPage</scope><name>UnixTimeButton_Clicked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

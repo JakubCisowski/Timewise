@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="_usings_8cs" kind="file" language="C#">
+    <compoundname>Usings.cs</compoundname>
+    <innernamespace refid="namespace_n_unit_1_1_framework">NUnit::Framework</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>NUnit.Framework;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_timewise" kindref="compound">Timewise</ref>.Code.Models;</highlight></codeline>
+    </programlisting>
+    <location file="Timewise.Tests/Usings.cs"/>
+  </compounddef>
+</doxygen>

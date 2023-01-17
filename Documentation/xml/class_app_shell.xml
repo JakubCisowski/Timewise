@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_app_shell" kind="class" language="C#" prot="public">
+    <compoundname>AppShell</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Shell</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_shell_1ae4f3a6843a50481b28bfcacfecdd09ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AppShell.AppShell</definition>
+        <argsstring>()</argsstring>
+        <name>AppShell</name>
+        <qualifiedname>AppShell.AppShell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/AppShell.xaml.cs" line="5" column="8" bodyfile="Timewise.App/AppShell.xaml.cs" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AppShell</label>
+        <link refid="class_app_shell"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Shell</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppShell</label>
+        <link refid="class_app_shell"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Shell</label>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/AppShell.xaml.cs" line="3" column="15" bodyfile="Timewise.App/AppShell.xaml.cs" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_app_shell_1ae4f3a6843a50481b28bfcacfecdd09ce" prot="public" virt="non-virtual"><scope>AppShell</scope><name>AppShell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

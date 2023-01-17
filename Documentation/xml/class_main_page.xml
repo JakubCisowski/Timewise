@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_main_page" kind="class" language="C#" prot="public">
+    <compoundname>MainPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_page_1a89e84234664ee65ff5934205521a2373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MainPage.MainPage</definition>
+        <argsstring>()</argsstring>
+        <name>MainPage</name>
+        <qualifiedname>MainPage.MainPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="13" column="8" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="13" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_main_page_1a906ec136e8465fb09779c57ad82f5e7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.LoadFromDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>LoadFromDatabase</name>
+        <qualifiedname>MainPage.LoadFromDatabase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="27" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="27" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1ab6c0d5cc7c97d8c7735679afdf1c701e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.TimerButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>TimerButton_Clicked</name>
+        <qualifiedname>MainPage.TimerButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="92" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1aeb55faac9f62d6b698768d8f6420cc15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.StopwatchButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>StopwatchButton_Clicked</name>
+        <qualifiedname>MainPage.StopwatchButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="97" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1a12e97c382e4c31c21bde0f756db50cfd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.ElapsingTimeButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ElapsingTimeButton_Clicked</name>
+        <qualifiedname>MainPage.ElapsingTimeButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="102" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1aaccafef1495e567fa48e8fe5b70a701f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.CountdownButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CountdownButton_Clicked</name>
+        <qualifiedname>MainPage.CountdownButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="107" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1a220fd0eadc087786f5b27cf04d18fb46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.CalculationsButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CalculationsButton_Clicked</name>
+        <qualifiedname>MainPage.CalculationsButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="112" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1a0284c9b850e662da8577a2e8a7453d6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.ConvertersButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ConvertersButton_Clicked</name>
+        <qualifiedname>MainPage.ConvertersButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="117" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1adef1880b3722aefcba1f6dd2b16cd244" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.LocationInfoButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>LocationInfoButton_Clicked</name>
+        <qualifiedname>MainPage.LocationInfoButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="122" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_page_1a1d7a28871be71cb5c37be5b08722100a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MainPage.CalendarButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CalendarButton_Clicked</name>
+        <qualifiedname>MainPage.CalendarButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/MainPage.xaml.cs" line="127" column="20" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="127" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>MainPage</label>
+        <link refid="class_main_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>MainPage</label>
+        <link refid="class_main_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/MainPage.xaml.cs" line="11" column="15" bodyfile="Timewise.App/MainPage.xaml.cs" bodystart="12" bodyend="131"/>
+    <listofallmembers>
+      <member refid="class_main_page_1a220fd0eadc087786f5b27cf04d18fb46" prot="private" virt="non-virtual"><scope>MainPage</scope><name>CalculationsButton_Clicked</name></member>
+      <member refid="class_main_page_1a1d7a28871be71cb5c37be5b08722100a" prot="private" virt="non-virtual"><scope>MainPage</scope><name>CalendarButton_Clicked</name></member>
+      <member refid="class_main_page_1a0284c9b850e662da8577a2e8a7453d6e" prot="private" virt="non-virtual"><scope>MainPage</scope><name>ConvertersButton_Clicked</name></member>
+      <member refid="class_main_page_1aaccafef1495e567fa48e8fe5b70a701f" prot="private" virt="non-virtual"><scope>MainPage</scope><name>CountdownButton_Clicked</name></member>
+      <member refid="class_main_page_1a12e97c382e4c31c21bde0f756db50cfd" prot="private" virt="non-virtual"><scope>MainPage</scope><name>ElapsingTimeButton_Clicked</name></member>
+      <member refid="class_main_page_1a906ec136e8465fb09779c57ad82f5e7b" prot="private" virt="non-virtual"><scope>MainPage</scope><name>LoadFromDatabase</name></member>
+      <member refid="class_main_page_1adef1880b3722aefcba1f6dd2b16cd244" prot="private" virt="non-virtual"><scope>MainPage</scope><name>LocationInfoButton_Clicked</name></member>
+      <member refid="class_main_page_1a89e84234664ee65ff5934205521a2373" prot="public" virt="non-virtual"><scope>MainPage</scope><name>MainPage</name></member>
+      <member refid="class_main_page_1aeb55faac9f62d6b698768d8f6420cc15" prot="private" virt="non-virtual"><scope>MainPage</scope><name>StopwatchButton_Clicked</name></member>
+      <member refid="class_main_page_1ab6c0d5cc7c97d8c7735679afdf1c701e" prot="private" virt="non-virtual"><scope>MainPage</scope><name>TimerButton_Clicked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

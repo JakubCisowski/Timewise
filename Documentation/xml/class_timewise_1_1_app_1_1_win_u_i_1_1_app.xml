@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_timewise_1_1_app_1_1_win_u_i_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>Timewise::App::WinUI::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MauiWinUIApplication</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_timewise_1_1_app_1_1_win_u_i_1_1_app_1a154e60cf74d3e7f44a519842e2cab827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Timewise.App.WinUI.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <qualifiedname>Timewise.App.WinUI.App.App</qualifiedname>
+        <briefdescription>
+<para>Initializes the singleton application object. This is the first line of authored code executed, and as such is the logical equivalent of main() or WinMain(). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Platforms/Windows/App.xaml.cs" line="17" column="8" bodyfile="Timewise.App/Platforms/Windows/App.xaml.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_timewise_1_1_app_1_1_win_u_i_1_1_app_1a39aadfed7f94c2f8a3e3fb04191225d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override MauiApp</type>
+        <definition>override MauiApp Timewise.App.WinUI.App.CreateMauiApp</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMauiApp</name>
+        <qualifiedname>Timewise.App.WinUI.App.CreateMauiApp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Platforms/Windows/App.xaml.cs" line="22" column="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides application-specific behavior to supplement the default Application class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MauiWinUIApplication</label>
+      </node>
+      <node id="1">
+        <label>Timewise.App.WinUI.App</label>
+        <link refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MauiWinUIApplication</label>
+      </node>
+      <node id="1">
+        <label>Timewise.App.WinUI.App</label>
+        <link refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Platforms/Windows/App.xaml.cs" line="11" column="15" bodyfile="Timewise.App/Platforms/Windows/App.xaml.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app_1a154e60cf74d3e7f44a519842e2cab827" prot="public" virt="non-virtual"><scope>Timewise::App::WinUI::App</scope><name>App</name></member>
+      <member refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app_1a39aadfed7f94c2f8a3e3fb04191225d1" prot="protected" virt="non-virtual"><scope>Timewise::App::WinUI::App</scope><name>CreateMauiApp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

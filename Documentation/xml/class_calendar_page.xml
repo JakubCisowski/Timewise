@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_calendar_page" kind="class" language="C#" prot="public">
+    <compoundname>CalendarPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_calendar_page_1a2dfb4347b7ed35f3aff07692b2fa455d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_calendar" kindref="compound">Calendar</ref></type>
+        <definition>Calendar CalendarPage._calendar</definition>
+        <argsstring></argsstring>
+        <name>_calendar</name>
+        <qualifiedname>CalendarPage._calendar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="10" column="18" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_calendar_page_1ad39fd8e000f82e1c000460aabcf84d3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CalendarPage.CalendarPage</definition>
+        <argsstring>()</argsstring>
+        <name>CalendarPage</name>
+        <qualifiedname>CalendarPage.CalendarPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="12" column="8" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_calendar_page_1a0ad682cbf12092c256b02383bcbfa377" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalendarPage.BackButton_OnClicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_OnClicked</name>
+        <qualifiedname>CalendarPage.BackButton_OnClicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="23" column="20" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_page_1a4a27af6c37c12da9910bb2bccf8a477e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalendarPage.AddReminderButton_OnClicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>AddReminderButton_OnClicked</name>
+        <qualifiedname>CalendarPage.AddReminderButton_OnClicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="28" column="20" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="28" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calendar_page_1a6a09fb69bd2a2b79f13ab30d993cde4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalendarPage.TimerOnElapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e, Reminder reminder)</argsstring>
+        <name>TimerOnElapsed</name>
+        <qualifiedname>CalendarPage.TimerOnElapsed</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="class_reminder" kindref="compound">Reminder</ref></type>
+          <declname>reminder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="68" column="20" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="68" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CalendarPage</label>
+        <link refid="class_calendar_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CalendarPage</label>
+        <link refid="class_calendar_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/CalendarPage.xaml.cs" line="8" column="15" bodyfile="Timewise.App/Pages/CalendarPage.xaml.cs" bodystart="9" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_calendar_page_1a2dfb4347b7ed35f3aff07692b2fa455d" prot="private" virt="non-virtual"><scope>CalendarPage</scope><name>_calendar</name></member>
+      <member refid="class_calendar_page_1a4a27af6c37c12da9910bb2bccf8a477e" prot="private" virt="non-virtual"><scope>CalendarPage</scope><name>AddReminderButton_OnClicked</name></member>
+      <member refid="class_calendar_page_1a0ad682cbf12092c256b02383bcbfa377" prot="private" virt="non-virtual"><scope>CalendarPage</scope><name>BackButton_OnClicked</name></member>
+      <member refid="class_calendar_page_1ad39fd8e000f82e1c000460aabcf84d3a" prot="public" virt="non-virtual"><scope>CalendarPage</scope><name>CalendarPage</name></member>
+      <member refid="class_calendar_page_1a6a09fb69bd2a2b79f13ab30d993cde4a" prot="private" virt="non-virtual"><scope>CalendarPage</scope><name>TimerOnElapsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -7,6 +7,29 @@
   <compound refid="class_api_helper" kind="class"><name>ApiHelper</name>
     <member refid="class_api_helper_1a058633726e662896ec47ac65837b236e" kind="function"><name>GetWeather</name></member>
   </compound>
+  <compound refid="class_app" kind="class"><name>App</name>
+    <member refid="class_app_1a9721308c089f47932ade01a2c713bea8" kind="function"><name>App</name></member>
+    <member refid="class_app_1abea5ac27b08187ca39f3ff5c279be457" kind="function"><name>CreateWindow</name></member>
+  </compound>
+  <compound refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app" kind="class"><name>Timewise::App::WinUI::App</name>
+    <member refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app_1a154e60cf74d3e7f44a519842e2cab827" kind="function"><name>App</name></member>
+    <member refid="class_timewise_1_1_app_1_1_win_u_i_1_1_app_1a39aadfed7f94c2f8a3e3fb04191225d1" kind="function"><name>CreateMauiApp</name></member>
+  </compound>
+  <compound refid="class_timewise_1_1_app_1_1_app_delegate" kind="class"><name>Timewise::App::AppDelegate</name>
+    <member refid="class_timewise_1_1_app_1_1_app_delegate_1ad8185864429fb9b60d309992fb55a899" kind="function"><name>CreateMauiApp</name></member>
+    <member refid="class_timewise_1_1_app_1_1_app_delegate_1ad8185864429fb9b60d309992fb55a899" kind="function"><name>CreateMauiApp</name></member>
+  </compound>
+  <compound refid="class_app_shell" kind="class"><name>AppShell</name>
+    <member refid="class_app_shell_1ae4f3a6843a50481b28bfcacfecdd09ce" kind="function"><name>AppShell</name></member>
+  </compound>
+  <compound refid="class_calculations_page" kind="class"><name>CalculationsPage</name>
+    <member refid="class_calculations_page_1abfe3617dc2f4028a859125e8276f1461" kind="function"><name>CalculationsPage</name></member>
+    <member refid="class_calculations_page_1a917577732f819cca68b47882a3e8327e" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_calculations_page_1a780b767c8f5cf26a358276d9294fa620" kind="function"><name>DateSubtractionPageButton_Clicked</name></member>
+    <member refid="class_calculations_page_1a1fb4d9a8c62f9cebe7e6b0c33421e88f" kind="function"><name>DayOfWeekPageButton_Clicked</name></member>
+    <member refid="class_calculations_page_1ae3a4df6d3730672e743a9fb272c2693f" kind="function"><name>LeapYearPageButton_Clicked</name></member>
+    <member refid="class_calculations_page_1ad7f9aed6b51f3002bc49447b25f935f3" kind="function"><name>WeekNumberPageButton_Clicked</name></member>
+  </compound>
   <compound refid="class_calendar" kind="class"><name>Calendar</name>
     <member refid="class_calendar_1ae9ea55f7a01b00bf246d97b0b3b6678f" kind="property"><name>MyCalendar</name></member>
     <member refid="class_calendar_1a7da34c41f60318666433260ed7530d78" kind="property"><name>NavigateCalendarCommand</name></member>
@@ -22,12 +45,22 @@
     <member refid="class_calendar_1aadce880a9fd9034eb23c280dd8411b64" kind="function"><name>ChangeDateSelection</name></member>
     <member refid="class_calendar_1ad95e6656ec171e1bc12ea3a04655d601" kind="function"><name>CreateNotificationAndroid</name></member>
     <member refid="class_calendar_1aebc1b36e3628013da814b4503ccaa183" kind="function"><name>GenerateReminderUI</name></member>
-    <member refid="class_calendar_1a896b0500983394f6881f87ff0d393c33" kind="function"><name>GenerateAllRemindersUI</name></member>
+    <member refid="class_calendar_1ae3595da16da632e4ee2a99935cd8f043" kind="function"><name>GenerateAllRemindersUI</name></member>
     <member refid="class_calendar_1ae28ffe7767d6dbd6f7cc36c0e4e21bb6" kind="function"><name>GenerateReminderBorder</name></member>
     <member refid="class_calendar_1a6c1771e8a2541ea310e7a1ebbbe3acbb" kind="function"><name>ButtonOnClicked</name></member>
   </compound>
-  <compound refid="class_connection_string_helper" kind="class"><name>ConnectionStringHelper</name>
-    <member refid="class_connection_string_helper_1a77829ad7a9afe1e799ceac0ce2916c64" kind="variable"><name>DbConnectionString</name></member>
+  <compound refid="class_calendar_page" kind="class"><name>CalendarPage</name>
+    <member refid="class_calendar_page_1a2dfb4347b7ed35f3aff07692b2fa455d" kind="variable"><name>_calendar</name></member>
+    <member refid="class_calendar_page_1ad39fd8e000f82e1c000460aabcf84d3a" kind="function"><name>CalendarPage</name></member>
+    <member refid="class_calendar_page_1a0ad682cbf12092c256b02383bcbfa377" kind="function"><name>BackButton_OnClicked</name></member>
+    <member refid="class_calendar_page_1a4a27af6c37c12da9910bb2bccf8a477e" kind="function"><name>AddReminderButton_OnClicked</name></member>
+    <member refid="class_calendar_page_1a6a09fb69bd2a2b79f13ab30d993cde4a" kind="function"><name>TimerOnElapsed</name></member>
+  </compound>
+  <compound refid="class_converters_page" kind="class"><name>ConvertersPage</name>
+    <member refid="class_converters_page_1a1bdd74f0b085880dccf38c6ab89b38fb" kind="function"><name>ConvertersPage</name></member>
+    <member refid="class_converters_page_1a4b22ae40ed2eb15d4dfcb4ed2d7d9bbd" kind="function"><name>UnixTimeButton_Clicked</name></member>
+    <member refid="class_converters_page_1a7898ed5cfaecdbf90ee556af677883d2" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_converters_page_1a38d2f151147f8ca4a2216b2e2c8948f6" kind="function"><name>TimeZoneConverterButton_Clicked</name></member>
   </compound>
   <compound refid="class_database_connection_helper" kind="class"><name>DatabaseConnectionHelper</name>
     <member refid="class_database_connection_helper_1a87f18022f5572af6819ffae9f80ef315" kind="function"><name>TestDatabaseConnection</name></member>
@@ -41,6 +74,9 @@
   <compound refid="class_database_exception" kind="class"><name>DatabaseException</name>
     <member refid="class_database_exception_1a5e6d37ff53951608687ef6bdb949029f" kind="function"><name>DatabaseException</name></member>
     <member refid="class_database_exception_1ac504d61fb9a3b19ffee7104fb86df414" kind="function"><name>DatabaseException</name></member>
+  </compound>
+  <compound refid="class_database_tests" kind="class"><name>DatabaseTests</name>
+    <member refid="class_database_tests_1a62a462ee74e3593751a3cd3cfc2538b2" kind="function"><name>DatabaseTest_ConnectsWithNoException</name></member>
   </compound>
   <compound refid="class_date" kind="class"><name>Date</name>
     <member refid="class_date_1ad39dbbe591c34adb2db60011c0ba2351" kind="property"><name>Day</name></member>
@@ -62,8 +98,24 @@
     <member refid="class_date_helper_1a5ece8b3cc03c82ce11cb89732534b42a" kind="function"><name>TimeSince</name></member>
     <member refid="class_date_helper_1a4a72ee17a0ddd900eaced0d7cec3376b" kind="function"><name>Construct</name></member>
   </compound>
+  <compound refid="class_date_subtraction_page" kind="class"><name>DateSubtractionPage</name>
+    <member refid="class_date_subtraction_page_1a1d4566acf03df13e28e35cf048f8f06b" kind="function"><name>DateSubtractionPage</name></member>
+    <member refid="class_date_subtraction_page_1a6925ef694cf3a6a4a2417831a01421a7" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_date_subtraction_page_1ac00fcf19021488eec79906693442376b" kind="function"><name>SubtractDateButton_Clicked</name></member>
+  </compound>
   <compound refid="class_day_of_week_formatter" kind="class"><name>DayOfWeekFormatter</name>
     <member refid="class_day_of_week_formatter_1a1ac8ba96758068e17fe43e2988b01b40" kind="function"><name>DayOfWeekToString</name></member>
+  </compound>
+  <compound refid="class_day_of_week_page" kind="class"><name>DayOfWeekPage</name>
+    <member refid="class_day_of_week_page_1aa28f677e451e888eafe889c45c486507" kind="function"><name>DayOfWeekPage</name></member>
+    <member refid="class_day_of_week_page_1a660082c0e0ca1190ff174c9fb5acd773" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_day_of_week_page_1af78ec575b1d2e0a7ff01436ce3cd17ad" kind="function"><name>CheckDayOfWeekButton_Clicked</name></member>
+  </compound>
+  <compound refid="class_day_of_week_tests" kind="class"><name>DayOfWeekTests</name>
+    <member refid="class_day_of_week_tests_1a6166d6373d857def3bf81b1a1d91a18a" kind="property"><name>DateGenerator_CorrectValues</name></member>
+    <member refid="class_day_of_week_tests_1add34d977b1ee57339ac27c20867844c9" kind="property"><name>DateGenerator_IncorrectValues</name></member>
+    <member refid="class_day_of_week_tests_1a584c4aef9d815994bcc3ec4560559c09" kind="function"><name>DayOfWeek_WorksCorrectly_ValidDate</name></member>
+    <member refid="class_day_of_week_tests_1a2751bc2d6996d8e2ecc5015910af3b78" kind="function"><name>DayOfWeek_Throws_InvaliDate</name></member>
   </compound>
   <compound refid="class_duration" kind="class"><name>Duration</name>
     <member refid="class_duration_1a124c4891704d0f1a4bbd58fac6aa676d" kind="variable"><name>_days</name></member>
@@ -94,6 +146,16 @@
     <member refid="class_duration_1aa3da7454f1842e7e6a59720e1c3c1397" kind="function"><name>operator&gt;</name></member>
     <member refid="class_duration_1a9b059242ab8af2f459d67fd0e1d1096e" kind="function"><name>OnPropertyChanged</name></member>
   </compound>
+  <compound refid="class_duration_tests" kind="class"><name>DurationTests</name>
+    <member refid="class_duration_tests_1aa3a29013319fc042efacc8d0fd9371f4" kind="function"><name>Duration_DefaultConstructor_Zero</name></member>
+    <member refid="class_duration_tests_1af8e612dda55678d62087680a00bf742e" kind="function"><name>Duration_Addition_CorrectResult</name></member>
+    <member refid="class_duration_tests_1a19e05cb053cb7fd28baa27fe69864ba9" kind="function"><name>Duration_Addition_IsCommutative</name></member>
+    <member refid="class_duration_tests_1a091ee3b9b0f98abb714c932353ed215a" kind="function"><name>Duration_Subtraction_CorrectResult</name></member>
+    <member refid="class_duration_tests_1aaa49529266c25224ff1b30414b864c7f" kind="function"><name>Duration_Subtraction_ThrowsForInvalidArguments</name></member>
+    <member refid="class_duration_tests_1a40602426cce9f9530a295896001f0399" kind="function"><name>Duration_GreaterThanLessThanOperators_WorkCorrectly</name></member>
+    <member refid="class_duration_tests_1a28aff4341dd969b8bcb547ffff9d9a5a" kind="function"><name>Duration_CheckCarrySubtraction_WorksCorrectly</name></member>
+    <member refid="class_duration_tests_1a1dbe60502ca0a7fe8c599f3df2b36768" kind="function"><name>Duration_ToString_CorrectFormat</name></member>
+  </compound>
   <compound refid="class_entity_repository" kind="class"><name>EntityRepository</name>
     <member refid="class_entity_repository_1a43ea57140748c8ca178001039c82c500" kind="variable"><name>_connection</name></member>
     <member refid="class_entity_repository_1a4ead4fc92ebe796590d66c67a81378b9" kind="function"><name>EntityRepository</name></member>
@@ -105,9 +167,12 @@
     <member refid="class_entity_repository_1ae5c99a10810e68d5acf4d18590426385" kind="function"><name>Clear&lt; T &gt;</name></member>
     <member refid="class_entity_repository_1a843f89c7a319df5ea10c6cb27656e903" kind="function"><name>Dispose</name></member>
   </compound>
+  <compound refid="class_file_access_tests" kind="class"><name>FileAccessTests</name>
+    <member refid="class_file_access_tests_1a0a839b7a2758790760b2dc68b8ead7fd" kind="function"><name>DatabaseConnectionString_IsLoaded</name></member>
+    <member refid="class_file_access_tests_1a1eee28f835ccd673779800b9bef1043f" kind="function"><name>NameDayNames_IsLoaded</name></member>
+    <member refid="class_file_access_tests_1afe89888b59f2ad3b9fe7a0893c8a9044" kind="function"><name>Holidays_IsLoaded</name></member>
+  </compound>
   <compound refid="class_file_helper" kind="class"><name>FileHelper</name>
-    <member refid="class_file_helper_1a4b88fff02e816e2d918195c56d8d89eb" kind="variable"><name>NameDayFilePath</name></member>
-    <member refid="class_file_helper_1a024cf0d88fe09493a7cf2026ee185c8a" kind="variable"><name>HolidayFilePath</name></member>
     <member refid="class_file_helper_1af4957bc2d40aaf931dcc94c2e72723e5" kind="function"><name>GetNameDayNames</name></member>
     <member refid="class_file_helper_1abc0a8396c3873e1dfe1e27c6ebfda2df" kind="function"><name>GetHolidays</name></member>
   </compound>
@@ -125,9 +190,57 @@
   <compound refid="interface_i_validatable" kind="interface"><name>IValidatable</name>
     <member refid="interface_i_validatable_1adb3c4f2941ae187dacfa78b8681eea28" kind="property"><name>IsValid</name></member>
   </compound>
+  <compound refid="class_leap_year_page" kind="class"><name>LeapYearPage</name>
+    <member refid="class_leap_year_page_1a9caaa98e0169554ecb2129515e09dd8f" kind="function"><name>LeapYearPage</name></member>
+    <member refid="class_leap_year_page_1aa6341f111c7d9953eb2ac6baf2059cde" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_leap_year_page_1a0fa3ff61c1e3449105ebb933b136499e" kind="function"><name>CalculateLeapYearButton_Clicked</name></member>
+  </compound>
+  <compound refid="class_location_info_page" kind="class"><name>LocationInfoPage</name>
+    <member refid="class_location_info_page_1ae6d38a902711508e4bdafc7c2a4981bb" kind="function"><name>LocationInfoPage</name></member>
+    <member refid="class_location_info_page_1a853160643aee7e61eccd1e853d06c9d2" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_location_info_page_1a1573fe689145344aeaed64b3dba80d8d" kind="function"><name>CheckButton_Clicked</name></member>
+  </compound>
+  <compound refid="class_login_page" kind="class"><name>LoginPage</name>
+    <member refid="class_login_page_1a990aa278af62821f197c359c60593431" kind="function"><name>LoginPage</name></member>
+    <member refid="class_login_page_1a5047b15c89946c534e1cca97922dcf74" kind="function"><name>LoginButton_Clicked</name></member>
+    <member refid="class_login_page_1acadacc27104c77e4c699cda089ac7a0e" kind="function"><name>RegisterButton_Clicked</name></member>
+    <member refid="class_login_page_1acbefa710a45ecfaf6eaaa470a7b67462" kind="function"><name>EnterWithoutLoggingInButton_Clicked</name></member>
+  </compound>
+  <compound refid="class_timewise_1_1_app_1_1_main_activity" kind="class"><name>Timewise::App::MainActivity</name>
+  </compound>
+  <compound refid="class_timewise_1_1_app_1_1_main_application" kind="class"><name>Timewise::App::MainApplication</name>
+    <member refid="class_timewise_1_1_app_1_1_main_application_1a24e02d9d1423ea8ccac5b6d315991634" kind="function"><name>MainApplication</name></member>
+    <member refid="class_timewise_1_1_app_1_1_main_application_1a987212d96d3b544897c1f00b81ffaaed" kind="function"><name>CreateMauiApp</name></member>
+  </compound>
+  <compound refid="class_main_page" kind="class"><name>MainPage</name>
+    <member refid="class_main_page_1a89e84234664ee65ff5934205521a2373" kind="function"><name>MainPage</name></member>
+    <member refid="class_main_page_1a906ec136e8465fb09779c57ad82f5e7b" kind="function"><name>LoadFromDatabase</name></member>
+    <member refid="class_main_page_1ab6c0d5cc7c97d8c7735679afdf1c701e" kind="function"><name>TimerButton_Clicked</name></member>
+    <member refid="class_main_page_1aeb55faac9f62d6b698768d8f6420cc15" kind="function"><name>StopwatchButton_Clicked</name></member>
+    <member refid="class_main_page_1a12e97c382e4c31c21bde0f756db50cfd" kind="function"><name>ElapsingTimeButton_Clicked</name></member>
+    <member refid="class_main_page_1aaccafef1495e567fa48e8fe5b70a701f" kind="function"><name>CountdownButton_Clicked</name></member>
+    <member refid="class_main_page_1a220fd0eadc087786f5b27cf04d18fb46" kind="function"><name>CalculationsButton_Clicked</name></member>
+    <member refid="class_main_page_1a0284c9b850e662da8577a2e8a7453d6e" kind="function"><name>ConvertersButton_Clicked</name></member>
+    <member refid="class_main_page_1adef1880b3722aefcba1f6dd2b16cd244" kind="function"><name>LocationInfoButton_Clicked</name></member>
+    <member refid="class_main_page_1a1d7a28871be71cb5c37be5b08722100a" kind="function"><name>CalendarButton_Clicked</name></member>
+  </compound>
+  <compound refid="class_maui_program" kind="class"><name>MauiProgram</name>
+    <member refid="class_maui_program_1a6578005e34f05cbcd379b70e512aa707" kind="function"><name>CreateMauiApp</name></member>
+  </compound>
   <compound refid="class_password_encryption_helper" kind="class"><name>PasswordEncryptionHelper</name>
     <member refid="class_password_encryption_helper_1a8cb0b581deeca6b4b87daf604519a169" kind="function"><name>GenerateHash</name></member>
     <member refid="class_password_encryption_helper_1a1089d05fde0a6730b56ada14b188627c" kind="function"><name>CompareHashes</name></member>
+  </compound>
+  <compound refid="class_password_encryption_tests" kind="class"><name>PasswordEncryptionTests</name>
+    <member refid="class_password_encryption_tests_1a367af5a5e20e1ed87d8eb69669f5545b" kind="function"><name>PasswordEncryption_EncryptsCorrectly</name></member>
+    <member refid="class_password_encryption_tests_1ad3fc336ab5162af6c784149bc066f15c" kind="function"><name>PasswordEncryption_ComparesCorrectly</name></member>
+    <member refid="class_password_encryption_tests_1a18fd1d693bee4b2b5148702e272d13f8" kind="function"><name>PasswordEncryption_EmojiEncryption</name></member>
+  </compound>
+  <compound refid="class_timewise_1_1_app_1_1_program" kind="class"><name>Timewise::App::Program</name>
+    <member refid="class_timewise_1_1_app_1_1_program_1a6e976e994289e85bce7b75c3ee840bb4" kind="function"><name>Main</name></member>
+    <member refid="class_timewise_1_1_app_1_1_program_1a6e976e994289e85bce7b75c3ee840bb4" kind="function"><name>Main</name></member>
+    <member refid="class_timewise_1_1_app_1_1_program_1a6e976e994289e85bce7b75c3ee840bb4" kind="function"><name>Main</name></member>
+    <member refid="class_timewise_1_1_app_1_1_program_1aeeb0364e3e62c4f9b5ead4f85a83823e" kind="function"><name>CreateMauiApp</name></member>
   </compound>
   <compound refid="class_query_builder" kind="class"><name>QueryBuilder</name>
     <member refid="class_query_builder_1acb4be9b790ab6dce86177e943b4145c1" kind="function"><name>BuildSelectAllQuery&lt; T &gt;</name></member>
@@ -142,6 +255,20 @@
     <member refid="class_reminder_1a169f830b662cbc3fa69889b40cabecd3" kind="property"><name>Description</name></member>
     <member refid="class_reminder_1a9ddc52f9e1997c035d77cc8eab104aa2" kind="property"><name>DateTime</name></member>
     <member refid="class_reminder_1adc21f8480e65a91cbe1401d669b551b6" kind="property"><name>UserId</name></member>
+  </compound>
+  <compound refid="class_secret_keys_helper" kind="class"><name>SecretKeysHelper</name>
+    <member refid="class_secret_keys_helper_1a3763c5c62c68767f0eb5697b0ae22c54" kind="variable"><name>DbConnectionString</name></member>
+    <member refid="class_secret_keys_helper_1a8ee90a709da226e0a818293f4ad6b191" kind="variable"><name>ApiKey</name></member>
+  </compound>
+  <compound refid="class_stopwatch_page" kind="class"><name>StopwatchPage</name>
+    <member refid="class_stopwatch_page_1a829ac85ef043f44f63e2bdf47c5f031c" kind="variable"><name>_stopwatch</name></member>
+    <member refid="class_stopwatch_page_1a2d01b31e7b56878165d594659e667915" kind="variable"><name>_lastLap</name></member>
+    <member refid="class_stopwatch_page_1a44d3d69c1c30961cfb820f5431a45205" kind="variable"><name>_counter</name></member>
+    <member refid="class_stopwatch_page_1a4a70394f6423ce79a8e55a3585307169" kind="function"><name>StopwatchPage</name></member>
+    <member refid="class_stopwatch_page_1a322bea3df99b606ebb52d169c5c3e497" kind="function"><name>StartStopwatchButton_Clicked</name></member>
+    <member refid="class_stopwatch_page_1a997a0bfd4e1e7d6dbe8dfbf2e27ff2a0" kind="function"><name>ResetStopwatchButton_Clicked</name></member>
+    <member refid="class_stopwatch_page_1a0c58227c62c1d15e23ad0b7ed8f9bc4d" kind="function"><name>StopwatchLapButton_Clicked</name></member>
+    <member refid="class_stopwatch_page_1a7676cc7a8a49345b73d4e78410850335" kind="function"><name>BackButton_Clicked</name></member>
   </compound>
   <compound refid="class_time" kind="class"><name>Time</name>
     <member refid="class_time_1a089c12baa9e95079d5ed74bc4fe6568e" kind="variable"><name>_hour</name></member>
@@ -171,6 +298,21 @@
     <member refid="class_time_1afd9e5b19f1d893fa0987a79216a3098d" kind="function"><name>operator DateTime</name></member>
     <member refid="class_time_1a47e84c0ec7957c30a38ad6f1bf0b0c51" kind="function"><name>operator Time</name></member>
     <member refid="class_time_1a5e96c910166bb63689b8cc42b41a2628" kind="function"><name>OnPropertyChanged</name></member>
+  </compound>
+  <compound refid="class_time_and_date_tests" kind="class"><name>TimeAndDateTests</name>
+    <member refid="class_time_and_date_tests_1a1da59ff3c9da0cb1e48f888ad63f88ad" kind="property"><name>TimeCorrectTestCaseGenerator</name></member>
+    <member refid="class_time_and_date_tests_1ab14f2954d57864ac46a3522036914bcd" kind="property"><name>TimeIncorrectTestCaseGenerator</name></member>
+    <member refid="class_time_and_date_tests_1aac7cd518567eec600b5c70a95b0f78be" kind="function"><name>Time_IsValid_ValuesInBounds</name></member>
+    <member refid="class_time_and_date_tests_1a79a508d4a0c7b2c73e38937aedf666c3" kind="function"><name>Time_IsInvalid_ValuesOutOfBounds</name></member>
+    <member refid="class_time_and_date_tests_1a243efd66335806f05d75019fe077b4ab" kind="function"><name>Time_Now_HasValue</name></member>
+    <member refid="class_time_and_date_tests_1a21f9e65d09eb57163f5a465a667080cd" kind="function"><name>Date_Empty_IsAllZeroes</name></member>
+    <member refid="class_time_and_date_tests_1af668bce0ab4f41d3c90f0a35b5d1326a" kind="function"><name>Date_Equals_IsTrue</name></member>
+    <member refid="class_time_and_date_tests_1afae34afb020456e2aa5482d51a07dc4b" kind="function"><name>Time_Equals_IsTrue</name></member>
+    <member refid="class_time_and_date_tests_1ae3348f299f84246d98e9663b57941aab" kind="function"><name>Time_GreaterThanLessThanOperators_WorkCorrectly</name></member>
+    <member refid="class_time_and_date_tests_1af43cfd5a9a985936826c36f188d5b9cf" kind="function"><name>Time_Subtraction_WorksCorrectly</name></member>
+    <member refid="class_time_and_date_tests_1aa59b273a768c94b946c287881bfd9be1" kind="function"><name>Time_Subtraction_ReturnsTimeSpan</name></member>
+    <member refid="class_time_and_date_tests_1a0db0aa6f90e2d7ba323e6b7c0d9ede27" kind="function"><name>Time_CheckCarryAddition_WorksCorrectly</name></member>
+    <member refid="class_time_and_date_tests_1a70eee4be5fe82f022836b00c3298d77a" kind="function"><name>Time_ToString_CorrectFormat</name></member>
   </compound>
   <compound refid="class_time_converter" kind="class"><name>TimeConverter</name>
     <member refid="class_time_converter_1a322dc3dc589dba29e9b74c9f72eb93fe" kind="variable"><name>Hour</name></member>
@@ -202,6 +344,25 @@
     <member refid="class_time_counter_down_event_1a39d2326c2b620d328c1dc4dbedc45368" kind="function"><name>operator TimeCounterDownEvent</name></member>
     <member refid="class_time_counter_down_event_1a2649a469f099e004292035cd336cf3a2" kind="function"><name>TimeCounterDownEvent</name></member>
   </compound>
+  <compound refid="class_time_counter_down_page" kind="class"><name>TimeCounterDownPage</name>
+    <member refid="class_time_counter_down_page_1aaf736274da882fa78ef2c98eb16f6b13" kind="variable"><name>_timeCounter</name></member>
+    <member refid="class_time_counter_down_page_1ad0cb91665136fb6225465b9682852123" kind="variable"><name>TimeCounterDownEvents</name></member>
+    <member refid="class_time_counter_down_page_1aa6cd8cf638f2f890dd284f367dcaf6ee" kind="function"><name>TimeCounterDownPage</name></member>
+    <member refid="class_time_counter_down_page_1ae8165bafa4e24945e7e1d9e04386b658" kind="function"><name>GenerateCountdownGrid</name></member>
+    <member refid="class_time_counter_down_page_1a0f6bd263696e21f00ee521ac23dfa0a3" kind="function"><name>CreateEventButton_Clicked</name></member>
+    <member refid="class_time_counter_down_page_1af79a88fb271984e3da5d01283aa3f774" kind="function"><name>EventTimeCheckBox_CheckedChanged</name></member>
+    <member refid="class_time_counter_down_page_1a64bc6090eef939dc501233ec28596389" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_time_counter_down_page_1ac21feb991535cea1e4da632ab1a0bbe0" kind="function"><name>DeleteTimeCounterButton_Clicked</name></member>
+    <member refid="class_time_counter_down_page_1a0f03d721cce03d3f9321aa00457d9b6b" kind="function"><name>EventTimeZoneCheckBox_OnCheckedChanged</name></member>
+  </compound>
+  <compound refid="class_time_counter_down_tests" kind="class"><name>TimeCounterDownTests</name>
+    <member refid="class_time_counter_down_tests_1ac240481577f8ee8ba5010a3e237f015c" kind="property"><name>CountdownCorrectTestCaseGenerator</name></member>
+    <member refid="class_time_counter_down_tests_1ad5ccbe0fc18ecdc2332199fade53e399" kind="property"><name>CountdownIncorrectTestCaseGenerator</name></member>
+    <member refid="class_time_counter_down_tests_1af46fd4f61d757f991442617cf117e415" kind="function"><name>TimeCounterDown_IsRunning_AfterStarting</name></member>
+    <member refid="class_time_counter_down_tests_1aad1e10ff816b58e1db52da312e1eba86" kind="function"><name>TimeCounterDown_IsValid_ValuesInBounds</name></member>
+    <member refid="class_time_counter_down_tests_1aa0a1fb2068b10f003ab540d5deda3d9a" kind="function"><name>TimeCounterDown_IsInvalid_ValuesOutOfBounds</name></member>
+    <member refid="class_time_counter_down_tests_1a83f99009dc16235227cdaaf9d5c3427c" kind="function"><name>TimeCounterDown_ToString_CorrectFormat</name></member>
+  </compound>
   <compound refid="class_time_counter_up" kind="class"><name>TimeCounterUp</name>
     <member refid="class_time_counter_up_1a3f5af55089b29bbef47a7a9022ef2b7c" kind="variable"><name>_stopwatch</name></member>
     <member refid="class_time_counter_up_1a1e003b7c96e5ae0ba620db3b9ab48385" kind="variable"><name>_timer</name></member>
@@ -230,12 +391,48 @@
     <member refid="class_time_counter_up_event_1ab5728e7c79db2cc9adf6dab8c83ea9b9" kind="function"><name>operator TimeCounterUpEvent</name></member>
     <member refid="class_time_counter_up_event_1a4e65eb54f1c0ac4035bffce6c9096a01" kind="function"><name>TimeCounterUpEvent</name></member>
   </compound>
+  <compound refid="class_time_counter_up_page" kind="class"><name>TimeCounterUpPage</name>
+    <member refid="class_time_counter_up_page_1a6e6b3bf7a39bb284e786ab39876ba9a3" kind="variable"><name>_timeCounter</name></member>
+    <member refid="class_time_counter_up_page_1a949a9ca432f52c04dc2ab7a99e4933da" kind="variable"><name>TimeCounterUpEvents</name></member>
+    <member refid="class_time_counter_up_page_1a6b57a6a250d32c4624e5fb07e0e8f5a8" kind="function"><name>TimeCounterUpPage</name></member>
+    <member refid="class_time_counter_up_page_1adfa378cdeae6aeadb5430be0fef73caf" kind="function"><name>GenerateTimeCounterGrid</name></member>
+    <member refid="class_time_counter_up_page_1ad80c44a6c26abcb697ef91f702e336a2" kind="function"><name>CreateEventButton_Clicked</name></member>
+    <member refid="class_time_counter_up_page_1af785836d8cfacd6e234193a0ccfc5f86" kind="function"><name>EventTimeCheckBox_CheckedChanged</name></member>
+    <member refid="class_time_counter_up_page_1a94cef001d2d28d451ffb17b3a6836fff" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_time_counter_up_page_1ae6d9c919ffec9911652f622239e5d130" kind="function"><name>DeleteTimeCounterButton_Clicked</name></member>
+    <member refid="class_time_counter_up_page_1a9edb22ab5e69606122c4cf3fd8eaf6ce" kind="function"><name>EventTimeZoneCheckBox_OnCheckedChanged</name></member>
+  </compound>
+  <compound refid="class_time_counter_up_tests" kind="class"><name>TimeCounterUpTests</name>
+    <member refid="class_time_counter_up_tests_1a1732f0249551d187c94ff74b38d5b025" kind="function"><name>TimeCounterUp_IsRunning_AfterStarting</name></member>
+    <member refid="class_time_counter_up_tests_1ade517e089a01a36ed06a6cf5f1888fa5" kind="function"><name>TimeCounterUp_IsNotRunning_AfterStopping</name></member>
+    <member refid="class_time_counter_up_tests_1a7bd7ee14796fcca05407416ece1f62a5" kind="function"><name>TimeCounterUp_Laps_AreAddedToList</name></member>
+    <member refid="class_time_counter_up_tests_1a5fc757d802f48a43d02c25ab89e9221b" kind="function"><name>TimeCounterUp_ToString_CorrectFormat</name></member>
+  </compound>
   <compound refid="class_time_exception" kind="class"><name>TimeException</name>
     <member refid="class_time_exception_1a6410859e63a5b45a08cb0035e8870108" kind="function"><name>TimeException</name></member>
     <member refid="class_time_exception_1a9fd96144d9fa8f9b2bf528d2e54709a5" kind="function"><name>TimeException</name></member>
   </compound>
+  <compound refid="class_timer_page" kind="class"><name>TimerPage</name>
+    <member refid="class_timer_page_1a776a3653755df006cd78f27ad7a3ce4e" kind="variable"><name>_time</name></member>
+    <member refid="class_timer_page_1aafbc3992eee3bcfd1b0b9a3c58f0e267" kind="function"><name>TimerPage</name></member>
+    <member refid="class_timer_page_1a2c4e68de24b7e7bcff5d3babda9f8ad9" kind="function"><name>StartTimerButton_Clicked</name></member>
+    <member refid="class_timer_page_1a655fbe37202d33339c6d070d1919b0e1" kind="function"><name>ToggleTimeEntry</name></member>
+    <member refid="class_timer_page_1a3b72e7631614776af5a064b1e3cc229a" kind="function"><name>ResetTimerButton_Clicked</name></member>
+    <member refid="class_timer_page_1a739180ce39cb0c1834c00520540d207b" kind="function"><name>BackButton_Clicked</name></member>
+  </compound>
   <compound refid="class_time_zone_converter" kind="class"><name>TimeZoneConverter</name>
     <member refid="class_time_zone_converter_1aedeb90bcd423f795cc37d67ff1d50c83" kind="function"><name>ConvertDateTimeToTimeZone</name></member>
+  </compound>
+  <compound refid="class_time_zone_converter_page" kind="class"><name>TimeZoneConverterPage</name>
+    <member refid="class_time_zone_converter_page_1adbfb0891c66929619d1e54ad62fcebb0" kind="function"><name>TimeZoneConverterPage</name></member>
+    <member refid="class_time_zone_converter_page_1a666e95200a61b7def226da7f96095bdf" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_time_zone_converter_page_1aad7453aad340dd19e709643a564435af" kind="function"><name>CheckTimeInOtherTimeZoneButton_Clicked</name></member>
+  </compound>
+  <compound refid="class_unix_time_page" kind="class"><name>UnixTimePage</name>
+    <member refid="class_unix_time_page_1ae3cd78d1729d1892a4d313db99bc28c7" kind="function"><name>UnixTimePage</name></member>
+    <member refid="class_unix_time_page_1ab92ae44f10b9c076589e744d3d6fdf01" kind="function"><name>CheckUnixTimeButton_Clicked</name></member>
+    <member refid="class_unix_time_page_1aca6029066dd29b84144ae158c244d680" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_unix_time_page_1a1ecb2de0bd2f348a60492e926ef2971a" kind="function"><name>EventTimeCheckBox_CheckedChanged</name></member>
   </compound>
   <compound refid="class_user" kind="class"><name>User</name>
     <member refid="class_user_1a966341689141ee29ce4bf6da2d380a57" kind="property"><name>CurrentUser</name></member>
@@ -265,6 +462,35 @@
     <member refid="class_weather_info_1aeaec2456f18a694a0cd393424a3caa94" kind="property"><name>Moonphase</name></member>
     <member refid="class_weather_info_1ad1869d185e0ba896e8f3dead3b795005" kind="function"><name>ToString</name></member>
   </compound>
+  <compound refid="class_week_number_page" kind="class"><name>WeekNumberPage</name>
+    <member refid="class_week_number_page_1a101b75dfa544fa0812b5f834bb33523e" kind="function"><name>WeekNumberPage</name></member>
+    <member refid="class_week_number_page_1afc105ddb18bcc1695280c1dc12009379" kind="function"><name>BackButton_Clicked</name></member>
+    <member refid="class_week_number_page_1a3cb87d5b33fef6e77a75b28fa0a9591a" kind="function"><name>CheckWeekNumberButton_Clicked</name></member>
+  </compound>
+  <compound refid="namespace_android_1_1_app" kind="namespace"><name>Android::App</name>
+  </compound>
+  <compound refid="namespace_android_1_1_content_1_1_p_m" kind="namespace"><name>Android::Content::PM</name>
+  </compound>
+  <compound refid="namespace_android_1_1_o_s" kind="namespace"><name>Android::OS</name>
+  </compound>
+  <compound refid="namespace_android_1_1_runtime" kind="namespace"><name>Android::Runtime</name>
+  </compound>
+  <compound refid="namespace_code_1_1_database_1_1_entities" kind="namespace"><name>Code::Database::Entities</name>
+  </compound>
+  <compound refid="namespace_code_1_1_database_1_1_helpers" kind="namespace"><name>Code::Database::Helpers</name>
+  </compound>
+  <compound refid="namespace_code_1_1_database_1_1_repositories" kind="namespace"><name>Code::Database::Repositories</name>
+  </compound>
+  <compound refid="namespace_code_1_1_data_types" kind="namespace"><name>Code::DataTypes</name>
+  </compound>
+  <compound refid="namespace_code_1_1_exceptions" kind="namespace"><name>Code::Exceptions</name>
+  </compound>
+  <compound refid="namespace_code_1_1_helpers" kind="namespace"><name>Code::Helpers</name>
+  </compound>
+  <compound refid="namespace_code_1_1_models" kind="namespace"><name>Code::Models</name>
+  </compound>
+  <compound refid="namespace_community_toolkit_1_1_maui" kind="namespace"><name>CommunityToolkit::Maui</name>
+  </compound>
   <compound refid="namespace_dapper" kind="namespace"><name>Dapper</name>
   </compound>
   <compound refid="namespace_database_1_1_entities" kind="namespace"><name>Database::Entities</name>
@@ -277,21 +503,43 @@
   </compound>
   <compound refid="namespace_exceptions" kind="namespace"><name>Exceptions</name>
   </compound>
+  <compound refid="namespace_foundation" kind="namespace"><name>Foundation</name>
+  </compound>
   <compound refid="namespace_helpers" kind="namespace"><name>Helpers</name>
   </compound>
   <compound refid="namespace_interfaces" kind="namespace"><name>Interfaces</name>
   </compound>
   <compound refid="namespace_microsoft_1_1_data_1_1_sql_client" kind="namespace"><name>Microsoft::Data::SqlClient</name>
   </compound>
+  <compound refid="namespace_microsoft_1_1_maui" kind="namespace"><name>Microsoft::Maui</name>
+  </compound>
   <compound refid="namespace_microsoft_1_1_maui_1_1_controls_1_1_shapes" kind="namespace"><name>Microsoft::Maui::Controls::Shapes</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_maui_1_1_hosting" kind="namespace"><name>Microsoft::Maui::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_u_i_1_1_xaml" kind="namespace"><name>Microsoft::UI::Xaml</name>
   </compound>
   <compound refid="namespace_models" kind="namespace"><name>Models</name>
   </compound>
+  <compound refid="namespace_n_unit_1_1_framework" kind="namespace"><name>NUnit::Framework</name>
+  </compound>
+  <compound refid="namespace_obj_c_runtime" kind="namespace"><name>ObjCRuntime</name>
+  </compound>
+  <compound refid="namespace_pages" kind="namespace"><name>Pages</name>
+  </compound>
   <compound refid="namespace_plugin_1_1_local_notification" kind="namespace"><name>Plugin::LocalNotification</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
   </compound>
   <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
   </compound>
   <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
   </compound>
   <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
   </compound>
@@ -305,15 +553,92 @@
   </compound>
   <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
   </compound>
+  <compound refid="namespace_time_counter_down_event" kind="namespace"><name>TimeCounterDownEvent</name>
+  </compound>
+  <compound refid="namespace_time_counter_up_event" kind="namespace"><name>TimeCounterUpEvent</name>
+  </compound>
+  <compound refid="namespace_timewise" kind="namespace"><name>Timewise</name>
+  </compound>
+  <compound refid="namespace_timewise_1_1_app" kind="namespace"><name>Timewise::App</name>
+  </compound>
+  <compound refid="namespace_timewise_1_1_app_1_1_win_u_i" kind="namespace"><name>Timewise::App::WinUI</name>
+  </compound>
   <compound refid="namespace_timewise_1_1_code_1_1_database_1_1_entities" kind="namespace"><name>Timewise::Code::Database::Entities</name>
   </compound>
+  <compound refid="namespace_timewise_1_1_code_1_1_database_1_1_helpers" kind="namespace"><name>Timewise::Code::Database::Helpers</name>
+  </compound>
   <compound refid="namespace_timewise_1_1_code_1_1_database_1_1_repositories" kind="namespace"><name>Timewise::Code::Database::Repositories</name>
+  </compound>
+  <compound refid="namespace_timewise_1_1_code_1_1_helpers" kind="namespace"><name>Timewise::Code::Helpers</name>
+  </compound>
+  <compound refid="namespace_timewise_1_1_code_1_1_models" kind="namespace"><name>Timewise::Code::Models</name>
+  </compound>
+  <compound refid="namespace_u_i_kit" kind="namespace"><name>UIKit</name>
   </compound>
   <compound refid="namespace_x_calendar_1_1_core_1_1_enums" kind="namespace"><name>XCalendar::Core::Enums</name>
   </compound>
   <compound refid="namespace_x_calendar_1_1_core_1_1_models" kind="namespace"><name>XCalendar::Core::Models</name>
   </compound>
   <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_timewise_8_code_2_data_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_platforms_2_windows_2_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_app_shell_8xaml_8cs" kind="file"><name>AppShell.xaml.cs</name>
+  </compound>
+  <compound refid="_main_page_8xaml_8cs" kind="file"><name>MainPage.xaml.cs</name>
+    <member refid="_main_page_8xaml_8cs_1a8821681de870b7b16a3e7ac3455d037a" kind="typedef"><name>TimeCounterDownEvent</name></member>
+    <member refid="_main_page_8xaml_8cs_1ac294aab2656f0d556055a110e0418ea5" kind="typedef"><name>TimeCounterUpEvent</name></member>
+  </compound>
+  <compound refid="_maui_program_8cs" kind="file"><name>MauiProgram.cs</name>
+  </compound>
+  <compound refid="_calculations_page_8xaml_8cs" kind="file"><name>CalculationsPage.xaml.cs</name>
+  </compound>
+  <compound refid="_calendar_page_8xaml_8cs" kind="file"><name>CalendarPage.xaml.cs</name>
+  </compound>
+  <compound refid="_converters_page_8xaml_8cs" kind="file"><name>ConvertersPage.xaml.cs</name>
+  </compound>
+  <compound refid="_date_subtraction_page_8xaml_8cs" kind="file"><name>DateSubtractionPage.xaml.cs</name>
+  </compound>
+  <compound refid="_day_of_week_page_8xaml_8cs" kind="file"><name>DayOfWeekPage.xaml.cs</name>
+  </compound>
+  <compound refid="_leap_year_page_8xaml_8cs" kind="file"><name>LeapYearPage.xaml.cs</name>
+  </compound>
+  <compound refid="_location_info_page_8xaml_8cs" kind="file"><name>LocationInfoPage.xaml.cs</name>
+  </compound>
+  <compound refid="_login_page_8xaml_8cs" kind="file"><name>LoginPage.xaml.cs</name>
+  </compound>
+  <compound refid="_stopwatch_page_8xaml_8cs" kind="file"><name>StopwatchPage.xaml.cs</name>
+  </compound>
+  <compound refid="_time_counter_down_page_8xaml_8cs" kind="file"><name>TimeCounterDownPage.xaml.cs</name>
+    <member refid="_time_counter_down_page_8xaml_8cs_1a568f8ebdc575eceeebddf66841d5c4aa" kind="typedef"><name>TimeCounterDownEvent</name></member>
+  </compound>
+  <compound refid="_time_counter_up_page_8xaml_8cs" kind="file"><name>TimeCounterUpPage.xaml.cs</name>
+  </compound>
+  <compound refid="_timer_page_8xaml_8cs" kind="file"><name>TimerPage.xaml.cs</name>
+  </compound>
+  <compound refid="_time_zone_converter_page_8xaml_8cs" kind="file"><name>TimeZoneConverterPage.xaml.cs</name>
+  </compound>
+  <compound refid="_unix_time_page_8xaml_8cs" kind="file"><name>UnixTimePage.xaml.cs</name>
+  </compound>
+  <compound refid="_week_number_page_8xaml_8cs" kind="file"><name>WeekNumberPage.xaml.cs</name>
+  </compound>
+  <compound refid="_main_activity_8cs" kind="file"><name>MainActivity.cs</name>
+  </compound>
+  <compound refid="_main_application_8cs" kind="file"><name>MainApplication.cs</name>
+  </compound>
+  <compound refid="i_o_s_2_app_delegate_8cs" kind="file"><name>AppDelegate.cs</name>
+  </compound>
+  <compound refid="_mac_catalyst_2_app_delegate_8cs" kind="file"><name>AppDelegate.cs</name>
+  </compound>
+  <compound refid="i_o_s_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_mac_catalyst_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_main_8cs" kind="file"><name>Main.cs</name>
   </compound>
   <compound refid="_reminder_8cs" kind="file"><name>Reminder.cs</name>
   </compound>
@@ -326,8 +651,6 @@
   <compound refid="_models_2_time_counter_up_event_8cs" kind="file"><name>TimeCounterUpEvent.cs</name>
   </compound>
   <compound refid="_user_8cs" kind="file"><name>User.cs</name>
-  </compound>
-  <compound refid="_connection_string_helper_8cs" kind="file"><name>ConnectionStringHelper.cs</name>
   </compound>
   <compound refid="_database_connection_helper_8cs" kind="file"><name>DatabaseConnectionHelper.cs</name>
   </compound>
@@ -371,6 +694,8 @@
   </compound>
   <compound refid="_password_encryption_helper_8cs" kind="file"><name>PasswordEncryptionHelper.cs</name>
   </compound>
+  <compound refid="_secret_keys_helper_8cs" kind="file"><name>SecretKeysHelper.cs</name>
+  </compound>
   <compound refid="_time_converter_8cs" kind="file"><name>TimeConverter.cs</name>
   </compound>
   <compound refid="_time_zone_converter_8cs" kind="file"><name>TimeZoneConverter.cs</name>
@@ -389,7 +714,29 @@
   </compound>
   <compound refid="_time_counter_up_8cs" kind="file"><name>TimeCounterUp.cs</name>
   </compound>
+  <compound refid="_database_tests_8cs" kind="file"><name>DatabaseTests.cs</name>
+  </compound>
+  <compound refid="_day_of_week_tests_8cs" kind="file"><name>DayOfWeekTests.cs</name>
+  </compound>
+  <compound refid="_duration_tests_8cs" kind="file"><name>DurationTests.cs</name>
+  </compound>
+  <compound refid="_file_access_tests_8cs" kind="file"><name>FileAccessTests.cs</name>
+  </compound>
+  <compound refid="_password_encryption_tests_8cs" kind="file"><name>PasswordEncryptionTests.cs</name>
+  </compound>
+  <compound refid="_time_and_date_tests_8cs" kind="file"><name>TimeAndDateTests.cs</name>
+  </compound>
+  <compound refid="_time_counter_down_tests_8cs" kind="file"><name>TimeCounterDownTests.cs</name>
+  </compound>
+  <compound refid="_time_counter_up_tests_8cs" kind="file"><name>TimeCounterUpTests.cs</name>
+  </compound>
+  <compound refid="_usings_8cs" kind="file"><name>Usings.cs</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
   <compound refid="md__timewise__code__data__r_e_a_d_m_e" kind="page"><name>md_Timewise_Code_Data_README</name>
+  </compound>
+  <compound refid="dir_5b3f4233c541150ce330f0d96cecc94a" kind="dir"><name>Timewise.App/Platforms/Android</name>
   </compound>
   <compound refid="dir_436e706ded819154ee6540b43cdce954" kind="dir"><name>Timewise.Code/Data</name>
   </compound>
@@ -409,12 +756,28 @@
   </compound>
   <compound refid="dir_b43d60f2eaa7cc83a900f2aa30999186" kind="dir"><name>Timewise.Code/Interfaces</name>
   </compound>
+  <compound refid="dir_35e4ae80e0208c85ce2604c5797ea02e" kind="dir"><name>Timewise.App/Platforms/iOS</name>
+  </compound>
+  <compound refid="dir_5a7d558b6cf64e04660811f7f1b4282a" kind="dir"><name>Timewise.App/Platforms/MacCatalyst</name>
+  </compound>
   <compound refid="dir_63aa0fe10bf23d518138798e6f34c93e" kind="dir"><name>Timewise.Code/Models</name>
+  </compound>
+  <compound refid="dir_0586c63a05c50691ef438f5b257f7928" kind="dir"><name>Timewise.App/Pages</name>
+  </compound>
+  <compound refid="dir_022d735b254830cdbf6b05556761280d" kind="dir"><name>Timewise.App/Platforms</name>
   </compound>
   <compound refid="dir_63a29054c080825d2bb00b3dcea18f10" kind="dir"><name>Timewise.Code/Database/QueryBuilders</name>
   </compound>
   <compound refid="dir_5b31cb1204466164ddebebb7fe09a6cf" kind="dir"><name>Timewise.Code/Database/Repositories</name>
   </compound>
+  <compound refid="dir_2b54d49b4b15e401393d139963b95657" kind="dir"><name>Timewise.App</name>
+  </compound>
   <compound refid="dir_e113cc943cab68d4c1a6141dbd7197b1" kind="dir"><name>Timewise.Code</name>
+  </compound>
+  <compound refid="dir_603748a70d7d3797c8ab27fcd6d889d1" kind="dir"><name>Timewise.Tests</name>
+  </compound>
+  <compound refid="dir_f5525d07146c3dcac7c4a2440b86e47f" kind="dir"><name>Timewise.App/Platforms/Tizen</name>
+  </compound>
+  <compound refid="dir_02fd2ccf3c5ef0e4e16f9c4be25a65b8" kind="dir"><name>Timewise.App/Platforms/Windows</name>
   </compound>
 </doxygenindex>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_603748a70d7d3797c8ab27fcd6d889d1" kind="dir">
+    <compoundname>Timewise.Tests</compoundname>
+    <innerfile refid="_database_tests_8cs">DatabaseTests.cs</innerfile>
+    <innerfile refid="_day_of_week_tests_8cs">DayOfWeekTests.cs</innerfile>
+    <innerfile refid="_duration_tests_8cs">DurationTests.cs</innerfile>
+    <innerfile refid="_file_access_tests_8cs">FileAccessTests.cs</innerfile>
+    <innerfile refid="_password_encryption_tests_8cs">PasswordEncryptionTests.cs</innerfile>
+    <innerfile refid="_time_and_date_tests_8cs">TimeAndDateTests.cs</innerfile>
+    <innerfile refid="_time_counter_down_tests_8cs">TimeCounterDownTests.cs</innerfile>
+    <innerfile refid="_time_counter_up_tests_8cs">TimeCounterUpTests.cs</innerfile>
+    <innerfile refid="_usings_8cs">Usings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Tests/"/>
+  </compounddef>
+</doxygen>

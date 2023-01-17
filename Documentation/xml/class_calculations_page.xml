@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_calculations_page" kind="class" language="C#" prot="public">
+    <compoundname>CalculationsPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_calculations_page_1abfe3617dc2f4028a859125e8276f1461" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CalculationsPage.CalculationsPage</definition>
+        <argsstring>()</argsstring>
+        <name>CalculationsPage</name>
+        <qualifiedname>CalculationsPage.CalculationsPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="5" column="8" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_calculations_page_1a917577732f819cca68b47882a3e8327e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalculationsPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>CalculationsPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="10" column="20" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculations_page_1a780b767c8f5cf26a358276d9294fa620" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalculationsPage.DateSubtractionPageButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>DateSubtractionPageButton_Clicked</name>
+        <qualifiedname>CalculationsPage.DateSubtractionPageButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="15" column="20" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculations_page_1a1fb4d9a8c62f9cebe7e6b0c33421e88f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalculationsPage.DayOfWeekPageButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>DayOfWeekPageButton_Clicked</name>
+        <qualifiedname>CalculationsPage.DayOfWeekPageButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="20" column="20" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculations_page_1ae3a4df6d3730672e743a9fb272c2693f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalculationsPage.LeapYearPageButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>LeapYearPageButton_Clicked</name>
+        <qualifiedname>CalculationsPage.LeapYearPageButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="25" column="20" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculations_page_1ad7f9aed6b51f3002bc49447b25f935f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void CalculationsPage.WeekNumberPageButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>WeekNumberPageButton_Clicked</name>
+        <qualifiedname>CalculationsPage.WeekNumberPageButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="30" column="20" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CalculationsPage</label>
+        <link refid="class_calculations_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CalculationsPage</label>
+        <link refid="class_calculations_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/CalculationsPage.xaml.cs" line="3" column="15" bodyfile="Timewise.App/Pages/CalculationsPage.xaml.cs" bodystart="4" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_calculations_page_1a917577732f819cca68b47882a3e8327e" prot="private" virt="non-virtual"><scope>CalculationsPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_calculations_page_1abfe3617dc2f4028a859125e8276f1461" prot="public" virt="non-virtual"><scope>CalculationsPage</scope><name>CalculationsPage</name></member>
+      <member refid="class_calculations_page_1a780b767c8f5cf26a358276d9294fa620" prot="private" virt="non-virtual"><scope>CalculationsPage</scope><name>DateSubtractionPageButton_Clicked</name></member>
+      <member refid="class_calculations_page_1a1fb4d9a8c62f9cebe7e6b0c33421e88f" prot="private" virt="non-virtual"><scope>CalculationsPage</scope><name>DayOfWeekPageButton_Clicked</name></member>
+      <member refid="class_calculations_page_1ae3a4df6d3730672e743a9fb272c2693f" prot="private" virt="non-virtual"><scope>CalculationsPage</scope><name>LeapYearPageButton_Clicked</name></member>
+      <member refid="class_calculations_page_1ad7f9aed6b51f3002bc49447b25f935f3" prot="private" virt="non-virtual"><scope>CalculationsPage</scope><name>WeekNumberPageButton_Clicked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

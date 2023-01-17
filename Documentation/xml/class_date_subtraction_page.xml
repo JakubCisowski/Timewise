@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_date_subtraction_page" kind="class" language="C#" prot="public">
+    <compoundname>DateSubtractionPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_date_subtraction_page_1a1d4566acf03df13e28e35cf048f8f06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DateSubtractionPage.DateSubtractionPage</definition>
+        <argsstring>()</argsstring>
+        <name>DateSubtractionPage</name>
+        <qualifiedname>DateSubtractionPage.DateSubtractionPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/DateSubtractionPage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/DateSubtractionPage.xaml.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_date_subtraction_page_1a6925ef694cf3a6a4a2417831a01421a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void DateSubtractionPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>DateSubtractionPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/DateSubtractionPage.xaml.cs" line="12" column="20" bodyfile="Timewise.App/Pages/DateSubtractionPage.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_subtraction_page_1ac00fcf19021488eec79906693442376b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DateSubtractionPage.SubtractDateButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>SubtractDateButton_Clicked</name>
+        <qualifiedname>DateSubtractionPage.SubtractDateButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/DateSubtractionPage.xaml.cs" line="17" column="14" bodyfile="Timewise.App/Pages/DateSubtractionPage.xaml.cs" bodystart="17" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>DateSubtractionPage</label>
+        <link refid="class_date_subtraction_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>DateSubtractionPage</label>
+        <link refid="class_date_subtraction_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/DateSubtractionPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/DateSubtractionPage.xaml.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_date_subtraction_page_1a6925ef694cf3a6a4a2417831a01421a7" prot="private" virt="non-virtual"><scope>DateSubtractionPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_date_subtraction_page_1a1d4566acf03df13e28e35cf048f8f06b" prot="public" virt="non-virtual"><scope>DateSubtractionPage</scope><name>DateSubtractionPage</name></member>
+      <member refid="class_date_subtraction_page_1ac00fcf19021488eec79906693442376b" prot="private" virt="non-virtual"><scope>DateSubtractionPage</scope><name>SubtractDateButton_Clicked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

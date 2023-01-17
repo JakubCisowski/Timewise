@@ -7,11 +7,20 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline><highlight class="normal">Pliki<sp/>zawieraj�ce<sp/>�wi�ta<sp/>oraz<sp/>imieniny,<sp/>pogrupowane<sp/>pod<sp/>dniu<sp/>roku.</highlight></codeline>
-<codeline><highlight class="normal">�r�d�o:</highlight></codeline>
-<codeline><highlight class="normal">-<sp/>Imieniny:<sp/>https://www.elektroda.pl/rtvforum/viewtopic.php?p=18788833#18788833</highlight></codeline>
-<codeline><highlight class="normal">-<sp/>�wi�ta:<sp/>https://www.hintmine.com/dni-wolne-pracy-swieta-ruchome-excel</highlight></codeline>
+<codeline><highlight class="normal">![logo](https://i.imgur.com/BhuvFfi.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>O<sp/>Aplikacji</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Wieloplatformowa<sp/>aplikacja<sp/>obiektowa<sp/>„Timewise”<sp/>służy<sp/>jako<sp/>zbiór<sp/>narzędzi<sp/>związanych<sp/>z<sp/>czasem<sp/>i<sp/>datą,<sp/>korzystając<sp/>z<sp/>bazy<sp/>danych<sp/>oraz<sp/>publicznych<sp/>API.<sp/>Aplikacja<sp/>posiada<sp/>możliwość<sp/>logowania<sp/>i<sp/>tworzenie<sp/>profili<sp/>użytkownika<sp/>na<sp/>jednym<sp/>koncie<sp/>(korzystając<sp/>z<sp/>chmury)<sp/>oraz<sp/>synchronizacji<sp/>danych<sp/>użytkownika<sp/>pomiędzy<sp/>różnymi<sp/>urządzeniami.<sp/>Aplikacja<sp/>zawiera<sp/><sp/>wiele<sp/>narzędzi<sp/>i<sp/>funkcji<sp/>dostępnych<sp/>pod<sp/>postacią<sp/>osobnych<sp/>programów<sp/>lub<sp/>stron<sp/>internetowych,<sp/>jednak<sp/>w<sp/>zbiorczej<sp/>formie.<sp/>Autorami<sp/>aplikacji<sp/>są<sp/>[Rafał<sp/>Klinowski](https://github.com/stukeley)<sp/>i<sp/>[Jakub<sp/>Cisowski](https://github.com/JakubCisowski).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Zrzuty<sp/>ekranu<sp/>aplikacji</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![logowanie](https://i.imgur.com/aes7KH3.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![kalendarz](https://i.imgur.com/pOU4d9g.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![info_lokacja](https://i.imgur.com/7hjddNs.png)</highlight></codeline>
     </programlisting>
-    <location file="Timewise.Code/Data/README.md"/>
+    <location file="README.md"/>
   </compounddef>
 </doxygen>

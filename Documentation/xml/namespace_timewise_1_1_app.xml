@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="namespace_timewise_1_1_app" kind="namespace" language="C#">
+    <compoundname>Timewise::App</compoundname>
+    <innerclass refid="class_timewise_1_1_app_1_1_app_delegate" prot="public">Timewise::App::AppDelegate</innerclass>
+    <innerclass refid="class_timewise_1_1_app_1_1_main_activity" prot="public">Timewise::App::MainActivity</innerclass>
+    <innerclass refid="class_timewise_1_1_app_1_1_main_application" prot="public">Timewise::App::MainApplication</innerclass>
+    <innerclass refid="class_timewise_1_1_app_1_1_program" prot="public">Timewise::App::Program</innerclass>
+    <innernamespace refid="namespace_timewise_1_1_app_1_1_win_u_i">Timewise::App::WinUI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.App/Platforms/Android/MainActivity.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

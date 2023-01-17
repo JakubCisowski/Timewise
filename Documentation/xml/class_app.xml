@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_app" kind="class" language="C#" prot="public">
+    <compoundname>App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1a9721308c089f47932ade01a2c713bea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <qualifiedname>App.App</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/App.xaml.cs" line="10" column="8" bodyfile="Timewise.App/App.xaml.cs" bodystart="10" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_app_1abea5ac27b08187ca39f3ff5c279be457" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Window</type>
+        <definition>override Window App.CreateWindow</definition>
+        <argsstring>(IActivationState activationState)</argsstring>
+        <name>CreateWindow</name>
+        <qualifiedname>App.CreateWindow</qualifiedname>
+        <param>
+          <type>IActivationState</type>
+          <declname>activationState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/App.xaml.cs" line="33" column="27" bodyfile="Timewise.App/App.xaml.cs" bodystart="33" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App</label>
+        <link refid="class_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App</label>
+        <link refid="class_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/App.xaml.cs" line="8" column="15" bodyfile="Timewise.App/App.xaml.cs" bodystart="9" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_app_1a9721308c089f47932ade01a2c713bea8" prot="public" virt="non-virtual"><scope>App</scope><name>App</name></member>
+      <member refid="class_app_1abea5ac27b08187ca39f3ff5c279be457" prot="protected" virt="non-virtual"><scope>App</scope><name>CreateWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

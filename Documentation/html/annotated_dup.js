@@ -1,21 +1,58 @@
 var annotated_dup =
 [
+    [ "Timewise", "namespace_timewise.html", [
+      [ "App", "namespace_timewise_1_1_app.html", [
+        [ "WinUI", "namespace_timewise_1_1_app_1_1_win_u_i.html", [
+          [ "App", "class_timewise_1_1_app_1_1_win_u_i_1_1_app.html", "class_timewise_1_1_app_1_1_win_u_i_1_1_app" ]
+        ] ],
+        [ "AppDelegate", "class_timewise_1_1_app_1_1_app_delegate.html", null ],
+        [ "MainActivity", "class_timewise_1_1_app_1_1_main_activity.html", null ],
+        [ "MainApplication", "class_timewise_1_1_app_1_1_main_application.html", null ],
+        [ "Program", "class_timewise_1_1_app_1_1_program.html", null ]
+      ] ]
+    ] ],
     [ "ApiException", "class_api_exception.html", "class_api_exception" ],
+    [ "App", "class_app.html", null ],
+    [ "AppShell", "class_app_shell.html", null ],
+    [ "CalculationsPage", "class_calculations_page.html", null ],
     [ "Calendar", "class_calendar.html", "class_calendar" ],
+    [ "CalendarPage", "class_calendar_page.html", null ],
+    [ "ConvertersPage", "class_converters_page.html", null ],
     [ "DatabaseException", "class_database_exception.html", "class_database_exception" ],
+    [ "DatabaseTests", "class_database_tests.html", null ],
     [ "Date", "class_date.html", "class_date" ],
+    [ "DateSubtractionPage", "class_date_subtraction_page.html", null ],
+    [ "DayOfWeekPage", "class_day_of_week_page.html", null ],
+    [ "DayOfWeekTests", "class_day_of_week_tests.html", null ],
     [ "Duration", "class_duration.html", "class_duration" ],
+    [ "DurationTests", "class_duration_tests.html", null ],
     [ "EntityRepository", "class_entity_repository.html", "class_entity_repository" ],
+    [ "FileAccessTests", "class_file_access_tests.html", null ],
     [ "IEntity", "interface_i_entity.html", "interface_i_entity" ],
     [ "IGenericRepository", "interface_i_generic_repository.html", "interface_i_generic_repository" ],
     [ "IValidatable", "interface_i_validatable.html", "interface_i_validatable" ],
+    [ "LeapYearPage", "class_leap_year_page.html", null ],
+    [ "LocationInfoPage", "class_location_info_page.html", null ],
+    [ "LoginPage", "class_login_page.html", null ],
+    [ "MainPage", "class_main_page.html", null ],
+    [ "PasswordEncryptionTests", "class_password_encryption_tests.html", null ],
     [ "Reminder", "class_reminder.html", "class_reminder" ],
+    [ "StopwatchPage", "class_stopwatch_page.html", null ],
     [ "Time", "class_time.html", "class_time" ],
+    [ "TimeAndDateTests", "class_time_and_date_tests.html", null ],
     [ "TimeCounterDown", "class_time_counter_down.html", "class_time_counter_down" ],
     [ "TimeCounterDownEvent", "class_time_counter_down_event.html", "class_time_counter_down_event" ],
+    [ "TimeCounterDownPage", "class_time_counter_down_page.html", null ],
+    [ "TimeCounterDownTests", "class_time_counter_down_tests.html", null ],
     [ "TimeCounterUp", "class_time_counter_up.html", "class_time_counter_up" ],
     [ "TimeCounterUpEvent", "class_time_counter_up_event.html", "class_time_counter_up_event" ],
+    [ "TimeCounterUpPage", "class_time_counter_up_page.html", null ],
+    [ "TimeCounterUpTests", "class_time_counter_up_tests.html", null ],
     [ "TimeException", "class_time_exception.html", "class_time_exception" ],
+    [ "TimerPage", "class_timer_page.html", null ],
+    [ "TimeZoneConverterPage", "class_time_zone_converter_page.html", null ],
+    [ "UnixTimePage", "class_unix_time_page.html", null ],
     [ "User", "class_user.html", "class_user" ],
-    [ "WeatherInfo", "class_weather_info.html", "class_weather_info" ]
+    [ "WeatherInfo", "class_weather_info.html", "class_weather_info" ],
+    [ "WeekNumberPage", "class_week_number_page.html", null ]
 ];

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_counter_up_page" kind="class" language="C#" prot="public">
+    <compoundname>TimeCounterUpPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_time_counter_up_page_1a6e6b3bf7a39bb284e786ab39876ba9a3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_time_counter_up" kindref="compound">TimeCounterUp</ref></type>
+        <definition>TimeCounterUp TimeCounterUpPage._timeCounter</definition>
+        <argsstring></argsstring>
+        <name>_timeCounter</name>
+        <qualifiedname>TimeCounterUpPage._timeCounter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="12" column="23" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_time_counter_up_page_1a949a9ca432f52c04dc2ab7a99e4933da" prot="public" static="yes" mutable="no">
+        <type>List&lt; Code.Models.TimeCounterUpEvent &gt;</type>
+        <definition>List&lt;Code.Models.TimeCounterUpEvent&gt; TimeCounterUpPage.TimeCounterUpEvents</definition>
+        <argsstring></argsstring>
+        <name>TimeCounterUpEvents</name>
+        <qualifiedname>TimeCounterUpPage.TimeCounterUpEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="13" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_counter_up_page_1a6b57a6a250d32c4624e5fb07e0e8f5a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimeCounterUpPage.TimeCounterUpPage</definition>
+        <argsstring>()</argsstring>
+        <name>TimeCounterUpPage</name>
+        <qualifiedname>TimeCounterUpPage.TimeCounterUpPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="16" column="8" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="16" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_time_counter_up_page_1adfa378cdeae6aeadb5430be0fef73caf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Grid</type>
+        <definition>Grid TimeCounterUpPage.GenerateTimeCounterGrid</definition>
+        <argsstring>(Code.Models.TimeCounterUpEvent ev)</argsstring>
+        <name>GenerateTimeCounterGrid</name>
+        <qualifiedname>TimeCounterUpPage.GenerateTimeCounterGrid</qualifiedname>
+        <param>
+          <type>Code.Models.TimeCounterUpEvent</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="34" column="14" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="34" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_page_1ad80c44a6c26abcb697ef91f702e336a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeCounterUpPage.CreateEventButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CreateEventButton_Clicked</name>
+        <qualifiedname>TimeCounterUpPage.CreateEventButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="104" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="104" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_page_1af785836d8cfacd6e234193a0ccfc5f86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterUpPage.EventTimeCheckBox_CheckedChanged</definition>
+        <argsstring>(object sender, CheckedChangedEventArgs e)</argsstring>
+        <name>EventTimeCheckBox_CheckedChanged</name>
+        <qualifiedname>TimeCounterUpPage.EventTimeCheckBox_CheckedChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CheckedChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="149" column="14" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_page_1a94cef001d2d28d451ffb17b3a6836fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeCounterUpPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>TimeCounterUpPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="154" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_page_1ae6d9c919ffec9911652f622239e5d130" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeCounterUpPage.DeleteTimeCounterButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>DeleteTimeCounterButton_Clicked</name>
+        <qualifiedname>TimeCounterUpPage.DeleteTimeCounterButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="159" column="20" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="159" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_counter_up_page_1a9edb22ab5e69606122c4cf3fd8eaf6ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeCounterUpPage.EventTimeZoneCheckBox_OnCheckedChanged</definition>
+        <argsstring>(object sender, CheckedChangedEventArgs e)</argsstring>
+        <name>EventTimeZoneCheckBox_OnCheckedChanged</name>
+        <qualifiedname>TimeCounterUpPage.EventTimeZoneCheckBox_OnCheckedChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CheckedChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="194" column="14" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="194" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimeCounterUpPage</label>
+        <link refid="class_time_counter_up_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimeCounterUpPage</label>
+        <link refid="class_time_counter_up_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" line="10" column="15" bodyfile="Timewise.App/Pages/TimeCounterUpPage.xaml.cs" bodystart="11" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_time_counter_up_page_1a6e6b3bf7a39bb284e786ab39876ba9a3" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>_timeCounter</name></member>
+      <member refid="class_time_counter_up_page_1a94cef001d2d28d451ffb17b3a6836fff" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_time_counter_up_page_1ad80c44a6c26abcb697ef91f702e336a2" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>CreateEventButton_Clicked</name></member>
+      <member refid="class_time_counter_up_page_1ae6d9c919ffec9911652f622239e5d130" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>DeleteTimeCounterButton_Clicked</name></member>
+      <member refid="class_time_counter_up_page_1af785836d8cfacd6e234193a0ccfc5f86" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>EventTimeCheckBox_CheckedChanged</name></member>
+      <member refid="class_time_counter_up_page_1a9edb22ab5e69606122c4cf3fd8eaf6ce" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>EventTimeZoneCheckBox_OnCheckedChanged</name></member>
+      <member refid="class_time_counter_up_page_1adfa378cdeae6aeadb5430be0fef73caf" prot="private" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>GenerateTimeCounterGrid</name></member>
+      <member refid="class_time_counter_up_page_1a949a9ca432f52c04dc2ab7a99e4933da" prot="public" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>TimeCounterUpEvents</name></member>
+      <member refid="class_time_counter_up_page_1a6b57a6a250d32c4624e5fb07e0e8f5a8" prot="public" virt="non-virtual"><scope>TimeCounterUpPage</scope><name>TimeCounterUpPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

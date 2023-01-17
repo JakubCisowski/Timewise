@@ -6,6 +6,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Timewise.Code/Database/Helpers/UserAccountHelper.cs" line="3" column="38"/>
+    <location file="Timewise.App/Pages/LoginPage.xaml.cs" line="7" column="38"/>
   </compounddef>
 </doxygen>

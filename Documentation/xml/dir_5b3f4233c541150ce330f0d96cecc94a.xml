@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_5b3f4233c541150ce330f0d96cecc94a" kind="dir">
+    <compoundname>Timewise.App/Platforms/Android</compoundname>
+    <innerfile refid="_main_activity_8cs">MainActivity.cs</innerfile>
+    <innerfile refid="_main_application_8cs">MainApplication.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.App/Platforms/Android/"/>
+  </compounddef>
+</doxygen>

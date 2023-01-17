@@ -3,7 +3,6 @@
   <compounddef id="_user_account_helper_8cs" kind="file" language="C#">
     <compoundname>UserAccountHelper.cs</compoundname>
     <innerclass refid="class_user_account_helper" prot="public">UserAccountHelper</innerclass>
-    <innernamespace refid="namespace_timewise_1_1_code_1_1_database_1_1_entities">Timewise::Code::Database::Entities</innernamespace>
     <innernamespace refid="namespace_timewise_1_1_code_1_1_database_1_1_repositories">Timewise::Code::Database::Repositories</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -12,8 +11,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Timewise.Code.Database.Helpers;</highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Timewise.Code.Database.Entities;</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Timewise.Code.Database.Repositories;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_timewise" kindref="compound">Timewise</ref>.Code.Database.Entities;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_timewise" kindref="compound">Timewise</ref>.Code.Database.Repositories;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UserAccountHelper</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="dir_2b54d49b4b15e401393d139963b95657" kind="dir">
+    <compoundname>Timewise.App</compoundname>
+    <innerdir refid="dir_0586c63a05c50691ef438f5b257f7928">Timewise.App/Pages</innerdir>
+    <innerdir refid="dir_022d735b254830cdbf6b05556761280d">Timewise.App/Platforms</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_app_shell_8xaml_8cs">AppShell.xaml.cs</innerfile>
+    <innerfile refid="_main_page_8xaml_8cs">MainPage.xaml.cs</innerfile>
+    <innerfile refid="_maui_program_8cs">MauiProgram.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.App/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_time_zone_converter_page" kind="class" language="C#" prot="public">
+    <compoundname>TimeZoneConverterPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_zone_converter_page_1adbfb0891c66929619d1e54ad62fcebb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimeZoneConverterPage.TimeZoneConverterPage</definition>
+        <argsstring>()</argsstring>
+        <name>TimeZoneConverterPage</name>
+        <qualifiedname>TimeZoneConverterPage.TimeZoneConverterPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" bodystart="7" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_time_zone_converter_page_1a666e95200a61b7def226da7f96095bdf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void TimeZoneConverterPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>TimeZoneConverterPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" line="15" column="20" bodyfile="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_zone_converter_page_1aad7453aad340dd19e709643a564435af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeZoneConverterPage.CheckTimeInOtherTimeZoneButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CheckTimeInOtherTimeZoneButton_Clicked</name>
+        <qualifiedname>TimeZoneConverterPage.CheckTimeInOtherTimeZoneButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" line="20" column="14" bodyfile="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" bodystart="20" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimeZoneConverterPage</label>
+        <link refid="class_time_zone_converter_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>TimeZoneConverterPage</label>
+        <link refid="class_time_zone_converter_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/TimeZoneConverterPage.xaml.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_time_zone_converter_page_1a666e95200a61b7def226da7f96095bdf" prot="private" virt="non-virtual"><scope>TimeZoneConverterPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_time_zone_converter_page_1aad7453aad340dd19e709643a564435af" prot="private" virt="non-virtual"><scope>TimeZoneConverterPage</scope><name>CheckTimeInOtherTimeZoneButton_Clicked</name></member>
+      <member refid="class_time_zone_converter_page_1adbfb0891c66929619d1e54ad62fcebb0" prot="public" virt="non-virtual"><scope>TimeZoneConverterPage</scope><name>TimeZoneConverterPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_leap_year_page" kind="class" language="C#" prot="public">
+    <compoundname>LeapYearPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_leap_year_page_1a9caaa98e0169554ecb2129515e09dd8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LeapYearPage.LeapYearPage</definition>
+        <argsstring>()</argsstring>
+        <name>LeapYearPage</name>
+        <qualifiedname>LeapYearPage.LeapYearPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LeapYearPage.xaml.cs" line="7" column="8" bodyfile="Timewise.App/Pages/LeapYearPage.xaml.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_leap_year_page_1aa6341f111c7d9953eb2ac6baf2059cde" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LeapYearPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>LeapYearPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LeapYearPage.xaml.cs" line="12" column="20" bodyfile="Timewise.App/Pages/LeapYearPage.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_leap_year_page_1a0fa3ff61c1e3449105ebb933b136499e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LeapYearPage.CalculateLeapYearButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CalculateLeapYearButton_Clicked</name>
+        <qualifiedname>LeapYearPage.CalculateLeapYearButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LeapYearPage.xaml.cs" line="17" column="20" bodyfile="Timewise.App/Pages/LeapYearPage.xaml.cs" bodystart="17" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>LeapYearPage</label>
+        <link refid="class_leap_year_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>LeapYearPage</label>
+        <link refid="class_leap_year_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/LeapYearPage.xaml.cs" line="5" column="15" bodyfile="Timewise.App/Pages/LeapYearPage.xaml.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_leap_year_page_1aa6341f111c7d9953eb2ac6baf2059cde" prot="private" virt="non-virtual"><scope>LeapYearPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_leap_year_page_1a0fa3ff61c1e3449105ebb933b136499e" prot="private" virt="non-virtual"><scope>LeapYearPage</scope><name>CalculateLeapYearButton_Clicked</name></member>
+      <member refid="class_leap_year_page_1a9caaa98e0169554ecb2129515e09dd8f" prot="public" virt="non-virtual"><scope>LeapYearPage</scope><name>LeapYearPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

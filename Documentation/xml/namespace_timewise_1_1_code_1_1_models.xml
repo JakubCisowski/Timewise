@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="namespace_timewise_1_1_code_1_1_models" kind="namespace" language="C#">
+    <compoundname>Timewise::Code::Models</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Timewise.Tests/TimeAndDateTests.cs" line="1" column="27"/>
+  </compounddef>
+</doxygen>

@@ -7,6 +7,7 @@
     <innerfile refid="_day_of_week_formatter_8cs">DayOfWeekFormatter.cs</innerfile>
     <innerfile refid="_file_helper_8cs">FileHelper.cs</innerfile>
     <innerfile refid="_password_encryption_helper_8cs">PasswordEncryptionHelper.cs</innerfile>
+    <innerfile refid="_secret_keys_helper_8cs">SecretKeysHelper.cs</innerfile>
     <innerfile refid="_time_converter_8cs">TimeConverter.cs</innerfile>
     <innerfile refid="_time_zone_converter_8cs">TimeZoneConverter.cs</innerfile>
     <briefdescription>

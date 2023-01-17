@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="class_location_info_page" kind="class" language="C#" prot="public">
+    <compoundname>LocationInfoPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentPage</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_location_info_page_1ae6d38a902711508e4bdafc7c2a4981bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LocationInfoPage.LocationInfoPage</definition>
+        <argsstring>()</argsstring>
+        <name>LocationInfoPage</name>
+        <qualifiedname>LocationInfoPage.LocationInfoPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="9" column="8" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_location_info_page_1a853160643aee7e61eccd1e853d06c9d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LocationInfoPage.BackButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButton_Clicked</name>
+        <qualifiedname>LocationInfoPage.BackButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="14" column="20" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_location_info_page_1a1573fe689145344aeaed64b3dba80d8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LocationInfoPage.CheckButton_Clicked</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CheckButton_Clicked</name>
+        <qualifiedname>LocationInfoPage.CheckButton_Clicked</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="19" column="20" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="19" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>LocationInfoPage</label>
+        <link refid="class_location_info_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+      </node>
+      <node id="1">
+        <label>LocationInfoPage</label>
+        <link refid="class_location_info_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Timewise.App/Pages/LocationInfoPage.xaml.cs" line="7" column="15" bodyfile="Timewise.App/Pages/LocationInfoPage.xaml.cs" bodystart="8" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_location_info_page_1a853160643aee7e61eccd1e853d06c9d2" prot="private" virt="non-virtual"><scope>LocationInfoPage</scope><name>BackButton_Clicked</name></member>
+      <member refid="class_location_info_page_1a1573fe689145344aeaed64b3dba80d8d" prot="private" virt="non-virtual"><scope>LocationInfoPage</scope><name>CheckButton_Clicked</name></member>
+      <member refid="class_location_info_page_1ae6d38a902711508e4bdafc7c2a4981bb" prot="public" virt="non-virtual"><scope>LocationInfoPage</scope><name>LocationInfoPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -8,6 +8,7 @@ var searchData=
   ['start_5',['Start',['../class_time_counter_down.html#ab41989acfde94e3b1cd7f439fa067d11',1,'TimeCounterDown.Start()'],['../class_time_counter_up.html#aecbf1a7f10e63f0bff347baf5eba64a0',1,'TimeCounterUp.Start()']]],
   ['starttime_6',['StartTime',['../class_time_counter_up_event.html#a080866cd511c02bc0d6569bf91b46301',1,'TimeCounterUpEvent.StartTime()'],['../class_time_counter_up.html#ab9e28c44a3a9ce730c0438ffeabacdec',1,'TimeCounterUp.StartTime()']]],
   ['stop_7',['Stop',['../class_time_counter_down.html#a9f120726295cdd4c97ce57a09ba999f0',1,'TimeCounterDown.Stop()'],['../class_time_counter_up.html#a6c9a733a4ad294dd0100f989263c759c',1,'TimeCounterUp.Stop()']]],
-  ['sunrise_8',['Sunrise',['../class_weather_info.html#ac3afacf5c0d5c8998eb958cef3b393f5',1,'WeatherInfo']]],
-  ['sunset_9',['Sunset',['../class_weather_info.html#a5e7897aff7d3745502b37d2b5362a49f',1,'WeatherInfo']]]
+  ['stopwatchpage_8',['StopwatchPage',['../class_stopwatch_page.html',1,'']]],
+  ['sunrise_9',['Sunrise',['../class_weather_info.html#ac3afacf5c0d5c8998eb958cef3b393f5',1,'WeatherInfo']]],
+  ['sunset_10',['Sunset',['../class_weather_info.html#a5e7897aff7d3745502b37d2b5362a49f',1,'WeatherInfo']]]
 ];

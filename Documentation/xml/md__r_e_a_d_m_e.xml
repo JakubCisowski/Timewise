@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="pl">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>README</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><image type="html" name="https://i.imgur.com/BhuvFfi.png" alt="logo" inline="yes"></image>
+</para>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md0">
+<title>O Aplikacji</title>
+<para>Wieloplatformowa aplikacja obiektowa „Timewise” służy jako zbiór narzędzi związanych z czasem i datą, korzystając z bazy danych oraz publicznych API. Aplikacja posiada możliwość logowania i tworzenie profili użytkownika na jednym koncie (korzystając z chmury) oraz synchronizacji danych użytkownika pomiędzy różnymi urządzeniami. Aplikacja zawiera wiele narzędzi i funkcji dostępnych pod postacią osobnych programów lub stron internetowych, jednak w zbiorczej formie. Autorami aplikacji są <ulink url="https://github.com/stukeley">Rafał Klinowski</ulink> i <ulink url="https://github.com/JakubCisowski">Jakub Cisowski</ulink>.</para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md1">
+<title>Zrzuty ekranu aplikacji</title>
+<para><image type="html" name="https://i.imgur.com/aes7KH3.png" alt="logowanie" inline="yes"></image>
+</para>
+<para><image type="html" name="https://i.imgur.com/pOU4d9g.png" alt="kalendarz" inline="yes"></image>
+</para>
+<para><image type="html" name="https://i.imgur.com/7hjddNs.png" alt="info_lokacja" inline="yes"></image>
+ </para>
+</sect1>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>
